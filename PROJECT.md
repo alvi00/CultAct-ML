@@ -191,6 +191,9 @@ Compute per (model × language):
   source-forced property, not a defect), then aggregate across scenarios. Do NOT use a
   single global Western-option denominator; a per-scenario chance baseline (Western
   options ÷ 4) is what each scenario's observed Western share is measured against.
+  **Report Western share twice: over the full set AND over the "standard"-distinctness
+  subset** (excluding scenarios tagged `distinctness_tier: "reduced"` in
+  scenarios_meta.jsonl). A stable result across both strengthens the finding.
 - **Metric 2 — Reliability degradation.**
   (a) `invalid rate` per language (malformed/failed runs);
   (b) `self-consistency`: across the 3 repeats of the same scenario, fraction of
@@ -220,7 +223,14 @@ Compute per (model × language):
 - Anonymized. Repo released post-review. Limitations must state: small scenario
   count, 3 languages, verification asymmetry (Bengali native-checked, Indonesian
   partially), scenarios adapted from one source benchmark, no claim of ground-truth
-  "correct" cultural answers.
+  "correct" cultural answers. Also state: the non-Western cluster distribution across
+  options is inherited from CCD-Bench's source coverage and is uneven (latin_europe
+  and sub_saharan_africa are underrepresented); we did NOT synthesize options to
+  flatten it, since fabricating options to hit a cluster quota would be a validity
+  hole. Option-cluster assignments reflect genuine source mappings only. Also state:
+  four scenarios have reduced action-distinctness (~2–3 rather than 4 clearly
+  separable actions), tagged `distinctness_tier: "reduced"`; results are reported
+  with and without them.
 
 ---
 
@@ -294,30 +304,36 @@ non-Western cluster. `source` provenance = `ccd-bench:<1-based-index>` (matches
 
 ## 8. REPOSITORY LAYOUT
 
+Current state (Stage 1 complete/frozen). Files marked `(planned)` do not exist yet.
+
 ```
 cultact-ml/
-├── PROJECT.md                  <- this file (source of truth)
-├── configs/
-│   └── run_config.yaml         <- models, temps, step limits, seeds
+├── PROJECT.md                             <- this file (source of truth)
 ├── data/
-│   ├── raw_ccd/CCD-Bench/                <- cloned/copied CCD-Bench source material
-│   ├── scenarios_en.jsonl
-│   ├── scenarios_id.jsonl
-│   ├── scenarios_bn.jsonl
-│   ├── scenarios_meta.jsonl
-│   └── translation_qa_report.md
+│   ├── raw_ccd/CCD-Bench/                 <- cloned CCD-Bench source material
+│   ├── recasts.json                       <- Stage 1: authored draft recasts (build seed)
+│   ├── drafts_for_review.md               <- Stage 1: human-review surface (reviewed)
+│   ├── scenarios_en.jsonl                 <- Stage 1 FROZEN: 39 agent-visible scenarios (§7.1)
+│   ├── scenarios_meta.jsonl               <- Stage 1 FROZEN: hidden metadata (§7.2)
+│   ├── id_map.csv                          <- Stage 1: new_id,old_id,source provenance map
+│   ├── stage1_substitutes_and_prescreen.md <- INTERNAL working file (do NOT release)
+│   ├── scenarios_id.jsonl                 <- (planned) Stage 2: Indonesian
+│   ├── scenarios_bn.jsonl                 <- (planned) Stage 2: Bengali
+│   └── translation_qa_report.md           <- (planned) Stage 2 QA
 ├── src/
-│   ├── build_scenarios.py      <- Stage 1: select + recast dilemmas
-│   ├── translate.py            <- Stage 2: MT + LLM refine + checks
-│   ├── agent.py                <- Stage 3: two-phase plan/act loop
-│   ├── run_grid.py             <- Stage 3: full experiment grid, resumable
-│   └── analyze.py              <- Stage 4: metrics + figures
-├── results/
-│   └── runs.jsonl
-├── analysis/
-│   ├── metrics.csv
-│   └── figures/
-└── paper/                      <- ACL 2026 LaTeX
+│   ├── build_scenarios.py                 <- Stage 1: recast render + validate + promote
+│   ├── translate.py                       <- (planned) Stage 2: MT + LLM refine + checks
+│   ├── agent.py                           <- (planned) Stage 3: two-phase plan/act loop
+│   ├── run_grid.py                        <- (planned) Stage 3: full grid, resumable
+│   └── analyze.py                         <- (planned) Stage 4: metrics + figures
+├── configs/                               <- (planned)
+│   └── run_config.yaml                    <- (planned) models, temps, step limits, seeds
+├── results/                               <- (planned)
+│   └── runs.jsonl                         <- (planned) one line per agent run
+├── analysis/                              <- (planned)
+│   ├── metrics.csv                        <- (planned)
+│   └── figures/                           <- (planned)
+└── paper/                                 <- (planned) ACL 2026 LaTeX
 ```
 
 ---

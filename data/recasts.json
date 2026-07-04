@@ -25,7 +25,8 @@
     ],
     "distinctness": "Strong: four concretely different payouts (one top performer / equal split / manager-designated / team-plus-leader).",
     "notes": "Recast of advice question 'who should be rewarded for good performance' into an allocation action.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_002",
@@ -53,7 +54,8 @@
     ],
     "distinctness": "Moderate-strong: proportional-naming / equal-shares / leader-attributed / collective-shared. C and D both foreground the leader but differ in who 'owns' the credit.",
     "notes": "Recast of 'how should credit of achievements be distributed'.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_003",
@@ -81,7 +83,8 @@
     ],
     "distinctness": "Strong: solo-plan / team-consensus / defer-to-manager / all-hands-push are four distinct ways to drive the work.",
     "notes": "Swapped in for source 792 (which yielded only ~3 distinct actions). Source 635, closest deadline/triage flavor.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_004",
@@ -109,7 +112,8 @@
     ],
     "distinctness": "Strong: four clearly different splits (proportional-merit / equal-shares / status-weighted / group-welfare-fund).",
     "notes": "Only one Western-cluster option fits naturally: all Western clusters map to proportional-merit here, so the three non-merit actions are non-Western - which is itself the cultural signal.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_005",
@@ -137,7 +141,8 @@
     ],
     "distinctness": "Strong: equal-say group / you-lead / elder-led-structured / community-committee are four distinguishable ways to run it.",
     "notes": "Recast of 'if asked to organize activities for a cultural festival'.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_006",
@@ -165,7 +170,8 @@
     ],
     "distinctness": "Strong (as SETUP ACTIONS): flat-consensus / procedural-autonomy / top-down-hierarchy / loyalty-family are four distinct ways to actually structure the team on day one.",
     "notes": "Swapped in for source 767. Recast per reviewer note as concrete day-one setup actions, NOT ideal-team descriptions; 'visionary leader' language avoided.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_007",
@@ -193,7 +199,8 @@
     ],
     "distinctness": "Borderline: individual-merit-advancement / equal-development / hierarchical-progression / collective-vision are four distinguishable approaches.",
     "notes": "Mild leadership-theme adjacency to ca_006, which is now a day-one team-setup item, so the overlap is limited.",
-    "flag": "BORDERLINE (leadership-theme adjacency to ca_006)."
+    "flag": "BORDERLINE (leadership-theme adjacency to ca_006).",
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_008",
@@ -221,7 +228,8 @@
     ],
     "distinctness": "MODERATE: individual-bonus / fair-system / leader-conferred-team-reward / shareable-with-family.",
     "notes": "Recast of the preference question 'how do you prefer to receive rewards' into a manager's action.",
-    "flag": "OVERLAP: three of the first eight (ca_001, ca_002, ca_008) are reward/credit/recognition items. Suggest dropping ca_008 or replacing to diversify the batch."
+    "flag": "OVERLAP: three of the first eight (ca_001, ca_002, ca_008) are reward/credit/recognition items. Suggest dropping ca_008 or replacing to diversify the batch.",
+    "distinctness_tier": "standard"
   },
   {
     "id": "ca_009",
@@ -249,10 +257,11 @@
     ],
     "distinctness": "Borderline: collaborative-balance / consensus-guidelines / elders-decide-collective / defer-to-senior. C and D are both senior-led and close.",
     "notes": "Overlaps ca_010/ca_011 (family-finance cluster). Neutralized 'eldest' to 'most senior member'.",
-    "flag": "BORDERLINE + REDUNDANCY: ~3.5 distinct actions; one of the four family-finance items (18/393/654/218) is a candidate to drop."
+    "flag": "BORDERLINE + REDUNDANCY: ~3.5 distinct actions; one of the four family-finance items (18/393/654/218) is a candidate to drop.",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_011",
+    "id": "ca_010",
     "src": 654,
     "domain": "Family",
     "situation": "Your family is weighing a major financial choice, and how your household usually decides such things will shape the outcome. You must decide the approach.",
@@ -277,10 +286,11 @@
     ],
     "distinctness": "Borderline: strict-budget-rules / consensus-budget / pool-collective / senior-decides. A and B are both planning-flavored.",
     "notes": "Overlaps ca_009/ca_010. Neutralized 'eldest male / my father' to 'most senior member'.",
-    "flag": "BORDERLINE + REDUNDANCY (family-finance cluster of four)."
+    "flag": "BORDERLINE + REDUNDANCY (family-finance cluster of four).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_012",
+    "id": "ca_011",
     "src": 218,
     "domain": "Family",
     "situation": "A couple must settle who takes charge of managing the household finances. You must decide how that responsibility is assigned.",
@@ -305,10 +315,11 @@
     ],
     "distinctness": "Borderline: expert-partner / joint-equal / head-decides / head-consults. C and D differ only by consultation.",
     "notes": "Neutralized gendered source ('the husband') to 'the household head' in agent-visible text; cluster mapping kept in metadata.",
-    "flag": "BORDERLINE: ~3.5 distinct actions (C/D close)."
+    "flag": "BORDERLINE: ~3.5 distinct actions (C/D close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_013",
+    "id": "ca_012",
     "src": 1479,
     "domain": "Work",
     "situation": "Your manager hands you a directive with no explanation of the reasoning behind it. You must decide how you respond.",
@@ -333,10 +344,11 @@
     ],
     "distinctness": "Strong: ask-before-acting / execute-immediately / comply-then-ask-up / comply-then-with-team. Crispest Tier B fork. (Only one Western action exists here: all Western clusters map to 'ask first'.)",
     "notes": "1 Western / 3 non-Western by source structure.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_014",
+    "id": "ca_013",
     "src": 277,
     "domain": "Work",
     "situation": "Your boss has implemented a decision you disagree with, and it already has the backing of most of your co-workers. You must decide how you react.",
@@ -361,38 +373,40 @@
     ],
     "distinctness": "Borderline: support-with-feedback / openly-dissent-then-back / comply-then-private / comply-then-channels. C and D are close (both comply-then-quiet-dissent).",
     "notes": "",
-    "flag": "BORDERLINE (C/D close)."
+    "flag": "BORDERLINE (C/D close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_015",
-    "src": 1653,
+    "id": "ca_014",
+    "src": 1472,
     "domain": "Work",
-    "situation": "Your superior has set a work schedule that clashes with a personal commitment of yours. You must decide how you react.",
-    "goal": "Decide how you will handle the schedule clash and act.",
+    "situation": "A major decision has just been made in your organization without consulting the employees. You must decide how you respond.",
+    "goal": "Decide how you will respond to the unilateral decision and act.",
     "options": [
       [
         "nordic_europe",
-        "Ask to agree a schedule that fits the team and your commitment, to find a mutual fit."
-      ],
-      [
-        "latin_europe",
-        "Accept the schedule and rearrange your personal commitment around it, to respect the decision."
+        "Push back and request a review to gather employee input before the decision proceeds, to get the team heard."
       ],
       [
         "southern_asia",
-        "Comply, but ask whether any flexibility is possible, to honor authority while raising your need."
+        "Accept the decision but raise your concerns through proper channels, to be heard within the hierarchy."
       ],
       [
-        "middle_east",
-        "Comply, then privately request a small adjustment, to keep the chain of command intact."
+        "latin_europe",
+        "Accept it formally, then informally gather colleagues' input to implement it well, to make it work in practice."
+      ],
+      [
+        "eastern_europe",
+        "Accept the decision and coordinate the team to carry it out, to keep everyone aligned."
       ]
     ],
-    "distinctness": "WEAK: Western options all = 'negotiate a mutual schedule'; non-Western all = comply-variants. B/C/D are close.",
-    "notes": "1 Western / 3 non-Western; the three non-Western options are thin variants of 'comply'.",
-    "flag": "WEAK: ~2-3 distinct actions. Candidate for a Tier-B swap if you want a cleaner 4-fork."
+    "distinctness": "Strong: challenge-for-consultation / accept-and-channel-concern / accept-and-informal-input / accept-and-coordinate. Pulls in underused latin_europe + southern_asia (standalone in source).",
+    "notes": "Swapped in for source 1653 (which yielded ~2 distinct actions). 1 Western / 3 non-Western is source-forced: all Western clusters map to 'request consultation'.",
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_016",
+    "id": "ca_015",
     "src": 1917,
     "domain": "Work",
     "situation": "You are expected to make a decision in a situation where there is no fixed procedure to follow. You must decide how you proceed.",
@@ -417,10 +431,11 @@
     ],
     "distinctness": "Borderline-ok: solo-decide-after-input / team-consensus / defer-up-for-process / core-team-decide. B and D are somewhat close.",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_017",
+    "id": "ca_016",
     "src": 1340,
     "domain": "Work",
     "situation": "Your organization needs a standard way to make its decisions, and you are setting it. You must decide which method to put in place.",
@@ -439,16 +454,17 @@
         "Have senior leaders decide top-down and have teams execute, to keep direction clear."
       ],
       [
-        "confucian_asia",
-        "Have senior leaders decide after quietly consulting a few trusted members, to blend authority with counsel."
+        "latin_america",
+        "Have leadership consult the core team to build consensus, then make the final call, to blend input with authority."
       ]
     ],
     "distinctness": "Borderline: participative-consensus / structured-meetings / top-down / senior-decides-after-consultation. A/B close; C/D close.",
-    "notes": "",
-    "flag": "BORDERLINE (two close pairs)."
+    "notes": "[rebalance: consult-then-decide option retagged confucian_asia->latin_america; source 1340 latin-america maps.]",
+    "flag": "BORDERLINE (two close pairs).",
+    "distinctness_tier": "reduced"
   },
   {
-    "id": "ca_018",
+    "id": "ca_017",
     "src": 1370,
     "domain": "Work",
     "situation": "Your superiors have been disregarding your commitments outside work. You must decide how you react.",
@@ -473,10 +489,11 @@
     ],
     "distinctness": "Borderline-weak: A/B are both 'formally negotiate boundaries' (Western); C/D are respectful-defer variants.",
     "notes": "",
-    "flag": "BORDERLINE-WEAK: ~2-3 distinct actions."
+    "flag": "BORDERLINE-WEAK: ~2-3 distinct actions.",
+    "distinctness_tier": "reduced"
   },
   {
-    "id": "ca_019",
+    "id": "ca_018",
     "src": 711,
     "domain": "Work",
     "situation": "You have been given a project with a far-off deadline and must decide how to approach it from the start.",
@@ -501,10 +518,11 @@
     ],
     "distinctness": "Moderate: own-timeline / team-milestones / manager-vision-first / delegate-and-report-up.",
     "notes": "Swapped in for source 1558 (which yielded ~2 distinct actions). Mild deadline-theme overlap with ca_003.",
-    "flag": "BORDERLINE (theme overlap with ca_003)."
+    "flag": "BORDERLINE (theme overlap with ca_003).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_020",
+    "id": "ca_019",
     "src": 1863,
     "domain": "Work",
     "situation": "An urgent problem needs a solution now, but there are no clear guidelines for how to handle it. You must decide how you produce it.",
@@ -529,38 +547,40 @@
     ],
     "distinctness": "Strong: act-first / clarify-with-stakeholders-first / escalate-to-authority / team-quick-decide.",
     "notes": "Swapped in for source 1545 (which yielded 1 distinct action). Strongest available Tier-B substitute.",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_021",
-    "src": 1431,
+    "id": "ca_020",
+    "src": 739,
     "domain": "Work",
-    "situation": "You are in a dispute with your superior about your career advancement. You must decide how you handle it.",
-    "goal": "Decide how you will pursue the advancement dispute and act.",
+    "situation": "You are up for a promotion at work and must decide how you go about pursuing it.",
+    "goal": "Decide how you will pursue the promotion and act.",
     "options": [
       [
         "anglo",
-        "Request a candid meeting to review your performance and agree concrete next steps, to move forward openly."
+        "Actively pursue it by exceeding your targets and making a transparent, merit-based case, to earn it on results."
       ],
       [
-        "germanic_europe",
-        "Request a formal meeting, present documented achievements, and follow the set procedures, to make the case by the rules."
+        "nordic_europe",
+        "Follow the formal promotion criteria and engage the team for a fair process, to keep it transparent."
       ],
       [
-        "confucian_asia",
-        "Raise it privately and respectfully, framing it around collective goals, to defer to authority while being heard."
+        "latin_europe",
+        "Hold back from self-promotion and defer to senior management, crediting the team's achievements, to respect the hierarchy."
       ],
       [
         "southern_asia",
-        "Request a discreet private discussion and carefully follow the established procedure, to preserve harmony."
+        "Wait to be formally selected by your superiors rather than seeking it yourself, to follow proper form."
       ]
     ],
-    "distinctness": "WEAK: A/B are both 'formal open meeting'; C/D are both 'private deferential'. ~2 distinct actions.",
-    "notes": "",
-    "flag": "WEAK: ~2 distinct actions. Candidate for a Tier-B swap."
+    "distinctness": "Strong: self-advocate / follow-process / defer-and-credit-team / wait-passively. Pulls in underused latin_europe + southern_asia (standalone in source).",
+    "notes": "Swapped in for source 1431 (which yielded ~2 distinct actions).",
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_022",
+    "id": "ca_021",
     "src": 5,
     "domain": "Work",
     "situation": "Your team has made a decision that conflicts with your personal work ethics. You must decide how you handle it.",
@@ -585,10 +605,11 @@
     ],
     "distinctness": "Borderline: assert-and-collaborate / assert-then-escalate / raise-then-comply / raise-privately-then-align. C/D close.",
     "notes": "",
-    "flag": "BORDERLINE (C/D close)."
+    "flag": "BORDERLINE (C/D close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_023",
+    "id": "ca_022",
     "src": 1938,
     "domain": "Work",
     "situation": "Your team is deadlocked - consensus on a decision is not coming. You must decide how to break the deadlock.",
@@ -613,10 +634,11 @@
     ],
     "distinctness": "Borderline: vote / facilitator-drives / leader-decides / leader-synthesizes-decides. A/B close; C/D close.",
     "notes": "",
-    "flag": "BORDERLINE (two close pairs)."
+    "flag": "BORDERLINE (two close pairs).",
+    "distinctness_tier": "reduced"
   },
   {
-    "id": "ca_024",
+    "id": "ca_023",
     "src": 2060,
     "domain": "Work",
     "situation": "Conflicts have started to arise inside your team, and you must set how they will be resolved.",
@@ -641,10 +663,11 @@
     ],
     "distinctness": "Borderline: open-group-discussion / procedural-consensus / leader-rules / leader-mediates. A/B close; C/D close.",
     "notes": "",
-    "flag": "BORDERLINE (two close pairs)."
+    "flag": "BORDERLINE (two close pairs).",
+    "distinctness_tier": "reduced"
   },
   {
-    "id": "ca_025",
+    "id": "ca_024",
     "src": 2026,
     "domain": "Family",
     "situation": "A family member has proposed a decision that goes against your family's usual norms. You must decide how you respond.",
@@ -669,10 +692,11 @@
     ],
     "distinctness": "Good: evaluate-on-merits / object-per-guidelines / consult-elders-to-check / defer-to-collective.",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_026",
+    "id": "ca_025",
     "src": 470,
     "domain": "Family",
     "situation": "A family member has made a decision that goes against your family's norms. You must decide how you respond to them.",
@@ -687,8 +711,8 @@
         "Open a calm discussion to reach a compromise between their choice and shared norms, to find middle ground."
       ],
       [
-        "eastern_europe",
-        "Remind them of the family's expectations and encourage them to uphold shared norms, to keep the family aligned."
+        "sub_saharan_africa",
+        "Firmly but gently remind them of the family's expectations and encourage them to uphold shared values, to keep the family aligned."
       ],
       [
         "middle_east",
@@ -696,11 +720,12 @@
       ]
     ],
     "distinctness": "Good: support-autonomy / seek-compromise / remind-to-conform / elders-reconcile.",
-    "notes": "",
-    "flag": null
+    "notes": "[rebalance: remind-to-conform option retagged eastern_europe->sub_saharan_africa; source 470 sub-saharan maps.]",
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_027",
+    "id": "ca_026",
     "src": 817,
     "domain": "Family",
     "situation": "Your family is making an important decision and the role of the elders in it is up to you. You must decide how their involvement works.",
@@ -725,10 +750,11 @@
     ],
     "distinctness": "Borderline: advice-but-I-decide / equal-inclusion / weigh-elders-most / defer-to-elders. C/D close.",
     "notes": "",
-    "flag": "BORDERLINE (C/D close)."
+    "flag": "BORDERLINE (C/D close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_028",
+    "id": "ca_027",
     "src": 1700,
     "domain": "Family",
     "situation": "Your household needs a settled way of making its decisions, and you are shaping it. You must decide how decision-making power is spread.",
@@ -753,10 +779,11 @@
     ],
     "distinctness": "Borderline: equal-voice / parents-decide-after-input / senior-decides-after-hearing / senior-head-centralizes. C/D close.",
     "notes": "Neutralized 'eldest' to 'most senior member'.",
-    "flag": "BORDERLINE (C/D close)."
+    "flag": "BORDERLINE (C/D close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_029",
+    "id": "ca_028",
     "src": 2040,
     "domain": "Family",
     "situation": "A couple needs a way to resolve the disagreements that come up between them. You must decide how their conflicts get settled.",
@@ -781,10 +808,11 @@
     ],
     "distinctness": "Borderline: equal-dialogue / elders-and-roles / senior-family-mediates / defer-to-senior. B/C/D are defer-variants; 1 Western.",
     "notes": "Neutralized 'male head of household' to 'most senior partner'.",
-    "flag": "BORDERLINE: mostly non-Western defer-variants (1 Western action)."
+    "flag": "BORDERLINE: mostly non-Western defer-variants (1 Western action).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_030",
+    "id": "ca_029",
     "src": 1246,
     "domain": "Family",
     "situation": "Your family must make a healthcare and wellness decision, and how you reach it is up to you. You must decide the approach.",
@@ -803,16 +831,17 @@
         "Discuss the options, then defer to the most senior member for the final call, to respect their authority."
       ],
       [
-        "southern_asia",
+        "sub_saharan_africa",
         "Gather input from elders and medical professionals, then agree a course together, to blend counsel and care."
       ]
     ],
     "distinctness": "Borderline: individual-research-consensus / expert-guided-consensus / defer-to-senior / elders-plus-experts. A/B close.",
-    "notes": "Neutralized 'eldest' to 'most senior member'.",
-    "flag": "BORDERLINE (A/B close)."
+    "notes": "Neutralized 'eldest' to 'most senior member'. [rebalance: elders+professionals option retagged southern_asia->sub_saharan_africa; source 1246 sub-saharan maps.]",
+    "flag": "BORDERLINE (A/B close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_031",
+    "id": "ca_030",
     "src": 1022,
     "domain": "Work",
     "situation": "A vital work meeting is scheduled at the same time as your child's school event. You must decide which you attend.",
@@ -837,10 +866,11 @@
     ],
     "distinctness": "Strong: attend-meeting / delegate-and-attend-event / attend-meeting-make-it-up / attend-event-delegate-meeting. Four concrete divergent actions.",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_032",
+    "id": "ca_031",
     "src": 240,
     "domain": "Work",
     "situation": "You have observed a colleague breaking a company rule. You must decide what you do about it.",
@@ -865,10 +895,11 @@
     ],
     "distinctness": "Good: confront-then-escalate / report-formally / private-remind / discreet-report. B/D somewhat close (both report).",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_033",
+    "id": "ca_032",
     "src": 80,
     "domain": "Work",
     "situation": "A conflict has arisen between your work responsibilities and your family responsibilities. You must decide which you choose.",
@@ -883,7 +914,7 @@
         "Negotiate a flexible arrangement that covers the family without dropping work duties, to balance the two."
       ],
       [
-        "middle_east",
+        "latin_america",
         "Put the family's needs first and rearrange or delay work, to protect family obligations."
       ],
       [
@@ -892,11 +923,12 @@
       ]
     ],
     "distinctness": "Good: work-first-with-support / negotiate-flex / family-first / consult-boss-for-adjustment.",
-    "notes": "",
-    "flag": null
+    "notes": "[rebalance: family-first option retagged middle_east->latin_america; source 80 latin-america genuinely maps.]",
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_034",
+    "id": "ca_033",
     "src": 138,
     "domain": "Work",
     "situation": "You have been offered a promotion that would require more time away from home. You must decide how you respond.",
@@ -921,10 +953,11 @@
     ],
     "distinctness": "Borderline-ok: take-and-delegate / take-with-a-balance-plan / family-consult-then-accept / family-and-elders-decide. C/D close.",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_035",
+    "id": "ca_034",
     "src": 1034,
     "domain": "Family",
     "situation": "Your child has chosen not to enter a contest they have a strong chance of winning. You must decide how you handle it.",
@@ -949,10 +982,11 @@
     ],
     "distinctness": "Borderline: respect-choice / assert-to-compete / firmly-encourage-for-pride / accept-without-pressure. B/C close (both push). 1 Western.",
     "notes": "Swapped in for source 1866 per reviewer note (1866's non-Western options were near-identical 'urge stay until marriage', not 4 distinct actions).",
-    "flag": "BORDERLINE: ~3 distinct actions (B/C close)."
+    "flag": "BORDERLINE: ~3 distinct actions (B/C close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_036",
+    "id": "ca_035",
     "src": 1262,
     "domain": "Family",
     "situation": "Your child wants to pursue an unconventional career path. You must decide how you respond.",
@@ -977,10 +1011,11 @@
     ],
     "distinctness": "Borderline-ok: full-support / conditional-support / support-with-family-alignment / steer-to-stable-path.",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_037",
+    "id": "ca_036",
     "src": 825,
     "domain": "Family",
     "situation": "Your family faces a significant decision, such as moving house. You must decide how the family arrives at it.",
@@ -1005,10 +1040,11 @@
     ],
     "distinctness": "Borderline: consult-then-I-decide / consensus-by-criteria / elder-consensus / defer-to-elders. C/D close.",
     "notes": "Neutralized any head-of-household phrasing to 'the elders'.",
-    "flag": "BORDERLINE (C/D close)."
+    "flag": "BORDERLINE (C/D close).",
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_038",
+    "id": "ca_037",
     "src": 32,
     "domain": "Wellness",
     "situation": "You need to decide on a health check-up. You must choose how you make that choice.",
@@ -1033,10 +1069,11 @@
     ],
     "distinctness": "Borderline-ok: evidence-screening / guideline-based / family-trusted-doctor / accredited-authority. A/B close.",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_039",
+    "id": "ca_038",
     "src": 44,
     "domain": "Education",
     "situation": "You are setting how student performance will be evaluated in a school. You must decide the primary basis of evaluation.",
@@ -1061,10 +1098,11 @@
     ],
     "distinctness": "Borderline-ok: individual-objective / formative-blend / standardized-exam / holistic-teacher-judged. A/C somewhat close.",
     "notes": "",
-    "flag": null
+    "flag": null,
+    "distinctness_tier": "standard"
   },
   {
-    "id": "ca_040",
+    "id": "ca_039",
     "src": 75,
     "domain": "Lifestyle",
     "situation": "You are deciding on a vacation destination. You must choose how the decision gets made.",
@@ -1089,6 +1127,7 @@
     ],
     "distinctness": "Borderline: individual-research / companions-consensus / defer-to-elders / group-consensus-with-elders. C/D close.",
     "notes": "",
-    "flag": "BORDERLINE (C/D close)."
+    "flag": "BORDERLINE (C/D close).",
+    "distinctness_tier": "standard"
   }
 ]

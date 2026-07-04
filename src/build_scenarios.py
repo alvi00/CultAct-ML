@@ -44,6 +44,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CCD_JSON = ROOT / "data" / "raw_ccd" / "CCD-Bench" / "datasets" / "CCD-Bench.json"
 DRAFTS_MD = ROOT / "data" / "drafts_for_review.md"
+SCENARIOS_EN = ROOT / "data" / "scenarios_en.jsonl"
+SCENARIOS_META = ROOT / "data" / "scenarios_meta.jsonl"
+ROTATION_SEED = 42  # PROJECT.md 9.3 determinism (matches CCD-Bench evaluation.py)
 
 # --- cluster canonicalization (PROJECT.md 7.2) -----------------------------
 SOURCE_TO_CANON = {
@@ -165,6 +168,7 @@ def _render_block(rc: dict, western: list[str]) -> str:
     lines.append("- option_clusters: " + ", ".join(f"{ln}={clusters[ln]}" for ln in letters))
     lines.append("- western_options: " + ", ".join(western))
     lines.append("- rotation_scheme: latin_square_4")
+    lines.append("- distinctness_tier: " + rc.get("distinctness_tier", "standard"))
     lines.append("- flag: " + flag)
     lines.append("- distinctness_note: " + rc["distinctness"])
     lines.append("- notes: " + rc["notes"])
@@ -334,27 +338,72 @@ def validate(path: Path) -> int:
     return n_err
 
 
+def _latin_square_4(seed: int) -> list[list[int]]:
+    """Deterministic 4x4 Latin square (each of 0-3 once per row and column),
+    with seeded row/column shuffles (same construction as CCD-Bench
+    evaluation.py, n=4). Stage 3 selects a row by run index to rotate options."""
+    import random
+    rng = random.Random(seed)
+    base = [[(j + i) % 4 for j in range(4)] for i in range(4)]
+    rows = list(range(4)); rng.shuffle(rows)
+    cols = list(range(4)); rng.shuffle(cols)
+    sq = [[base[r][c] for c in cols] for r in rows]
+    for i in range(4):
+        assert sorted(sq[i]) == [0, 1, 2, 3], "invalid Latin square row"
+        assert sorted(sq[r][i] for r in range(4)) == [0, 1, 2, 3], "invalid col"
+    return sq
+
+
 def promote() -> None:
-    """ROADMAP STUB - to be built after the researcher approves all 40 drafts,
-    before Stage 2 (translation). On researcher approval, `promote` will:
+    """Freeze the reviewed drafts into the final dataset.
 
-      1. Re-run `validate` on data/drafts_for_review.md and refuse to proceed
-         on any ERROR (warnings are reported but do not block).
-      2. Write the agent-visible fields to data/scenarios_en.jsonl
-         (PROJECT.md 7.1) and the hidden metadata - option_clusters,
-         western_options, source provenance, rotation_scheme, notes - to
-         data/scenarios_meta.jsonl (PROJECT.md 7.2). UTF-8, one JSON per line.
-      3. Generate the per-run `presentation_order` via the latin_square_4
-         rotation: a deterministic 4x4 Latin square, row selected by run
-         index, with a fixed seed recorded in configs/run_config.yaml so runs
-         are reproducible (PROJECT.md 9.3 determinism).
+    Reads data/drafts_for_review.md (the reviewed source of truth), re-validates
+    it, and writes data/scenarios_en.jsonl (PROJECT.md 7.1, agent-visible) and
+    data/scenarios_meta.jsonl (PROJECT.md 7.2, hidden metadata), UTF-8, one JSON
+    object per line. presentation_order is the canonical A-D; the per-run rotation
+    (PROJECT.md 7.3 presented_order) is applied at execution time in Stage 3 using
+    the seeded latin_square_4 recorded here (rotation_seed)."""
+    n_err = validate(DRAFTS_MD)
+    if n_err:
+        sys.exit(f"\npromote aborted: {n_err} ERROR(s) in drafts; fix first.")
 
-    Until then this command exits without touching any file.
-    """
-    sys.exit("`promote` is a roadmap stub: it will write scenarios_en.jsonl + "
-             "scenarios_meta.jsonl and the seeded latin_square_4 rotation "
-             "AFTER the researcher approves all 40 drafts (see docstring). "
-             "No files were written.")
+    scenarios = _parse_drafts(DRAFTS_MD)
+    square = _latin_square_4(ROTATION_SEED)  # constructed + self-checked
+    letters = _letters(4)
+
+    en_lines: list[str] = []
+    meta_lines: list[str] = []
+    for s in scenarios:
+        cl = _parse_clusters(s["meta"])
+        western = [ln for ln in letters if cl[ln] in WESTERN]
+        en = {
+            "scenario_id": s["id"],
+            "language": "en",
+            "situation": s["situation"],
+            "goal": s["goal"],
+            "options": [{"option_id": ln, "text": s["options"][ln]} for ln in letters],
+            "presentation_order": letters,
+        }
+        meta = {
+            "scenario_id": s["id"],
+            "source": s["meta"]["source"],
+            "domain": s["meta"]["domain"],
+            "option_clusters": cl,
+            "western_options": western,
+            "rotation_scheme": s["meta"].get("rotation_scheme", "latin_square_4"),
+            "rotation_seed": ROTATION_SEED,
+            "distinctness_tier": s["meta"].get("distinctness_tier", "standard"),
+            "notes": s["meta"].get("notes", ""),
+        }
+        en_lines.append(json.dumps(en, ensure_ascii=False))
+        meta_lines.append(json.dumps(meta, ensure_ascii=False))
+
+    SCENARIOS_EN.write_text("\n".join(en_lines) + "\n", encoding="utf-8")
+    SCENARIOS_META.write_text("\n".join(meta_lines) + "\n", encoding="utf-8")
+    print(f"\nWrote {len(scenarios)} scenarios (UTF-8):")
+    print(f"  {SCENARIOS_EN}")
+    print(f"  {SCENARIOS_META}")
+    print(f"latin_square_4 (seed {ROTATION_SEED}): {square}")
 
 
 # ---------------------------------------------------------------------------
