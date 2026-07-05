@@ -1,0 +1,54 @@
+2026-07-05T09:28:06  === qa_checks checks=['1'] langs=bn,id scenarios=39 ===
+2026-07-05T09:28:06  wrote report -> C:\Projects\model_finetuning\work\CultAct-ML\data\translation_qa_report.md
+2026-07-05T09:28:06  === qa_checks done ===
+2026-07-05T03:33:35  === qa_checks checks=['1', '2', '3'] langs=bn,id scenarios=3 ===
+2026-07-05T03:33:42  CHECK 2: loading sentence-transformers/LaBSE (downloads ~1.8GB first time)
+2026-07-05T03:58:37  [bn] back-translating 12 options -> EN (Google)
+2026-07-05T03:58:38  [bn] embedding 12 triples in LaBSE
+2026-07-05T03:58:38  [id] back-translating 12 options -> EN (Google)
+2026-07-05T03:58:39  [id] embedding 12 triples in LaBSE
+2026-07-05T04:53:34  === qa_checks checks=['1', '2', '3'] langs=bn,id scenarios=3 ===
+2026-07-05T04:53:41  CHECK 2: loading sentence-transformers/LaBSE (downloads ~1.8GB first time)
+2026-07-05T04:53:47  [bn] back-translating 12 options -> EN (Google)
+2026-07-05T04:53:47  [bn] embedding 12 triples in LaBSE
+2026-07-05T04:53:47  [id] back-translating 12 options -> EN (Google)
+2026-07-05T04:53:48  [id] embedding 12 triples in LaBSE
+2026-07-05T04:56:57  === qa_checks checks=['1', '2', '3'] langs=bn,id scenarios=3 ===
+2026-07-05T04:57:04  CHECK 2: loading sentence-transformers/LaBSE (downloads ~1.8GB first time)
+2026-07-05T04:57:11  [bn] back-translating 12 options -> EN (Google)
+2026-07-05T04:57:12  [bn] embedding 12 triples in LaBSE
+2026-07-05T04:57:12  [id] back-translating 12 options -> EN (Google)
+2026-07-05T04:57:13  [id] embedding 12 triples in LaBSE
+2026-07-05T04:57:14  CHECK 3 preflight OK: judge 'CraftX Llama 3.3 70B Instruct' replied 'OK'
+2026-07-05T04:57:24  [bn] judged 3/3
+2026-07-05T04:57:35  [id] judged 3/3
+2026-07-05T04:57:35  wrote report -> /workspace/work/CultAct-ML/data/translation_qa_report.md
+2026-07-05T04:57:35  === qa_checks done ===
+2026-07-05T05:03:20  === qa_checks checks=['1', '2', '3'] langs=bn,id scenarios=39 ===
+2026-07-05T05:03:26  CHECK 2: loading sentence-transformers/LaBSE (downloads ~1.8GB first time)
+2026-07-05T05:03:33  [bn] back-translating 156 options -> EN (Google)
+2026-07-05T05:03:35  [bn] embedding 156 triples in LaBSE
+2026-07-05T05:03:35  [id] back-translating 156 options -> EN (Google)
+2026-07-05T05:03:37  [id] embedding 156 triples in LaBSE
+2026-07-05T05:03:38  CHECK 3 preflight OK: judge 'CraftX Llama 3.3 70B Instruct' replied 'OK'
+2026-07-05T05:03:57  [bn] judged 5/39
+2026-07-05T05:04:17  [bn] judged 10/39
+2026-07-05T05:04:35  [bn] judged 15/39
+2026-07-05T05:04:54  [bn] judged 20/39
+2026-07-05T05:05:12  [bn] judged 25/39
+2026-07-05T05:05:31  [bn] judged 30/39
+2026-07-05T05:05:49  [bn] judged 35/39
+2026-07-05T05:06:04  [bn] judged 39/39
+2026-07-05T05:06:22  [id] judged 5/39
+2026-07-05T05:06:43  [id] judged 10/39
+2026-07-05T05:07:01  [id] judged 15/39
+2026-07-05T05:07:19  [id] judged 20/39
+2026-07-05T05:07:39  [id] judged 25/39
+2026-07-05T05:07:58  [id] judged 30/39
+2026-07-05T05:08:18  [id] judged 35/39
+2026-07-05T05:08:34  [id] judged 39/39
+2026-07-05T05:08:34  wrote report -> /workspace/work/CultAct-ML/data/translation_qa_report.md
+2026-07-05T05:08:34  === qa_checks done ===
+2026-07-05T12:30:45  === qa_checks checks=['1'] langs=bn scenarios=39 ===
+2026-07-05T12:30:45  wrote report -> C:\Projects\model_finetuning\work\CultAct-ML\data\translation_qa_report.md
+2026-07-05T12:30:45  === qa_checks done ===

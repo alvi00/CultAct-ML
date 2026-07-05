@@ -1,0 +1,21 @@
+2026-07-05T08:30:51  === step2_refine model=CraftX Qwen3 235B A22B Instruct 2507 temp=0.3 langs=bn,id ===
+2026-07-05T08:30:53  preflight OK: model replied 'OK'
+2026-07-05T08:33:55  [bn] refined 5/39
+2026-07-05T08:36:11  [bn] refined 10/39
+2026-07-05T08:39:31  [bn] refined 15/39
+2026-07-05T08:41:55  [bn] refined 20/39
+2026-07-05T08:44:30  [bn] refined 25/39
+2026-07-05T08:46:38  [bn] refined 30/39
+2026-07-05T08:49:10  [bn] refined 35/39
+2026-07-05T08:51:09  [bn] refined 39/39
+2026-07-05T08:51:09  [bn] wrote 39 rows -> scenarios_bn.jsonl; round-trip byte-for-byte OK, no mojibake, Bengali script present
+2026-07-05T08:52:38  [id] refined 5/39
+2026-07-05T08:53:44  [id] refined 10/39
+2026-07-05T08:55:00  [id] refined 15/39
+2026-07-05T08:56:04  [id] refined 20/39
+2026-07-05T08:57:03  [id] refined 25/39
+2026-07-05T08:58:31  [id] refined 30/39
+2026-07-05T08:59:37  [id] refined 35/39
+2026-07-05T09:00:15  [id] refined 39/39
+2026-07-05T09:00:15  [id] wrote 39 rows -> scenarios_id.jsonl; round-trip byte-for-byte OK, no mojibake
+2026-07-05T09:00:15  === step2_refine done ===
