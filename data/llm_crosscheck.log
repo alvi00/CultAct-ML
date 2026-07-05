@@ -1,0 +1,36 @@
+2026-07-05T17:27:03  === llm_crosscheck langs=bn,id passes=1,2 model='CraftX GLM 5.2' ===
+2026-07-05T17:27:06  PREFLIGHT: requested model='CraftX GLM 5.2'; API returned model='CraftX GLM 5.2'; reply='OK'
+2026-07-05T17:27:06  PREFLIGHT OK: judge confirmed as 'CraftX GLM 5.2'.
+2026-07-05T17:31:41  [bn] fluency 5/39
+2026-07-05T17:37:09  [bn] fluency 10/39
+2026-07-05T17:41:07  [bn] fluency 15/39
+2026-07-05T17:48:48  [bn] fluency 20/39
+2026-07-05T17:55:00  [bn] fluency 25/39
+2026-07-05T17:59:13  [bn] fluency 30/39
+2026-07-05T18:04:23  [bn] fluency 35/39
+2026-07-05T18:10:49  [bn] fluency 39/39
+2026-07-05T18:12:22  [bn] alignment 5/39
+2026-07-05T18:14:02  [bn] alignment 10/39
+2026-07-05T18:16:01  [bn] alignment 15/39
+2026-07-05T18:17:58  [bn] alignment 20/39
+2026-07-05T18:19:28  [bn] alignment 25/39
+2026-07-05T18:20:48  [bn] alignment 30/39
+2026-07-05T18:22:35  [bn] alignment 35/39
+2026-07-05T18:23:32  [bn] alignment 39/39
+2026-07-05T18:26:04  [id] fluency 5/39
+2026-07-05T18:29:59  [id] fluency 10/39
+2026-07-05T18:32:01  [id] fluency 15/39
+2026-07-05T18:33:46  [id] fluency 20/39
+2026-07-05T18:35:34  [id] fluency 25/39
+2026-07-05T18:37:05  [id] fluency 30/39
+2026-07-05T18:39:17  [id] fluency 35/39
+2026-07-05T18:40:43  [id] fluency 39/39
+2026-07-05T18:41:37  [id] alignment 5/39
+2026-07-05T18:42:30  [id] alignment 10/39
+2026-07-05T18:43:30  [id] alignment 15/39
+2026-07-05T18:44:38  [id] alignment 20/39
+2026-07-05T18:45:49  [id] alignment 25/39
+2026-07-05T18:46:58  [id] alignment 30/39
+2026-07-05T18:47:51  [id] alignment 35/39
+2026-07-05T18:48:43  [id] alignment 39/39
+2026-07-05T18:48:43  === done; report -> llm_crosscheck_report.md; unjudged=1 ===
