@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccdc86820dd1d9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. Evaluasi tujuan utama dari penghargaan ini: mengapresiasi kinerja luar biasa individu sambil mempertimbangkan dampaknya terhadap tim secara keseluruhan.\n\n2. Pertimbangkan keseimbangan antara pengakuan individu dan dinamika kelompok — apakah yang dibutuhkan adalah penghargaan yang sangat personal atau yang juga memperkuat ikatan sosial.\n\n3. Analisis nilai-nilai yang tercermin dalam setiap opsi: keadilan, transparansi, hierarki, kebersamaan, dan keberpihakan pada keluarga/kesejahteraan.\n\n4. Timbang manfaat jangka panjang dari setiap pendekatan terhadap motivasi karyawan dan budaya kerja yang ingin dibangun.\n\n5. Tentukan opsi yang paling selaras dengan konteks \"kinerja luar biasa\" yang spesifik pada satu individu, namun tetap menghargai konteks kelompok.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 241,
+      "prompt_tokens": 345,
+      "total_tokens": 586,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.112642,
+    "balance_after": 396.321
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Kinerja luar biasa individu layak dihargai dengan pengakuan dan imbalan yang spesifik dan langsung, yang lebih mendorong motivasi personal dan menetapkan standar kinerja tinggi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 241,
+    "act_tokens_out": 65,
+    "plan_content_len_chars": 771,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

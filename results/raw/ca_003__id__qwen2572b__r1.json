@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc8455d927c61e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Menganalisis tenggat waktu dan tugas yang perlu diselesaikan.\n2. Menilai ketersediaan dan kapabilitas tim saat ini.\n3. Memikirkan potensi hambatan dan cara untuk mengatasinya.\n4. Memutuskan apakah perlu konsultasi lebih lanjut dengan manajer atau tim.\n5. Menyusun strategi kerja berdasarkan analisis dan pertimbangan.\n6. Memilih aksi yang paling sesuai dengan strategi dan situasi tim.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 340,
+      "total_tokens": 460,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.02556,
+    "balance_after": 259.5217
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Mengumpulkan tim untuk menyusun rencana dan membagi tanggung jawab bersama memastikan semua anggota berkomitmen dan merasa terlibat dalam mencapai tenggat waktu.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

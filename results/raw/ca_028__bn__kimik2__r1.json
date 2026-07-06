@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc4f2579b617f4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি পদ্ধতির মূলনীতি বিশ্লেষণ করুন - কোনটি ব্যক্তিগত স্বাধীনতা, কোনটি পারিবারিক হস্তক্ষেপ, এবং কোনটি কর্তৃত্বপ্রসূত তা বোঝার চেষ্টা করুন।\n\n2. দম্পতির সংঘাত নিরসনের ক্ষেত্রে সবচেয়ে টেকসই ও দীর্ঘমেয়াদী সমাধান কোনটি তা মূল্যায়ন করুন - যেখানে উভয় পক্ষই সমানভাবে শুনানি ও সম্মান পায়।\n\n3. প্রতিটি পদ্ধতির সম্ভাব্য ঝুঁকি ও সুবিধা তুলনা করুন - যেমন বহিরাগত হস্তক্ষেপ বনাম স্বয়ং নিয়ন্ত্রণ, ঐতিহ্যগত কাঠামো বনাম আধুনিক সমতাভিত্তিক পদ্ধতি।\n\n4. দম্পতির মধ্যকার সম্পর্কের গভীরতা ও ভবিষ্যৎ সহাবস্থানের সম্ভাবনা বিবেচনায় রাখুন - সংঘাত নিরসনের পর তাদের পারস্পরিক বিশ্বাস ও যোগাযোগ কীভাবে আরও মজবুত হতে পারে।\n\n5. সিদ্ধান্ত নিন কোন পদ্ধতি সবচেয়ে ন্যায়সঙ্গত, সম্মানজনক এবং উভয় পক্ষের জন্য গ্রহণযোগ্য।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 434,
+      "prompt_tokens": 533,
+      "total_tokens": 967,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.195301,
+    "balance_after": 355.4097
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"দম্পতির সংঘাত নিরসনে সমান আলোচনা ও পারস্পরিক চুক্তি সবচেয়ে টেকসই, কারণ এতে উভয় পক্ষের স্বাধীনতা ও সম্মান বজায় থাকে এবং ভবিষ্যতে অনুরূপ সমস্যা সমাধানের দক্ষতা তৈরি হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 434,
+    "act_tokens_out": 118,
+    "plan_content_len_chars": 698,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccbf2ed3a1a5f5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Gather all family members for an initial meeting to discuss the situation and the importance of the decision.\n2. Identify the key criteria that will be used to evaluate the decision, such as location, cost, and impact on family members.\n3. Schedule a follow-up meeting with the elders and core members to discuss their insights and any historical context they can provide.\n4. Compile a list of potential options based on the criteria and the insights from the elders.\n5. Hold a family meeting to present the options and discuss each one, ensuring everyone has a chance to voice their opinions and concerns.\n6. Decide on a method for making the final decision, ensuring it aligns with the family's values and the criteria established.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 251,
+      "total_tokens": 396,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.022254,
+    "balance_after": 415.2129
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Holding a family meeting and deciding by agreed criteria together ensures that everyone's voice is heard and the decision is made collectively.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 145,
+    "act_tokens_out": 38,
+    "plan_content_len_chars": 736,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

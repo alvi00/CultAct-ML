@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc193ad928a0bb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. অবদানকারীদের মধ্যে মুনাফার বণ্টন পদ্ধতি সম্পর্কে সকল অবদানকারীদের মতামত সংগ্রহ করুন।\n2. প্রতিটি অবদানকারীর পরিমাপযোগ্য অবদান এবং জ্যেষ্ঠতার মূল্যায়ন করুন।\n3. গোষ্ঠীর দীর্ঘমেয়াদী কল্যাণের দিকে লক্ষ্য রাখুন এবং সে দিকে মুনাফার বণ্টনের প্রভাব মূল্যায়ন করুন।\n4. গোষ্ঠীর স্বার্থ এবং ব্যক্তিগত অবদানের মধ্যে সমন্বয় রাখতে সক্ষম হওয়ার ক্ষমতা মূল্যায়ন করুন।\n5. বিভিন্ন বণ্টন পদ্ধতির সম্ভাব্য প্রভাব এবং উপকারিতা বিবেচনা করুন।\n6. সর্বশেষ সিদ্ধান্ত নিতে আগের পদক্ষেপগুলির ভিত্তিতে সবচেয়ে উপযুক্ত বণ্টন পদ্ধতি নির্বাচন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 558,
+      "prompt_tokens": 913,
+      "total_tokens": 1471,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.082782,
+    "balance_after": 258.0873
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"প্রত্যেকের পরিমাপযোগ্য অবদানের ভিত্তিতে মুনাফা বণ্টন করা পারদর্শিতাকে স্বচ্ছভাবে পুরস্কৃত করে এবং ভবিষ্যতের উদ্ভাবনের জন্য উৎসাহিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

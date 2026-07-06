@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccaa75be12a812",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Research the available options for health check-ups, focusing on the criteria each action is based on.\n2. Evaluate the importance of official accreditation, family trust, comprehensiveness, and preventive guidelines in the context of my personal health needs.\n3. Consider any specific health concerns or risks I have that might be better addressed by one type of check-up over another.\n4. Reflect on my past experiences with healthcare and how they might influence my decision.\n5. Discuss my findings and thoughts with a trusted friend or family member to gain an outside perspective.\n6. Make a final decision based on the gathered information and personal reflection, ensuring it aligns with my health goals.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 236,
+      "total_tokens": 371,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.020844,
+    "balance_after": 414.3657
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Choosing the most comprehensive, evidence-based screening ensures I receive the most reliable and thorough health assessment available.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 135,
+    "act_tokens_out": 33,
+    "plan_content_len_chars": 712,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

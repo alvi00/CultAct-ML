@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc222a1e70cbd7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন বণ্টন পদ্ধতির মূলনীতি ও ফলাফল বিশ্লেষণ করুন—সমতা, ন্যায়বিচার, দীর্ঘমেয়াদী টেকসইতা, এবং দলের সংহতি এই চারটি মানদণ্ডে প্রতিটি পদ্ধতি মূল্যায়ন করুন।\n\n2. দলের বর্তমান প্রেক্ষাপট বিবেচনা করুন—এটি একটি ছোট ইউনিট, উদ্ভাবন ভিত্তিক কাজ, এবং এককালীন মুনাফা; এখানে অবদানের প্রকৃতি সম্ভবত অসম ছিল এবং ভবিষ্যৎ সহযোগিতার প্রয়োজনীয়তা রয়েছে।\n\n3. সংহতি ও ভবিষ্যৎ সহযোগিতার গুরুত্ব ওজন দিন—ছোট দলে অসন্তুষ্টি দীর্ঘমেয়াদী ক্ষতি করতে পারে, তবে অবদানের স্বীকৃতিও অনুপ্রেরণা বজায় রাখে।\n\n4. সম্ভাব্য সংঘর্ষ ও সমঝোতার স্থান চিহ্নিত করুন—সম্পূর্ণ সমতা অবদানীদের হতাশ করতে পারে, আর সম্পূর্ণ অবদান-ভিত্তিক বণ্টন দলগত বন্ধন ক্ষতি করতে পারে।\n\n5. একটি সুসংগত সিদ্ধান্তে উপনীত হন যা সংক্ষিপ্ত ও দীর্ঘমেয়াদী উভয় লক্ষ্যের সাথে সামঞ্জস্যপূর্ণ।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 460,
+      "prompt_tokens": 593,
+      "total_tokens": 1053,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.209402,
+    "balance_after": 403.6806
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"উদ্ভাবন-ভিত্তি কাজে পরিমাপযোগ্য অবদানের স্বচ্ছ স্বীকৃতি ভবিষ্যৎ উদ্ভাবনের জন্য শক্তিশালী অনুপ্রেরণা তৈরি করে এবং দলের মধ্যে দক্ষতার মানদণ্ড প্রতিষ্ঠা করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 460,
+    "act_tokens_out": 111,
+    "plan_content_len_chars": 730,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

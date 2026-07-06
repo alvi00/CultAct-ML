@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc20cc7aa0dfcb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. সমস্যার প্রকৃতি ও জরুরিতা মূল্যায়ন করুন - সময় সংকট এবং স্পষ্ট নির্দেশনার অভাব কতটা গুরুতর তা নির্ধারণ করুন।\n\n2. প্রতিটি পদ্ধতির সম্ভাব্য ফলাফল বিশ্লেষণ করুন - দ্রুততা বনাম সঠিকতা, দলীয় অংশগ্রহণ বনাম একক সিদ্ধান্ত, এবং ঝুঁকি মূল্যায়ন করুন।\n\n3. প্রেক্ষাপট বিবেচনা করুন - এটি একটি নতুন অভূতপূর্ব সমস্যা নাকি আগের অভিজ্ঞতা প্রযোজ্য, এবং দলের সক্ষমতা মূল্যায়ন করুন।\n\n4. স্টেকহোল্ডার প্রভাব মূল্যায়ন করুন - কারা এই সিদ্ধান্তের ফলাফলে প্রভাবিত হবেন এবং তাদের প্রত্যাশা কী।\n\n5. স্বল্পমেয়াদী ও দীর্ঘমেয়াদী প্রয়োজনের ভারসাম্য নির্ধারণ করুন - অবিলম্বে সমাধান দরকার কিন্তু ভবিষ্যতে পুনরাবৃত্তি এড়াতে কী প্রয়োজন।\n\n6. সবচেয়ে উপযুক্ত পদ্ধতি বাছাই করুন যা জরুরি সমাধান নিশ্চিত করে এবং পরবর্তী পদক্ষেপের ভিত্তি তৈরি করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 427,
+      "prompt_tokens": 624,
+      "total_tokens": 1051,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.200667,
+    "balance_after": 372.7365
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"জরুরি সমস্যায় দলকে একত্রিত করে দ্রুত সম্মিলিত সিদ্ধান্ত নিলে দ্রুততা ও দলীয় মালিকানা দুই-ই নিশ্চিত হয়, যা স্পষ্ট নির্দেশনা না থাকা অবস্থায় সবচেয়ে কার্যকর।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 427,
+    "act_tokens_out": 108,
+    "plan_content_len_chars": 725,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc35dc5fe8ba27",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. সন্তানের নির্বাচিত পেশার প্রকৃতি, সম্ভাবনা এবং চ্যালেঞ্জগুলো বিশ্লেষণ করুন।\n2. সন্তানের প্রস্তুতি, দক্ষতা এবং এই পেশায় সফল হওয়ার সম্ভাবনা মূল্যায়ন করুন।\n3. পরিবারের প্রত্যাশা এবং সন্তানের ব্যক্তিগত আকাঙ্ক্ষার মধ্যে পার্থক্য চিহ্নিত করুন।\n4. দীর্ঘমেয়াদে সন্তানের সুখ, স্বাধীনতা এবং আর্থিক নিরাপত্তার ভারসাম্য বিবেচনা করুন।\n5. সন্তানের দায়িত্বশীলতা এবং সিদ্ধান্তের পেছনের যুক্তির গভীরতা যাচাই করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 239,
+      "prompt_tokens": 558,
+      "total_tokens": 797,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.130164,
+    "balance_after": 341.3458
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"একটি সচেতন ও দায়িত্বশীল সিদ্ধান্তকে সমর্থন করা সন্তানের স্বাধীনতা এবং বাস্তবতার ভারসাম্য রক্ষা করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 239,
+    "act_tokens_out": 72,
+    "plan_content_len_chars": 411,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

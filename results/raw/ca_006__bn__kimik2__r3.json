@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccf7f4e3418c6f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের প্রকৃতি ও জটিলতা বিশ্লেষণ করুন - এটি নির্ধারণ করবে কোন ধরনের কাঠামো সবচেয়ে উপযোগী।\n2. দলের সদস্যদের দক্ষতা, অভিজ্ঞতা ও স্বায়ত্তশাসনের মাত্রা মূল্যায়ন করুন।\n3. সময়সীমা ও দ্রুত সিদ্ধান্ত গ্রহণের প্রয়োজনীয়তা যাচাই করুন।\n4. প্রতিটি বিকল্পের সুবিধা-অসুবিধা তুলনা করুন - কোনটি টেকসই, কার্যকরী এবং দলের জন্য অনুপ্রেরণাদায়ক।\n5. দীর্ঘমেয়াদী স্থায়িত্ব ও সংশোধনযোগ্যতার দিক বিবেচনা করুন।\n6. সবচেয়ে ভারসাম্যপূর্ণ এবং বাস্তবসম্মত পদ্ধতি বেছে নিন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 290,
+      "prompt_tokens": 584,
+      "total_tokens": 874,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.149982,
+    "balance_after": 399.4761
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"নতুন প্রকল্পে দ্রুত গতি ও উদ্ভাবনের জন্য স্পষ্ট লক্ষ্যের সাথে সদস্যদের স্বাধীনতা দেওয়া সবচেয়ে কার্যকর, যা দায়িত্ববোধ তৈরি করে এবং বোতলজাত স্যুতা এড়ায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 290,
+    "act_tokens_out": 111,
+    "plan_content_len_chars": 456,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc994cf5b22571",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সিদ্ধান্তটির ধর্ম্যতা এবং আমার নিজস্ব মূল্যবোধ সাথে এর মিল বিবেচনা করব।\n2. সিদ্ধান্তটি দলের লক্ষ্য এবং প্রতিবেদনের কার্যপ্রণালীর উপর কীভাবে প্রভাব ফেলবে তা বিশ্লেষণ করব।\n3. এই সিদ্ধান্ত নেওয়ার পেছনে বসের মূল উদ্দেশ্য বোঝার চেষ্টা করব।\n4. নিজের উদ্বেগ এবং দলের ঐক্য মধ্যে একটি সন্তুলন খুঁজব।\n5. উপস্থাপিত কর্মপ্রণালীগুলির মধ্যে কোনটি সবচেয়ে কার্যকর এবং প্রভাবশালী হবে তা বিবেচনা করব।\n6. সিদ্ধান্ত নিয়ে সক্রিয়ভাবে অংশগ্রহণ এবং দলের প্রগতির দিকে অগ্রসর হওয়ার পদক্ষেপ নেব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 501,
+      "prompt_tokens": 995,
+      "total_tokens": 1496,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08379,
+    "balance_after": 434.4587
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এই কর্মপ্রণালী দলের ঐক্য রক্ষা করতে এবং নিজের উদ্বেগগুলি প্রকাশ করার মাধ্যমে সক্রিয়ভাবে অংশগ্রহণ করতে সক্ষম করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 501,
+    "act_tokens_out": 132,
+    "plan_content_len_chars": 476,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

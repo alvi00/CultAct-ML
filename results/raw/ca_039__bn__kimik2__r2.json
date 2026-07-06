@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce014ef3963f6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি পদ্ধতির সুবিধা ও অসুবিধা বিশ্লেষণ করুন - একক সিদ্ধান্ত বনাম সামূহিক সিদ্ধান্ত, সময় ও ব্যয়, এবং সন্তুষ্টির মাত্রা মূল্যায়ন করুন।\n2. ভ্রমণের প্রেক্ষাপট নির্ধারণ করুন - এটি পারিবারিক ভ্রমণ নাকি বন্ধুদের সাথে, এবং সিদ্ধান্ত গ্রহণে কারা জড়িত তা স্পষ্ট করুন।\n3. প্রত্যেক জড়িত ব্যক্তির প্রয়োজন ও অগ্রাধিকার চিহ্নিত করুন - শারীরিক সক্ষমতা, আর্থিক সীমাবদ্ধতা, এবং ব্যক্তিগত পছন্দ বিবেচনা করুন।\n4. সিদ্ধান্ত গ্রহণের সময়সীমা ও জটিলতা মূল্যায়ন করুন - দ্রুত সিদ্ধান্ত প্রয়োজন কিনা বা আলোচনার জন্য যেষ্ট সময় আছে কিনা যাচাই করুন।\n5. দীর্ঘমেয়াদী সম্পর্ক ও সন্তুষ্টির গুরুত্ত্ব বিবেচনা করুন - ভ্রমণের পরবর্তী সম্পর্কের প্রভাব এবং স্মৃতির মূল্য মূল্যায়ন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 393,
+      "prompt_tokens": 515,
+      "total_tokens": 908,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.179617,
+    "balance_after": 332.9108
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"পরিবারের সকল সদস্যের সন্তুষ্টি ও ঐকমত্য নিশ্চিত করলে ভ্রমণ আরও সুখময় হয় এবং দীর্ঘমেয়াদী সম্পর্কের মজবুতি বাড়ে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 393,
+    "act_tokens_out": 88,
+    "plan_content_len_chars": 664,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

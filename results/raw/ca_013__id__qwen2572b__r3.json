@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1ef070132126",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan dampak jangka pendek dan jangka panjang dari setiap opsi tindakan terhadap hubungan kerja dan hasil kerja tim.\n2. Evaluasi sejauh mana keputusan ini bertentangan dengan nilai-nilai dan prinsip-prinsip profesional pribadi.\n3. Tinjau kembali tujuan dan visi tim untuk memahami bagaimana keputusan ini berkontribusi terhadap tujuan tersebut.\n4. Pertimbangkan efektivitas komunikasi yang akan digunakan dalam menyampaikan kekhawatiran atau dukungan.\n5. Analisis potensi konflik yang mungkin timbul dari setiap opsi dan bagaimana mengelolanya.\n6. Buat keputusan berdasarkan analisis tersebut, memilih opsi yang paling mempertimbangkan keseimbangan antara kekompakkan tim, keharmonisan, dan prinsip profesional.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 212,
+      "prompt_tokens": 391,
+      "total_tokens": 603,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.033834,
+    "balance_after": 434.7538
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"Mematuhi keputusan demi menjaga persatuan tim dan menyampaikan kekhawatiran secara pribadi kepada atasan dapat membantu menjaga keharmonisan dan efektivitas komunikasi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 212,
+    "act_tokens_out": 60,
+    "plan_content_len_chars": 722,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

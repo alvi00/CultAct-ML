@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0fc9cfc495a0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi tingkat urgensi dan pentingnya rapat kerja.\n2. Pertimbangkan nilai dan arti acara sekolah bagi anak dan keluarga.\n3. Konsultasikan dengan rekan kerja atau manajer tentang kemungkinan delegasi tugas.\n4. Diskusikan dengan pasangan atau anggota keluarga lainnya untuk mendapatkan masukan.\n5. Tinjau kembali komitmen dan prioritas jangka panjang baik di tempat kerja maupun di rumah.\n6. Buat keputusan berdasarkan evaluasi dan masukan yang telah diterima.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 136,
+      "prompt_tokens": 358,
+      "total_tokens": 494,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027492,
+    "balance_after": 420.1782
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Mengutamakan kehadiran dalam acara sekolah anak sambil tetap menjaga hubungan baik dengan manajer dan rekan kerja melalui koordinasi dan delegasi tugas.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 136,
+    "act_tokens_out": 57,
+    "plan_content_len_chars": 463,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

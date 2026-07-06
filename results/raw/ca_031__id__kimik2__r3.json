@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc667b76663328",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n1. Evaluasi tingkat keparahan pelanggaran dan dampaknya terhadap perusahaan serta rekan kerja lainnya.\n2. Pertimbangkan apakah pelanggaran tersebut bersifat sengaja atau tidak disengaja, serta apakah ini pertama kali terjadi atau berulang.\n3. Analisis budaya perusahaan dan prosedur kepatuhan yang berlaku untuk memastikan penanganan sesuai dengan kebijakan resmi.\n4. Pertimbangkan keseimbangan antara menjaga kekompakan tim dan menegakkan integritas serta standar perusahaan.\n5. Evaluasi risiko konsekuensi dari setiap opsi, termasuk potensi pembalasan, peluang perbaikan, dan perlindungan bagi pelapor.\n6. Tentukan pendekatan yang paling konstruktif untuk mendorong perubahan perilaku sekaligus memastikan akuntabilitas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 223,
+      "prompt_tokens": 359,
+      "total_tokens": 582,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.107629,
+    "balance_after": 349.669
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Melaporkan kepada atasan dan mengikuti prosedur kepatuhan yang berlaku menjamin penanganan profesional, transparan, dan sesuai dengan kebijakan perusahaan, sekaligus melindungi diri sendiri dari tuduhan bias atau penyalahgunaan wewenang.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 223,
+    "act_tokens_out": 87,
+    "plan_content_len_chars": 728,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

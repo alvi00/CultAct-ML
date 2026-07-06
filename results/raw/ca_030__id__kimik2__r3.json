@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0f6129b5bf9d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi urgensi dan dampak dari kedua komitmen: analisis seberapa penting kehadiran saya secara pribadi dalam rapat versus seberapa penting kehadiran saya untuk anak di acara sekolah.\n\n2. Pertimbangkan alternatif delegasi: identifikasi apakah ada rekan kerja yang memiliki kapasitas dan kewenangan untuk mewakili saya dalam rapat tanpa mengganggu hasil rapat.\n\n3. Pertimbangkan dampak jangka panjang: tinjau konsekuensi memilih salah satu pihak terhadap hubungan dengan anak, perkembangan anak, serta reputasi dan tanggung jawab profesional saya.\n\n4. Evaluasi fleksibilitas waktu: pertimbangkan apakah ada opsi kompromi seperti datang terlambat ke salah satu acara atau mengatur pertemuan alternatif.\n\n5. Pertimbangkan nilai-nilai prioritas: tentukan mana yang lebih selaras dengan prinsip hidup saya tentang keseimbangan kerja-keluarga dan tanggung jawab sebagai orang tua.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 258,
+      "prompt_tokens": 370,
+      "total_tokens": 628,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.120645,
+    "balance_after": 351.5293
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Mengutamakan kehadiran untuk anak dalam momen pentingnya sambil tetap menghormati struktur organisasi melalui koordinasi dengan manajer, menciptakan keseimbangan yang bertanggung jawab antara keluarga dan pekerjaan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 258,
+    "act_tokens_out": 77,
+    "plan_content_len_chars": 878,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

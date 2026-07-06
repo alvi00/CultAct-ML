@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc769aabd7993f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দুটি অবকাশের গুরুত্ব বিবেচনা করুন: একটি হচ্ছে সন্তানের স্কুলের অনুষ্ঠান এবং অন্যটি হচ্ছে কাজের মিটিং।\n2. সন্তানের অনুষ্ঠানে অংশগ্রহণের প্রভাব বিবেচনা করুন এবং তা কিভাবে সন্তানের মানসিক এবং সামাজিক উন্নয়নে সহায়ক হতে পারে।\n3. কাজের মিটিংয়ে অংশগ্রহণের প্রভাব বিবেচনা করুন এবং তা কিভাবে কর্মজীবনে সুফলদায়ক হতে পারে।\n4. উভয় অবকাশের জন্য আপনার দায়িত্ব এবং প্রত্যাশা বিবেচনা করুন এবং কোন অবকাশটি আপনার পক্ষে বেশি গুরুত্বপূর্ণ হবে।\n5. যদি প্রয়োজন হয় তাহলে একজন সহকর্মী বা স্কুলের শিক্ষকদের সাথে আলোচনা করুন প্রযুক্তিতে বা অন্য মাধ্যমে অংশগ্রহণের বিকল্পের বিষয়ে।\n6. সিদ্ধান্ত নিন এবং কর্মসূচির অনুযায়ী কাজ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 661,
+      "prompt_tokens": 838,
+      "total_tokens": 1499,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.084912,
+    "balance_after": 420.0593
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"পরিবারের প্রতি প্রাধান্য দেওয়া এবং প্রাথমিক দায়িত্ব পালন করার মাধ্যমে একটি সামঞ্জস্য রাখা যায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 661,
+    "act_tokens_out": 115,
+    "plan_content_len_chars": 615,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc498ab74d79d9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan keahlian finansial masing-masing pasangan.\n2. Evaluasi tingkat keterlibatan dan komitmen pasangan dalam pengambilan keputusan finansial.\n3. Tinjau kebutuhan dan tujuan finansial rumah tangga.\n4. Diskusikan preferensi dan kenyamanan masing-masing pasangan dalam mengelola keuangan.\n5. Pertimbangkan metode pengelolaan keuangan yang paling efektif berdasarkan evaluasi dan diskusi.\n6. Pilih aksi yang paling sesuai dengan hasil evaluasi dan diskusi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 138,
+      "prompt_tokens": 357,
+      "total_tokens": 495,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027558,
+    "balance_after": 436.5563
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pasangan yang memiliki keahlian keuangan lebih tinggi akan mengelola keuangan dengan pengawasan bersama, untuk memanfaatkan keterampilan yang lebih unggul.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 138,
+    "act_tokens_out": 56,
+    "plan_content_len_chars": 464,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

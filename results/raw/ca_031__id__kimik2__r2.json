@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5edec5596466",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n1. Evaluasi tingkat keparahan pelanggaran dan potensi dampaknya terhadap perusahaan serta individu lain.\n2. Pertimbangkan apakah pelanggaran tersebut bersifat sengaja atau tidak, serta frekuensi kejadiannya.\n3. Analisis budaya kerja tim dan hubungan dengan kolega tersebut untuk menentukan pendekatan yang paling efektif.\n4. Tinjau kebijakan perusahaan mengenai prosedur pelaporan pelanggaran yang harus diikuti.\n5. Pertimbangkan keseimbangan antara menjaga kekompakan tim dan menegakkan integritas organisasi.\n6. Tentukan pendekatan yang memberikan kesempatan perbaikan terlebih dahulu sambil tetap memastikan akuntabilitas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 192,
+      "prompt_tokens": 359,
+      "total_tokens": 551,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.096934,
+    "balance_after": 349.8526
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Memberikan kesempatan kolega untuk memperbaiki diri secara langsung sekaligus memastikan akuntabilitas melalui jalur resmi jika diperlukan, seimbang antara empati dan integritas.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 192,
+    "act_tokens_out": 66,
+    "plan_content_len_chars": 631,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccda17a59cc583",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identify the core values that matter most for this healthcare decision—such as respect for experience, collective agreement, quality of medical input, and family involvement.\n\n2. Evaluate each available action against these values, noting trade-offs: speed vs. thoroughness, authority vs. collaboration, expertise vs. personal preference.\n\n3. Consider the specific nature of the healthcare decision—whether it requires urgent action, specialized knowledge, or long-term family commitment—to determine which decision-making structure best serves the actual situation.\n\n4. Reflect on family dynamics and which approach would build trust, ensure buy-in, and sustain family cohesion after the decision is made.\n\n5. Select the action that best integrates the above factors into a coherent, practical path forward.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 260,
+      "total_tokens": 407,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.072945,
+    "balance_after": 354.3699
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Blending elder wisdom with professional medical expertise and collective family agreement honors multiple sources of knowledge while ensuring shared commitment to the care plan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 147,
+    "act_tokens_out": 40,
+    "plan_content_len_chars": 811,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc8a3708fad7b4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিষ্ঠানের আকার, সংস্কৃতি এবং সিদ্ধান্তের ধরন বিশ্লেষণ করুন।\n2. প্রতিটি পদ্ধতির সুবিধা ও সীমাবদ্ধতা মূল্যায়ন করুন।\n3. দ্রুত সিদ্ধান্ত বনাম গুণগত মতামতের ভারসাম্য নির্ধারণ করুন।\n4. দীর্ঘমেয়াদী টেকসইতা এবং কর্মচারী মালিকানার প্রয়োজনীয়তা বিবেচনা করুন।\n5. সবচেয়ে উপযুক্ত পদ্ধতি চূড়ান্ত করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 188,
+      "prompt_tokens": 597,
+      "total_tokens": 785,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.115903,
+    "balance_after": 379.1161
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"প্রতিষ্ঠানে সকল সদস্যের অংশগ্রহণ এবং ঐকমত্যের মাধ্যমে গ্রহণযোগ্য ও টেকসই সিদ্ধান্ত নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 188,
+    "act_tokens_out": 77,
+    "plan_content_len_chars": 298,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccaf2f0f926265",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের সদস্যদের ব্যক্তিগত অবদান এবং দলের সমগ্র পারফরম্যান্স পুনরালোচনা করুন।\n2. ত্রৈমাসিকের মূল উপাদান এবং লক্ষ্যসমূহ বিবেচনা করুন।\n3. চূড়ান্ত ফলাফলের উপর গুরুত্বপূর্ণ প্রভাব ফেলা সদস্যের অবদান সনাক্ত করুন।\n4. দলের সম্মিলিত প্রচেষ্টার উপর ভিত্তি করে বোনাস বন্টনের সম্ভাব্য প্রভাব বিবেচনা করুন।\n5. ব্যক্তিগত এবং দলের অবদানের মধ্যে সুষম হারের দিকে একটি সমন্বয় খুঁজুন।\n6. সিদ্ধান্ত নেওয়ার আগে, দলের অন্যান্য সদস্যদের মতামত শুনুন এবং তাদের অবদানের মূল্যায়ন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 493,
+      "prompt_tokens": 1028,
+      "total_tokens": 1521,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.085092,
+    "balance_after": 260.666
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এই সিদ্ধান্ত পুরো দলের সম্মিলিত প্রচেষ্টা এবং নেতৃত্বের মূল্যায়ন করে তাদের মধ্যে ন্যায্য প্ররোচনা রাখা হবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

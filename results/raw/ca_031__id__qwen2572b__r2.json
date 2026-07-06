@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0f7f2fc7e37e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi pelanggaran yang dilakukan kolega untuk memahami tingkat keparahannya.\n2. Pertimbangkan dampak pelanggaran tersebut terhadap tim dan perusahaan.\n3. Tinjau aturan perusahaan dan prosedur yang ditetapkan untuk pelanggaran serupa.\n4. Pertimbangkan hubungan kerja dengan kolega tersebut dan potensi dampak dari tindakan yang diambil.\n5. Evaluasi potensi risiko dan manfaat dari setiap aksi yang tersedia.\n6. Putuskan tindakan terbaik berdasarkan evaluasi dan pertimbangan di atas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 140,
+      "prompt_tokens": 352,
+      "total_tokens": 492,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027408,
+    "balance_after": 419.4167
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Tegur langsung kolega tersebut untuk memberikan peringatan pertama dan peluang untuk memperbaiki perilaku, serta menunjukkan komitmen terhadap standar yang berlaku.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 140,
+    "act_tokens_out": 57,
+    "plan_content_len_chars": 488,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

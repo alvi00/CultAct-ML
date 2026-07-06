@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc6ea466b7f53e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, দলের বর্তমান অবস্থা এবং সমস্যার মূল কারণ নির্ধারণ করা হবে।\n2. প্রতিটি উপায়ের সম্ভাব্য ফলাফল এবং প্রভাব বিশ্লেষণ করা হবে।\n3. দলের সদস্যদের মতামত সংগ্রহ করা হবে সম্ভাব্য উপায়গুলোর উপর।\n4. উপায়গুলোর কার্যকারিতা এবং দলের মধ্যে ঐক্যমত সৃষ্টির ক্ষমতা তুলনা করা হবে।\n5. সবচেয়ে উপযুক্ত উপায়টি নির্বাচন করার জন্য নিজের মতামত স্বচ্ছভাবে প্রকাশ করা হবে।\n6. চূড়ান্ত সিদ্ধান্ত গ্রহণ করা হবে এবং দলের সদস্যদের সাথে শেয়ার করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 454,
+      "prompt_tokens": 778,
+      "total_tokens": 1232,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.069252,
+    "balance_after": 426.4995
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"একটি কাঠামোবদ্ধ আলোচনা এবং সংখ্যাগরিষ্ঠ ভোট দ্বারা ন্যায়তার সাথে সিদ্ধান্ত নেওয়া যায় এবং দলের সকলের মতামত গ্রহণ করা যায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 454,
+    "act_tokens_out": 147,
+    "plan_content_len_chars": 433,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

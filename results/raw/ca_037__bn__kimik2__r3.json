@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc129b77d1bc5b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি বিকল্পের মূল মানদণ্ড বিশ্লেষণ করুন: স্বীকৃতি (D), বিশ্বাস (C), ফলাফলের নির্ভরযোগ্যতা (A), এবং দীর্ঘমেয়াদী স্বাস্থ্য নির্দেশিকা (B)।\n\n2. স্বাস্থ্য পরীক্ষার প্রাথমিক উদ্দেশ্য নির্ধারণ করুন: রোগ সনাক্তকরণ, প্রতিরোধ, নাকি সামগ্রিক স্বাস্থ্য মূল্যায়ন।\n\n3. প্রমাণভিত্তিক চিকিৎসার নীতি অনুসরণ করে মূল্যায়ন করুন: কোন পদ্ধতি সবচেয়ে বৈজ্ঞানিকভাবে নির্ভরযোগ্য এবং সুনির্দিষ্ট ফলাফল দেয়।\n\n4. স্বল্প ও দীর্ঘমেয়াদী স্বাস্থ্য ঝুঁকির মধ্যে ভারসাম্য বিবেচনা করুন।\n\n5. সিদ্ধান্তের ভিত্তি হিসেবে সর্বোচ্চ অগ্রাধিকার দিন: সুনির্দিষ্ট, নির্ভরযোগ্য এবং পুনরাবৃত্তি যোগ্য ফলাফল।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 351,
+      "prompt_tokens": 512,
+      "total_tokens": 863,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.164871,
+    "balance_after": 336.9471
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"স্বাস্থ্য পরীক্ষার ক্ষেত্রে সুনির্দিষ্ট ও নির্ভরযোগ্য ফলাফল সবচেয়ে গুরুত্বপূর্ণ, তাই প্রমাণভিত্তিক সবচেয়ে ব্যাপক স্ক্রিনিং পদ্ধতি বেছে নেওয়া যুক্তিযুক্ত।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 351,
+    "act_tokens_out": 112,
+    "plan_content_len_chars": 572,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

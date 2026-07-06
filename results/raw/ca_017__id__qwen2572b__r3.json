@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb350c4a59ab4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan dampak dari setiap tindakan pada hubungan kerja dan keseimbangan kehidupan pribadi.\n2. Evaluasi urgensi dan kebutuhan untuk mendapatkan pengakuan atas komitmen pribadi di luar pekerjaan.\n3. Tinjau potensi reaksi atasan terhadap setiap tindakan yang tersedia.\n4. Pertimbangkan efektivitas komunikasi dalam setiap tindakan untuk memastikan pesan disampaikan dengan jelas dan hormat.\n5. Analisis konsistensi setiap tindakan dengan nilai dan prinsip pribadi.\n6. Putuskan tindakan yang paling seimbang antara menjaga hubungan kerja yang baik dan mempertahankan komitmen pribadi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 177,
+      "prompt_tokens": 365,
+      "total_tokens": 542,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.03033,
+    "balance_after": 431.2545
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Minta pertemuan untuk membahas batasan yang jelas dan menetapkan prioritas bersama, demi menetapkan batas yang tegas.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 177,
+    "act_tokens_out": 47,
+    "plan_content_len_chars": 590,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

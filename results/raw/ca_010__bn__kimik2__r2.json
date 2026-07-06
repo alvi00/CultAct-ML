@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5d86bdeca76d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের ঐতিহাসিক সিদ্ধান্ত গ্রহণ পদ্ধতি বিশ্লেষণ করুন - পূর্বে কীভাবে গুরুত্বপূর্ণ সিদ্ধান্ত নেওয়া হয়েছে তা মূল্যায়ন করুন।\n2. বর্তমান পরিস্থিতি মূল্যায়ন করুন - আর্থিক সিদ্ধান্তের প্রকৃতি, জরুরিতা এবং সম্ভাব্য প্রভাব নির্ধারণ করুন।\n3. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা তুলনা করুন - কোন পদ্ধতি পরিবারের মূল্যবোধ এবং বাস্তব চাহিদার সাথে সবচেয়ে বেশি মিলে যায় তা বিবেচনা করুন।\n4. পরিবারের সদস্যদের মতামত সংগ্রহ করুন - বিশেষ করে যারা এই সিদ্ধান্তে সরাসরি প্রভাবিত হবেন।\n5. দীর্ঘমেয়াদী টেকসইতা এবং সংহতি বিবেচনা করুন - কোন পদ্ধতি ভবিষ্যতে আর্থিক স্থিতিশীলতা এবং পারিবারিক সম্পর্ক উভয়ই নিশ্চিত করতে পারে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 369,
+      "prompt_tokens": 583,
+      "total_tokens": 952,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.177152,
+    "balance_after": 391.6108
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এই পদ্ধতি পরিবারের সম্পদ একত্রিত করে এবং বয়োজ্যেষ্ঠদের অভিজ্ঞতার সাথে যৌথ সিদ্ধান্তের মাধ্যমে সবার কল্যাণ নিশ্চিত করে, যা ঐতিহ্যবাহী সম্মান এবং আধুনিক সহযোগিতার সমন্বয় ঘটায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 369,
+    "act_tokens_out": 122,
+    "plan_content_len_chars": 605,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccf3cd369017df",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, পারিবারিক এবং কর্মস্থলীয় দায়িত্বের বর্তমান অবস্থা এবং তাদের প্রয়োজনীয়তার মূল্যায়ন করুন।\n2. দ্বিতীয়ত, দুটি দায়িত্বের মধ্যে কোনটি বর্তমানে বেশি জরুরি তা নির্ধারণ করুন।\n3. তৃতীয়ত, আপনার উভয় দায়িত্বের মধ্যে সুষমতা রাখার জন্য কীভাবে সাহায্য পেতে পারেন তা চিন্তা করুন।\n4. চতুর্থত, যদি সমস্যাটি পরিসমাপ্তি দেওয়ার জন্য কোনও বাইরের সহায়তা প্রয়োজন হয় তাহলে তা বিবেচনা করুন।\n5. পঞ্চমত, উপলব্ধ কর্মকান্ডের তালিকা থেকে যে কর্মকান্ডটি সবচেয়ে ভালোভাবে আপনার প্রয়োজন মেটাতে পারে তা নির্বাচন করুন।\n6. শেষমেশ, নির্বাচিত কর্মকান্ডটি প্রয়োগ করার পর ফলাফল বিশ্লেষণ করুন এবং যদি প্রয়োজন হয় তাহলে পরিবর্তন করতে প্রস্তুত থাকুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 683,
+      "prompt_tokens": 931,
+      "total_tokens": 1614,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.091254,
+    "balance_after": 418.0953
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এই কর্মকান্ডটি উভয় দায়িত্বের মধ্যে সুষমতা রাখার জন্য একটি মধ্যপন্থিক সমাধান প্রস্তাব করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 683,
+    "act_tokens_out": 107,
+    "plan_content_len_chars": 633,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

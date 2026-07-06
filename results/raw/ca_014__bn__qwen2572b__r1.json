@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1aab03367122",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সিদ্ধান্তের প্রভাব ও গুরুত্ব বিবেচনা করা হবে।\n2. সিদ্ধান্ত নেওয়ার প্রক্রিয়া এবং তার অনুষ্ঠানিক দিকগুলি বিশ্লেষণ করা হবে।\n3. কর্মীদের মধ্যে এই সিদ্ধান্তের প্রতি কী ধরনের অনুভূতি রয়েছে তা মূল্যায়ন করা হবে।\n4. প্রতিক্রিয়ার মাধ্যম দিয়ে কতটা কার্যকর পরিবর্তন সম্ভব তা বিবেচনা করা হবে।\n5. প্রতিক্রিয়ার সম্ভাব্য প্রভাব ও ফলাফল বিবেচনা করা হবে।\n6. সর্বশেষ কর্মীদের উৎসাহ ও উৎপাদকতা রক্ষা করার দিকে মনোনিবেশ করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 436,
+      "prompt_tokens": 863,
+      "total_tokens": 1299,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.072762,
+    "balance_after": 433.7599
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই পদক্ষেপ দিয়ে কর্মীদের মতামত সংগ্রহ করা যাবে এবং সিদ্ধান্তের প্রক্রিয়া সমৃদ্ধ করা হবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 436,
+    "act_tokens_out": 109,
+    "plan_content_len_chars": 417,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

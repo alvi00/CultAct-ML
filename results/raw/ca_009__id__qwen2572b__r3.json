@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc8daaf4b3f81c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengumpulkan semua anggota keluarga untuk rapat keluarga.\n2. Mendiskusikan permintaan pribadi dan kebutuhan bersama keluarga secara terbuka.\n3. Mendengarkan pendapat dan saran dari setiap anggota keluarga.\n4. Menimbang keduanya untuk mencapai kesepakatan yang adil.\n5. Menyepakati pedoman penggunaan uang yang jelas.\n6. Menyerahkan keputusan akhir kepada anggota paling senior jika kesepakatan tidak dapat dicapai.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 128,
+      "prompt_tokens": 383,
+      "total_tokens": 511,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.028362,
+    "balance_after": 438.2004
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Diskusi terbuka dan pencapaian kesepakatan memungkinkan keseimbangan antara permintaan pribadi dan kebutuhan bersama, menjamin keadilan dan partisipasi semua anggota.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 128,
+    "act_tokens_out": 64,
+    "plan_content_len_chars": 417,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc7f2ac61b8216",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi dampak keputusan terhadap tujuan tim dan organisasi secara objektif, mempertimbangkan seberapa besar kekhawatiran saya dan apakah bersifat fundamental atau dapat dikelola.\n\n2. Pertimbangkan dinamika interpersonal: mayoritas rekan sudah mendukung, sehingga perlawanan terbuka berisiko memecah belah tanpa jaminan perubahan.\n\n3. Analisis kredibilitas saya di tempat kerja—apakah suara saya cenderung didengar atau diabaikan, yang memengaruhi strategi penyampaian yang efektif.\n\n4. Tinjau saluran komunikasi yang tersedia dan budaya organisasi terkait penyampaian masukan konstruktif.\n\n5. Tentukan prioritas: memaksimalkan peluang perbaikan keputusan versus menjaga hubungan kerja jangka panjang dan stabilitas tim.\n\n6. Pilih pendekatan yang menyeimbangkan integritas pribadi (menyuarakan kekhawatiran) dengan tanggung jawab kolektif (mendukung keputusan final demi kelancaran operasional).",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 272,
+      "prompt_tokens": 401,
+      "total_tokens": 673,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.128126,
+    "balance_after": 386.1536
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Mendukung keputusan sambil aktif memberikan masukan memungkinkan saya tetap berkontribusi konstruktif, menjaga kelancaran tim, dan memperbaiki hasil dari dalam tanpa memecah belah.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 272,
+    "act_tokens_out": 73,
+    "plan_content_len_chars": 899,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

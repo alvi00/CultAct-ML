@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccff767097ca80",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন অ্যাকশনের মধ্যে মূল পার্থক্যগুলো চিহ্নিত করুন - যেমন একক নেতৃত্ব বনাম দলীয় সিদ্ধান্ত, স্বল্পমেয়াদি বনাম দীর্ঘমেয়াদি ফোকাস, এবং উর্ধ্বতন কর্তৃপক্ষের জড়িত হওয়ার মাত্রা।\n\n2. প্রকল্পের প্রেক্ষাপট বিশ্লেষণ করুন - সময়সীমা \"অনেক দূরে\" বলে উল্লেখ আছে, যা দীর্ঘমেয়াদি পরিকল্পনার প্রয়োজনীয়তা নির্দেশ করে, এবং \"শুরু থেকেই সিদ্ধান্ত নিতে হবে\" বলে দলীয় অংশগ্রহণ ও স্পষ্ট দিকনির্দেশনার গুরুত্ব তুলে ধরে।\n\n3. প্রতিটি অ্যাকশনের সুবিধা-অসুবিধা মূল্যায়ন করুন - কোনটি টেকসই দীর্ঘমেয়াদি ফলাফল দেয়, কোনটি দলের মালিকানা তৈরি করে, এবং কোনটি অগ্রগতি ট্র্যাক করার সিস্টেম নিশ্চিত করে।\n\n4. \"প্রকল্প পরিকল্পনা ও পরিচালনা\" এর মূল চ্যালেঞ্জগুলো চিহ্নিত করুন - দূরবর্তী সময়সীমায় মোটিভেশন ধরে রাখা, অগ্রগতি মনিটরিং, এবং সকল স্টেকহোল্ডারকে এলাইন করা।\n\n5. সবচেয়ে সুসংগত অ্যাকশনটি বেছে নিন যা দীর্ঘমেয়াদি সময়সীমার জন্য স্ট্রাকচার্ড অ্যাপ্রোচ, দলীয় কমিটমেন্ট, এবং নিয়মিত চেক-ইন মেকানিজম সবই নিশ্চিত করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 558,
+      "prompt_tokens": 611,
+      "total_tokens": 1169,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.244751,
+    "balance_after": 375.4434
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"দূরবর্তী সময়সীমার প্রকল্পে দলের সকলের অংশগ্রহণে মাইলফলক নির্ধারণ ও নিয়মিত চেকপয়েন্ট পর্যালোচনা দায়িত্বভাগ, মোটিভেশন ধরে রাখা এবং সমন্বিত অগ্রগতি নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 558,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 899,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

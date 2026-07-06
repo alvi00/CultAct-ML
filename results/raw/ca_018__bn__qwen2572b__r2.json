@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0abfef2c963f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের উদ্দেশ্য এবং লক্ষ্য নির্ধারণ করুন।\n2. দলের সদস্যদের ক্ষমতা এবং দক্ষতা মূল্যায়ন করুন।\n3. প্রকল্পের মাইলফলকগুলি এবং সময়সীমা নির্ধারণ করুন।\n4. প্রকল্পের বিভিন্ন অংশের জন্য কাজগুলি বিন্যাস করুন।\n5. নির্দিষ্ট সময়ে অগ্রগতি পর্যালোচনা এবং প্রকল্পের উন্নতির জন্য পর্যবেক্ষণের পদ্ধতি নির্ধারণ করুন।\n6. ম্যানেজারের মতামত এবং পরামর্শ নিন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 362,
+      "prompt_tokens": 981,
+      "total_tokens": 1343,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.074694,
+    "balance_after": 430.0741
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"দলের সাথে মিলে মাইলফলক নির্ধারণ এবং অগ্রগতি পর্যালোচনা করা দায়িত্বপূর্ণ এবং সক্রিয় অংশগ্রহণ বৃদ্ধি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 362,
+    "act_tokens_out": 126,
+    "plan_content_len_chars": 343,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

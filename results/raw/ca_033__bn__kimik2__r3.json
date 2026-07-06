@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca4e721e13602",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের প্রয়োজন ও প্রাধান্য মূল্যায়ন করুন - দীর্ঘ অনুপস্থিতির প্রভাব তাদের ওপর কেমন হবে তা বোঝার চেষ্টা করুন\n2. পদোন্নতির সুবিধা ও খরিদ সম্ভাব্য ক্ষতির তুলনামূলক বিশ্লেষণ করুন - ক্যারিয়ার বৃদ্ধি বনাম পারিবারিক সময়ের হ্রাস\n3. প্রতিটি অপশনের সিদ্ধান্ত-গ্রহণের পদ্ধতি মূল্যায়ন করুন - একক সিদ্ধান্ত বনাম সামষ্টিক সিদ্ধান্তের মধ্যে পার্থক্য বিবেচনা করুন\n4. দীর্ঘমেয়াদী পরিণতি বিবেচনা করুন - কোন পদ্ধতি টেকসই সমাধান দেয় এবং ভবিষ্যৎ সমস্যা প্রতিরোধ করে\n5. আপনার ব্যক্তিগত দায়িত্ববোধ ও নেতৃত্বের দৃষ্টিভঙ্গি নির্ধারণ করুন - আপনি পরিস্থিতিকে কীভাবে দেখেন এবং কীভাবে সমাধান করতে চান",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 354,
+      "prompt_tokens": 649,
+      "total_tokens": 1003,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.177619,
+    "balance_after": 344.8358
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি এককভাবে সিদ্ধান্ত নেওয়া না-ই বরং পরিবারের সাথে পরামর্শ করে সিদ্ধান্ত নেওয়ার কথা বলে, তবে শুধু সম্মতি নয় বরং একটি স্পষ্ট পরিকল্পনার মাধ্যমে দুই দিকের ভারসাম্য রক্ষার উপর জোর দেয়, যা বাস্তবসম্মত এবং টেকসই সমাান।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 354,
+    "act_tokens_out": 144,
+    "plan_content_len_chars": 584,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

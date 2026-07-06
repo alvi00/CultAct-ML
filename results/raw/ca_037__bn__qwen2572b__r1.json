@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc2215ca4430ad",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, স্বাস্থ্য পরীক্ষার প্রয়োজনীয়তা ও উদ্দেশ্য নির্ধারণ করব।\n2. তারপর, বিভিন্ন পরীক্ষার পদ্ধতি ও তাদের ফলাফলের নির্ভরযোগ্যতা সম্পর্কে গবেষণা করব।\n3. সরকারি স্বীকৃতি ও কর্তৃপক্ষ-অনুমোদিত প্রতিষ্ঠানগুলির তালিকা সংগ্রহ করব।\n4. পরিবারের সদস্যদের সাথে আলোচনা করব এবং তাদের সুপারিত ডাক্তার ও প্রতিষ্ঠানগুলির মতামত শুনব।\n5. দীর্ঘমেয়াদী স্বাস্থ্য উন্নয়নের জন্য প্রচলিত প্রতিরোধমূলক নির্দেশিকাগুলি পর্যালোচনা করব।\n6. উপরোক্ত তথ্য ও মতামতগুলি বিবেচনা করে সর্বোচ্চ উপকারিতা ও নিরাপত্তার সংমিশ্রণ বিবেচনা করে সিদ্ধান্ত নেব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 552,
+      "prompt_tokens": 782,
+      "total_tokens": 1334,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.075348,
+    "balance_after": 414.0634
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"নির্ভরযোগ্য ফলাফল পেতে, উপলব্ধ সবচেয়ে ব্যাপক ও প্রমাণভিত্তিক স্ক্রিনিং পদ্ধতিটি বেছে নেওয়া সবচেয়ে সুরক্ষিত ও কার্যকর পদক্ষেপ।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 552,
+    "act_tokens_out": 146,
+    "plan_content_len_chars": 521,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

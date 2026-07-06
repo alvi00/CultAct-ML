@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc15f42e15564f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দুটি অনুষ্ঠানের গুরুত্ব এবং আবশ্যকতা বিবেচনা করা হবে।\n2. সন্তানের অনুষ্ঠান এবং কাজের মিটিংয়ের প্রতি আমার দায়িত্ব এবং অবদান বিবেচনা করা হবে।\n3. সন্তানের অনুষ্ঠানের বিশেষত্ব এবং এটি কতটাই অনন্য হতে পারে বিবেচনা করা হবে।\n4. কাজের মিটিংয়ের প্রভাব এবং এটি কতটা প্রত্যক্ষভাবে আমার দায়িত্বের উপর প্রভাবিত হবে বিবেচনা করা হবে।\n5. উভয় অনুষ্ঠানের সময় এবং স্থান বিবেচনা করে কোনটি বেশি সম্ভব এবং প্রাথমিক হবে এটা নির্ধারণ করা হবে।\n6. প্রতিটি কর্মকান্ডের পরিস্থিতি এবং প্রভাব বিবেচনা করে সর্বোচ্চ উপকার সাধারণ হিতের জন্য সিদ্ধান্ত নেওয়া হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 562,
+      "prompt_tokens": 838,
+      "total_tokens": 1400,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.078972,
+    "balance_after": 419.8886
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"সন্তানের অনুষ্ঠানে উপস্থিত থাকার গুরুত্ব বিবেচনা করে এবং কাজের দায়িত্ব পালন করার জন্য মিটিংয়ের দায়িত্ব সহকর্মীকে দেওয়ার ব্যবস্থা করা হয়েছে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 562,
+    "act_tokens_out": 167,
+    "plan_content_len_chars": 538,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccfb6e2eaf3c49",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সন্তানের অনুষ্ঠানের গুরুত্ব এবং এটি কতটা ব্যতিক্রমী হলো তা বিবেচনা করা।\n2. মিটিংয়ের জরুরিতা এবং এটি কীভাবে আমার কর্মজীবনে প্রভাব ফেলবে তা বিবেচনা করা।\n3. উভয় অনুষ্ঠানের সময়সূচক তথ্য পর্যালোচনা করা এবং কোনটি বেশি প্রয়োজনীয় তা নির্ধারণ করা।\n4. সম্ভবত সহকর্মীদের মধ্যে মিটিংয়ের দায়িত্ব ভাগাভাগির সম্ভাবনা বিবেচনা করা।\n5. সন্তানের মতামত নেওয়া এবং তার অনুষ্ঠানে সহায়তার অনুরোধ করা।\n6. নির্ধারিত কার্যপরিকল্পনা অনুযায়ী সিদ্ধান্ত নেওয়া এবং তা বাস্তবায়নের জন্য প্রয়োজনীয় ব্যবস্থা নেওয়া।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 538,
+      "prompt_tokens": 838,
+      "total_tokens": 1376,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.077532,
+    "balance_after": 419.7215
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"পরিবারের সম্মান রক্ষা এবং সন্তানের অনুষ্ঠানে অংশগ্রহণের গুরুত্ব বিবেচনা করে এই সিদ্ধান্ত নেওয়া হয়েছে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 538,
+    "act_tokens_out": 123,
+    "plan_content_len_chars": 496,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

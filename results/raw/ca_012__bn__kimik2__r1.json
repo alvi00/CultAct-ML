@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc4dc8617b86b5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. নির্দেশটির জরুরি মাত্রা মূল্যায়ন করুন - সময় সংবেদনশীল কিনা বা তাৎক্ষণিক ক্ষতি এড়ানোর প্রয়োজন আছে কিনা তা নির্ধারণ করুন।\n\n2. নির্দেশটি ভুল বা ক্ষতিকর হওয়ার সম্ভাব্য ঝুঁকি বিশ্লেষণ করুন - প্রেক্ষাপত ছাড়া কাজ করলে নেতিবাচক পরিণতি হতে পারে কিনা।\n\n3. সংগঠনের সংস্কৃতি এবং ব্যবস্থাপকের সাথে সম্পর্কের ধরন বিবেচনা করুন - উন্মুক্ত যোগাযোগ কতটা সম্ভব এবং গ্রহণযোগ্য।\n\n4. দীর্ঘমেয়াদী দক্ষতা এবং শিখনের সুযোগ মূল্যায়ন করুন - প্রেক্ষাপত বোঝা ভবিষ্যতে স্বাধীনতা বাড়ায় কিনা।\n\n5. প্রতিটি বিকল্পের সামাজ্চিক ও পেশাগত প্রভাব তুলনা করুন - কর্তৃত্ব, স্বচ্ছতা, এবং ফলাফলের ভারসাম্য নির্ণয় করুন।\n\n6. সর্বোত্তম ভারসাম্যযুক্ত পথ নির্বাচন করুন যা সম্মান, দক্ষতা, এবং দায়িত্বশীলতা একত্রিত করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 409,
+      "prompt_tokens": 544,
+      "total_tokens": 953,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.187617,
+    "balance_after": 388.0658
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এটি কর্তৃত্বের ধারা বজায় রেখে প্রয়োজনীয় স্পষ্টতা অর্জনের ভারসাম্যপূর্ণ পদ্ধতি প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 409,
+    "act_tokens_out": 67,
+    "plan_content_len_chars": 683,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

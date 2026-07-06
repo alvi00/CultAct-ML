@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb94571cc00b9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Reflect on the core values and ethical principles that are being compromised by the team's decision.\n2. Assess the potential impact of the decision on stakeholders, including customers, colleagues, and the company's reputation.\n3. Consider the possible outcomes and consequences of each available action in the context of the current situation.\n4. Evaluate the level of influence and support you might have within the team to effect change or modify the decision.\n5. Determine the personal and professional risks associated with each action and weigh them against the importance of maintaining personal integrity.\n6. Choose the action that best aligns with your ethical standards while considering the practicalities of team dynamics and organizational structure.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 134,
+      "prompt_tokens": 265,
+      "total_tokens": 399,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.02235,
+    "balance_after": 428.0133
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Voicing concerns openly with evidence and working towards a solution that meets both ethical standards and goals is the most constructive approach to resolve the conflict together.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 134,
+    "act_tokens_out": 42,
+    "plan_content_len_chars": 766,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

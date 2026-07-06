@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd14f8ff50a56",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Meninjau kembali situasi dan tujuan utama dalam mengambil keputusan.\n2. Mempertimbangkan pentingnya partisipasi setiap anggota keluarga dalam proses pengambilan keputusan.\n3. Menilai bagaimana keputusan ini akan mempengaruhi jangka panjang kehidupan keluarga.\n4. Menilai pentingnya nilai-nilai seperti keharmonisan, penghormatan, dan stabilitas dalam keluarga.\n5. Membandingkan setiap opsi tindakan berdasarkan kriteria yang telah ditentukan.\n6. Memilih opsi yang paling seimbang antara partisipasi, keharmonisan, dan manfaat jangka panjang.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 172,
+      "prompt_tokens": 362,
+      "total_tokens": 534,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.029868,
+    "balance_after": 415.0918
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Rapat keluarga yang melibatkan semua anggota dalam proses pengambilan keputusan dan mencapai kesepakatan bersama akan memastikan keputusan yang paling adil dan menerima dukungan dari semua pihak.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 172,
+    "act_tokens_out": 68,
+    "plan_content_len_chars": 544,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

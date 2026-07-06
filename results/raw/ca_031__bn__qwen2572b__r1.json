@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc45923050f441",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সহকর্মীর নিয়ম লঙ্ঘনের প্রকৃতি এবং গুরুত্ব বিবেচনা করুন।\n2. সমস্যাটি সমাধানের জন্য সরাসরি কথা বলার সম্ভাব্য ফলাফল বিবেচনা করুন।\n3. সংশ্লিষ্ট নিয়মের প্রভাব এবং তা ভঙ্গ করার পরিণাম বিবেচনা করুন।\n4. কোম্পানির নীতিমালা এবং নিয়ম মেনে চলার গুরুত্ব বিবেচনা করুন।\n5. সহকর্মীর সাথে সরাসরি আলাপ করার পর থেকে প্রতিক্রিয়া বিবেচনা করুন।\n6. স্থিতিতে অগ্রগতি না হলে, উচিত পদক্ষেপ নেওয়ার প্রয়োজনীয়তা বিবেচনা করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 434,
+      "prompt_tokens": 807,
+      "total_tokens": 1241,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.069618,
+    "balance_after": 419.2513
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"সরাসরি সমস্যাটি সমাধানের চেষ্টা করা উচিত, কিন্তু তা সম্ভব না হলে প্রয়োজনীয় পদক্ষেপ নেওয়া উচিত।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 434,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 406,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc2933ec5abaaf",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mempelajari lebih lanjut tentang karakteristik dan budaya organisasi saat ini.\n2. Meninjau tujuan jangka pendek dan jangka panjang organisasi.\n3. Mengidentifikasi tantangan dan peluang yang dihadapi organisasi dalam proses pengambilan keputusan.\n4. Meminta masukan dari berbagai tingkatan dalam organisasi tentang preferensi dan pengalaman mereka dengan metode pengambilan keputusan.\n5. Menilai efektivitas dan keteraplikasian setiap opsi tindakan yang tersedia dalam konteks organisasi.\n6. Membuat keputusan berdasarkan analisis dan masukan yang diterima, mempertimbangkan keseimbangan antara efisiensi, partisipasi, dan konsensus.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 180,
+      "prompt_tokens": 356,
+      "total_tokens": 536,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.030024,
+    "balance_after": 432.1278
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Metode ini memadukan masukan dari tim inti dengan otoritas pemimpin, sehingga dapat menyeimbangkan partisipasi dan efisiensi dalam pengambilan keputusan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 180,
+    "act_tokens_out": 56,
+    "plan_content_len_chars": 635,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

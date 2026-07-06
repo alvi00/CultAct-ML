@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb956e7cf0a79",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi kekuatan dan kelemahan tim saat ini melalui sesi evaluasi kinerja.\n2. Identifikasi area pengembangan yang paling penting untuk tim berdasarkan evaluasi tersebut.\n3. Konsultasikan dengan anggota tim tentang harapan dan tujuan mereka untuk tahun ke depan.\n4. Tinjau tujuan strategis organisasi dan bagaimana tim dapat berkontribusi terhadap pencapaian tujuan tersebut.\n5. Analisis bagaimana setiap tindakan yang tersedia dapat membantu mencapai tujuan pengembangan dan strategis yang telah ditentukan.\n6. Putuskan tindakan terbaik berdasarkan analisis dan umpan balik dari anggota tim.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 163,
+      "prompt_tokens": 340,
+      "total_tokens": 503,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.02814,
+    "balance_after": 439.9513
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Tetapkan tujuan pengembangan bersama yang transparan untuk seluruh tim dapat meningkatkan kolaborasi dan komitmen terhadap tujuan bersama.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 163,
+    "act_tokens_out": 52,
+    "plan_content_len_chars": 595,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

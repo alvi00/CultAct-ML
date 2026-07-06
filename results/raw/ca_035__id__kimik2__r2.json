@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd00dec7600f6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi tingkat kesiapan dan keseriusan anak dalam mengejar jalur karier tersebut, termasuk apakah mereka sudah memiliki pemahaman tentang risiko dan tantangan yang akan dihadapi.\n\n2. Pertimbangkan apakah pilihan tersebut benar-benar berasal dari passion dan potensi anak, atau hanya impulsivitas sementara.\n\n3. Analisis sejauh mana keterlibatan orang tua diperlukan—apakah anak membutuhkan dukungan moral, bantuan perencanaan, atau pengaruh dalam pengambilan keputusan.\n\n4. Refleksikan nilai-nilai keluarga dan sejauh mana pilihan karier tersebut dapat diterima tanpa mengorbankan kesejahteraan anak atau dinamika keluarga.\n\n5. Tentukan batasan antara memberikan kebebasan kepada anak untuk bertanggung jawab atas pilihannya dengan tetap berada di sisi mereka sebagai sistem pendukung.\n\n6. Pilih pendekatan yang memberdayakan anak untuk mandiri sambil memastikan mereka tidak mengabaikan konsekuensi logis dari keputusan mereka.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 276,
+      "prompt_tokens": 361,
+      "total_tokens": 637,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.126085,
+    "balance_after": 342.2456
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Pilihan ini memberikan keseimbangan antara mendukung aspirasi anak dan memastikan mereka bertanggung jawab dengan memiliki rencana yang matang, yang mengajarkan kemandirian sekaligus perlindungan dari keputusan yang terlalu impulsif.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 276,
+    "act_tokens_out": 79,
+    "plan_content_len_chars": 933,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc29895b0a24c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. সময়সীমার চাপের মাত্রা এবং দলের বর্তমান অবস্থা মূল্যায়ন করুন - কতটা জরুরি এবং দলের সদস্যদের অবস্থা বোঝা।\n2. কাজের প্রকৃতি বিশ্লেষণ করুন - কোন কাজগুলো অগ্রাধিকার পাওয়া উচিত এবং কী ধরনের দক্ষতা প্রয়োজন তা নির্ধারণ করুন।\n3. দলের সদস্যদের অভিজ্ঞতা এবং সক্ষমতা মূল্যায়ন করুন - তারা কতটা স্বয়ংসম্পূর্ণভাবে কাজ করতে পারে।\n4. প্রতিটি অ্যাকশনের সুবিধা-অসুবিধা তুলনা করুন - সময় দক্ষতা, দলের মনোবল, এবং ফলাফলের গুণগত মান বিবেচনায়।\n5. সংক্ষিপ্ত সময়ে সর্বোত্তম ফলাফলের জন্য কোন পদ্ধতি কার্যকর হবে তা চূড়ান্ত বিচার করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 325,
+      "prompt_tokens": 546,
+      "total_tokens": 871,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.158808,
+    "balance_after": 406.2322
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"সময়সীমা চাপপূর্ণ হলে দ্রুত সিদ্ধান্ত ও দক্ষ বণ্টন প্রয়োজন, তাই নিজে পরিকল্পনা করে অগ্রাধিকার নির্ধারণ ও কাজ বণ্টন সবচেয়ে কার্যকর।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 325,
+    "act_tokens_out": 97,
+    "plan_content_len_chars": 525,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

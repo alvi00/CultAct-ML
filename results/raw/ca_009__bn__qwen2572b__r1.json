@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc58830d695b10",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সকল সদস্যকে অনুরোধ করা হবে যাতে তারা তাদের মতামত এবং প্রস্তাবগুলি নিয়ে খোলামেলা আলোচনা করে।\n2. প্রতিটি সদস্যের অনুরোধ এবং প্রস্তাবগুলির সাথে যৌথ চাহিদার মিল কিভাবে হতে পারে তা বিবেচনা করা হবে।\n3. আলোচনার সময় সকল সদস্যের মতামত এবং প্রস্তাবগুলি ন্যায্যভাবে শোনা হবে।\n4. প্রস্তাবগুলির উপর ভিত্তি করে একটি সম্ভাব্য ভারসাম্যমূলক সমাধান প্রস্তাব করা হবে।\n5. সকল সদস্য একত্রে সম্মতির মাধ্যমে ঐকমত্য পৌঁছাতে চেষ্টা করবেন।\n6. যদি ঐকমত্য পৌঁছানো যায় না, তাহলে পরিবারের সর্বজ্যেষ্ঠ সদস্যদের মধ্যে একটি চূড়ান্ত সিদ্ধান্ত নেওয়া হবে যাতে পারিবারিক সম্প্রীতি রক্ষা করা যায়।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 606,
+      "prompt_tokens": 1071,
+      "total_tokens": 1677,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.094194,
+    "balance_after": 438.0708
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"একটি পারিবারিক সভার আয়োজন করে সকল সদস্যের মতামত এবং প্রস্তাবগুলি নিয়ে আলোচনা করা এবং সুস্পষ্ট ঐকমত্যমূলক নির্দেশিকা নির্ধারণ করা উচিত, যা উভয় পক্ষকে ন্যায্যভাবে প্রতিনিধিত্ব করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 606,
+    "act_tokens_out": 205,
+    "plan_content_len_chars": 576,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccaffc0fcbbf06",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Gather all family members for a meeting to ensure everyone's availability and commitment.\n2. Clearly outline the financial situation and the personal request, along with the family's shared priorities.\n3. Allow each family member to express their views and concerns regarding the allocation of money.\n4. Discuss the potential impact of each decision on the family’s financial health and individual well-being.\n5. Propose a method for making the final decision that ensures fairness and considers the family’s values.\n6. Agree on a follow-up plan to review the decision’s outcomes and make adjustments if necessary.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 116,
+      "prompt_tokens": 271,
+      "total_tokens": 387,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.021594,
+    "balance_after": 438.3829
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"This option ensures that all voices are heard and the decision is made through a fair, balanced discussion.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 116,
+    "act_tokens_out": 33,
+    "plan_content_len_chars": 617,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

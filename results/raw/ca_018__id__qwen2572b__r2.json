@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca3afd83f5028",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi tujuan dan hasil yang ingin dicapai dari proyek.\n2. Identifikasi sumber daya yang tersedia dan potensi hambatan.\n3. Konsultasikan dengan anggota tim tentang pendekatan yang mungkin.\n4. Pertimbangkan kepentingan dan arahan dari manajer atau pemangku kepentingan lainnya.\n5. Analisis kelebihan dan kekurangan masing-masing opsi tindakan yang tersedia.\n6. Pilih tindakan yang paling sesuai dengan tujuan, sumber daya, dan arahan yang ada.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 134,
+      "prompt_tokens": 361,
+      "total_tokens": 495,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027534,
+    "balance_after": 430.4194
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Opsi B memungkinkan tim berpartisipasi dalam penentuan target dan mempertahankan rasa tanggung jawab bersama, yang dapat meningkatkan motivasi dan kinerja tim.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 134,
+    "act_tokens_out": 60,
+    "plan_content_len_chars": 447,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5e8c83332f26",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi pelanggaran yang terjadi dan dampaknya terhadap perusahaan dan tim.\n2. Pertimbangkan hubungan kerja dengan kolega yang melanggar dan potensi dampak dari tindakan yang akan diambil.\n3. Tinjau prosedur resmi perusahaan terkait pelanggaran aturan.\n4. Pertimbangkan efektivitas dan keadilan dari setiap opsi tindakan yang tersedia.\n5. Buat keputusan berdasarkan pertimbangan di atas dan komitmen terhadap nilai-nilai perusahaan.\n6. Siapkan langkah-langkah yang akan diambil jika tindakan pertama tidak menyelesaikan masalah.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 156,
+      "prompt_tokens": 352,
+      "total_tokens": 508,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.028368,
+    "balance_after": 419.4791
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Tindakan ini menyeimbangkan antara langsung menegur kolega untuk memberikan kesempatan perbaikan dan memastikan standar perusahaan tetap terjaga melalui laporan jika perlu.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 156,
+    "act_tokens_out": 61,
+    "plan_content_len_chars": 532,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

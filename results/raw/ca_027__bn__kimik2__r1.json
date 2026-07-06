@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3ef9cfb3f64f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সিদ্ধান্ত গ্রহণের প্রয়োজনীয়তা এবং লক্ষ্য বিশ্লেষণ করুন - কী ধরনের সিদ্ধান্ত নেওয়া হয়, কারা অংশগ্রহণ করে, এবং কী ফলাফল কাম্য।\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা মূল্যায়ন করুন - কর্তৃত্ব, অংশগ্রহণ, দক্ষতা, এবং পারিবারিক সম্পর্কের দিক থেকে।\n3. পরিবারের বর্তমান গঠন ও সংস্কৃতি বিবেচনায় নিন - বয়স, দায়িত্ব, এবং সদস্যদের প্রস্তুতি।\n4. দীর্ঘমেয়াদী স্থায়িত্ব এবং সদস্যদের গ্রহণযোগ্যতার দিক থেকে সবচেয়ে ভারসাম্যপূর্ণ পদ্ধতি চিহ্নিত করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 272,
+      "prompt_tokens": 560,
+      "total_tokens": 832,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.14172,
+    "balance_after": 357.1365
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি কর্তৃত্ব ও অংশগ্রহণের মধ্যে সুষম ভারসাম্য রাখে, যা সিদ্ধান্তের গুণগত মান নিশ্চিত করে এবং সকলের সম্মান বজায় রাখে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 272,
+    "act_tokens_out": 85,
+    "plan_content_len_chars": 451,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

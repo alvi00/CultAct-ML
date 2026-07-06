@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd1b5ebce40ee",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Consider the importance of family involvement in the decision-making process.\n2. Evaluate the benefits of honoring elders' advice versus making an independent, well-researched choice.\n3. Assess the value of a collaborative decision with travel companions.\n4. Reflect on the potential for group consensus to enhance the trip experience.\n5. Weigh the importance of personal research in ensuring a cost-effective and enjoyable destination.\n6. Decide on the approach that best balances family dynamics and personal preferences.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 96,
+      "prompt_tokens": 237,
+      "total_tokens": 333,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.018558,
+    "balance_after": 412.7401
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Deciding with travel companions by shared preference ensures that everyone is happy and invested in the trip.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 96,
+    "act_tokens_out": 32,
+    "plan_content_len_chars": 526,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

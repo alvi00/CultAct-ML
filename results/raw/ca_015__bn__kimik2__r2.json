@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd2c05af2c8da",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিস্থিতিটি বিশ্লেষণ করব: কোনো নির্দিষ্ট পদ্ধতি নেই, তাই দ্রুততা, সহযোগিতা এবং সিদ্ধান্তের ধরন (সম্মিলিত বা একক) মূল্যায়ন করতে হবে।\n\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা যাচাই করব: B-এর ঐকমত্য, A-এর দ্রুততা+সমন্বয়, C-এর কাঠামো, এবং D-এর তাৎক্ষণিকতা তুলনা করব।\n\n3. সময় সংবেদনশীলতা এবং দলের প্রস্তুতি মূল্যায়ন করব: নতুন পরিস্থিতিতে দলের অভিজ্ঞতা কতটা প্রাসঙ্গিক এবং কত দ্রুত সিদ্ধান্ত দরকার।\n\n4. সিদ্ধান্তের দায়ভার বণ্টন বিবেচনা করব: একক সিদ্ধান্ত নাকি সামূহিক দায়িত্ব গ্রহণ কোনটি এই পরিস্থিতিতে উপযুক্ত।\n\n5. সবচেয়ে সামঞ্জস্যপূর্ণ বিকল্পটি চূড়ান্ত করব যা অনিশ্চয়তার মধ্যেও সামনে এগোনোর পথ তৈরি করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 391,
+      "prompt_tokens": 655,
+      "total_tokens": 1046,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.190897,
+    "balance_after": 380.5453
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"অনিশ্চয়তার মধ্যে দ্রুত কার্যক্রম শুরু করতে দলের যৌথ অভিজ্ঞতাকে কাজে লাগানো সবচেয়ে কার্যকর, কারণ অপেক্ষা করলে সুযোগ হারানোর ঝুঁকি বেশি থাকে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 391,
+    "act_tokens_out": 111,
+    "plan_content_len_chars": 606,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

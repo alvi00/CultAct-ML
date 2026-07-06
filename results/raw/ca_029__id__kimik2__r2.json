@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc627e7b2de17c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi prinsip-prinsip kunci yang relevan: keadilan dalam pengambilan keputusan, kualitas informasi medis, keberlanjutan dukungan keluarga, dan otonomi individu versus kohesi keluarga.\n\n2. Analisis kekuatan dan kelemahan setiap opsi terhadap kriteria tersebut, termasuk siapa yang terlibat, bagaimana informasi medis diintegrasikan, dan bagaimana kesepakatan dicapai.\n\n3. Pertimbangkan konteks spesifik perawatan kesehatan: kebutuhan akan keputusan yang terinformasi dengan baik namun juga didukung secara emosional oleh seluruh keluarga.\n\n4. Tentukan pendekatan yang paling seimbang antara otoritas, kolaborasi, dan keahlian medis.\n\n5. Pilih opsi yang paling selaras dengan evaluasi komprehensif tersebut.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 218,
+      "prompt_tokens": 392,
+      "total_tokens": 610,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.108726,
+    "balance_after": 353.9232
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Pendekatan ini menyeimbangkan keahlian medis, melibatkan seluruh anggota keluarga secara adil, dan mencapai kesepakatan kolektif yang kuat untuk dukungan berkelanjutan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 218,
+    "act_tokens_out": 68,
+    "plan_content_len_chars": 711,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

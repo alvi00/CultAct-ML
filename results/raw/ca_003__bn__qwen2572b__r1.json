@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cccb6904f241e9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সময়সীমা ও কাজের পরিমাণ অনুসারে উপস্থিত অবস্থার বিশ্লেষণ করা।\n2. দলের সদস্যদের দক্ষতা ও দায়িত্বপ্রাপ্তি মূল্যায়ন করা।\n3. গুরুত্বপূর্ণ ও বর্তমানে করা দরকারি কাজগুলোকে প্রথমে নির্ধারণ করা।\n4. দলের সদস্যের মধ্যে কাজের বণ্টন এবং দায়িত্ববাহীতার সম্ভাব্য পদ্ধতিগুলো বিবেচনা করা।\n5. প্রতিটি কাজের সম্ভাব্য চ্যালেঞ্জ ও সমাধানের পদ্ধতি নির্ধারণ করা।\n6. উপায়সমূহ এবং তাদের পরিস্কার অনুশাসনের উপর ভিত্তি করে ফাইনাল সিদ্ধান্ত গ্রহণ করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 452,
+      "prompt_tokens": 886,
+      "total_tokens": 1338,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.074964,
+    "balance_after": 259.2929
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এটি সময়মতো লক্ষ্য অর্জনের জন্য নিজের পরিকল্পনা ও দক্ষতার ব্যবহারকে সর্বোচ্চ রূপে সম্পন্ন করার পদ্ধতি প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

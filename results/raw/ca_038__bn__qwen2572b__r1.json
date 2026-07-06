@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccaf2020101a6f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, বিদ্যালয়ের শিক্ষার উদ্দেশ্য এবং শিক্ষার্থীদের সাধারণ লক্ষ্য বিবেচনা করুন।\n2. শিক্ষার্থীদের বিভিন্ন দক্ষতা ও শক্তির উপর ভিত্তি করে মূল্যায়নের উদ্দেশ্য নির্ধারণ করুন।\n3. বিভিন্ন পদক্ষেপের ফলাফল ও প্রভাব বিবেচনা করুন এবং তার মধ্যে সম্ভাব্য সীমিতাগুলো শনাক্ত করুন।\n4. শিক্ষকদের মতামত এবং প্রতিক্রিয়া সংগ্রহ করুন এবং এগুলো বিবেচনায় আনুন।\n5. শিক্ষার্থীদের মধ্যে প্রতিযোগিতার উৎসাহ ও একটি সম্প্রদায়ের অনুভূতি পুনরায় মূল্যায়ন করুন।\n6. সবগুলো তথ্য ও বিবেচনার ভিত্তিতে সর্বোত্তম মূল্যায়ন পদক্ষেপটি নির্বাচন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 560,
+      "prompt_tokens": 962,
+      "total_tokens": 1522,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.085548,
+    "balance_after": 413.2306
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"চলমান গঠনমূলক মূল্যায়ন শিক্ষার্থীদের সম্পূর্ণ উন্নয়ন ও দক্ষতার উন্নতি প্রতিফলিত করে, যা তাদের সামগ্রিক উন্নতির জন্য গুরুত্বপূর্ণ।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 560,
+    "act_tokens_out": 154,
+    "plan_content_len_chars": 521,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

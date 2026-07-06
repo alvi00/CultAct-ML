@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3e7ef13a64c9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Meninjau kembali kriteria dan proses promosi yang telah ditetapkan oleh perusahaan.\n2. Mengevaluasi kinerja dan pencapaian pribadi serta tim dalam konteks kriteria promosi.\n3. Membandingkan pendekatan A, B, C, dan D berdasarkan efektivitas dalam mencapai promosi dan sejauh mana pendekatan tersebut sesuai dengan nilai-nilai perusahaan.\n4. Mempertimbangkan dampak dari setiap pendekatan terhadap hubungan kerja dengan rekan dan atasan.\n5. Mempertimbangkan feedback sebelumnya dari atasan dan rekan terkait kinerja dan peluang promosi.\n6. Memutuskan pendekatan yang paling sesuai berdasarkan analisis dan pertimbangan di atas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 184,
+      "prompt_tokens": 361,
+      "total_tokens": 545,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.030534,
+    "balance_after": 428.6922
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Mengejar promosi dengan melampaui target kerja dan mengajukan argumen berdasarkan prestasi akan menunjukkan inisiatif dan komitmen yang kuat, serta memberikan bukti nyata pencapaian yang dapat dilihat oleh atasan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 184,
+    "act_tokens_out": 72,
+    "plan_content_len_chars": 628,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

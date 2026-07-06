@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc38d6c3a8f1a1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, সমস্ত পরিবার সদস্যদের মতামত সংগ্রহ করা যাবে স্বাস্থ্যসংক্রান্ত সিদ্ধান্ত নিয়ে।\n2. তারপর, চিকিৎসা বিশেষজ্ঞদের পরামর্শ নেওয়া হবে যাতে সঠিক আর সুরক্ষিত সিদ্ধান্ত নেওয়া যায়।\n3. পরিবারের সবার মধ্যে একটি সম্মিলিত আলোচনা সভা আয়োজন করা হবে যেখানে সবাই তাদের মতামত প্রকাশ করবে।\n4. পরিবারের সবার মতামত ও বিশেষজ্ঞদের পরামর্শ বিবেচনা করা হবে।\n5. সবার মতামত ও বিশেষজ্ঞদের পরামর্শের ভিত্তিতে একটি কর্মপদ্ধতি তৈরি করা হবে।\n6. চূড়ান্ত সিদ্ধান্ত নেওয়ার জন্য সবার সম্মতি নেওয়া যাবে এবং ঠিক করা হবে কোন পদক্ষেপ গ্রহণ করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 543,
+      "prompt_tokens": 982,
+      "total_tokens": 1525,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.085608,
+    "balance_after": 420.7603
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"বয়োজ্যেষ্ঠদের ও চিকিৎসা বিশেষজ্ঞদের মতামত সংগ্রহ করে সম্মিলিতভাবে সিদ্ধান্ত নেওয়া যেতে পারে যা সবার মতামত এবং বিশেষজ্ঞদের পরামর্শকে সম্মিলিতভাবে বিবেচনা করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 543,
+    "act_tokens_out": 177,
+    "plan_content_len_chars": 525,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

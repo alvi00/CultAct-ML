@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc382535cab949",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি অপশনের মূল বৈশিষ্ট্য বিশ্লেষণ করুন: কীভাবে সীমানা নির্ধারণ করা হয়, সম্পর্কের গুরুত্ব, এবং দীর্ঘমেয়াদী ফলাফল।\n2. পরিস্থিতি মূল্যায়ন করুন: কাজের সময়ের বাইরে দায়বদ্ধতা উপেক্ষা করা একটি পুনরাবৃত্ত সমস্যা কিনা, এবং এটি কতটা গুরুতর।\n3. প্রতিটি অপশনের সুবিধা-অসুবিধা তুলনা করুন: স্বচ্ছতা বনাম সম্প্রীতি, দৃঢ়তা বনাম নমনীয়তা।\n4. নিজের অগ্রাধিকার নির্ধারণ করুন: দীর্ঘমেয়াদী কর্মজীবনে কোন পদ্ধতি সবচেয়ে টেকসই এবং সম্মানজনক হবে।\n5. সিদ্ধান্ত নিন যে কোন পদ্ধতি একসাথে পেশাদারি সম্মান এবং ব্যক্তিগত সীমানা উভয়ই রক্ষা করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 332,
+      "prompt_tokens": 597,
+      "total_tokens": 929,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.165583,
+    "balance_after": 377.4139
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"আনুষ্ঠানিক প্রক্রিয়ার মাধ্যমে দায়বদ্ধতা রক্ষা করে স্বচ্ছ আলোচনা করাই সবচেয়ে পেশাদারি এবং টেকসই সমাধান।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 332,
+    "act_tokens_out": 79,
+    "plan_content_len_chars": 528,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

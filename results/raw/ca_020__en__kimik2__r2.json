@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce5fee52f8c21",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Clarify my core values in career advancement: merit, fairness, transparency, and respect for organizational structure.\n2. Evaluate each option against these values and assess which approach best balances personal initiative with professional integrity.\n3. Consider the specific organizational culture and what behaviors are genuinely rewarded versus merely expected.\n4. Assess risk-reward: passive waiting may signal lack of ambition, while excessive self-promotion may alienate colleagues.\n5. Determine which approach maximizes both probability of success and long-term reputation.\n6. Select the action that aligns earned recognition with sustainable professional relationships.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 116,
+      "prompt_tokens": 255,
+      "total_tokens": 371,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.061823,
+    "balance_after": 372.1004
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Exceeding targets and making a transparent, merit-based case demonstrates both competence and confidence while respecting the organization's need for measurable results.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 116,
+    "act_tokens_out": 40,
+    "plan_content_len_chars": 682,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

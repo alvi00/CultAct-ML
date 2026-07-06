@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc7310665c496",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan nilai-nilai dan tujuan keluarga.\n2. Evaluasi stabilitas dan potensi karier yang tidak konvensional yang dipilih anak.\n3. Konsultasikan dengan anggota keluarga lain untuk mendapatkan perspektif dan dukungan.\n4. Diskusikan dengan anak tentang rencana dan tujuan mereka dalam karier yang dipilih.\n5. Tinjau kembali opsi tindakan yang tersedia berdasarkan hasil evaluasi dan diskusi.\n6. Pilih tindakan yang paling seimbang antara mendukung anak dan menjaga kestabilan keluarga.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 139,
+      "prompt_tokens": 345,
+      "total_tokens": 484,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.02697,
+    "balance_after": 416.0436
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Mendukung pilihan anak jika mereka menunjukkan rencana yang jelas dan bertanggung jawab menghadapi ketidakpastian, untuk mendukung pilihan yang telah dipertimbangkan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 139,
+    "act_tokens_out": 59,
+    "plan_content_len_chars": 490,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca8a9766e1bc9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের সংস্কৃতি এবং মূল্যবোধ বিশ্লেষণ করুন - দলটি ব্যক্তিগত প্রতিযোগিতাকে উৎসাহিত করে নাকি সহযোগিতাকে প্রাধান্য দেয় তা বোঝার চেষ্টা করুন।\n\n2. সংশ্লিষ্ট সদস্যের ব্যক্তিগত পছন্দ এবং অনুপ্রেরণার উৎস মূল্যায়ন করুন - কিছু মানুষ জনসমক্ষে স্বীকৃতি পছন্দ করেন, কিছু ব্যক্তিগতভাবে, আবার কিছু পরিবারকে অন্তর্ভুক্ত করতে চান।\n\n3. দলের অন্যান্য সদস্যদের সম্ভাব্য প্রতিক্রিয়া বিবেচনা করুন - কোনো পদ্ধতি দলের মনোবল বাড়াবে বা কমাবে তা যাচাই করুন।\n\n4. সংস্থার বাজেট এবং নীতিমালার সাথে সামঞ্জস্য পরীক্ষা করুন - কোন বিকল্প বাস্তবায়নযোগ্য এবং নিয়মানুগ তা নিশ্চিত করুন।\n\n5. দীর্ঘমেয়াদী প্রভাব বিশ্লেষণ করুন - এই স্বীকৃতি ভবিষ্যতে দলের কর্মক্ষমতা ও সংস্কৃতিতে কী ধরনের বার্তা দেবে তা মূল্যায়ন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 406,
+      "prompt_tokens": 549,
+      "total_tokens": 955,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.187009,
+    "balance_after": 395.8524
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"অসাধারণ কাজের জন্য কর্মক্ষমতা-ভিত্তিক ব্যক্তিগত বোনাস এবং জনসমক্ষে স্বীকৃতি সরাসরি অবদানের প্রতি সম্মান জানায় এবং ভবিষ্যতে উচ্চ কর্মক্ষমতা উৎসাহিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 406,
+    "act_tokens_out": 103,
+    "plan_content_len_chars": 685,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

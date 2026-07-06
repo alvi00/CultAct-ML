@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc153006b111df",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি পরিকল্পনার সুবিধা, অসুবিধা এবং প্রভাব বিবেচনা করা হবে।\n2. পরিবারের সদস্যদের মধ্যে একটি বিষয় সম্পর্কে আলোচনা এবং মতামত সংগ্রহ করা হবে।\n3. প্রতিটি পরিকল্পনার সাথে সংশ্লিষ্ট বিকল্পগুলি এবং তা পরিবারের স্বাস্থ্যসুস্থতার উপর কীভাবে প্রভাব ফেলবে তা বিশ্লেষণ করা হবে।\n4. পরিবারের সবার মতামত এবং প্রয়োজনের উপর ভিত্তি করে সবচেয়ে উপযুক্ত পরিকল্পনাটি নির্বাচিত হবে।\n5. নির্বাচিত পরিকল্পনার বিস্তারিত পদক্ষেপগুলি প্রস্তুত করা হবে এবং সেগুলি সম্পর্কে সবার মধ্যে অবহিততা সৃষ্টি করা হবে।\n6. সবার মতামত এবং প্রতিক্রিয়া সংগ্রহ করে পরিকল্পনাটি চূড়ান্ত করা হবে এবং পরিচালনার জন্য প্রস্তুত হওয়া হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 626,
+      "prompt_tokens": 982,
+      "total_tokens": 1608,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.090588,
+    "balance_after": 420.5728
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই পদ্ধতিটি প্রত্যেক সদস্যের মতামত এবং তথ্যের উপর ভিত্তি করে স্বাস্থ্যসংক্রান্ত সিদ্ধান্ত নিতে সমর্থ করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 626,
+    "act_tokens_out": 120,
+    "plan_content_len_chars": 596,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

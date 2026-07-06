@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5d9a39ed3b2c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan dampak dari setiap tindakan yang tersedia pada hubungan kerja dan komitmen pribadi.\n2. Evaluasi urgensi dan kritikalitas komitmen luar pekerjaan yang diabaikan oleh atasan.\n3. Identifikasi tindakan mana yang paling mungkin memperbaiki situasi tanpa menimbulkan konflik yang berlebihan.\n4. Pertimbangkan efektivitas komunikasi dalam setiap tindakan untuk memastikan pesan disampaikan dengan jelas dan sopan.\n5. Analisis potensi setiap tindakan untuk menciptakan solusi jangka panjang, bukan hanya jangka pendek.\n6. Putuskan tindakan yang paling sesuai berdasarkan evaluasi di atas dan persiapan untuk melaksanakannya.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 187,
+      "prompt_tokens": 365,
+      "total_tokens": 552,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.03093,
+    "balance_after": 431.3218
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Mengadakan pertemuan langsung dapat membantu menetapkan batasan yang jelas dan prioritas bersama, sehingga mengurangi konflik di masa depan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 187,
+    "act_tokens_out": 53,
+    "plan_content_len_chars": 633,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

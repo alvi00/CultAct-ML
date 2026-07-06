@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca7816bae5233",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Meninjau kembali masalah mendesak untuk memahami sepenuhnya apa yang diperlukan.\n2. Menilai urgensi dan dampak potensial dari masalah tersebut.\n3. Mempertimbangkan sumber daya dan waktu yang tersedia untuk menyelesaikan masalah.\n4. Mengevaluasi keahlian dan kapabilitas tim saat ini.\n5. Membandingkan opsi tindakan yang tersedia berdasarkan efektivitas, kecepatan, dan keterlibatan tim.\n6. Memilih tindakan yang paling sesuai dengan situasi dan tujuan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 140,
+      "prompt_tokens": 382,
+      "total_tokens": 522,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.029028,
+    "balance_after": 429.6369
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Bertindak segera berdasarkan praktik terbaik yang sudah diterima, kemudian melibatkan tim untuk validasi dan penyempurnaan, memungkinkan resolusi cepat dan efektif sambil memastikan kualitas hasil kerja.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 140,
+    "act_tokens_out": 77,
+    "plan_content_len_chars": 455,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc8e8ceec865e7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi tujuan utama: Menghargai kinerja luar biasa individu sambil mempertimbangkan dampaknya terhadap tim secara keseluruhan.\n2. Analisis setiap opsi berdasarkan kriteria: keadilan, transparansi, motivasi individu, dan kohesi tim.\n3. Pertimbangkan budaya kerja yang diinginkan: apakah lebih penting untuk menonjolkan pencapaian individu atau membangun semangat kolektif.\n4. Timbang risiko setiap pendekatan: potensi iri hati antar anggota tim versus demoralisasi jika pengakuan terlalu tersebar.\n5. Tentukan keseimbangan optimal antara pengakuan individu yang bermakna dan dampak positif bagi dinamika tim.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 192,
+      "prompt_tokens": 345,
+      "total_tokens": 537,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.095737,
+    "balance_after": 396.5126
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Bonus individu berbasis kinerja dengan pengakuan publik memberikan penghargaan yang langsung, adil, dan transparan sesuai kontribusi nyata, yang secara efektif memotivasi individu dan menetapkan standar kinerja bagi tim.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 192,
+    "act_tokens_out": 78,
+    "plan_content_len_chars": 612,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

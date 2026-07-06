@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc26ab55a132b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সকল সদস্যদের মতামত সংগ্রহ করা।\n2. গন্তব্যের গুণাগুণ, ক্ষতি, ও মূল্য নির্ধারণ করার জন্য প্রতিটি বিকল্পের গবেষণা করা।\n3. পরিবারের বয়োজ্যেষ্ঠদের পরামর্শ নেওয়া।\n4. সবার মতামত এবং গবেষণার ফলাফল সমন্বয়ে একটি তালিকা তৈরি করা।\n5. সবার মূল্যবোধ এবং পছন্দের ভিত্তিতে তালিকার উপর ভিত্তি করে সবচেয়ে উপযুক্ত বিকল্প নির্বাচন করা।\n6. চূড়ান্ত সিদ্ধান্ত সকল সদস্যদের সাথে শেয়ার করা এবং তাদের মতামতের জন্য ধন্যবাদ দেওয়া।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 441,
+      "prompt_tokens": 774,
+      "total_tokens": 1215,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.068256,
+    "balance_after": 412.3944
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এই পদক্ষেপটি পরিবারের সকল সদস্যদের মতামতকে অন্তর্ভুক্ত করে এবং স্থানীয় একতা ও সহযোগিতাকে প্রচার করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 441,
+    "act_tokens_out": 119,
+    "plan_content_len_chars": 421,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc4bfd75eaa69e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi sumber dan tingkat konflik yang terjadi dalam tim.\n2. Pertimbangkan keahlian dan pengalaman pemimpin tim dalam menangani konflik.\n3. Periksa tingkat kematangan dan kemampuan anggota tim untuk berpartisipasi dalam diskusi terbuka.\n4. Tinjau apakah ada prosedur penyelesaian konflik yang telah disepakati sebelumnya.\n5. Pertimbangkan urgensi dan dampak dari konflik terhadap kinerja tim.\n6. Putuskan tindakan terbaik berdasarkan hasil evaluasi dan pertimbangan di atas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 329,
+      "total_tokens": 476,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.026586,
+    "balance_after": 426.2596
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Prosedur yang jelas dan telah disepakati akan menjamin penyelesaian konflik yang transparan dan sesuai dengan aturan yang telah ditetapkan bersama.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 147,
+    "act_tokens_out": 55,
+    "plan_content_len_chars": 479,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

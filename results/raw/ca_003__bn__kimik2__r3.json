@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0f318cb8b262",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিস্থিতির মূল্যায়ন করুন: সময়সীমার জরুরীতা, দলের আকার, দলের দক্ষতা স্তর, এবং কাজের জটিলতা বিবেচনা করুন।\n\n2. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা বিশ্লেষণ করুন: একক নেতৃত্ব বনাম সহযোগিতামূলক, দ্রুত সিদ্ধান্ত বনাম দলীয় সম্মতি, এবং ম্যানেজারের জড়িত হওয়ার প্রয়োজনীয়তা মূল্যায়ন করুন।\n\n3. দলের স্বায়ত্তশাসন ও দক্ষতা নির্ধারণ করুন: দলটি কি স্বাধীনভাবে কাজ করতে সক্ষম, নাকি কঠোর নির্দেশনা প্রয়োজন।\n\n4. সময় বনাম গুণগত মানের ভারসাম্য নির্ধারণ করুন: কোন পদ্ধতি সবচেয়ে দ্রুত ফলাফল দেবে তা মূল্যায়ন করুন।\n\n5. সংস্কৃতিগত প্রসঙ্গ বিবেচনা করুন: সিদ্ধান্ত গ্রহণের পদ্ধতি দলের কাজের পরিবেশের সাথে সামঞ্জস্যপূর্ণ কিনা তা যাচাই করুন।\n\n6. সবচেয়ে কার্যকর পদ্ধতি নির্বাচন করুন যা সময়সীমা মেনে উচ্চমানের ফলাফল নিশ্চিত করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 438,
+      "prompt_tokens": 546,
+      "total_tokens": 984,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.197793,
+    "balance_after": 405.9203
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"চাপপূর্ণ সময়সীমায় দ্রুত সিদ্ধান্ত ও কার্যকরী বাস্তবায়নের জন্য দক্ষ নেতৃত্বে পরিকল্পনা ও দায়িত্ব বণ্টন সবচেয়ে কার্যকর।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 438,
+    "act_tokens_out": 87,
+    "plan_content_len_chars": 710,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

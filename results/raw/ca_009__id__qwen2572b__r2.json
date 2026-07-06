@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc977f75ab68e1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengumpulkan semua anggota keluarga untuk rapat keluarga.\n2. Mendiskusikan secara terbuka semua permintaan dan kebutuhan.\n3. Mendengarkan pendapat setiap anggota tentang bagaimana mengalokasikan uang.\n4. Menyepakati pedoman yang jelas tentang penggunaan uang.\n5. Menimbang antara kebutuhan pribadi dan kepentingan bersama.\n6. Memutuskan cara pengambilan keputusan yang paling sesuai.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 119,
+      "prompt_tokens": 383,
+      "total_tokens": 502,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027822,
+    "balance_after": 438.2635
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Diskusi terbuka dan penyeimbangan kebutuhan pribadi dengan kepentingan bersama melalui kesepakatan dapat menjamin keadilan dan keharmonisan dalam pengambilan keputusan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 119,
+    "act_tokens_out": 62,
+    "plan_content_len_chars": 386,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

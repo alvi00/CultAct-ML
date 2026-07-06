@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0aa78447119c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Assess the urgency and importance of the family responsibilities compared to the work responsibilities.\n2. Consider the potential impact of the conflict on both work and family if no action is taken.\n3. Evaluate the flexibility and understanding of my workplace regarding personal matters.\n4. Identify the resources and support systems available for both work and family.\n5. Determine the short-term and long-term consequences of each available action.\n6. Choose the action that best balances the needs of both work and family, minimizing negative impact.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 101,
+      "prompt_tokens": 250,
+      "total_tokens": 351,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.01956,
+    "balance_after": 418.8557
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Consulting my supervisor allows me to address the family matter while seeking a workplace adjustment that respects both my professional and personal commitments.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 101,
+    "act_tokens_out": 38,
+    "plan_content_len_chars": 558,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

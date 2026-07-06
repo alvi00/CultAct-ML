@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb15a3858d2cb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. কর্মজীবন ও পারিবারিক দায়িত্বের প্রকৃতি এবং জরুরিতা মূল্যায়ন করুন - কোনটি অবিলম্বে মেটানো জরুরি এবং কোনটির জন্য বিকল্প ব্যবস্থা করা যায়।\n\n2. প্রতিটি পদ্ধতির সংক্ষিপ্ত ও দীর্ঘমেয়াদী প্রভাব বিশ্লেষণ করুন - কোনটি টেকসই সমাধান দেয় এবং উভয় ক্ষেত্রে ক্ষতি কমায়।\n\n3. সংস্থার নীতি, সহকর্মীদের সমর্থন ব্যবস্থা, এবং পারিবারিক সদস্যদের সহযোগিতার সম্ভাবনা যাচাই করুন।\n\n4. ব্যক্তিগত মূল্যবোধ এবং কর্মজীবনের দীর্ঘমেয়াদী লক্ষ্যের সাথে সামঞ্জস্য বিবেচনা করুন।\n\n5. সবচেয়ে বেশি স্টেকহোল্ডারকে সন্তুষ্ট রাখতে পারে এবং পুনরাবৃত্তিমূলক সংঘাত কমাতে সাহায্য করে এমন পদ্ধতি নির্ধারণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 542,
+      "total_tokens": 881,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.163296,
+    "balance_after": 346.9518
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি উভয় দায়িত্বকে সমানভাবে গুরুত্ব দিয়ে দীর্ঘমেয়াদী ভারসাম্যমূলক সমাধান তৈরি করে, যা নমনীয়তার মাধ্যমে পুনরাবৃত্তিমূলক সংঘাত এড়াতে সাহায্য করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 339,
+    "act_tokens_out": 104,
+    "plan_content_len_chars": 582,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

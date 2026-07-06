@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccfcf542d9e421",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. বিভিন্ন নেতৃত্ব দৃষ্টিভঙ্গির সুবিধা-অসুবিধা বিশ্লেষণ করি—ব্যক্তিগত ক্ষমতায়ন বনাম দলগত ঐক্য, কাঠামোগত পদোন্নতি বনাম সহানুভূতিশীল নেতৃত্ব।\n\n2. দলের বর্তমান অবস্থা মূল্যায়ন করি—নতুন দলের ক্ষেত্রে কোন পদ্ধতি সবচেয়ে কার্যকর হবে তা নির্ধারণ করি।\n\n3. দীর্ঘমেয়াদী টেকসই উন্নয়নের জন্য কোন কৌশল সবচেয়ে উপযোগী তা বিবেচনা করি।\n\n4. বাস্তবায়নযোগ্যতা এবং দলের সদস্যদের গ্রহণযোগ্যতা যাচাই করি।\n\n5. সবচেয়ে সামগ্রিক ও সন্তুলিত পদ্ধতি চিহ্নিত করি যা দলের সব স্তরে কাজ করবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 313,
+      "prompt_tokens": 558,
+      "total_tokens": 871,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.155694,
+    "balance_after": 397.9295
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"নবনিযুক্ত নেতার জন্য সবার অংশগ্রহণে সমভাগী লক্ষ্য নির্ধারণ দলগত ঐক্য ও সম্মিলিত অগ্রগতির ভিত্তি তৈরি করে, যা দীর্ঘমেয়াদে টেকসই উন্নয়ন নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 313,
+    "act_tokens_out": 106,
+    "plan_content_len_chars": 472,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

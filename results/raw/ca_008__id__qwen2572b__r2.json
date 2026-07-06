@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc4949cf85f4c2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan kembali kontribusi dan pencapaian spesifik anggota tim yang luar biasa.\n2. Evaluasi bagaimana bentuk penghargaan akan mempengaruhi motivasi dan moral tim secara keseluruhan.\n3. Tinjau kebijakan perusahaan mengenai penghargaan dan insentif.\n4. Pertimbangkan preferensi dan nilai-nilai anggota tim yang akan dihargai.\n5. Konsultasikan dengan rekan tim atau mentor tentang pendekatan yang paling tepat.\n6. Putuskan bentuk penghargaan yang paling sesuai berdasarkan analisis dan masukan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 143,
+      "prompt_tokens": 342,
+      "total_tokens": 485,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027048,
+    "balance_after": 439.0995
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Bonus individu berbasis kinerja disertai pengakuan publik memberikan apresiasi langsung dan jelas atas pencapaian individu, sambil memotivasi anggota tim lainnya untuk berkinerja lebih baik.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 143,
+    "act_tokens_out": 65,
+    "plan_content_len_chars": 500,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

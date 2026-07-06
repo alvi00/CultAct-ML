@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc447ab886e71c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Assess the nature and impact of the decision—determine whether it is reversible, affects team morale, or has operational consequences that require immediate action.\n\n2. Evaluate the organizational culture and power dynamics—consider whether pushing back is likely to be effective or if it would damage relationships and future influence.\n\n3. Weigh short-term execution needs against long-term team trust—determine if the priority is immediate implementation or preserving employee engagement.\n\n4. Consider my role and credibility—reflect on whether I have sufficient standing to advocate effectively and what approach aligns with my responsibilities.\n\n5. Identify which response best balances organizational alignment with authentic representation of employee concerns, given the specific context.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 256,
+      "total_tokens": 391,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.068463,
+    "balance_after": 384.2775
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"This balances organizational alignment with employee voice, allowing formal acceptance to maintain momentum while informally gathering input to improve implementation and rebuild trust.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 135,
+    "act_tokens_out": 40,
+    "plan_content_len_chars": 800,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

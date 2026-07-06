@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc00fdc976e1d4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate each action based on alignment with personal values, organizational culture, and likelihood of achieving the promotion while maintaining integrity and relationships.\n\n2. Consider the trade-offs between proactive self-advocacy (A, B) versus deferential approaches (C, D), weighing whether the organization rewards visible initiative or prefers patience and humility.\n\n3. Assess which approach best demonstrates leadership qualities that the promotion itself would require—such as transparency, results-orientation, or collaborative respect.\n\n4. Reflect on past patterns in the organization for how promotions are actually decided, to determine which approach has historically succeeded.\n\n5. Select the action that balances earning the role through merit with building sustainable trust among colleagues and superiors.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 141,
+      "prompt_tokens": 255,
+      "total_tokens": 396,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.070447,
+    "balance_after": 372.2174
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Exceeding targets and making a transparent, merit-based case demonstrates the results-driven leadership the promotion requires while earning respect through demonstrated achievement rather than assumption.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 141,
+    "act_tokens_out": 44,
+    "plan_content_len_chars": 828,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

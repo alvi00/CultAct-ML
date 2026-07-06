@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc8d6b102c0cb5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengumpulkan semua anggota keluarga untuk rapat keluarga.\n2. Mendiskusikan tujuan dan manfaat pindah rumah.\n3. Menetapkan kriteria penting yang harus dipenuhi dalam keputusan tersebut.\n4. Mengevaluasi opsi-opsi yang tersedia berdasarkan kriteria yang telah ditetapkan.\n5. Meminta pendapat dan masukan dari setiap anggota keluarga.\n6. Menentukan metode pengambilan keputusan yang paling sesuai berdasarkan diskusi dan evaluasi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 128,
+      "prompt_tokens": 362,
+      "total_tokens": 490,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027228,
+    "balance_after": 415.0277
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Rapat keluarga memungkinkan semua anggota berpartisipasi dan mencapai keputusan secara mufakat, mempertimbangkan kriteria yang disepakati bersama.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 128,
+    "act_tokens_out": 58,
+    "plan_content_len_chars": 429,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

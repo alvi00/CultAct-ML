@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb94068e0e489",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengumpulkan data mengenai kontribusi masing-masing anggota tim.\n2. Meninjau struktur hierarki saat ini dan peran masing-masing anggota.\n3. Membahas dengan tim tentang nilai-nilai dan tujuan jangka panjang yang ingin dicapai.\n4. Menilai dampak dari setiap opsi aksi terhadap motivasi dan produktivitas tim.\n5. Meminta masukan dari beberapa anggota tim yang dipilih secara acak.\n6. Menyusun rekomendasi berdasarkan analisis dan masukan yang diterima.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 134,
+      "prompt_tokens": 366,
+      "total_tokens": 500,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027804,
+    "balance_after": 258.6987
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Membagi keuntungan secara proporsional berdasarkan kontribusi masing-masing orang dapat mendorong transparansi dan penghargaan atas kerja keras individu.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

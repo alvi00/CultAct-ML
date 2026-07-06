@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc9f4a042c0819",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the child's passion and dedication to their chosen career path.\n2. Research the potential risks and rewards associated with the unconventional career.\n3. Discuss the child's long-term goals and what they envision for their future.\n4. Assess the family's values and how they align with the child's career aspirations.\n5. Consider the level of support and resources the family can provide.\n6. Reflect on the importance of individual fulfillment versus traditional career stability.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 92,
+      "prompt_tokens": 250,
+      "total_tokens": 342,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.01902,
+    "balance_after": 416.1467
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Supporting the child's choice with a clear, responsible plan ensures they are prepared for the uncertainties while following their passion.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 92,
+    "act_tokens_out": 37,
+    "plan_content_len_chars": 491,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

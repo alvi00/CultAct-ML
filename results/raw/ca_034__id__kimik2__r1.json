@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0dce77517edd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan keseimbangan antara dukungan otonomi anak dan tanggung jawab orang tua untuk memberikan panduan.\n2. Evaluasi pendekatan yang paling mendukung kesehatan psikologis dan hubungan jangka panjang dengan anak.\n3. Analisis mana yang menghargai kapasitas anak membuat keputusan sambil tetap membuka ruang diskusi.\n4. Bandingkan mana yang menghindari tekanan eksternal (kelompok/keluarga) sebagai alasan utama berpartisipasi.\n5. Tentukan pendekatan yang paling memungkinkan anak belajar membuat keputusan dengan informasi lengkap tanpa merasa dipaksa.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 171,
+      "prompt_tokens": 356,
+      "total_tokens": 527,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.089433,
+    "balance_after": 344.2535
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pendekatan ini menghormati otonomi anak sambil tetap memenuhi tanggung jawab orang tua untuk memberikan perspektif dan bimbingan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 171,
+    "act_tokens_out": 55,
+    "plan_content_len_chars": 559,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

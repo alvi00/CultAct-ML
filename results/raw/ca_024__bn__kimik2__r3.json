@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce5156dfda6a7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের পরিস্থিতি এবং রীতিনীতির গুরুত্ব বিশ্লেষণ করুন - এই রীতি ধর্মীয়, সাংস্কৃতিক, নাকি কেবল ঐতিহ্যগত তা বোঝার চেষ্টা করুন।\n2. প্রস্তাবটির প্রকৃতি মূল্যায়ন করুন - এটি কি পরিবারের ক্ষতি করবে, নাকি সম্ভাব্য উন্নতি আনতে পারে তা বিবেচনা করুন।\n3. পরিবারের সদস্যদের মধ্যে সম্পর্কের গতিশীলতা দেখুন - একজন সদস্যের প্রস্তাবকে কীভাবে গ্রহণ করা হয় এবং সিদ্ধান্ত গ্রহণ প্রক্রিয়া কী তা বুঝুন।\n4. প্রতিটি কার্যকলাপের দীর্ঘমেয়াদী প্রভাব বিচার করুন - কোন পদক্ষেপ পরিবারকে আরও শক্তিশালী বা দুর্বল করবে তা মূল্যায়ন করুন।\n5. নিজের মূল্যবোধ এবং দায়িত্বের ভারসাম্য নির্ধারণ করুন - ব্যক্তিগত ন্যায়বিচার বনাম পারিবারিক কর্তব্যের মধ্যে সমন্বয় খুঁজুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 383,
+      "prompt_tokens": 584,
+      "total_tokens": 967,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.182067,
+    "balance_after": 362.0161
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"প্রতিটি প্রস্তাবের নিজস্ব মূল্য আছে এবং পূর্বাগ্রহ ছাড়া যুক্তিগত মূল্যায়নই টেকসই সমাধানের ভিত্তি।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 383,
+    "act_tokens_out": 76,
+    "plan_content_len_chars": 640,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

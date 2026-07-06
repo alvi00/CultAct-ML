@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc4d2bac5c89ef",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের সফলতার পশ্চাত্তালিক সমস্ত অবদানকারী এবং তাদের ভূমিকার একটি সারাংশ তৈরি করুন।\n2. দলের একক-একক সদস্য এবং দল হিসেবে কীভাবে অবদান রেখেছে তা বিশ্লেষণ করুন।\n3. দলের নেতার ভূমিকা এবং তার নির্দেশনার প্রভাব মূল্যায়ন করুন।\n4. দলের সদস্যদের মধ্যে কৃতিত্বের সমান বন্টনের সম্ভাবনা এবং প্রভাব বিবেচনা করুন।\n5. প্রত্যেক অবদানকারীর নাম উল্লেখ করা এবং তাদের অবদানের মাত্রার উপর ভিত্তি করে কৃতিত্ব প্রদানের প্রভাব বিবেচনা করুন।\n6. সকল বিবেচনা এবং প্রতিটি কর্মকান্ডের সম্ভাব্য প্রভাব তুলনা করে সর্বোত্তম কর্মকান্ডটি নির্বাচন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 549,
+      "prompt_tokens": 970,
+      "total_tokens": 1519,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08532,
+    "balance_after": 259.9581
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"প্রত্যেক অবদানকারীর নাম উল্লেখ করা এবং তাদের অবদানের পরিমাণ অনুযায়ী কৃতিত্ব প্রদান করা দলের মর্যাদা এবং প্রত্যেক সদস্যের যোগ্যতাকে সম্মান জানাতে সহায়ক।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

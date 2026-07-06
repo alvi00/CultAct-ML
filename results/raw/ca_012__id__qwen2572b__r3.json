@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc6dd6362c976e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan urgensi dan kompleksitas arahan yang diberikan.\n2. Evaluasi potensi dampak arahan tersebut terhadap proyek atau tugas yang sedang berlangsung.\n3. Tinjau hubungan kerja dan komunikasi sebelumnya dengan manajer untuk menilai apakah klarifikasi sebelumnya pernah efektif.\n4. Pertimbangkan apakah tim perlu terlibat dalam diskusi mengenai tujuan dan konteks arahan.\n5. Analisis resiko dari masing-masing pilihan tindakan yang tersedia.\n6. Buat keputusan berdasarkan analisis dan pertimbangan di atas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 339,
+      "total_tokens": 487,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027186,
+    "balance_after": 435.603
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"Patuhi terlebih dahulu, lalu minta klarifikasi kepada atasan mengenai detail yang diperlukan, agar tetap mengikuti hierarki sekaligus mendapatkan kejelasan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 148,
+    "act_tokens_out": 61,
+    "plan_content_len_chars": 513,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

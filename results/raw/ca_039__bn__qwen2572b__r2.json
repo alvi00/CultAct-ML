@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc12455682c90b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, যে গন্তব্যগুলি বিবেচনা করা হবে তা চিহ্নিত করব।\n2. সেই গন্তব্যগুলির পর্যালোচনা ও মূল্য গবেষণা করব।\n3. ভ্রমণসঙ্গীদের সাথে সেই গন্তব্যগুলির বিষয়ে আলোচনা করব।\n4. পরিবার ও বয়োজ্যেষ্ঠ সদস্যদের মতামত গ্রহণ করব।\n5. সবার মতামত বিবেচনা করে একটি ফাইনাল গন্তব্য নির্বাচন করব।\n6. নির্বাচিত গন্তব্যের প্রস্তুতি শুরু করব এবং সবাইকে তা জানাব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 353,
+      "prompt_tokens": 774,
+      "total_tokens": 1127,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.062976,
+    "balance_after": 412.2548
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এই পদক্ষেপটি সবার মতামত এবং সন্তুষ্টি গ্রহণ করে একটি সম্পর্কিত এবং সমন্বিত সিদ্ধান্ত নেওয়ার দিকে পরিচালিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 353,
+    "act_tokens_out": 128,
+    "plan_content_len_chars": 339,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc95d303759fcc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. মানুষ দুজনের মতবিরোধ সম্পর্কে বিস্তারিত জানার জন্য তাদের মতামত শোনা হবে।\n2. প্রতিজনের মতামত এবং ব্যাপারটির জটিলতা বিবেচনা করা হবে।\n3. প্রস্তাবিত উপায়গুলির মধ্যে যেটি সবচেয়ে সহজভাবে বাস্তবায়িত করা যায় সেটি নির্বাচন করা হবে।\n4. নির্বাচিত উপায়ের প্রভাব এবং ফলাফল বিবেচনা করা হবে।\n5. প্রতিটি উপায়ের ধর্মীয়, সামাজিক এবং পরিবারের প্রভাব বিবেচনা করা হবে।\n6. সর্বশেষ, সবচেয়ে উপযুক্ত এবং কার্যকর উপায়টি চয়ন করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 440,
+      "prompt_tokens": 832,
+      "total_tokens": 1272,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.071328,
+    "balance_after": 421.6005
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"শান্ত, সমান আলোচনা এবং পারস্পরিক চুক্তির মাধ্যমে মতবিরোধ নিরসন করা যায়, যা প্রত্যেক পক্ষের মতামত এবং অধিকারকে সম্মানিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 440,
+    "act_tokens_out": 143,
+    "plan_content_len_chars": 419,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

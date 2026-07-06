@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc59b5de18818e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দম্পতির মতবিরোধের প্রকৃতি ও গভীরতা বিবেচনা করুন।\n2. দুই পক্ষের মতামত এবং অনুভূতি শুনুন এবং তা বিবেচনা করুন।\n3. সম্ভাব্য সমাধানগুলির মধ্যে যেটি সবচেয়ে কার্যকর এবং দুই পক্ষের জন্যই স্বাগতিক তা নির্ধারণ করুন।\n4. নির্বাচিত পদক্ষেপের সম্ভাব্য প্রভাব এবং দীর্ঘস্থায়ী ফলাফল বিবেচনা করুন।\n5. দম্পতির সাথে নির্বাচিত পদক্ষেপ সম্পর্কে আলোচনা করুন এবং তাদের মতামত চাওয়া হোক।\n6. সুপারিশ করা পদক্ষেপ চালু করার জন্য দম্পতির অনুমোদন নিন এবং প্রয়োজনে সাপোর্ট প্রদান করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 497,
+      "prompt_tokens": 832,
+      "total_tokens": 1329,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.074748,
+    "balance_after": 421.4445
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"শান্ত, সমান আলোচনা এবং পারস্পরিক চুক্তির মাধ্যমে মতপার্থক্য নিরসন করা দম্পতির মধ্যে সম্পর্কের গুণমূলক উন্নয়ন এবং পারিবারিক ঐক্য বজায় রাখতে সহায়ক হবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 497,
+    "act_tokens_out": 174,
+    "plan_content_len_chars": 461,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

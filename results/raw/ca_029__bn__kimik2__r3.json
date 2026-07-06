@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1efde11f9e98",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি বিকল্পের মূল বৈশিষ্ট্য ও পার্থক্য বিশ্লেষণ করুন—যেমন কে নেতৃত্ব দিচ্ছে, কার মতামত গুরুত্ব পাচ্ছে, এবং সিদ্ধান্ত কীভাবে চূড়ান্ত হচ্ছে।\n2. পরিবারের স্বাস্থ্য সংক্রান্ত সিদ্ধান্তের ক্ষেত্রে কোন পদ্ধতি সবচেয়ে গুরুত্বপূর্ণ—বিশেষজ্ঞ মতামত, গণতান্ত্রিক আলোচনা, নাকি পারিবারিক ঐক্য—তা নির্ধারণ করুন।\n3. প্রতিটি বিকল্পের সুবিধা ও সীমাবদ্ধতা মূল্যায়ন করুন, বিশেষ করে স্বাস্থ্য সিদ্ধান্তের জটিলতা ও দ্রুততার প্রয়োজনীয়তা বিবেচনায়।\n4. নিজের পরিবারের প্রেক্ষাপট অনুযায়ী কোন পদ্ধতি সবচেয়ে কার্যকর হবে তা বিচার করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 330,
+      "prompt_tokens": 630,
+      "total_tokens": 960,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.167715,
+    "balance_after": 352.7796
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"স্বাস্থ্য সিদ্ধান্তে বিশেষজ্ঞ মতামত ও পরামর্শ অপরিহার্য, এবং একসঙ্গে ঐকমত্যে পৌঁছানো পারিবারিক স solidarity বজায় রাখে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 330,
+    "act_tokens_out": 88,
+    "plan_content_len_chars": 519,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

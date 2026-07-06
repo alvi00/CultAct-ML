@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1fbf9f3f0e18",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, দম্পতির মধ্যে কোন ব্যক্তির আর্থিক দক্ষতা ও প্রত্যেকের সময় সম্পর্কিত দক্ষতা মূল্যায়ন করা হবে।\n2. তারপর, দম্পতির মধ্যে সম্পর্কের গুণগত দিক ও স্বাভাবিক সম্পর্কের মাধ্যমে কীভাবে সিদ্ধান্ত নেওয়া হয় তা বিবেচনা করা হবে।\n3. এরপর, ঐতিহ্য এবং আধুনিক সমাজের দৃষ্টিভঙ্গি মূল্যায়ন করা হবে যাতে একটি সামঞ্জস্যমূলক সিদ্ধান্ত নেওয়া যায়।\n4. সম্ভাব্য সিদ্ধান্তের প্রভাব, বিশেষত দম্পতির সম্পর্কের উপর কীভাবে প্রভাব ফেলবে তা বিশ্লেষণ করা হবে।\n5. সমস্ত তথ্যের উপর ভিত্তি করে সবচেয়ে উপযুক্ত সিদ্ধান্ত নেওয়া হবে।\n6. সিদ্ধান্তটি দম্পতির সম্মতি এবং সামঞ্জস্যের মাধ্যমে কার্যকর করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 603,
+      "prompt_tokens": 867,
+      "total_tokens": 1470,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.082998,
+    "balance_after": 436.316
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"আর্থিক ব্যবস্থাপনায় সর্বোচ্চ দক্ষতা ও কার্যক্ষমতা অর্জনের জন্য দক্ষতার ভিত্তি উপর দায়িত্ব সম্পর্কিত সিদ্ধান্ত নেওয়া উচিত।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 603,
+    "act_tokens_out": 141,
+    "plan_content_len_chars": 580,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

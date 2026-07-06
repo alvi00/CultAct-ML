@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc74941b6351f3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. মূল্যায়নের উদ্দেশ্য বিশ্লেষণ করব - শিক্ষার্থীর দীর্ঘমেয়াদী শেখা ও বিকাশ নাকি শুধু কর্মক্ষমতা পরিমাপ গুরুত্বপূর্ণ তা নির্ধারণ করব।\n2. প্রতিটি বিকল্পের শিক্ষাতাত্ত্বিক ভিত্তি মূল্যায়ন করব - গঠনমূলক মূল্যায়ন, বস্তুনিষ্ঠ পরিমাপ, মানসম্মত পরীক্ষা, নাকি সামগ্রিক মূল্যায়ন কোনটি শিক্ষার্থীর সার্বিক বিকাশে সহায়ক।\n3. শিক্ষার্থীদের বিভিন্ন ধরনের দক্ষতা (ব্যক্তিগত, সামাজিক, স্ব-পর্যালোচনা) কতটা সমানভাবে মূল্যায়ন হবে তা বিবেচনা করব।\n4. বাস্তবায়নযোগ্যতা ও সময়ের সাথে অগ্রগতি ট্র্যাক করার সুবিধা যাচাই করব।\n5. শিক্ষার্থীকে কেন্দ্র করে মূল্যায়ন (student-centered) বনাম শিক্ষক-নির্ধারিত মূল্যায়নের ভারসাম্য বিবেচনা করব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 375,
+      "prompt_tokens": 602,
+      "total_tokens": 977,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.180846,
+    "balance_after": 334.4028
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"দক্ষতা, সহযোগিতা ও আত্ম-পর্যালোচনার সমন্বয়ে চলমান গঠনমূলক মূল্যায়ন শিক্ষার্থীর দীর্ঘমেয়াদী শেখা ও সার্বিক বিকাশকে সমর্থন করে, যা সময়ের সাথে অগ্রগতি ট্র্যাক করতে এবং শিক্ষার্থীকে সক্রিয় শিক্ষার অংশীদার হিসেবে গড়ে তুলতে সহায়ক।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 375,
+    "act_tokens_out": 155,
+    "plan_content_len_chars": 620,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

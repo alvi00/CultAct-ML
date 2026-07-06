@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb4799d5619ac",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের সদস্যদের মধ্যে প্রধান বিষয়গুলি সনাক্ত করা এবং দ্বন্দ্বের মূল কারণগুলি বোঝার চেষ্টা করা।\n2. প্রতিটি উপলব্ধ কর্মপ্রণালীর সুবিধা ও অসুবিধা বিবেচনা করা।\n3. দলের বর্তমান অবস্থা ও দ্রুততা দরকারী কিনা বিবেচনা করা।\n4. দলের সদস্যদের মনোভাব ও অভিমত সম্পর্কে তথ্য সংগ্রহ করা।\n5. সম্ভাব্য কর্মপ্রণালীগুলির মধ্যে সর্বোত্তম একটি নির্বাচন করা যাতে দলের সমস্যাগুলি সমাধান করা যায়।\n6. নির্বাচিত কর্মপ্রণালীর বাস্তবায়ন পরিকল্পনা তৈরি করা এবং দলের সদস্যদের সাথে শেয়ার করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 489,
+      "prompt_tokens": 856,
+      "total_tokens": 1345,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.075564,
+    "balance_after": 425.8541
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"একত্রিত হয়ে খোলা আলোচনা করা দলের মধ্যে সহানুভূতি ও ঐক্য বাড়াতে সহায়ক হবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 489,
+    "act_tokens_out": 96,
+    "plan_content_len_chars": 465,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

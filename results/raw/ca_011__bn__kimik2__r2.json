@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccffc128661411",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দম্পতির বর্তমান আর্থিক অবস্থা, দক্ষতা এবং পারস্পরিক সম্পর্কের গতি বিশ্লেষণ করুন।\n2. দীর্ঘমেয়াদী সুস্থিরতা এবং দুই পক্ষের সম্মতির গুরুত্ব মূল্যায়ন করুন।\n3. প্রতিটি বিকল্পের সুবিধা-অসুবিধা তুলনা করুন, বিশেষ করে সমতা, দক্ষতা এবং পারস্পরিক সম্মানের দিক থেকে।\n4. নারী-পুরুষ সমতার নীতি এবং আধুনিক পারিবারিক কাঠামোর সাথে সামঞ্জস্য যাচাই করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 543,
+      "total_tokens": 751,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.118186,
+    "balance_after": 390.0237
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"পারস্পরিক সম্মতি এবং দায়িত্ব ভাগ করে নেওয়া দুই পক্ষের মধ্যে সমতা ও বিশ্বাস বজায় রাখে এবং আর্থিক সিদ্ধান্তে উভয়ের অংশগ্রহণ নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 208,
+    "act_tokens_out": 448,
+    "plan_content_len_chars": 340,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5fb05a995b54",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের বর্তমান অবস্থা ও দুর্বলতা সম্পর্কে সম্পূর্ণ বিশ্লেষণ করা।\n2. দলের সদস্যদের সাথে ব্যক্তিগত আলাপ করা এবং তাদের অভিজ্ঞতা ও প্রতিক্রিয়া সংগ্রহ করা।\n3. দলের উন্নয়ন ও অগ্রগতির জন্য সম্ভাব্য লক্ষ্য নির্ধারণ করা।\n4. লক্ষ্যের বাস্তবতা ও সম্ভাব্যতা মূল্যায়ন করা এবং তা দলের সদস্যদের মধ্যে শেয়ার করা।\n5. উপস্থিত লক্ষ্য ও দলের অবস্থার উপর ভিত্তি করে উপযুক্ত কার্যকলাপ নির্বাচনের জন্য সমস্ত উপলব্ধ কর্মপদগুলি সমালোচনা করা।\n6. নির্বাচিত কর্মপদের প্রভাব ও ফলাফল সম্পর্কে পূর্বাভাস দেওয়া এবং দলের সদস্যদের মধ্যে সেই পরিকল্পনার অনুমোদন প্রাপ্তির জন্য প্রচার করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 576,
+      "prompt_tokens": 855,
+      "total_tokens": 1431,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08073,
+    "balance_after": 439.4158
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"একটি সমন্বিত দৃষ্টিভঙ্গি ও দলগত ঐক্যবদ্ধতা দলের সকল সদস্যকে একসঙ্গে নিয়ে যাওয়ার মাধ্যমে দলের অগ্রগতি ও উন্নয়ন নিশ্চিত করতে সাহায্য করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 576,
+    "act_tokens_out": 156,
+    "plan_content_len_chars": 558,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

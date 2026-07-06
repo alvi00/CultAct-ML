@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc6a5ea8b79823",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রস্তাবের সাথে সম্পর্কিত সমস্ত তথ্য সংগ্রহ করা।\n2. পরিবারের প্রতিটি সদস্যের মতামত শোনা।\n3. প্রস্তাবিত সিদ্ধান্তের প্রভাবের মূল্যায়ন করা এবং এর প্রতিরোধের কারণগুলি বিশ্লেষণ করা।\n4. প্রচলিত রীতি এবং প্রস্তাবিত পরিবর্তনের মধ্যে সূক্ষ্ম বিচার করা।\n5. পরিবারের বয়োজ্যেষ্ঠ এবং অন্যান্য গুরুত্বপূর্ণ সদস্যদের মতামত সংগ্রহ করা।\n6. সর্বশেষ সিদ্ধান্তের জন্য দৃঢ় এবং যৌক্তিক সিদ্ধান্ত গ্রহণ করা এবং তার সাথে সম্পর্কিত কর্মকাণ্ডের প্রচার করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 460,
+      "prompt_tokens": 968,
+      "total_tokens": 1428,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.079872,
+    "balance_after": 425.2055
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এটি সমস্যাটির মূল্যায়ন এবং সমাধান খুঁজার একটি স্বাধীন এবং উন্নত পদ্ধতি প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 460,
+    "act_tokens_out": 103,
+    "plan_content_len_chars": 437,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

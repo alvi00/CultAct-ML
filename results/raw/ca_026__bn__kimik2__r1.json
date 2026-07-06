@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc8eb9cb1a3c57",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সিদ্ধান্তের প্রকৃতি ও গুরুত্ব বিশ্লেষণ করি - কী ধরনের সিদ্ধান্ত, তাতে কারা প্রভাবিত হবে, এবং কতটা দীর্ঘমেয়াদী প্রভাব থাকবে।\n2. বয়োজ্যেষ্ঠদের অবস্থান ও প্রয়োজনীয়তা মূল্যায়ন করি - তাঁরা কি নেতৃত্ব দিতে চান, নাকি পরামর্শ দিতে চান, এবং তাঁদের শারীরিক-মানসিক অবস্থা কী।\n3. অন্যান্য পরিবার সদস্যদের (যুবক, নারী, কর্মরত সদস্য) দৃষ্টিকোণ বিবেচনা করি - সিদ্ধান্তে তাঁদের সমান অংশগ্রহণ প্রয়োজন কিনা।\n4. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা তুলনা করি - কোন পদ্ধতি পরিবারের সামগ্রিক সুখ-সমৃদ্ধি ও সদ্ভাব বজায় রাখবে।\n5. সংস্কৃতি ও আধুনিকতার ভারসাম্য নির্ধারণ করি - ঐতিহ্যবাহী মর্যাদা রক্ষার পাশাপাশি ন্যায়সঙ্গত ও যৌক্তিক সিদ্ধান্তের প্রয়োজনীয়তা যাচাই করি।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 420,
+      "prompt_tokens": 630,
+      "total_tokens": 1050,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.198765,
+    "balance_after": 359.078
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"একটি গণতান্ত্রিক বৈঠকে সবার সমান অংশগ্রহণ নিশ্চিত করে পরিবারে ন্যায়বিচার ও ঐক্য বজায় রাখে, যেখানে বয়োজ্যেষ্ঠদের অভিজ্ঞতার পাশাপাশি অন্যান্য সদস্যদের দৃষ্টিকোণও সমান গুরুত্ব পায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 420,
+    "act_tokens_out": 127,
+    "plan_content_len_chars": 658,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

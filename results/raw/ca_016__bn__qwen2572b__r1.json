@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc37e61d08b635",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিষ্ঠানের সিদ্ধান্ত গ্রহণ পদ্ধতির উদ্দেশ্য ও লক্ষ্য নির্ধারণ করা হবে।\n2. বিভিন্ন সিদ্ধান্ত গ্রহণ পদ্ধতির প্রভাব ও পরিণাম বিশ্লেষণ করা হবে।\n3. প্রতিষ্ঠানের সদস্যদের মতামত সংগ্রহ করা হবে একটি ছোট অনুষ্ঠান বা অনলাইন সার্ভে মাধ্যমে।\n4. প্রাপ্ত মতামত ও বিশ্লেষণের ফলাফল ভিত্তিক পদ্ধতি সম্পর্কে বিস্তারিত আলোচনা করা হবে এক দলীয় বৈঠকে।\n5. সিদ্ধান্ত গ্রহণের অগ্রামী পদ্ধতির প্রস্তাবিত পরিকল্পনা তৈরি করা হবে এবং প্রতিষ্ঠানের নিয়ন্ত্রক কমিটির অনুমোদন আদায় করা হবে।\n6. অবশেষে, সিদ্ধান্ত গ্রহণ পদ্ধতি প্রতিষ্ঠানের সকল সদস্যদের কাছে ঘোষণা করা হবে এবং তা বাস্তবায়নের জন্য পরিকল্পনা করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 605,
+      "prompt_tokens": 940,
+      "total_tokens": 1545,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08706,
+    "balance_after": 432.0044
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই পদ্ধতি প্রতিষ্ঠানের সকল সদস্যদের মতামত ও অংশগ্রহণ গ্রহণ করে, যা ঐক্যমত্য ও সহযোগিতার উৎসাহ দেয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 605,
+    "act_tokens_out": 115,
+    "plan_content_len_chars": 587,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

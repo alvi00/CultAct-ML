@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc8e8bbd6556d6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Menganalisis situasi dan tujuan yang ingin dicapai melalui keputusan ini.\n2. Meninjau kembali dinamika tim dan hubungan antar anggota tim.\n3. Mempertimbangkan efisiensi dan keadilan dalam proses pengambilan keputusan.\n4. Mengevaluasi potensi dampak dari setiap aksi yang tersedia.\n5. Memutuskan aksi yang paling sesuai dengan situasi tim saat ini.\n6. Mengkomunikasikan keputusan tersebut kepada seluruh anggota tim.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 126,
+      "prompt_tokens": 329,
+      "total_tokens": 455,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.025326,
+    "balance_after": 426.9216
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Diskusi terstruktur dan pengambilan keputusan berdasarkan suara mayoritas dapat memastikan partisipasi dan kesetaraan dalam proses pengambilan keputusan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 126,
+    "act_tokens_out": 55,
+    "plan_content_len_chars": 418,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc502326dd7966",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan tujuan liburan yang paling menarik berdasarkan minat dan preferensi pribadi.\n2. Kumpulkan informasi tentang tujuan-tujuan tersebut, termasuk ulasan dan harga.\n3. Diskusikan pilihan-pilihan tersebut dengan keluarga untuk mendapatkan masukan dan umpan balik.\n4. Konsultasikan dengan anggota senior atau tetua untuk mendapatkan perspektif dan nasihat berharga.\n5. Pertimbangkan opini dan preferensi teman perjalanan yang akan ikut serta.\n6. Evaluasi semua informasi dan masukan yang diterima untuk membuat keputusan yang paling sesuai.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 296,
+      "total_tokens": 443,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.024804,
+    "balance_after": 412.6056
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Memutuskan bersama teman perjalanan memastikan bahwa tujuan liburan sesuai dengan keinginan dan preferensi semua anggota yang terlibat.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 147,
+    "act_tokens_out": 49,
+    "plan_content_len_chars": 549,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

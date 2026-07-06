@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce6b4a6002c11",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সবার মতামত এবং পছন্দ সংগ্রহ করা হবে।\n2. পরিবারের সদস্যদের মধ্যে সবার জন্য সুবিধাজনক একটি সময় নির্ধারণ করা হবে যখন সবাই উপস্থিত থাকবেন।\n3. একটি পারিবারিক সভা আয়োজন করা হবে যেখানে সবার মতামত শোনার সুযোগ দেওয়া হবে।\n4. সভায় প্রস্তাবিত বাড়ি পরিবর্তনের দীর্ঘমেয়াদী প্রভাব ও সুবিধা বিবেচনা করা হবে।\n5. পরিবারের বয়োজ্যেষ্ঠ ও মূল সদস্যদের পরামর্শ নেওয়া হবে তাদের অভিজ্ঞতা ও জ্ঞান বিবেচনায় নেওয়া হবে।\n6. সকল তথ্যের ভিত্তিতে একটি চূড়ান্ত সিদ্ধান্ত নেওয়া হবে যা পরিবারের সবার কল্যাণে অবদান রাখবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 533,
+      "prompt_tokens": 905,
+      "total_tokens": 1438,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08085,
+    "balance_after": 414.7358
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এটি সবার মতামত এবং দীর্ঘমেয়াদি সুবিধাকে বিবেচনা করে পরিবারের কল্যাণের জন্য একটি স্পষ্ট সিদ্ধান্ত নেওয়ার উপায় প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 533,
+    "act_tokens_out": 142,
+    "plan_content_len_chars": 508,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

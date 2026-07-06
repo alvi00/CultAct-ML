@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc65c908cca5ff",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi dampak personal: Pertimbangkan seberapa besar pengaruh ketidakhadiran terhadap hubungan keluarga dan kesejahteraan pribadi.\n2. Analisis persyaratan promosi: Pahami secara spesifik berapa lama dan seberapa sering harus berada di luar rumah.\n3. Identifikasi prioritas inti: Tentukan apakah pertumbuhan karir atau kehadiran fisik untuk keluarga lebih penting dalam fase hidup saat ini.\n4. Evaluasi kualitas komunikasi: Pertimbangkan seberapa terbuka dan kolaboratif budaya komunikasi dalam keluarga dan organisasi.\n5. Bandingkan pendekatan setiap opsi: Lihat mana yang menyeimbangkan pengambilan keputusan pribadi dengan partisipasi keluarga serta perencanaan praktis.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 202,
+      "prompt_tokens": 374,
+      "total_tokens": 576,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.101667,
+    "balance_after": 345.89
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Opsi ini menyeimbangkan pengambilan keputusan pribadi dengan kolaborasi aktif bersama atasan dan keluarga, serta memastikan rencana konkret untuk menjaga keseimbangan hidup.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 202,
+    "act_tokens_out": 64,
+    "plan_content_len_chars": 677,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

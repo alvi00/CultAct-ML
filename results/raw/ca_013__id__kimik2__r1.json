@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb625de9f5d8b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n1. Evaluasi tingkat risiko dari keputusan tersebut dan dampaknya terhadap tim serta hasil kerja.\n2. Pertimbangkan keseimbangan antara integritas pribadi, kebutuhan suara saya didengar, dan pentingnya kekompakan tim.\n3. Analisis budaya kerja dan norma komunikasi yang berlaku di tempat kerja untuk menentukan saluran yang paling efektif.\n4. Timbang manfaat dari setiap pendekatan: dukungan penuh dengan perbaikan, dukungan terbuka dengan kekhawatiran, diskusi terbuka lalu dukungan, atau patuh sekarang dan diskusi privat.\n5. Tentukan pendekatan yang paling memungkinkan saya tetap konstruktif, dihargai, dan menjaga hubungan kerja yang baik jangka panjang.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 207,
+      "prompt_tokens": 401,
+      "total_tokens": 608,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.105701,
+    "balance_after": 386.5781
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Menyampaikan ketidaksepakatan secara terbuka terlebih dahulu memastikan suara saya didengar dan kontribusi saya dihargai, sambil tetap menunjukkan rasa hormat pada proses demokrasi tim dengan mendukung keputusan akhir.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 207,
+    "act_tokens_out": 84,
+    "plan_content_len_chars": 662,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

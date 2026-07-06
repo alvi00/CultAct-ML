@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc86666d74e64b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. দুটি অনুষ্ঠানের গুরুত্ব ও প্রভাব মূল্যায়ন করুন - সন্তানের স্কুলের অনুষ্ঠানের স্থায়ী স্মৃতি মূল্য এবং কাজের মিটিংয়ের প্রত্যক্ষ প্রভাব।\n\n2. প্রতিটি বিকল্পের দীর্ঘমেয়াদী পরিণতি বিশ্লেষণ করুন - সন্তানের সাথে সম্পর্ক, পেশাগত সুনাম, এবং পরিবারের মূল্যবোধের উপর প্রভাব।\n\n3. বিকল্প সমাধানের সম্ভাবনা যাচাই করুন - মিটিং পুনর্নির্ধারণ, ভার্চুয়াল উপস্থিতি, বা প্রতিনিধি নিয়োগের সুযোগ আছে কিনা।\n\n4. সন্তানের বয়স ও অনুষ্ঠানের ধরন বিবেচনা করুন - এই নির্দিষ্ট অনুষ্ঠানটি কতটা গুরুত্বপূর্ণ এবং পুনরাবৃত্তি সম্ভব কিনা।\n\n5. পেশাগত দায়িত্বের প্রকৃতি মূল্যায়ন করুন - মিটিংটি কতটা অপরিহার্য এবং সহকর্মীদের উপর নির্ভর করা যায় কিনা।\n\n6. সামগ্রিক জীবনের ভারসাম্য ও মূল্যবোধের সাথে সামঞ্জস্য রেখে চূড়ান্ত সিদ্ধান্ত নিন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 414,
+      "prompt_tokens": 518,
+      "total_tokens": 932,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.187119,
+    "balance_after": 351.2558
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"পরিবারকে প্রাধান্য দেওয়ার মাধ্যমে সন্তানের সাথে স্থায়ী স্মৃতি তৈরি করা এবং পেশাগত দায়িত্বও সম্মানের সাথে পালনের ব্যবস্থা করা সবচেয়ে ভারসাম্যপূর্ণ সমাধান।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 414,
+    "act_tokens_out": 102,
+    "plan_content_len_chars": 715,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

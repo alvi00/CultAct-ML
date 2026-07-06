@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccdf38b1c2fe65",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the core issue: identify whether the problem is lack of awareness of my commitments, conflicting priorities, or disregard for my boundaries.\n2. Assess relationship dynamics: consider whether superiors respond better to direct negotiation, formal processes, or relationship-preserving approaches.\n3. Determine my priority: decide if my primary goal is establishing firm boundaries (A), maintaining harmony (D), transparent structural change (B), or preserving the relationship (C).\n4. Weigh risks and benefits: analyze which approach is most likely to achieve lasting respect for my commitments without damaging my position.\n5. Select the action that best aligns with my assessment of the situation, my values, and the likely outcome.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 139,
+      "prompt_tokens": 253,
+      "total_tokens": 392,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.069586,
+    "balance_after": 378.4483
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Negotiating clear boundaries and mutually agreed priorities addresses the root problem directly while establishing sustainable limits for the future.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 139,
+    "act_tokens_out": 35,
+    "plan_content_len_chars": 745,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

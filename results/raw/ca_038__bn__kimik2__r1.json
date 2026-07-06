@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce94d8986b16c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. মূল্যায়নের মূল উদ্দেশ্য বিশ্লেষণ করুন - শিক্ষার্থীদের কী ধরনের দক্ষতা ও গুণাবলী মূল্যায়ন করা প্রয়োজন তা নির্ধারণ করুন।\n\n2. প্রতিটি বিকল্পের শক্তি ও দুর্বলতা মূল্যায়ন করুন - কোন পদ্ধতি শিক্ষার্থীর সার্বিক বিকাশে সবচেয়ে কার্যকর তা বিবেচনা করুন।\n\n3. বাস্তবায়নযোগ্যতা পরীক্ষা করুন - নির্বাচিত পদ্ধতি বিদ্যালয়ের প্রেক্ষাপটে প্রয়োগ করা সম্ভব কিনা তা যাচাই করুন।\n\n4. দীর্ঘমেয়াদী প্রভাব বিবেচনা করুন - কোন পদ্ধতি শিক্ষার্থীদের ভবিষ্যৎ শেখার জন্য সবচেয়ে উপযোগী তা মূল্যায়ন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 286,
+      "prompt_tokens": 602,
+      "total_tokens": 888,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.150141,
+    "balance_after": 334.9492
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"চলমান গঠনমূলক মূল্যায়ন শিক্ষার্থীর দক্ষতা বিকাশ, সহযোগিতা এবং আত্ম-পর্যালোচনার ক্ষমতা একসাথে গড়ে তোলে, যা সার্বিক শিক্ষার উদ্দেশ্য সবচেয়ে ভালোভাবে পূরণ করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 286,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 483,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

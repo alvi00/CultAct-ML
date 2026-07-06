@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc2525efd5519",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi kebutuhan rumah tangga terhadap kestabilan, efisiensi, dan keterlibatan anggota dalam pengambilan keputusan.\n2. Pertimbangkan kelebihan dan kekurangan setiap model: otoritas terpusat, otoritas dengan konsultasi, demokrasi setara, dan otoritas dengan partisipasi.\n3. Analisis dinamika keluarga saat ini, termasuk usia, pengalaman, dan kapasitas anggota untuk berkontribusi.\n4. Tentukan prioritas utama: apakah kecepatan, kesetaraan, atau keseimbangan antara bimbingan dan partisipasi.\n5. Pilih model yang paling sesuai dengan nilai-nilai keluarga dan kebutuhan jangka panjang.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 190,
+      "prompt_tokens": 370,
+      "total_tokens": 560,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.097185,
+    "balance_after": 357.8026
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Model ini menyeimbangkan kebijaksanaan pengalaman orang tua dengan penghargaan terhadap suara setiap anggota, menciptakan kepemilikan bersama tanpa mengorbankan arah yang jelas.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 190,
+    "act_tokens_out": 68,
+    "plan_content_len_chars": 587,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

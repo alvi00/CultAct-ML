@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc54fea2b0caad",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সিদ্ধান্তটির প্রকৃতি এবং এর সম্ভাব্য প্রভাব মূল্যায়ন করি - এটি কতটা গুরুত্বপূর্ণ এবং কতটা বিপজ্জনক হতে পারে।\n2. আমার উদ্বেগের ভিত্তি বিশ্লেষণ করি - তা ব্যক্তিগত পছন্দ নাকি বস্তুগত সমস্যা, এবং সময়মতো সংশোধন সম্ভব কিনা।\n3. কর্মক্ষেত্রের সাংস্কৃতিক প্রেক্ষাপট বিবেচনা করি - উন্মুক্ত বিরোধিতা কতটা গ্রহণযোগ্য এবং বসের মনোভাব কেমন।\n4. দীর্ঘমেয়াদী সম্পর্ক এবং বিশ্বাসযোগ্যতার ওপর প্রতিটি পদক্ষেপের প্রভাব যাচাই করি।\n5. নিজের মূল্যবোধ এবং পেশাদারি দায়িত্বের ভারসাম্য নির্ধারণ করি।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 290,
+      "prompt_tokens": 641,
+      "total_tokens": 931,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.154855,
+    "balance_after": 384.6096
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"দলের ঐক্য রক্ষা করে পরে ব্যক্তিগতভাবে উদ্বেগ তুলে ধরলে সমস্যা সমাধানের সম্ভাবনা বাড়ে এবং সম্পর্কও ক্ষতিগ্রস্ত হয় না।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 290,
+    "act_tokens_out": 86,
+    "plan_content_len_chars": 480,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

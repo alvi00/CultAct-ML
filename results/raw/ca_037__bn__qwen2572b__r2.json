@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc72b5c832f342",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, স্বাস্থ্য পরীক্ষার মূল উদ্দেশ্য ও প্রয়োজন নির্ধারণ করব।\n2. তারপর, প্রতিটি পদক্ষেপের সুবিধাসমৃদ্ধি, সুরক্ষা ও প্রত্যাশিত ফলাফল বিবেচনা করব।\n3. একটি সংশ্লিষ্ট ডাক্তার বা স্বাস্থ্য সেবা প্রদানকারীর সাথে আলোচনা করে তাদের মতামত এবং পরামর্শ সংগ্রহ করব।\n4. পরীক্ষার প্রক্রিয়া, সময়, খরচ এবং সম্ভাব্য ঝুঁকিগুলি বিবেচনা করব।\n5. স্বাস্থ্য পরীক্ষার ফলাফল ব্যবহার করে ভবিষ্যতের স্বাস্থ্য পরিকল্পনার প্রভাব বিবেচনা করব।\n6. সবশেষে, উপরোক্ত বিবেচনাগুলির উপর ভিত্তি করে সর্বোত্তম পদক্ষেপটি নির্বাচন করব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 523,
+      "prompt_tokens": 782,
+      "total_tokens": 1305,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.073608,
+    "balance_after": 413.9051
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"নির্ভরযোগ্য ফলাফল পেতে, উপলব্ধ সবচেয়ে ব্যাপক ও প্রমাণভিত্তিক স্ক্রিনিং পদ্ধতিটি বেছে নেওয়া সবচেয়ে ভাল সিদ্ধান্ত।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 523,
+    "act_tokens_out": 132,
+    "plan_content_len_chars": 500,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

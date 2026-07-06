@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce616c34e1111",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দুটি অনুষ্ঠানের গুরুত্ব ও দীর্ঘমেয়াদী প্রভাব মূল্যায়ন করুন - সন্তানের বিকাশ এবং পেশাগত দায়িত্ব উভয়ের তুলনামূলক বিশ্লেষণ করুন।\n\n2. প্রতিটি বিকল্পের বাস্তবসম্মততা যাচাই করুন - মিটিং পুনর্নির্ধারণ বা প্রতিনিধি পাঠানোর সম্ভাবনা, এবং সন্তানের অনুষ্ঠানে অনুপস্থিতির প্রভাব মূল্যায়ন করুন।\n\n3. পরিবার ও পেশা উভয়ের প্রতি দায়বদ্ধতা পূরণের উপায় খুঁজুন - আংশিক সমাধান বা বিকল্প ব্যবস্থা সম্ভাবনা পরীক্ষা করুন।\n\n4. সিদ্ধান্তের নৈতিক ও আবেগগত দিক বিবেচনা করুন - সন্তানের প্রত্যাশা, পরিবারের মূল্যবোধ, এবং কর্মস্থলের প্রত্যাশার ভারসাম্য রাখুন।\n\n5. দীর্ঘমেয়াদী সন্তুষ্টি ও অনুশোচনা কোনটি কম হবে তা বিবেচনা করুন - ভবিষ্যতে কোন সিদ্ধান্তের প্রতি আফসোস বেশি হতে পারে তা চিন্তা করুন।\n\n6. উভয় পক্ষের প্রতি সম্মান রেখে এবং সর্বোত্তম সমাধান বেছে নিন যা সন্তানের প্রয়োজন এবং পেশাগত দায়বদ্ধতা উভয়ই পূরণ করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 462,
+      "prompt_tokens": 518,
+      "total_tokens": 980,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.203679,
+    "balance_after": 350.9311
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এটি সন্তানের গুরুত্বপূর্ণ মুহূর্তে উপস্থিত থাকার মাধ্যমে পারিবারিক বন্ধন শক্ত করে এবং পেশাগত দায়িত্বও সহকর্মীর মাধ্যমে সমাধান করে নৈতিক ও ভারসাম্যপূর্ণ সমাধান প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 462,
+    "act_tokens_out": 112,
+    "plan_content_len_chars": 798,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

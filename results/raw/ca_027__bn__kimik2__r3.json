@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb4f1ce2616a3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের গঠন ও প্রয়োজন বিশ্লেষণ করি - সদস্য সংখ্যা, বয়স, দায়িত্বের ধরন চিন্তা করি\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা মূল্যায়ন করি - সমানাধিকার, দক্ষতা, দায়িত্বশীলতা, শিশুদের অংশগ্রহণের সীমা\n3. দীর্ঘমেয়াদী টেকসইতা ও পরিবারের সুস্থ বিকাশ বিবেচনা করি\n4. সংস্কৃতিগত প্রেক্ষাপট ও বাস্তব প্রয়োগযোগ্যতা যাচাই করি\n5. সবচেয়ে ভারসাম্যপূর্ণ ও ন্যায়সঙ্গত পদ্ধতি চূড়ান্ত করি",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 241,
+      "prompt_tokens": 560,
+      "total_tokens": 801,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.131025,
+    "balance_after": 356.5883
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি অংশগ্রহণমূলক গণতন্ত্র ও দায়িত্বশীল নেতৃত্বের ভারসাম্য রক্ষা করে, যা পরিবারে সব বয়সীর মতামত শোনার সুযোগ দেয় অভিভাবকদের চূড়ান্ত সিদ্ধান্তের ক্ষমতা বজায় রেখে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 241,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 374,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

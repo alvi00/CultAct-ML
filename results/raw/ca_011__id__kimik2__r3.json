@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccbc62f5d53267",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi kriteria utama yang relevan: efisiensi pengelolaan keuangan, kesehatan hubungan pasangan, keadilan, dan keberlanjutan jangka panjang.\n\n2. Analisis kelebihan dan kekurangan masing-masing opsi berdasarkan kriteria tersebut, termasuk risiko seperti ketidaksetaraan, konflik, atau inefisiensi.\n\n3. Pertimbangkan konteks modern di mana keterampilan individu lebih penting daripada peran tradisional, dan kolaborasi dihargai dalam rumah tangga.\n\n4. Bandingkan mana yang paling optimal antara memanfaatkan keahlian spesifik, menjaga keseimbangan kekuasaan, dan memastikan keterlibatan kedua pihak.\n\n5. Tentukan opsi yang menawarkan hasil terbaik secara keseluruhan dengan risiko minimal.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 358,
+      "total_tokens": 566,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.102369,
+    "balance_after": 390.4866
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Memanfaatkan keahlian yang lebih unggul sambil tetap menjaga pengawasan bersama menghasilkan pengelolaan keuangan yang efektif tanpa mengabaikan keterlibatan pasangan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 208,
+    "act_tokens_out": 65,
+    "plan_content_len_chars": 692,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

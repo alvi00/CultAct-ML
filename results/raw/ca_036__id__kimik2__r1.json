@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccda717b47b75b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identifikasi nilai-nilai inti yang ingin diprioritaskan dalam proses pengambilan keputusan keluarga ini (misalnya: demokrasi, efisiensi, stabilitas, atau penghormatan).\n2. Evaluasi tingkat partisipasi yang diinginkan—apakah semua anggota keluarga berhak setara atau ada hierarki yang perlu dipertimbangkan.\n3. Pertimbangkan urgensi dan kompleksitas keputusan pindah rumah, termasuk dampak jangka panjang bagi setiap anggota keluarga.\n4. Analisis mekanisme penyelesaian dalam setiap opsi—apakah mufakat, keputusan tegas, kesepakatan, atau arahan—dan kesesuaiannya dengan dinamika keluarga.\n5. Tentukan keseimbangan antara inklusivitas (melibatkan banyak suara) dengan efektivitas (mencapai keputusan yang dapat dieksekusi).\n6. Pilih pendekatan yang paling memungkinkan keputusan yang diterima bersama dengan tetap menjaga kesejahteraan keluarga secara menyeluruh.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 282,
+      "prompt_tokens": 369,
+      "total_tokens": 651,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.128839,
+    "balance_after": 340.6707
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Rapat keluarga dengan keputusan mufakat memastikan semua anggota terlibat setara, menciptakan rasa memiliki terhadap keputusan, dan mengurangi konflik jangka panjang.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 282,
+    "act_tokens_out": 67,
+    "plan_content_len_chars": 865,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

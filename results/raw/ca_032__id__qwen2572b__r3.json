@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc167af6c11bd8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identifikasi masalah utama yang menyebabkan konflik antara tanggung jawab pekerjaan dan keluarga.\n2. Evaluasi urgensi dan dampak jangka panjang dari masing-masing tanggung jawab.\n3. Pertimbangkan ketersediaan sumber daya, baik internal maupun eksternal, untuk membantu menyelesaikan konflik.\n4. Periksa opsi-opsi yang tersedia dan pilih strategi yang paling efektif untuk menyeimbangkan kedua tanggung jawab.\n5. Buat rencana tindakan spesifik berdasarkan strategi yang dipilih.\n6. Siapkan langkah-langkah pengawasan dan penyesuaian jika diperlukan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 173,
+      "prompt_tokens": 378,
+      "total_tokens": 551,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.030792,
+    "balance_after": 418.5727
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Negosiasi pengaturan fleksibel memungkinkan penyeimbangan antara kebutuhan keluarga dan tugas pekerjaan tanpa mengabaikan salah satu pihak.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 173,
+    "act_tokens_out": 56,
+    "plan_content_len_chars": 551,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

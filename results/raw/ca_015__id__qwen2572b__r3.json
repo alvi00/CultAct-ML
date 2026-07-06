@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc707274bcde0d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengidentifikasi tujuan dan tantangan utama dalam situasi tersebut.\n2. Mempertimbangkan urgensi dan dampak keputusan yang akan diambil.\n3. Menilai kapabilitas tim dan sumber daya yang tersedia.\n4. Meninjau kembali keputusan yang pernah diambil dalam situasi serupa sebelumnya.\n5. Menilai potensi risiko dan manfaat dari setiap aksi yang tersedia.\n6. Memilih aksi yang paling sesuai dengan situasi, berdasarkan analisis yang telah dilakukan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 127,
+      "prompt_tokens": 369,
+      "total_tokens": 496,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027546,
+    "balance_after": 433.0362
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Menetapkan pedoman sementara dan mengambil keputusan secara konsensus dapat memastikan semua pihak terlibat dan mendukung langkah yang diambil.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 127,
+    "act_tokens_out": 53,
+    "plan_content_len_chars": 443,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

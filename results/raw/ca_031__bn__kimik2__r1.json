@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc822ae7ae41be",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. নিয়ম লঙ্ঘনের গুরুত্ব ও প্রকৃতি মূল্যায়ন করুন - এটি ছোট বিষয় নাকি গুরুতর, কেউ ক্ষতিগ্রস্ত হচ্ছে কিনা, এবং কোম্পানির জন্য কী ঝুঁকি আছে তা বিবেচনা করুন।\n\n2. সহকর্মীর সাথে সম্পর্ক এবং তার উদ্দেশ্য মূল্যায়ন করুন - তিনি অজান্তে নিয়ম ভেঙেছেন নাকি ইচ্ছাকৃত, এবং একান্তে আলোচনায় সমাধান সম্ভব কিনা তা যাচাই করুন।\n\n3. প্রতিটি পদক্ষেপের সম্ভাব্য পরিণতি বিশ্লেষণ করুন - দলের সংহতি, ন্যায়বিচার, নিয়মের শৃঙ্খলা, এবং দীর্ঘমেয়াদী সাংস্কৃতিক প্রভাব কী হবে।\n\n4. নিজের নৈতিক দায়বদ্ধতা এবং পেশাদারি দায়িত্বের ভারসাম্য নির্ধারণ করুন - নীরব থাকা, সরাসরি হস্তক্ষেপ, বা কাঠামোবদ্ধ প্রক্রিয়ার মধ্যে কোনটি বেশি যুক্তিযুক্ত।\n\n5. সবচেয়ে ন্যায়সঙ্গত এবং কার্যকর পদ্ধতি চিহ্নিত করুন যা নিয়মের সম্মান রাখে এবং একই সাথে সহকর্মীকে সংশোধনের সুযোগ দেয়।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 446,
+      "prompt_tokens": 517,
+      "total_tokens": 963,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.198073,
+    "balance_after": 349.3851
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এটি সরাসরি সমাধানের চেষ্টা করে এবং ব্যর্থ হলে যথাযথ প্রক্রিয়া অনুসরণ করে, যা ন্যায়বিচার ও সংহতি উভয়কেই সম্মান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 446,
+    "act_tokens_out": 83,
+    "plan_content_len_chars": 734,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccdf26579e3ebf",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের লক্ষ্য ও উদ্দেশ্য বিশ্লেষণ করা হবে।\n2. দলের সদস্যদের ক্ষমতা ও অভিজ্ঞতা মূল্যায়ন করা হবে।\n3. প্রকল্পের জটিলতা ও সময়সীমা বিবেচনা করা হবে।\n4. দলের গঠন ও পদক্রমের বিভিন্ন বিকল্প বিবেচনা করা হবে।\n5. দলের সদস্যদের মতামত সংগ্রহ করা হবে এবং তা বিবেচনায় নেওয়া হবে।\n6. সিদ্ধান্ত গ্রহণের জন্য উপস্থিত তথ্য ও মতামত সমীক্ষা করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 346,
+      "prompt_tokens": 908,
+      "total_tokens": 1254,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.069792,
+    "balance_after": 440.5764
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"স্পষ্ট লক্ষ্য ও পদ্ধতি নির্ধারণ করা এবং সদস্যদের স্বাধীনতা দেওয়া দলের উদ্যোগবান ও সম্পন্ন কর্মপরিকর্ম গঠনে সহায়তা করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 346,
+    "act_tokens_out": 140,
+    "plan_content_len_chars": 336,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

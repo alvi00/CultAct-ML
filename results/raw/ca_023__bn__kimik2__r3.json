@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb2cc2b6f94b7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের দ্বন্দ্বের প্রকৃতি ও গভীরতা মূল্যায়ন করুন - এটি মতবিরোধ, ব্যক্তিগত সংঘাত, নাকি কাঠামোগত সমস্যা কি না তা বোঝার চেষ্টা করুন।\n\n2. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা বিশ্লেষণ করুন - কোন পদ্ধতি দীর্ঘমেয়াদী সহাবস্থান তৈরি করবে, কোনটি দ্রুত ফলাফল দেবে, এবং কোনটি দলের স্বায়ত্তশাসন বজায় রাখবে।\n\n3. দলের সদস্যদের সক্ষমতা ও প্রস্তুতি যাচাই করুন - তারা কি সক্রিয়ভাবে সমাধানে অংশ নিতে পারবেন, নাকি বাহ্যিক সহায়ক প্রয়োজন?\n\n4. সময় ও পরিস্থিতির জরুরিতা বিবেচনা করুন - দ্রুত সিদ্ধান্ত প্রয়োজন কি না, নাকি টেকসই সমাানের জন্য সময় নেওয়া যাবে?\n\n5. সংগঠনের সংস্কৃতি ও মূল্যবোধের সাথে সামঞ্জস্য যাচাই করুন - কোন পদ্ধতি সংস্থার কাঠামো ও দলের কাজের পরিবেশের সাথে মানানসই।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 409,
+      "prompt_tokens": 548,
+      "total_tokens": 957,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.187959,
+    "balance_after": 363.7613
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"দলগত আলোচনার মাধ্যমে সকলের অংশগ্রহণে পৌঁছানো সমাধান দীর্ঘমেয়াদী ঐক্য ও দায়িত্বশীলতা তৈরি করে, যা নেতার একতরফা সিদ্ধান্ত বা বাহ্যিক মধ্যস্থতার চেয়ে টেকসই।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 409,
+    "act_tokens_out": 122,
+    "plan_content_len_chars": 662,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc94a99457eed8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের প্রতিটি সদস্যের ত্রৈমাসিক পারফরম্যান্স ও অবদানের বিস্তারিত পর্যালোচনা করা।\n2. দলের সবচেয়ে সফল সদস্যের অবদান ও ফলাফলের একটি স্পষ্ট বিশ্লেষণ করা।\n3. দল হিসেবে একত্রিত প্রচেষ্টা ও অবদানের মূল্যায়ন করা।\n4. বোনাসের মূল উদ্দেশ্য সহ সংস্থার নীতি ও মূল্যবোধসমূহের সাথে মিল খোঁজার জন্য সর্বোচ্চ নির্দেশকদের সাথে পরামর্শ করা।\n5. বিভিন্ন বিকল্পের প্রভাব ও পরিণাম সম্পর্কে বিশ্লেষণ করা।\n6. সমস্ত তথ্য ও বিবেচনার উপর ভিত্তি করে একটি সিদ্ধান্ত গ্রহণ করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 465,
+      "prompt_tokens": 1028,
+      "total_tokens": 1493,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.083412,
+    "balance_after": 260.845
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এই বিকল্পটি দলের সম্মিলিত প্রচেষ্টা ও নেতৃত্বকে সম্মান জানাতে এবং অতিরিক্ত অবদানকে পুরস্কার দেওয়ার জন্য সবচেয়ে ন্যায্য এবং উৎসাহিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

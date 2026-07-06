@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccf1c829a993c3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের লক্ষ্য ও প্রয়োজনীয়তা বিশ্লেষণ করা হবে।\n2. দলের সদস্যদের কার্যক্ষমতা, অভিজ্ঞতা ও প্রত্যাশা মূল্যায়ন করা হবে।\n3. দলের গঠন ও কাজের পদ্ধতি সম্পর্কিত বিভিন্ন অপশনগুলি বিবেচনা করা হবে।\n4. দলের কাজকে কিভাবে সুচারুভাবে চালানো যায় তা বিবেচনা করা হবে।\n5. প্রকল্পের সফলতার জন্য দলের মধ্যে সহযোগিতা ও যোগাযোগের মাধ্যম নির্ধারণ করা হবে।\n6. সর্বশেষ সিদ্ধান্তে পৌঁছানোর আগে দলের উপর প্রভাব ও সম্ভাব্য ফলাফল বিবেচনা করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 443,
+      "prompt_tokens": 908,
+      "total_tokens": 1351,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.075612,
+    "balance_after": 440.4207
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"স্পষ্ট লক্ষ্য ও পদ্ধতি নির্ধারণ করা এবং প্রত্যেক সদস্যকে স্বাধীনতা দেওয়া দলের কার্যক্ষমতাকে বাড়িয়ে তুলবে এবং প্রকল্পের সফলতার সম্ভাবনা বাড়িয়ে তুলবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 443,
+    "act_tokens_out": 176,
+    "plan_content_len_chars": 425,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

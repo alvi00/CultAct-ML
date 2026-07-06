@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5b490efced37",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন পদ্ধতির মূল্যায়ন: প্রতিটি অপশনের পিতামাতা-সন্তান সম্পর্কে দীর্ঘমেয়াদী প্রভাব বিশ্লেষণ করুন।\n2. সন্তানের স্বায়ত্তশাসন বনাম পরিচালনার ভারসাম্য বিবেচনা করুন: সিদ্ধান্ত নেওয়ার ক্ষমতা কতটুকু দেওয়া উচিত।\n3. সিদ্ধান্তের কারণ বোঝার গুরুত্ব যাচাই করুন: ভয়, অস্বীকৃতি, নাকি সত্যিকারের অপ্রচলিত পছন্দ কিনা।\n4. দীর্ঘমেয়াদী চরিত্র গঠনের দিকে মনোযোগ দিন: সাহস, স্ব-জ্ঞান, নাকি বাধ্যতামূলক সাফল্য কোনটি গুরুত্বপূর্ণ।\n5. সম্পর্কের গুণমান এবং বি্বাসের ভিত্তি মূল্যায়ন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 301,
+      "prompt_tokens": 623,
+      "total_tokens": 924,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.157111,
+    "balance_after": 343.0574
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই পদ্ধতি সন্তানের স্বায়ত্তশাসন শক্তিশালী করে, তাদের লক্ষ্যের প্রতি শ্রদ্ধাশীল, এবং দক্ষতা বিকাশের সুযোগ খোলা রাখে চাপ না দিয়ে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 301,
+    "act_tokens_out": 89,
+    "plan_content_len_chars": 475,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

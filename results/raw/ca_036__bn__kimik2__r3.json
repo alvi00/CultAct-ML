@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc409c87dc6d81",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সিদ্ধান্ত নেওয়ার প্রক্রিয়ায় কী কী মূলনীতি গুরুত্বপূর্ণ তা চিহ্নিত করুন—যেমন সকলের অংশগ্রহণ, দীর্ঘমেয়াদি প্রভাব, এবং পরিবারের কল্যাণ।\n2. প্রতিটি অপশনের সুবিধা ও সীমাবদ্ধতা বিশ্লেষণ করুন—যেমন কেবল বয়োজ্যেষ্ঠদের মতামতের ওপর নির্ভরশীলতা বনাম সকলের মতামতের সমন্বয়।\n3. মূল্যবোধের ক্রম নির্ধারণ করুন—আলোচনার মাধ্যমে সিদ্ধান্ত গুরুত্বপূর্ণ নাকি দ্রুত ও স্পষ্ট সিদ্ধান্ত গুরুত্বপূর্ণ, এবং পরিবারের কল্যাণ কীভাবে সংজ্ঞায়িত হবে।\n4. সিদ্ধান্ত নেওয়ার পর কার্যকর করার ক্ষমতা ও দায়িত্ব বণ্টনের দিক বিবেচনা করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 333,
+      "prompt_tokens": 599,
+      "total_tokens": 932,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.1661,
+    "balance_after": 339.3253
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"পরিবারের সকল সদস্যের মতামত শোনা এবং দীর্ঘমেয়াদি সুবিধা বিবেচনা করে স্পষ্ট সিদ্ধান্ত নেওয়া সবচেয়ে ভারসাম্যপূর্ণ পদ্ধতি, কারণ এতে সকলের অংশগ্রহণ এবং পরিবারের সার্বিক কল্যাণ উভয়ই নিশ্চিত হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 333,
+    "act_tokens_out": 135,
+    "plan_content_len_chars": 517,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cceba48504837f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সন্তানের পছন্দের পেছনে উদ্দেশ্য, আবেগ এবং দীর্ঘমেয়াদী ভাবনা বোঝার চেষ্টা করব।\n2. সন্তানের প্রস্তুতি, দক্ষতা এবং সেই পথে সফল হওয়ার সম্ভাবনা মূল্যায়ন করব।\n3. পরিবারের সামাজিক-অর্থনৈতিক প্রেক্ষাপট এবং সন্তানের স্বাধীনতার মধ্যে ভারসাম্য বিবেচনা করব।\n4. প্রতিটি বিকল্পের দীর্ঘমেয়াদী প্রভাব — সন্তানের সুখ, আত্মবিশ্বাস, এবং পারিবারিক সম্পর্ক — বিশ্লেষণ করব।\n5. সন্তানের দায়িত্বশীলতা এবং পরিকল্পনার স্পষ্টতার উপর ভিত্তি করে সিদ্ধান্ত নেব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 264,
+      "prompt_tokens": 558,
+      "total_tokens": 822,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.138789,
+    "balance_after": 341.5852
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"সন্তানের স্বাধীনতাকে সম্মান করার পাশাপাশি দায়িত্বশীল সিদ্ধান্তের প্রক্রিয়াটিকে শক্তিশালী করার মাধ্যমে দীর্ঘমেয়াদী সফলতা নিশ্চিত করা হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 264,
+    "act_tokens_out": 95,
+    "plan_content_len_chars": 439,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

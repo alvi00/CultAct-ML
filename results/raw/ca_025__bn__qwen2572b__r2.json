@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd38e3b386c54",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সদস্যের সিদ্ধান্তের পটভূমি ও কারণগুলো বিশ্লেষণ করা হবে।\n2. আমার পারিবারিক মূল্যবোধ ও রীতিনীতির সাথে সেই সিদ্ধান্তের মিল বা বিরোধিতা বিবেচনা করা হবে।\n3. পরিবারের অন্যান্য সদস্যদের প্রতিক্রিয়া ও মতামত বিবেচনা করা হবে।\n4. সমঝোতার সম্ভাবনা ও তা দিয়ে কতটা সফলতা পাওয়া যাবে সেই মূল্যায়ন করা হবে।\n5. পারিবারিক শান্তি ও ঐক্য রক্ষার প্রতি মনোযোগ দেয়া হবে।\n6. উপরোক্ত বিবেচনাগুলো ভিত্তিতে দেওয়া কর্মপরিকল্পনাগুলোর মধ্য থেকে একটি নির্বাচন করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 478,
+      "prompt_tokens": 1015,
+      "total_tokens": 1493,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08349,
+    "balance_after": 424.1726
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"একটি শান্ত আলোচনা শুরু করা যাক যাতে সমঝোতায় পৌঁছানো যায় এবং পারিবারিক ঐক্য অক্ষুণ্ণ থাকে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 478,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 454,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

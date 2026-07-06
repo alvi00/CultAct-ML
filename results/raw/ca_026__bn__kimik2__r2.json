@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0ff5bb28111e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সিদ্ধান্তের প্রকৃতি এবং গুরুত্ব বিবেচনা করুন - এটি ব্যক্তিগত, আর্থিক, সামাজিক নাকি বংশানুক্রমিক বিষয় কিনা তা মূল্যায়ন করুন।\n\n2. বয়োজ্যেষ্ঠদের বর্তমান শারীরিক ও মানসিক অবস্থা, তাঁদের অভিজ্ঞতার ক্ষেত্র, এবং পরিবারে তাঁদের প্রভাব বিশ্লেষণ করুন।\n\n3. পরিবারের অন্যান্য সদস্যের - বিশেষ করে যাঁরা সিদ্ধান্তের ফলাফল সরাসরি অনুভব করবেন - তাঁদের দৃষ্টিভঙ্গি এবং অংশগ্রহণের প্রয়োজনীয়তা যাচাই করুন।\n\n4. প্রতিটি বিকল্পের দীর্ঘমেয়াদী পরিণতি বিবেচনা করুন - কোন পদ্ধতি পরিবারের ঐক্য, শান্তি এবং টেকসই উন্নয়ন নিশ্চিত করবে তা মূল্যায়ন করুন।\n\n5. সংস্কৃতিগত প্রেক্ষাপট এবং আধুনিক যুগের চাহিদার মধ্যে সমতা বিবেচনা করুন, যাতে সম্মান ও অগ্রগতি উভয়ই সম্ভব হয়।\n\n6. সবচেয়ে সুষম, সম্মানজনক এবং কার্যকর পদ্ধতি নির্বাচন করুন যা বয়োজ্যেষ্ঠদের মর্যাদা রক্ষা করে এবং পরিবারের সর্বোত্তম স্বার্থে সিদ্ধান্ত নিশ্চিত করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 488,
+      "prompt_tokens": 630,
+      "total_tokens": 1118,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.222225,
+    "balance_after": 358.716
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই পদ্ধতি বয়োজ্যেষ্ঠদের অভিজ্ঞতা ও জ্ঞানকে সম্মান জানায়, তাঁদের মতামতকে গুরুত্ব দেয়, কিন্তু চূড়ান্ত সিদ্ধান্তে অন্যান্য প্রাসঙ্গিক বিষয়ও বিবেচনা করে যা আধুনিক পরিবারের জন্য সবচেয়ে সুষম ও কার্যকর।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 488,
+    "act_tokens_out": 141,
+    "plan_content_len_chars": 809,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

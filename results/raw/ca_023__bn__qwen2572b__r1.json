@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccf044bafacf2f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের সদস্যদের মধ্যকার মূল দ্বন্দ্ব এবং তা সম্পর্কে তাদের মতামত বোঝার জন্য একটি খোলা আলোচনার আয়োজন করা।\n2. আলোচনার মাধ্যমে সদস্যদের মূল সমস্যা এবং তাদের প্রত্যেকের দৃষ্টিভঙ্গি বোঝা।\n3. উপস্থিত দ্বন্দ্বের স্বরূপ এবং তার প্রভাব বিবেচনা করে উপযুক্ত সমাধানের পদ্ধতি নির্বাচন করা।\n4. নির্বাচিত পদ্ধতির উপর ভিত্তি করে উদ্দেশ্য এবং প্রযোজ্য কার্যপ্রণালী স্পষ্টভাবে সকলের সামনে প্রকাশ করা।\n5. প্রস্তাবিত পদ্ধতি বাস্তবায়নের জন্য সদস্যদের মধ্যে আগ্রহ এবং সম্মতি দৃঢ়তা বৃদ্ধির জন্য তাদের মতামত সংগ্রহ করা।\n6. সমাধানের পদ্ধতি বাস্তবায়নের জন্য একটি স্পষ্ট কার্যপরিকল্পনা তৈরি করা এবং সকলের সামনে প্রকাশ করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 630,
+      "prompt_tokens": 856,
+      "total_tokens": 1486,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.084024,
+    "balance_after": 426.0228
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"একটি খোলা আলোচনার মাধ্যমে সমস্যাটি নিষ্পত্তি করা ঠিক হবে কারণ এটি দলের সদস্যদের মধ্যে আবার আস্থা এবং সম্প্রীতি ফিরে পেতে সাহায্য করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 630,
+    "act_tokens_out": 151,
+    "plan_content_len_chars": 600,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

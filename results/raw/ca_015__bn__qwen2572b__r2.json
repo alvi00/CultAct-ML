@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb33b95f02e8e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিস্থিতি ও লক্ষ্য বিশ্লেষণ করুন এবং বর্তমান পরিস্থিতির প্রয়োজন নির্ধারণ করুন।\n2. উপলব্ধ কর্মপরিকল্পনাগুলির প্রতিটির সুবিধা ও অসুবিধা বিশ্লেষণ করুন।\n3. প্রতিটি কর্মপরিকল্পনার প্রভাব বিবেচনা করুন এবং কোনটি সবচেয়ে কার্যকর হবে তা নির্ধারণ করুন।\n4. সম্ভাব্য চ্যালেঞ্জ এবং অনুমান করা সমস্যাগুলি বিবেচনা করুন এবং তাদের সমাধানের জন্য পদক্ষেপ নিন।\n5. নির্বাচিত কর্মপরিকল্পনার কার্যকরতা ও যৌক্তিকতা চেক করুন।\n6. চূড়ান্ত সিদ্ধান্ত নিন এবং তা মূল্যায়ন করতে প্রস্তুত থাকুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 497,
+      "prompt_tokens": 1025,
+      "total_tokens": 1522,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08517,
+    "balance_after": 432.7103
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"দ্রুত সিদ্ধান্ত নেওয়ার প্রয়োজন, এবং মূল স্টেকহোল্ডারদের মতামত গ্রহণ করা একটি সমন্বিত এবং কার্যকর পদক্ষেপ।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 497,
+    "act_tokens_out": 128,
+    "plan_content_len_chars": 468,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cccae3e2626150",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Clarify the core values that matter most to this family decision (e.g., inclusivity, efficiency, respect for experience, or evidence-based outcomes).\n2. Evaluate each action against those values, noting trade-offs like time investment, buy-in from all members, and quality of information.\n3. Consider the stakes and complexity of the healthcare decision at hand to determine which process is proportionate.\n4. Reflect on family dynamics—whether consensus is achievable and whether deference or collective deliberation serves family unity better.\n5. Select the action that best aligns with the prioritized values and practical constraints.\n6. Commit to that action and prepare to implement it.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 133,
+      "prompt_tokens": 260,
+      "total_tokens": 393,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.068115,
+    "balance_after": 354.4974
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Balancing evidence-based research with shared input ensures all voices are heard while grounding the decision in reliable information, promoting both family unity and sound outcomes.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 133,
+    "act_tokens_out": 43,
+    "plan_content_len_chars": 695,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

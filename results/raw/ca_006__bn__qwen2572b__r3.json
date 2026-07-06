@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd658ff833081",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের লক্ষ্য ও উদ্দেশ্য স্পষ্টভাবে নির্ধারণ করা হবে।\n2. দলের সদস্যদের দক্ষতা ও অভিজ্ঞতা মূল্যায়ন করা হবে।\n3. প্রকল্পের সফলতার জন্য আবশ্যকীয় দক্ষতা ও কাজের সুনির্দিষ্ট ভূমিকার মধ্যে মিল খোঁজা হবে।\n4. দলের কাজের পদ্ধতি ও গঠন পর্যালোচনা করা হবে।\n5. দলের সদস্যদের মতামত ও প্রস্তাব সংগ্রহ করা হবে এবং তা ভিত্তি করে সিদ্ধান্ত নেওয়ার পদ্ধতি নির্ধারণ করা হবে।\n6. সিদ্ধান্তের উপর ভিত্তি করে দলের গঠন ও কাজের পদ্ধতি নির্বাচন করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 447,
+      "prompt_tokens": 908,
+      "total_tokens": 1355,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.075852,
+    "balance_after": 440.2575
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি দলের সদস্যদের স্বাধীনতা ও দায়িত্বপ্রাপ্তি বৃদ্ধি করবে এবং কার্যকারী হওয়ার সুযোগ বৃদ্ধি করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 447,
+    "act_tokens_out": 120,
+    "plan_content_len_chars": 433,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

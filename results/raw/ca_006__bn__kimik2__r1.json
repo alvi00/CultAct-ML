@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3bbd8ad73b3b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের প্রকৃতি ও পরিসর বিশ্লেষণ করুন - এটি কী ধরনের প্রকল্প, তার জটিলতা, সময়সীমা, এবং সম্পদের উপর ভিত্তি করে উপযুক্ত কাঠামো নির্ধারণ করুন।\n2. দলের সদস্যদের দক্ষতা, অভিজ্ঞতা ও কর্মদক্ষতা মূল্যায়ন করুন - কারা স্বাধীনভাবে কাজ করতে পারবেন, কারা নির্দেশনা প্রয়োজন।\n3. প্রকল্পের ঝুঁকি ও দায়বদ্ধতার বিষয়গুলি চিহ্নিত করুন - কোন ক্ষেত্রে কঠোর নিয়ন্ত্রণ প্রয়োজন, কোথায় স্বাধীনতা দেওয়া যেতে পারে।\n4. সংস্থার সংস্কৃতি ও পূর্ববর্তী সফল মডেলগুলি পর্যালোচনা করুন - কোন ধরনের কাঠামো সংস্থার জন্য কার্যকর প্রমাণিত হয়েছে।\n5. প্রতিটি বিকল্পের সুবিধা-অসুবিধা তুলনা করুন - দ্রুত সিদ্ধান্ত বনাম সদস্য অংশগ্রহণ, নিয়ন্ত্রণ বনাম সৃজনশীলতা।\n6. সর্বোপরি কাজের গুণগত মান ও সময়মতো সম্পন্ন করার সম্ভাব্য সক্ষমতা বিবেনা করে চূড়ান্ত সিদ্ধান্ত নিন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 453,
+      "prompt_tokens": 584,
+      "total_tokens": 1037,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.206217,
+    "balance_after": 400.0507
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"নতুন প্রকল্পে দ্রুত গতি ও দক্ষতার জন্য স্পষ্ট লক্ষ্যের সঙ্গে সদস্যদের স্বাধীনতা দেওয়া উত্তম, যা উভয় দিক থেকে সন্তুলন রাখে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 453,
+    "act_tokens_out": 92,
+    "plan_content_len_chars": 734,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

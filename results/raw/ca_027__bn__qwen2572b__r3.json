@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce4a221851c70",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সকল সদস্যদের মতামত সংগ্রহ করা যাবে সিদ্ধান্তগুলো নিয়ে কীভাবে মত দিতে চায় তা জানতে।\n2. সকল প্রস্তাবিত পদ্ধতির সুবিধা ও অসুবিধা বিশ্লেষণ করা হবে।\n3. পরিবারের বর্তমান কাঠামো এবং সদস্যদের সম্পর্কের গভীর বোঝাপড়ার উপর ভিত্তি করে পদ্ধতি বেছে নেওয়া হবে।\n4. নির্বাচিত পদ্ধতির উপর সকল সদস্যদের মতামত আবার নেওয়া হবে নিশ্চিত হওয়ার জন্য যে সবাই একমত হয়েছেন।\n5. পরিবারের সদস্যদের সাথে সিদ্ধান্ত গ্রহণের নতুন পদ্ধতিটি আনুষ্ঠানিকভাবে চালু করা হবে।\n6. পদ্ধতির বাস্তবায়নের পর এর কার্যক্ষমতা ও প্রভাব নির্দিষ্ট সময় পর পর মূল্যায়ন করা হবে এবং প্রয়োজনে সংশোধন করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 600,
+      "prompt_tokens": 852,
+      "total_tokens": 1452,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.082008,
+    "balance_after": 422.2426
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এই পদ্ধতি পরিবারের সকল সদস্যের মতামতকে মান্যতা দেয় এবং একই সাথে অভিভাবকদের নেতৃত্ব ও দায়িত্ব বজায় রাখে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 600,
+    "act_tokens_out": 124,
+    "plan_content_len_chars": 570,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

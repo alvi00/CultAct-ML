@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc7356b6040bed",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি অপশনের সম্ভাব্য ফলাফল বিশ্লেষণ করুন - স্বল্পমেয়াদি এবং দীর্ঘমেয়াদি উভয় দিক বিবেচনা করে।\n2. কাজের পরিবেশ ও সাংস্কৃতিক প্রেক্ষাপট মূল্যায়ন করুন - উদাহরণস্বরূপ, দ্রুত সিদ্ধান্ত প্রয়োজন কিনা, নাকি ভুলের ঝুঁকি বেশি।\n3. দলের সক্ষমতা এবং আপনার নিজের দায়িত্বের স্তর বিবেচনা করুন।\n4. ব্যবস্থাপকের সাথে সম্পর্কের ধরন এবং ভবিষ্যতে যোগাযোগের ধারা মূল্যায়ন করুন।\n5. সবচেয়ে ভারসাম্যপূর্ণ পদ্ধতি নির্ধারণ করুন যা দক্ষতা, স্বচ্ছতা এবং পেশাদারি সম্মান একসাথে রক্ষা করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 288,
+      "prompt_tokens": 544,
+      "total_tokens": 832,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.145872,
+    "balance_after": 387.8092
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এটি কর্তৃপক্ষের ধারা বজায় রাখার পাশাপাশি প্রয়োজনীয় স্পষ্টতা অর্জনের ভারসাম্যপূর্ণ পদ্ধতি।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 288,
+    "act_tokens_out": 70,
+    "plan_content_len_chars": 471,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

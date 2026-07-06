@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc62be0a0d25c7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengumpulkan semua anggota keluarga untuk rapat keluarga.\n2. Mendiskusikan keputusan keuangan yang perlu diambil dan dampaknya pada rumah tangga.\n3. Meninjau kembali metode pengambilan keputusan sebelumnya yang telah sukses.\n4. Menilai preferensi dan kenyamanan setiap anggota keluarga terhadap metode pengambilan keputusan yang diusulkan.\n5. Memilih metode pengambilan keputusan yang paling sesuai berdasarkan diskusi dan evaluasi.\n6. Menetapkan langkah-langkah tindak lanjut berdasarkan metode yang dipilih untuk pengambilan keputusan keuangan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 165,
+      "prompt_tokens": 375,
+      "total_tokens": 540,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.03015,
+    "balance_after": 437.3468
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Metode ini memungkinkan partisipasi aktif semua anggota keluarga dalam pengambilan keputusan, sambil memastikan alokasi anggaran yang adil dan seimbang.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 165,
+    "act_tokens_out": 60,
+    "plan_content_len_chars": 549,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

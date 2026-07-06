@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc33809ac70bf4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. মূল্যায়ন করুন কোন পদ্ধতি দলের দীর্ঘমেয়াদী সহযোগিতা এবং মনোবলকে সবচেয়ে বেশি উৎসাহিত করে\n2. বিবেচনা করুন যে একক তারকা সদস্যের অবদান কীভাবে স্বীকৃতি পায়, তবে অন্যরাও যেন অবমূল্যায়িত না হন\n3. যাচাই করুন কোন বন্টন পদ্ধতি দলের ধারাবাহিক অবদান এবং সামগ্রিক সাফল্যের প্রতি ন্যায়সঙ্গত হয়\n4. মূল্যায়ন করুন কোন পদ্ধতি ভবিষ্যতে দলগত কর্মক্ষমতা এবং একত্রিত প্রচেষ্টাকে আরও উন্নত করবে",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 239,
+      "prompt_tokens": 633,
+      "total_tokens": 872,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.136576,
+    "balance_after": 409.9194
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এটি একক অবদানকে স্বীকৃতি দেয় এবং দলের ধারাবাহিক সহযোগিতাকেও সম্মান জানায়, যা ভবিষ্যতে উভয় ব্যক্তিগত উৎকর্ষ এবং দলগত একতাকে উৎসাহিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 239,
+    "act_tokens_out": 99,
+    "plan_content_len_chars": 381,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

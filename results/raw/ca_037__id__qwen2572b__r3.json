@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccaddca0d7c700",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Meninjau semua opsi tindakan yang tersedia dan memahami apa yang setiap opsi tawarkan.\n2. Mempertimbangkan kebutuhan kesehatan pribadi dan sejauh mana setiap opsi memenuhi kebutuhan tersebut.\n3. Meneliti reputasi dan kredibilitas fasilitas atau dokter yang akan dipilih dalam setiap opsi.\n4. Membandingkan biaya dan manfaat dari setiap opsi, termasuk efektivitas jangka panjang dari pemeriksaan yang ditawarkan.\n5. Berkonsultasi dengan anggota keluarga atau teman yang memiliki pengalaman dalam melakukan pemeriksaan kesehatan untuk mendapatkan masukan.\n6. Memutuskan opsi yang paling sesuai berdasarkan informasi yang dikumpulkan dan kebutuhan pribadi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 200,
+      "prompt_tokens": 347,
+      "total_tokens": 547,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.030738,
+    "balance_after": 414.1753
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pilih pemeriksaan skrining yang paling komprehensif dan berbasis bukti yang tersedia, untuk mendapatkan hasil yang dapat diandalkan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 200,
+    "act_tokens_out": 51,
+    "plan_content_len_chars": 656,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

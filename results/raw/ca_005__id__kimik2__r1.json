@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc48624a45935b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi tujuan utama festival: identifikasi apakah prioritasnya adalah inklusivitas partisipatif, efisiensi penyelenggaraan, atau kehormatan tradisi.\n2. Analisis karakteristik komunitas: pertimbangkan ukuran, keragaman, dan sejarah pengambilan keputusan kolektif versus hierarkis.\n3. Bandingkan trade-off setiap opsi: A (inklusivitas maksimal, risiko lambat), D (keseimbangan representasi dan efisiensi), B (kecepatan dan kualitas, risiko eksklusi), C (kehormatan tradisi, risiko kurang partisipatif).\n4. Tentukan kriteria penentu: kecepatan pelaksanaan, legitimasi dalam mata komunitas, dan keberlanjutan hubungan sosial pasca-festival.\n5. Pilih opsi yang paling selaras dengan nilai komunitas dan kendala waktu.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 228,
+      "prompt_tokens": 386,
+      "total_tokens": 614,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.111663,
+    "balance_after": 403.0446
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Komite yang melibatkan keluarga dan komunitas menciptakan keseimbangan optimal antara partisipasi kolektif dan efisiensi pelaksanaan, mencerminkan rasa memiliki bersama tanpa mengorbankan kemampuan untuk bertindak cepat.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 228,
+    "act_tokens_out": 78,
+    "plan_content_len_chars": 717,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

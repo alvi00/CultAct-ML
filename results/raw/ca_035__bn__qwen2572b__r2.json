@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc31494a11514f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সন্তানের পেশাগত পছন্দ সম্পর্কে তার সাথে আলোচনা করা হবে যাতে তার উদ্দেশ্য, প্রত্যাশা এবং পরিকল্পনা সম্পর্কে পরিষ্কার ধারণা পাওয়া যায়।\n2. তার চয়নের পেছনে যে কারণগুলো রয়েছে সেগুলোর মূল্যায়ন করা হবে।\n3. সেই পেশার সাথে যুক্ত সম্ভাব্য সুবিধা এবং অসুবিধা বিশ্লেষণ করা হবে।\n4. পরিবারের প্রত্যাশা, মূল্যবোধ এবং সমাজের মর্যাদার সাথে সেই পেশার খাপ খাওয়ার মাত্রা বিবেচনা করা হবে।\n5. সন্তানের প্রতিভা, উৎসাহ এবং স্বাধীনতার মূল্য বিবেচনা করা হবে।\n6. উপরোক্ত বিবেচনার ভিত্তিতে, দৃষ্টিভঙ্গি সম্পর্কে সিদ্ধান্ত নেওয়া হবে এবং যে কোনো নির্বাচিত কর্মপরিকল্পনা তা সর্বোচ্চ লাভের দিকে পরিচালিত করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 620,
+      "prompt_tokens": 906,
+      "total_tokens": 1526,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.086124,
+    "balance_after": 415.6155
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"সন্তানের পেশাগত পছন্দের পিছনে যৌক্তিক পরিকল্পনা এবং দায়িত্বশীলতা দেখালে তা সমর্থন করা উচিত, যাতে তার সাফল্যের সম্ভাবনা বেড়ে যায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 620,
+    "act_tokens_out": 150,
+    "plan_content_len_chars": 590,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc2da2f7174c5c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সহকর্মীর নিয়ম লঙ্ঘনের প্রকৃতি ও গুরুত্ব বিবেচনা করুন।\n2. নিজের সাথে সহকর্মীর সম্পর্ক ও তার থেকে অপেক্ষা করা যায় তা বিবেচনা করুন।\n3. প্রতিক্রিয়ার সম্ভাব্য প্রভাব বিবেচনা করুন, যেমন দলের সংহতি, কোম্পানির নীতিমালা, এবং পেশাদर्शী পরিবেশ।\n4. নিজের দায়িত্ব ও কর্তব্য বিবেচনা করুন, যেমন কোম্পানির নীতিমালার অনুযায়ী নিয়ম অক্ষুণ্ণ রাখার দায়িত্ব।\n5. সম্ভাব্য প্রতিক্রিয়াগুলি এবং তাদের ফলাফল তুলনা করুন।\n6. নির্বাচিত কর্মপ্রণালীর উপর সিদ্ধান্ত নিন এবং তা প্রয়োগ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 504,
+      "prompt_tokens": 807,
+      "total_tokens": 1311,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.073818,
+    "balance_after": 419.0996
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"সরাসরি সংঘর্ষ এড়াতে এবং সমাধানের চেষ্টা করতে, যদি সফল না হয় তবে উচিত পদক্ষেপ নেওয়া উচিত।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 504,
+    "act_tokens_out": 110,
+    "plan_content_len_chars": 468,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

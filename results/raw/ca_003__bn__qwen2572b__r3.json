@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc94148760c83d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের বর্তমান অবস্থা ও প্রয়োজনীয় কাজগুলোর একটি সংক্ষিপ্ত পর্যালোচনা করা হবে।\n2. সময়সীমার সাথে কাজগুলো সম্পন্ন করার জন্য সম্ভাব্য চ্যালেঞ্জগুলো নির্ধারণ করা হবে।\n3. প্রতিটি অ্যাকশনের ফলাফল ও তা দলের উপর কীভাবে প্রভাব ফেলবে তা বিশ্লেষণ করা হবে।\n4. দলের সদস্যদের মতামত সংগ্রহ করা হবে যে কোন অ্যাকশনটি তাদের মতে সবচেয়ে কার্যকর হবে।\n5. অধিক প্রাসঙ্গিক ও ফলপ্রদ অ্যাকশনটি নির্বাচন করা হবে এবং সেটি প্রয়োগের জন্য সংক্ষিপ্ত পরিকল্পনা তৈরি করা হবে।\n6. নির্বাচিত অ্যাকশন অনুসারে দলের সদস্যদের সাথে কাজের বরাদদি ও দায়িত্ব নিশ্চিত করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 561,
+      "prompt_tokens": 886,
+      "total_tokens": 1447,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.081504,
+    "balance_after": 258.9594
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই অ্যাকশনটি দলের কাজগুলো সাজানো, অগ্রাধিকার নির্ধারণ এবং কাজের বরাদদি করার জন্য একটি ব্যাপক পরিকল্পনা তৈরি করে, যা সময়সীমার মধ্যে লক্ষ্য অর্জনে সাহায্য করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

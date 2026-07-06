@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc014448339664",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. সিদ্ধান্তের প্রকৃতি এবং প্রভাব মূল্যায়ন করুন - কতজন কর্মীকে প্রভাবিত করবে, কতটা গুরুত্বপূর্ণ, এবং বিপরীতমুখী পরিণতি কী হতে পারে।\n\n2. প্রতিষ্ঠানের সংস্কৃতি এবং ক্ষমতা কাঠামো বিশ্লেষণ করুন - শৃঙ্খলা ভাঙলে কী ঝুকি, এবং কর্মীদের মতামত কতটা শোনা হয়।\n\n3. দীর্ঘমেয়াদী সম্পর্ক এবং সংগঠনিক স্বাস্থ্যের ভারসাম্য বিবেচনা করুন - একতরফা সিদ্ধান্তের পুনরাবৃত্তি রোধে কোন পদক্ষেপ কার্যকর হবে।\n\n4. প্রতিটি বিকল্পের বাস্তবায়নযোগ্যতা এবং সম্ভাব্য ফলাফল মূল্যায়ন করুন - কোনটি বর্তমান পরিস্থিতিতে সবচেয়ে ন্যায়সঙ্গত এবং কার্যকর সমাধান দেবে।\n\n5. ব্যক্তিগত মূল্যবোধ এবং পেশাদার দায়িত্বের মধ্যে সামঞ্জস্য রক্ষা করুন - নীরব সম্মতি বনাম সক্রিয় প্রতিরোধের নৈতিক ভারসাম্য নির্ধারণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 412,
+      "prompt_tokens": 553,
+      "total_tokens": 965,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.189421,
+    "balance_after": 382.3925
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"একতরফা সিদ্ধান্তের বিরোধিতা করে পর্যালোচনার দাবি জানানো ন্যায়সঙ্গত এবং দীর্ঘমেয়াদে দলের আস্থা ও কার্যকারিতা রক্ষা করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 412,
+    "act_tokens_out": 86,
+    "plan_content_len_chars": 677,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

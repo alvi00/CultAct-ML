@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cceddc07f445f9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের প্রকৃতি ও দলের পরিবেশ বিশ্লেষণ করুন - দূরবর্তী সময়সীমা এবং দলের উপস্থিতি মূল্যায়ন করুন।\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা তুলনা করুন - স্বতন্ত্র কাজ বনাম সহযোগিতা, নমনীয়তা বনাম কঠোরতা, দীর্ঘমেয়াদী দৃষ্টিভঙ্গি বনাম সংক্ষিপ্ত নির্দেশনা।\n3. টেকসই সাফল্যের জন্য কোন পদ্ধতি সবচেয়ে উপযুক্ত তা নির্ধারণ করুন - দূরবর্তী সময়সীমায় দলের মালিকানা ও প্রতিশ্রুতি গুরুত্বপূর্ণ।\n4. সিদ্ধান্ত নিন এবং তার যুক্তি নিশ্চিত করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 268,
+      "prompt_tokens": 611,
+      "total_tokens": 879,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.144701,
+    "balance_after": 374.3837
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"দূরবর্তী সময়সীমার প্রকল্পে দলের সম্মিলিত মালিকানা, স্বচ্ছতা এবং নিয়মিত চেকপয়েন্ট ভাগাভাগি দায়িত্ব ও টেকসই অগ্রগতি নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 268,
+    "act_tokens_out": 91,
+    "plan_content_len_chars": 429,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

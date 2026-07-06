@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce860c9f4957d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিস্থিতিটি মূল্যায়ন করুন: এটি একটি অনিশ্চয়তাপূর্ণ পরিস্থিতি যেখানে কোনো নির্দিষ্ট পদ্ধতি নেই, তাই দ্রুত গতি এবং সামঞ্জস্য উভয়ই গুরুত্বপূর্ণ।\n\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা বিশ্লেষণ করুন:\n   - A: বাহিরের স্টেকহোল্ডারদের নিয়ে কাজ করলে সময় বেশি লাগতে পারে\n   - D: কেবল মূল দলের অভিজ্ঞতায় সীমাবদ্ধ থাকা যাবে\n   - B: অভ্যন্তরীণ ঐকমত্য এবং সমন্বিত এগিয়ে চলা নিশ্চিত করে\n   - C: ঊর্ধ্বতন কর্তৃপক্ষের অপেক্ষায় সময় নষ্ট হতে পারে\n\n3. মূল চাহিদা চিহ্নিত করুন: দ্রুত সিদ্ধান্ত + সবার সমন্বয় + সুশৃঙ্খল অগ্রগতি\n\n4. সবচেয়ে ভারসাম্যপূর্ণ পদ্ধতি নির্বাচন করুন যা দ্রুততা এবং সামগ্রিক সমন্বয় উভয়ই নিশ্চিত করে",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 378,
+      "prompt_tokens": 655,
+      "total_tokens": 1033,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.186413,
+    "balance_after": 380.2251
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি দ্রুততা এবং সামগ্রিক সমন্বয় উভয়ই নিশ্চিত করে, যেখানে অস্থায়ী নির্দেশিকা এবং ঐকমত্যের মাধ্যমে সবাই একসঙ্গে এগোতে পারে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 378,
+    "act_tokens_out": 89,
+    "plan_content_len_chars": 613,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

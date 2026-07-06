@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce41c1fbd91e8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan tujuan pengambilan keputusan dalam rumah tangga, yaitu menciptakan cara yang tetap dan efektif.\n2. Evaluasi tingkat partisipasi yang diinginkan dari setiap anggota keluarga dalam proses pengambilan keputusan.\n3. Tinjau pentingnya otoritas dan struktur dalam dinamika keluarga.\n4. Analisis potensi dampak dari setiap tindakan yang tersedia terhadap hubungan dan keharmonisan keluarga.\n5. Pertimbangkan fleksibilitas dan adaptabilitas setiap metode terhadap situasi dan kondisi yang berbeda.\n6. Buat keputusan berdasarkan mana yang paling sesuai dengan nilai, tujuan, dan dinamika keluarga.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 180,
+      "prompt_tokens": 363,
+      "total_tokens": 543,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.030402,
+    "balance_after": 422.7047
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Metode ini menggabungkan bimbingan dari orang tua dengan partisipasi anggota keluarga lainnya, sehingga menciptakan keseimbangan antara otoritas dan kolaborasi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 180,
+    "act_tokens_out": 60,
+    "plan_content_len_chars": 605,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

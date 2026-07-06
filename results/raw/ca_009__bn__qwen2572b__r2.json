@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce72cddf740af",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের প্রতিটি সদস্যের মতামত এবং তাদের অনুরোধ সম্পর্কে খোলামেলা আলোচনা করা হবে।\n2. পরিবারের যৌথ লক্ষ্য এবং বর্তমান আর্থিক অবস্থা বিবেচনা করা হবে।\n3. পরিবারের সকল সদস্যকে অর্থ বণ্টনের প্রস্তাব সম্পর্কে জানানো হবে।\n4. প্রস্তাবগুলির উপর সম্মতি নেওয়া হবে এবং সম্ভাব্য অনুরোধ এবং চাহিদার মধ্যে ভারসাম্য রক্ষা করার চেষ্টা করা হবে।\n5. সকল সদস্যের মতামত এবং প্রস্তাব সম্পর্কে একটি সারাংশ তৈরি করা হবে।\n6. চূড়ান্ত সিদ্ধান্তে পৌঁছানোর আগে সকল সদস্যকে সারাংশটি অনুমোদনের জন্য জানানো হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 507,
+      "prompt_tokens": 1071,
+      "total_tokens": 1578,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.088254,
+    "balance_after": 437.8758
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"একটি পারিবারিক সভার মাধ্যমে সকল সদস্যের মতামত এবং চাহিদা বিবেচনা করা যায়, এবং সম্মতির মাধ্যমে একটি স্পষ্ট বণ্টন নির্দেশিকা নির্ধারণ করা যায় যা উভয় পক্ষকে ন্যায্যভাবে উপস্থাপন করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 507,
+    "act_tokens_out": 200,
+    "plan_content_len_chars": 483,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

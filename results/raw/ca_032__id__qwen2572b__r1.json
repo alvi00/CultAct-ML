@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc74c22180f36a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi keadaan saat ini baik dari sisi pekerjaan maupun keluarga untuk memahami tingkat urgensi dan dampak masing-masing.\n2. Identifikasi sumber daya dan dukungan yang tersedia, seperti bantuan dari rekan kerja, keluarga, atau jasa profesional.\n3. Pertimbangkan nilai dan prioritas pribadi yang mempengaruhi keputusan mengenai pekerjaan dan keluarga.\n4. Periksa kebijakan perusahaan terkait fleksibilitas kerja dan dukungan keluarga.\n5. Diskusikan situasi dengan anggota keluarga untuk mendapatkan masukan dan mendukung proses pengambilan keputusan.\n6. Evaluasi kembali opsi-opsi yang tersedia berdasarkan informasi dan pertimbangan yang telah dikumpulkan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 189,
+      "prompt_tokens": 378,
+      "total_tokens": 567,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.031752,
+    "balance_after": 418.7107
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Pengaturan fleksibel dapat membantu menyeimbangkan tanggung jawab pekerjaan dan keluarga tanpa mengabaikan salah satunya.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 189,
+    "act_tokens_out": 48,
+    "plan_content_len_chars": 661,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

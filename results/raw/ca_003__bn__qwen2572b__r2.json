@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc2e2ebc994c40",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, দলের বর্তমান অবস্থা এবং সময়সীমার চাপ বিবেচনা করা হবে।\n2. দলের সদস্যদের দক্ষতা এবং তাদের বর্তমান দায়িত্ব সম্পর্কে তথ্য সংগ্রহ করা হবে।\n3. লক্ষ্য এবং সময়সীমার জন্য প্রয়োজনীয় কাজগুলি নির্ধারণ করা হবে।\n4. দলের সদস্যদের মধ্যে কাজ বণ্টনের সর্বোত্তম পদ্ধতি বিবেচনা করা হবে।\n5. প্রতিটি পদক্ষেপের সম্ভাব্য ফলাফল বিশ্লেষণ করা হবে এবং সেগুলির উপর ভিত্তি করে সিদ্ধান্ত নেওয়া হবে।\n6. নির্বাচিত কর্মপদ্ধতির বাস্তবায়ন পরিকল্পনা তৈরি করা হবে এবং তা দলের সদস্যদের সাথে শেয়ার করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 507,
+      "prompt_tokens": 886,
+      "total_tokens": 1393,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.078264,
+    "balance_after": 259.1307
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই পদক্ষেপটি দ্রুত এবং কার্যকরভাবে কাজগুলো সাজানোর জন্য সবচেয়ে উপযুক্ত, যা সময়সীমার মধ্যে লক্ষ্য অর্জনের জন্য দক্ষতার সাথে কাজ সম্পন্ন করার সুযোগ দেয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc94fadbdd76b5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the company's culture and the typical path to promotion within it.\n2. Assess my current performance and achievements against the promotion criteria.\n3. Consider the importance of team dynamics and how my approach will affect them.\n4. Reflect on my personal values and how they align with each of the available actions.\n5. Seek informal feedback from trusted colleagues or mentors to gauge perceptions.\n6. Make a decision based on the alignment of all the above factors, ensuring it supports both my career and the team's success.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 104,
+      "prompt_tokens": 256,
+      "total_tokens": 360,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.020064,
+    "balance_after": 428.8562
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Actively pursuing the promotion by exceeding targets and making a transparent, merit-based case aligns with my performance and the company's values of achievement and fairness.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 104,
+    "act_tokens_out": 44,
+    "plan_content_len_chars": 541,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

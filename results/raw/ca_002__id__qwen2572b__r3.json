@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb8545444948c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi tujuan pengumuman: memastikan pencapaian proyek diakui secara adil dan membangun moral tim.\n2. Pertimbangkan struktur organisasi dan budaya perusahaan.\n3. Tinjau tingkat kontribusi individu dan tim.\n4. Analisis potensi dampak positif dan negatif dari setiap opsi tindakan.\n5. Pilih opsi yang paling sesuai dengan tujuan dan nilai-nilai perusahaan.\n6. Merumuskan pengumuman yang mencerminkan keputusan yang telah diambil.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 127,
+      "prompt_tokens": 397,
+      "total_tokens": 524,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.029058,
+    "balance_after": 260.2601
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Mengakui kontribusi individu secara proporsional berdasarkan prestasi masing-masing dapat meningkatkan motivasi dan moral karyawan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc15027ad2ddbc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Memahami sepenuhnya keputusan anggota keluarga tersebut dan alasan di baliknya.\n2. Menilai dampak keputusan tersebut terhadap norma dan nilai-nilai keluarga.\n3. Menimbang pentingnya harmoni keluarga versus otonomi individu.\n4. Menyusun pendekatan yang paling tepat untuk membahas isu tersebut dengan anggota keluarga.\n5. Memikirkan potensi respons dari anggota keluarga lainnya terhadap pendekatan yang dipilih.\n6. Memutuskan tindakan yang akan diambil berdasarkan pertimbangan di atas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 146,
+      "prompt_tokens": 363,
+      "total_tokens": 509,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.028362,
+    "balance_after": 424.5407
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Mendekati situasi dengan sikap terbuka dan mencari kompromi dapat membantu menjaga hubungan baik sambil menyelesaikan perbedaan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 146,
+    "act_tokens_out": 50,
+    "plan_content_len_chars": 489,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

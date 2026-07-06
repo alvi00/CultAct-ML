@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccffb25bc30bba",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi konteks organisasi: Pertimbangkan ukuran tim, tingkat kompleksitas keputusan yang dihadapi, dan urgensi waktu yang dibutuhkan.\n2. Analisis kebutuhan inti: Tentukan apakah prioritas utama adalah kecepatan/arah jelas, partisipasi penuh, keseimbangan masukan-otoritas, atau ketertiban prosedural.\n3. Bandingkan trade-off: Timbang risiko masing-masing metode—misalnya, potensi lambatnya konsensus penuh versus risiko resistensi dari keputusan top-down.\n4. Tentukan skalabilitas: Pertimbangkan apakah metode yang dipilih dapat diterapkan secara konsisten di berbagai tingkat dan jenis keputusan dalam organisasi.\n5. Pilih metode yang paling sesuai dengan karakteristik dan kebutuhan strategis organisasi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 211,
+      "prompt_tokens": 364,
+      "total_tokens": 575,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.103917,
+    "balance_after": 379.3156
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Metode ini memadukan masukan berkualitas dari tim inti dengan keputusan final yang tetap berada di tangan pimpinan, menciptakan keseimbangan antara partisipasi dan akuntabilitas kepemimpinan yang diperlukan dalam pengambilan keputusan organisasi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 211,
+    "act_tokens_out": 82,
+    "plan_content_len_chars": 711,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

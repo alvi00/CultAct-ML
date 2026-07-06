@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0ca0816673fa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি পদ্ধতির সুবিধা ও অসুবিধা বিশ্লেষণ করুন - দলগত ঐকমত্য, বয়োজ্যেষ্ঠদের মতামত, ব্যক্তিগত গবেষণা, এবং যৌথ পছন্দের মধ্যে পার্থক্য বুঝুন।\n\n2. ছুটির প্রকৃতি ও পরিবারের গঠন বিবেচনা করুন - এটি বহু-প্রজন্মের পরিবারের ছুটি নাকি বন্ধুদের ভ্রমণ, এবং কারা অংশগ্রহণ করছে তা নির্ধারণ করুন।\n\n3. সিদ্ধান্তের গুরুত্ব ও দীর্ঘমেয়াদী প্রভাব মূল্যায়ন করুন - এই সিদ্ধান্ত কতটা গুরুত্বপূর্ণ এবং ভুল হলে কী পরিণতি হতে পারে তা যাচাই করুন।\n\n4. প্রত্যেকের সন্তুষ্টি ও অংশগ্রহণের ভারসাম্য বিবেচনা করুন - সবার মতামত নেওয়ার প্রয়োজনীয়তা এবং সময়ের সীমাবদ্ধতা মূল্যায়ন করুন।\n\n5. সংস্কৃতিগত ও ব্যক্তিগত মূল্যবোধের সাথে সামঞ্জস্য পরীক্ষা করুন - কোন পদ্ধতি বাংলাদেশি পরিবারিক সংস্কৃতি এবং দায়িত্ববোধের সাথে সবচেয়ে বেশি মিলে যায় তা নির্ধারণ করুন।\n\n6. চূড়ান্ত পদ্ধতি নির্বাচন করুন যা সবচেয়ে ন্যায়সঙ্গত, সম্মানজনক এবং কার্যকর সিদ্ধান্ত নিশ্চিত করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 510,
+      "prompt_tokens": 515,
+      "total_tokens": 1025,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.219982,
+    "balance_after": 333.2266
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"একটি বহু-প্রজন্মের পরিবারের ছুটিতে সবার সন্তুষ্টি নিশ্চিত করতে দলগত ঐকমত্য সবচেয়ে ন্যায়সঙ্গত পদ্ধতি, কারণ এতে বয়োজ্যেষ্ঠদের সম্মান ও সবার অংশগ্রহণ উভয়ই সম্ভব হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 510,
+    "act_tokens_out": 123,
+    "plan_content_len_chars": 831,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

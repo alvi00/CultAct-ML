@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc9702ef9e23b3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পদোন্নতির জন্য আবশ্যক যোগ্যতা এবং দক্ষতা নির্ধারণ করুন।\n2. নিজের কর্মপরিপাট্য এবং দলের উপর প্রদত্ত অবদানের মূল্যায়ন করুন।\n3. তথ্য সংগ্রহ করুন যে কোনো নীতি বা আইন অনুযায়ী পদোন্নতির প্রক্রিয়া কীভাবে চলে।\n4. ওপরোক্ত তথ্য এবং নিজের লক্ষ্যের ভিত্তিতে সম্ভাব্য পদক্ষেত্রের প্রয়োজনীয়তা বিবেচনা করুন।\n5. পদোন্নতির জন্য নিজের উপযুক্ততা এবং দলের সকল সদস্যের মধ্যে স্বচ্ছতার বিবেচনা করুন।\n6. উপরোক্ত ধাপগুলো অনুসরণ করে সিদ্ধান্ত নিন কোন কার্যকলাপটি সবচেয়ে উপযুক্ত।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 499,
+      "prompt_tokens": 910,
+      "total_tokens": 1409,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.07908,
+    "balance_after": 428.1723
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি ন্যায় এবং স্বচ্ছ পদোন্নতি প্রক্রিয়া নিশ্চিত করবে, যা দলের সকল সদস্যের জন্য মর্যাদাপূর্ণ এবং উৎসাহবান হবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 499,
+    "act_tokens_out": 130,
+    "plan_content_len_chars": 462,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

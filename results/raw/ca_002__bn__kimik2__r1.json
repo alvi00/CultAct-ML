@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca15ed087b7d8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের প্রকৃতি এবং দলের গঠন বিশ্লেষণ করুন - কয়জন ব্যক্তি, কতটি দল, এবং তাদের মধ্যে সম্পর্ক কী ছিল তা বোঝার চেষ্টা করুন।\n\n2. কোম্পানির সংস্কৃতি এবং মূল্যবোধ মূল্যায়ন করুন - সমান স্বীকৃতি, ব্যক্তিগত পারফরম্যান্স, নেতৃত্বের গুরুত্ব, বা দলীয় সংহতি - কোনটি বেশি গুরুত্বপূর্ণ তা নির্ধারণ করুন।\n\n3. ঘোষণাটির লক্ষ্য শ্রোতা বিবেচনা করুন - সমগ্র কোম্পানির কর্মীরা পড়বেন, তাই তাদের কী বার্তা পাওয়া উচিত এবং কীভাবে তারা প্রতিক্রিয়া দেখাবেন তা চিন্তা করুন।\n\n4. দীর্ঘমেয়াদী প্রভাব বিশ্লেষণ করুন - এই স্বীকৃতি কীভাবে ভবিষ্যতে সহযোগিতা, অনুপ্রেরণা, এবং ন্যায়বিচারের ধারণাকে প্রভাবিত করবে।\n\n5. ব্যবহারিক বাস্তবতা যাচাই করুন - কৃতিত্বের পরিমাপযোগ্য তথ্যের প্রাপ্যতা, ঘোষণার সময়সীমা, এবং প্রতিটি পদ্ধতির বাস্তবায়নযোগ্যতা মূল্যায়ন করুন।\n\n6. সবচেয়ে সুষম এবং ন্যায়সঙ্গত সমাধান নির্বাচন করুন যা একইসাথে ব্যক্তিগত অবদানকে সম্মান করে এবং দলীয় সাফল্যকে স্বীকৃতি দেয়।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 508,
+      "prompt_tokens": 599,
+      "total_tokens": 1107,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.226474,
+    "balance_after": 408.5711
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"সমগ্র কোম্পানির ঘোষণায় প্রত্যেক অবদানকারীর নাম উল্লেখ করে তাদের পরিমাপযোগ্য অবদানের অনুপাতে কৃতিত্ব দিলে ন্যায়বিচার প্রতিষ্ঠিত হয়, ব্যক্তিগত যোগ্যতা পুরস্কৃত হয়, এবং ভবিষ্যতে উচ্চ পারফরম্যান্সের জন্য অনুপ্রেরণা তৈরি হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 508,
+    "act_tokens_out": 144,
+    "plan_content_len_chars": 861,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

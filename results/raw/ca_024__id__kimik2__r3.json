@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc257b4cd993c7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n1. Evaluasi sifat usulan tersebut—apakah menyimpang dari norma secara fundamental atau hanya variasi minor, serta dampaknya terhadap dinamika keluarga.\n2. Pertimbangkan prioritas jangka pendek dan panjang: keharmonisan, keadilan, dan potensi pembukaan ruang untuk perubahan yang konstruktif.\n3. Analisis kekuatan dan kelemahan setiap pendekatan: validasi objektif (A), deferensi hierarkis (C), penegakan aturan (B), atau harmoni melalui kompromi (D).\n4. Tentukan mana yang paling seimbang antara menghargai individu yang mengusulkan, menghormati nilai keluarga, dan memastikan keputusan berkualitas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 187,
+      "prompt_tokens": 357,
+      "total_tokens": 544,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.095038,
+    "balance_after": 362.8625
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Menilai usulan secara objektif terlebih dahulu menciptakan ruang dialog yang konstruktif, menghargai inisiatif anggota keluarga, dan memungkinkan keputusan berdasarkan merit tanpa mengabaikan norma secara prematur.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 187,
+    "act_tokens_out": 78,
+    "plan_content_len_chars": 605,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

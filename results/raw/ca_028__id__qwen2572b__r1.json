@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccfb9acf5e44f9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan tingkat keparahan dan jenis konflik yang dialami oleh pasangan.\n2. Evaluasi tingkat keterlibatan dan pengaruh anggota keluarga lain dalam masalah tersebut.\n3. Tinjau nilai-nilai dan norma-norma keluarga yang relevan dengan situasi ini.\n4. Analisis preferensi dan kebutuhan individu dari masing-masing pihak yang berselisih.\n5. Pertimbangkan efektivitas dan dampak jangka panjang dari setiap tindakan yang tersedia.\n6. Buat keputusan berdasarkan analisis dan pertimbangan yang telah dilakukan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 146,
+      "prompt_tokens": 331,
+      "total_tokens": 477,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.026634,
+    "balance_after": 421.9933
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Dialog yang tenang dan setara serta kesepakatan bersama dapat membantu pasangan menyelesaikan perselisihan dengan menghargai sudut pandang masing-masing.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 146,
+    "act_tokens_out": 55,
+    "plan_content_len_chars": 509,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

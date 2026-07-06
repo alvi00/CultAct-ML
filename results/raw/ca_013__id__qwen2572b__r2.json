@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb44990e949b0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Tinjau kembali keputusan atasan dan alasan mayoritas rekan kerja mendukungnya.\n2. Evaluasi dampak keputusan tersebut terhadap tim dan proyek secara keseluruhan.\n3. Pertimbangkan opsi untuk menyampaikan kekhawatiran secara pribadi atau di forum publik.\n4. Analisis potensi konflik yang mungkin timbul dari setiap tindakan.\n5. Pertimbangkan efek jangka panjang dari setiap tindakan pada hubungan kerja dengan atasan dan rekan kerja.\n6. Buat keputusan yang paling seimbang antara menjaga hubungan kerja dan menyuarakan pendapat pribadi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 160,
+      "prompt_tokens": 391,
+      "total_tokens": 551,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.030714,
+    "balance_after": 434.8248
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Menyampaikan kekhawatiran melalui saluran yang sesuai sambil mendukung keputusan dapat menjaga kekompakan tim dan memastikan suara saya terdengar.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 160,
+    "act_tokens_out": 58,
+    "plan_content_len_chars": 536,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

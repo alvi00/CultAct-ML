@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce1e9e84f4829",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Menganalisis situasi dan tujuan yang perlu dicapai.\n2. Menilai urgensi dan kompleksitas masalah yang dihadapi.\n3. Meninjau semua opsi tindakan yang tersedia dan mempertimbangkan kelebihan dan kekurangan masing-masing.\n4. Menentukan tingkat keterlibatan yang diperlukan dari pihak-pihak terkait atau pemangku kepentingan.\n5. Menilai ketersediaan waktu dan sumber daya untuk melakukan setiap opsi tindakan.\n6. Memutuskan opsi yang paling sesuai berdasarkan analisis yang telah dilakukan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 152,
+      "prompt_tokens": 369,
+      "total_tokens": 521,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.029046,
+    "balance_after": 433.1
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Opsi B memungkinkan keterlibatan dan konsensus dari pihak-pihak terkait, yang penting dalam situasi tanpa prosedur tetap untuk memastikan keputusan yang diterima semua pihak.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 152,
+    "act_tokens_out": 69,
+    "plan_content_len_chars": 488,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

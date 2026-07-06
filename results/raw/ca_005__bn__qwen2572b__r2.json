@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc7d11ee4ec0fb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. উৎসবের উদ্দেশ্য ও অনুষ্ঠানের প্রকৃতি নির্ধারণ করা হবে।\n2. সম্প্রদায়ের সদস্যদের মধ্যে একটি ছোট গোষ্ঠী একত্রিত করা হবে যারা প্রধান পরিকল্পনা করবে।\n3. প্রস্তাবিত কর্মসূচি ও নেতৃত্বের পদ্ধতি সম্পর্কে আলোচনা করা হবে।\n4. সদস্যদের মতামত সংগ্রহ করা হবে এবং একটি সামষ্টিক সিদ্ধান্ত নেওয়ার চেষ্টা করা হবে।\n5. নির্বাচিত অ্যাকশনের ভিত্তিতে পরিকল্পনা ও সময়সূচী তৈরি করা হবে।\n6. নির্ধারিত পরিকল্পনার অনুযায়ী কর্মসূচি আয়োজন ও বাস্তবায়নের জন্য দায়িত্বপূর্ণ ব্যক্তিদের নির্বাচন করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 504,
+      "prompt_tokens": 985,
+      "total_tokens": 1489,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08343,
+    "balance_after": 257.3787
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"একটি কমিটির মাধ্যমে সবার মতামত এবং অংশগ্রহণ নিশ্চিত করা যায়, যা সম্প্রদায়ের যৌথ মালিকানার ভাব ও একাত্মতা বাড়ায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

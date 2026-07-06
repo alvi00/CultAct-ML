@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1423a3962a4d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi dinamika keluarga saat ini, termasuk jumlah anggota, tingkat partisipasi masing-masing, dan sejarah pengambilan keputusan sebelumnya.\n2. Pertimbangkan urgensi dan skala keputusan keuangan—apakah bersifat jangka panjang, jangka pendek, atau berisiko tinggi.\n3. Analisis kelebihan dan kekurangan setiap pendekatan: mufakat (B), disiplin individual (A), kolektif dengan senior (C), atau delegasi ke senior (D).\n4. Tentukan prioritas utama keluarga: apakah stabilitas finansial, pertumbuhan, keadilan partisipasi, atau efisiensi pengambilan keputusan.\n5. Pilih pendekatan yang paling selaras dengan nilai keluarga dan kondisi praktis saat ini.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 209,
+      "prompt_tokens": 378,
+      "total_tokens": 587,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.104424,
+    "balance_after": 392.205
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"Pendekatan kolektif dengan melibatkan anggota senior memastikan keputusan mendapat persetujuan luas sambil tetap memanfaatkan pengalaman dan kebijaksanaan generasi sebelumnya untuk kesejahteraan bersama.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 209,
+    "act_tokens_out": 78,
+    "plan_content_len_chars": 651,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccea962cae0884",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identify the core values and priorities that matter most for this family decision, such as inclusivity, efficiency, long-term welfare, and respect for experience.\n\n2. Evaluate how each available decision-making approach aligns with these values, considering trade-offs between broad participation, speed, and quality of outcomes.\n\n3. Assess the specific context of a house move—its complexity, emotional weight, and need for buy-in from all family members who will be affected.\n\n4. Determine which approach best balances meaningful participation with practical decision-making for a major life transition.\n\n5. Select the action that optimally serves both the process and the outcome for the family's wellbeing.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 130,
+      "prompt_tokens": 251,
+      "total_tokens": 381,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.06631,
+    "balance_after": 341.1803
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"A house move affects every family member's daily life and requires genuine buy-in, so collaborative consensus-building through agreed criteria ensures both better decisions and stronger commitment to the outcome.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 130,
+    "act_tokens_out": 48,
+    "plan_content_len_chars": 713,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc659a46a4d2ec",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সকল উপলব্ধ কর্মপরিকল্পনার বিবরণ প্রস্তুত করুন এবং প্রতিটির সুবিধা ও অসুবিধার একটি তালিকা তৈরি করুন।\n2. উৎসবের উদ্দেশ্য, লক্ষ্য, এবং অনুষ্ঠানের প্রকৃতি বিবেচনার সাথে প্রতিটি কর্মপরিকল্পনার প্রাসঙ্গিকতা মূল্যায়ন করুন।\n3. সম্প্রদায়ের মূল্যবোধ, সংস্কৃতি, ও প্রথা বিবেচনার সাথে প্রতিটি কর্মপরিকল্পনার সামাজিক প্রভাব মূল্যায়ন করুন।\n4. প্রতিটি কর্মপরিকল্পনার সম্ভাব্য ব্যয় এবং তা বর্তমান বাজেটের সাথে মেলানোর সম্ভাবনা বিবেচনা করুন।\n5. সম্প্রদায়ের সদস্যদের মতামত এবং প্রতিক্রিয়া সংগ্রহ করুন এবং এটি সিদ্ধান্ত গ্রহণের জন্য ব্যবহার করুন।\n6. উপরের সকল দিক বিবেচনার পর, সর্বোত্তম কর্মপরিকল্পনা নির্বাচন করুন এবং তা প্রয়োগের জন্য প্রস্তুতি করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 681,
+      "prompt_tokens": 985,
+      "total_tokens": 1666,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.09405,
+    "balance_after": 257.5647
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"পরিবার ও সম্প্রদায়ের সদস্যদের নিয়ে কমিটি গঠন করা সবার মতামত এবং অংশগ্রহণ নিশ্চিত করবে, যা উৎসবের সফলতার জন্য গুরুত্বপূর্ণ।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

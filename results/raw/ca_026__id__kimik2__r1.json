@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0b1cace9bb66",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan nilai-nilai budaya dan konteks keluarga terkait hierarki dan penghormatan kepada tetua.\n2. Evaluasi sifat keputusan yang dihadapi—apakah bersifat pribadi, keluarga besar, atau memiliki dampak jangka panjang yang signifikan.\n3. Analisis tingkat otonomi yang diperlukan dalam pengambilan keputusan ini.\n4. Pertimbangkan keseimbangan antara menghormati tetua dan memastikan keputusan yang bertanggung jawab secara pribadi.\n5. Nilai potensi dampak hubungan jangka panjang dengan para tetua berdasarkan pendekatan yang dipilih.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 162,
+      "prompt_tokens": 366,
+      "total_tokens": 528,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.087183,
+    "balance_after": 359.7126
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pendekatan ini menyeimbangkan penghormatan terhadap tetua dengan tanggung jawab pribadi dalam pengambilan keputusan, memungkinkan masukan berharga mereka ditimbang namun tidak mengabaikan faktor-faktor relevan lainnya.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 162,
+    "act_tokens_out": 79,
+    "plan_content_len_chars": 539,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

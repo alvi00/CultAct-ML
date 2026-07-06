@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd4e150e9602b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের দ্বন্দ্বের ধরন ও গভীরতা মূল্যায়ন করা - এটি ব্যক্তিগত, পদ্ধতিগত নাকি কাঠামোগত সমস্যা কিনা তা বোঝা।\n2. দলের সংস্কৃতি ও সদস্যদের মধ্যে বিশ্বাসের মাত্রা বিবেচনা করা - তারা স্বয়ংসমাধানে সক্ষম কিনা।\n3. সময়সীমা ও জরুরিতা যাচাই করা - দ্রুত সমাধান প্রয়োজন কিনা।\n4. দীর্ঘমেয়াদী দলীয় ঐক্য ও সদস্যদের মালিকানাবোধের গুরুত্ত্ব বিবেচনা করা।\n5. প্রতিটি বিকল্পের সুবিধা-অসুবিধা তুলনা করা - স্বচ্ছতা, গণতন্ত্র, দ্রুততা ও টেকসই সমাধানের দিক থেকে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 283,
+      "prompt_tokens": 548,
+      "total_tokens": 831,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.144489,
+    "balance_after": 364.0589
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"দলগতভাবে খোলা আলোচনার মাধ্যমে সমস্যা নিষ্পত্তি করলে সবার অংশগ্রহণ নিশ্চিত হয় এবং দীর্ঘমেয়াদী ঐক্য ও মালিকানাবোধ তৈরি হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 283,
+    "act_tokens_out": 94,
+    "plan_content_len_chars": 441,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccec8cd1027559",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. মূল্যায়ন করুন যে এই স্বীকৃতি কী উদ্দেশ্যে দেওয়া হচ্ছে - একজন ব্যক্তির অসাধারণ কর্মক্ষমতাকে সরাসরি স্বীকৃতি দেওয়া নাকি দলের মধ্যে সম্পর্ক ও সংহতি গড়ে তোলা।\n2. বিবেচনা করুন সংস্কৃতিগত প্রেক্ষাপট - বাংলাদেশি/দক্ষিণ এশীয় কর্পোরেট সংস্কৃতিতে ব্যক্তিগত স্বীকৃতি বনাম দলগত স্বীকৃতির গ্রহণযোগ্যতা।\n3. মূল্যায়ন করুন প্রতিটি বিকল্পের দীর্ঘমেয়াদী প্রভাব - কর্মক্ষমতা উৎসাহ, দলগত গতিশীলতা, এবং অন্যান্য সদস্যের অনুপ্রেরণা।\n4. বিবেচনা করুন বাস্তবায়নযোগ্যতা - কোন পদ্ধতি সবচেয়ে কার্যকরভাবে বাস্তবায়ন করা যাবে এবং সবচেয়ে বেশি মনে রাখবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 334,
+      "prompt_tokens": 549,
+      "total_tokens": 883,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.16217,
+    "balance_after": 395.5669
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"অসাধারণ কর্মক্ষমতার জন্য সরাসরি ব্যক্তিগত পুরস্কার সবচেয়ে কার্যকর উদ্দীপনা এবং স্বীকৃতি নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 334,
+    "act_tokens_out": 77,
+    "plan_content_len_chars": 535,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

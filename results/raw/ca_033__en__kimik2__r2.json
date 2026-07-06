@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc4aa323925980",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identify my core values and priorities regarding career advancement versus family time.\n2. Assess the specific requirements of the promotion and quantify the expected time away from home.\n3. Evaluate each option against my values, considering who is involved in the decision and what safeguards are proposed.\n4. Reflect on which approach best balances opportunity with responsibility to family relationships.\n5. Determine which action aligns most authentically with how I want to navigate this life decision.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 91,
+      "prompt_tokens": 261,
+      "total_tokens": 352,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.053711,
+    "balance_after": 346.3358
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"This option proactively balances both career opportunity and family commitment through concrete planning rather than leaving it to chance or unilateral decision.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 91,
+    "act_tokens_out": 38,
+    "plan_content_len_chars": 511,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

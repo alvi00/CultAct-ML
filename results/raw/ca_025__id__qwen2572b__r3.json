@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccbe6fdb101425",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan nilai-nilai dan norma keluarga yang ada.\n2. Evaluasi keputusan anggota keluarga tersebut dan dampaknya terhadap keluarga.\n3. Identifikasi tujuan utama dalam merespons keputusan tersebut (misalnya, mempertahankan keharmonisan, mendukung otonomi, atau memperkuat norma keluarga).\n4. Pertimbangkan efektivitas setiap tindakan yang tersedia dalam mencapai tujuan tersebut.\n5. Pilih tindakan yang paling sesuai dengan tujuan dan situasi saat ini.\n6. Siapkan cara penyampaian tindakan yang dipilih untuk memastikan komunikasi yang efektif dan positif.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 165,
+      "prompt_tokens": 363,
+      "total_tokens": 528,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.029502,
+    "balance_after": 424.4768
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Diskusi tenang akan membantu mencapai kompromi yang menghargai keputusan individu sambil menjaga norma keluarga.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 165,
+    "act_tokens_out": 46,
+    "plan_content_len_chars": 562,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

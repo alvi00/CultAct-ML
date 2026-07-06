@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccdc370cbfb766",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identify the core values that matter most for this health decision (e.g., trust, evidence quality, comprehensiveness, or institutional credibility).\n2. Evaluate each available action against those prioritized values, noting trade-offs between personal relationships, scientific rigor, and institutional validation.\n3. Consider the specific context: whether this is a routine screening or addresses a particular concern, and whether personal medical history suggests need for standard or specialized approaches.\n4. Weigh the risk of missing something important against the value of established relationships and processes.\n5. Select the approach that best balances thoroughness, reliability, and appropriate personalization for this decision.\n6. Proceed to execute the chosen action by booking the appointment through the appropriate channel.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 144,
+      "prompt_tokens": 236,
+      "total_tokens": 380,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.069858,
+    "balance_after": 338.9928
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Comprehensive, evidence-based screening provides the most reliable diagnostic information to inform actual health decisions.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 144,
+    "act_tokens_out": 32,
+    "plan_content_len_chars": 844,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

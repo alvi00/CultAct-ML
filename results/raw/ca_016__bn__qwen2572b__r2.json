@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc9b29bccb3813",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিষ্ঠানের লক্ষ্য ও মূল্যবোধ সম্পর্কে স্পষ্ট ধারণা গঠন করা।\n2. প্রতিটি উপলব্ধ কর্মকাণ্ডের সুবিধা ও অসুবিধা বিশ্লেষণ করা।\n3. প্রতিষ্ঠানের সদস্যদের মতামত এবং সুস্থ পরামর্শ সংগ্রহ করা।\n4. নির্বাচিত কর্মকাণ্ডের প্রতি প্রতিক্রিয়া এবং প্রভাব মূল্যায়ন করা।\n5. সম্ভাব্য চ্যালেঞ্জ এবং সমাধানের পথ বিবেচনা করা।\n6. সর্বোত্তম কর্মকাণ্ড নির্বাচন এবং তা প্রতিষ্ঠানের সদস্যদের সাথে শেয়ার করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 402,
+      "prompt_tokens": 940,
+      "total_tokens": 1342,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.07488,
+    "balance_after": 431.8352
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই পদ্ধতি অংশগ্রহণমূলক এবং ঐকমত্য গঠনকে প্রচার করে, যা প্রতিষ্ঠানের মূল্যবোধ ও সদস্যদের মধ্যে সম্পর্ক শক্তিশালী করতে সাহায্য করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 402,
+    "act_tokens_out": 150,
+    "plan_content_len_chars": 385,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

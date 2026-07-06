@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc6622e263cb66",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সমস্যাটি সম্পর্কে বিস্তারিত তথ্য সংগ্রহ করুন এবং তার গুরুত্ব ও জরুরী হওয়ার মাত্রা মূল্যায়ন করুন।\n2. সম্পর্কিত স্টেকহোল্ডারদের সাথে তাদের পরামর্শ নিন এবং তাদের মতামত শুনুন।\n3. উপলব্ধ সমস্ত তথ্য এবং মতামত বিবেচনা করুন।\n4. সম্ভাব্য প্রভাব এবং অবকাঠামো বিবেচনা করে কর্মপরিকল্পনাগুলোর মধ্যে একটি সিদ্ধান্ত নেওয়ার জন্য সাবধানতার সাথে বিশ্লেষণ করুন।\n5. নির্বাচিত জাতীয় কর্মপরিকল্পনার সাথে সম্পর্কিত আইনি এবং নীতিগত মামলাগুলি বিবেচনা করুন।\n6. সিদ্ধান্তটি বাস্তবায়নের জন্য প্রয়োজনীয় পদক্ষেপগুলি প্রস্তুত করুন এবং সেগুলি অনুসরণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 574,
+      "prompt_tokens": 1018,
+      "total_tokens": 1592,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.089412,
+    "balance_after": 429.0173
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এটি দ্রুত এবং সম্মিলিতভাবে সমাধান খুঁজে পাওয়ার জন্য সবচেয়ে কার্যকর পদক্ষেপ।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 574,
+    "act_tokens_out": 96,
+    "plan_content_len_chars": 533,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

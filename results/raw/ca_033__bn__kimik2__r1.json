@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce6724679c72b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে পদোন্নতির প্রকৃতি এবং সময় দূরে থাকার প্রয়োজনীয়তা সম্পর্কে বিস্তারিত তথ্য সংগ্রহ করব।\n2. পরিবারের সদস্যদের সাথে আলোচনা করব এবং তাদের মতামত, উদ্বেগ এবং প্রত্যাশা বুঝব।\n3. বর্তমান দলের ক্ষমতা এবং আমার অনুপস্থিতিতে তাদের কার্যক্ষমতা মূল্যায়ন করব।\n4. ব্যক্তিগত এবং পেশাগত দীর্ঘমেয়াদী লক্ষ্যের সাথে এই সুযোগের সামঞ্জস্য বিশ্লেষণ করব।\n5. বিভিন্ন বিকল্পের সম্ভাব্য ফলাফল ও ঝুঁকি ওজন করব।\n6. সব তথ্য বিবেচনা করে সবচেয়ে ভারসাম্যপূর্ণ এবং টেকসই সিদ্ধান্ত নেব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 287,
+      "prompt_tokens": 649,
+      "total_tokens": 936,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.154504,
+    "balance_after": 345.4662
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি পদোন্নতির সুযোগ কাজে লাগানো এবং পরিবারের সময় রক্ষা করার মধ্যে সক্রিয়ভাবে ভারসাম্য রাখার একটি সুনির্দিষ্ট পরিকল্পনা নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 287,
+    "act_tokens_out": 86,
+    "plan_content_len_chars": 464,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

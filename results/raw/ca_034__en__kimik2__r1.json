@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccbf3c5e6c2af0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Clarify my own values and priorities as a parent—whether I prioritize my child's autonomy, their growth, family honor, or group success.\n2. Consider my child's possible reasons for declining—fear of failure, lack of interest, pressure, or something else—without assuming.\n3. Weigh the long-term impact of each approach on my relationship with my child and their future decision-making confidence.\n4. Evaluate which response best balances my guidance role with respect for their emerging independence.\n5. Determine which action aligns most consistently with treating my child as a person with their own valid preferences, not an extension of my goals or others' expectations.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 132,
+      "prompt_tokens": 262,
+      "total_tokens": 394,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.067941,
+    "balance_after": 344.6263
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"This approach honors my child's autonomy while still fulfilling my parental duty to educate them about opportunities, trusting them to integrate that information into their own decision-making.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 132,
+    "act_tokens_out": 44,
+    "plan_content_len_chars": 677,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

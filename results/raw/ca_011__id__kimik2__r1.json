@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce481bdeb3d5c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Analisis setiap opsi berdasarkan prinsip efektivitas pengelolaan keuangan, keseimbangan kekuasaan dalam hubungan, dan keberlanjutan jangka panjang.\n\n2. Evaluasi kekuatan dan kelemahan masing-masing pendekatan: tradisional (C), berbasis keahlian (A), bersama-sama (B), serta otoritas dengan konsultasi (D).\n\n3. Pertimbangkan konteks modern di mana keterlibatan kedua pasangan dan transparansi keuangan semakin dihargai, serta risiko konflik jika satu pihak sepenuhnya dikuasai.\n\n4. Bandingkan mana yang paling mengoptimalkan hasil keuangan keluarga sekaligus memperkuat hubungan pasangan, bukan hanya efisiensi semata atau tradisi belaka.\n\n5. Tentukan pendekatan yang menawarkan keseimbangan terbaik antara keahlian, partisipasi, dan keharmonisan rumah tangga.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 242,
+      "prompt_tokens": 358,
+      "total_tokens": 600,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.114099,
+    "balance_after": 390.8356
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Mengandalkan keahlian yang lebih unggul dengan pengawasan bersama mengoptimalkan hasil keuangan keluarga sambil tetap memastikan transparansi dan partisipasi kedua pasangan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 242,
+    "act_tokens_out": 64,
+    "plan_content_len_chars": 762,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

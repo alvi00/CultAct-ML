@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc793c6569b65b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন ক্রিয়ার সম্ভাব্য ফলাফল এবং ঝুঁকি মূল্যায়ন করুন - দলগত সংহতি, ব্যক্তিগত বিশ্বাস, এবং দীর্ঘমেয়াদী সম্পর্কের দিক থেকে।\n\n2. পরিস্থিতির গুরুত্ব নির্ধারণ করুন - সিদ্ধান্তটি কি প্রত্যাহারযোগ্য, এবং ভিন্নমত প্রকাশের ব্যক্তিগত ও পেশাগত প্রভাব কী হতে পারে।\n\n3. সংস্থার সংস্কৃতি এবং বসের নেতৃত্বের ধরণ বিবেচনা করুন - খোলামেলা আলোচনা কি উৎসাহিত হয়, নাকি কঠোর শ্রেণীবিন্যাস বজায় থাকে।\n\n4. নিজের মূল্যবোধ ও দায়িত্বের মধ্যে ভারসাম্য খুঁজুন - কতটা আপোস করা নৈতিকভাবে গ্রহণযোগ্য এবং কখন প্রতিরোধ করা উচিত।\n\n5. সময়ের গুরুত্ব বিবেচনা করুন - সিদ্ধান্তটি কি দ্রুত বাস্তবায়ন করতে হবে, নাকি পর্যালোচনার সুযোগ আছে।\n\n6. সবচেয়ে ন্যায়সঙ্গত এবং কার্যকর পদক্ষেপ চিহ্নিত করুন যা একসাথে সম্মান, সততা, এবং দলের স্বার্থ রক্ষা করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 424,
+      "prompt_tokens": 641,
+      "total_tokens": 1065,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.201086,
+    "balance_after": 385.8636
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"খোলামেলাভাবে ভিন্নমত প্রকাশ করে দলের সিদ্ধান্তকে সমর্থন করলে নিজের সততা বজায় থাকে এবং দলের সঙ্গে সামঞ্জস্যও রক্ষা হয়, যা দীর্ঘমেয়াদে বিশ্বাস ও সম্মান তৈরি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 424,
+    "act_tokens_out": 112,
+    "plan_content_len_chars": 718,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

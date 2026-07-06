@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccfbd98cdf2c14",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সিদ্ধান্তটি এবং তার প্রভাব সম্পর্কে গভীরভাবে চিন্তা করুন এবং নিজের উদ্বেগগুলি স্পষ্টভাবে চিহ্নিত করুন।\n2. একটি তালিকা তৈরি করুন যেখানে প্রতিটি কার্যক্রমের সম্ভাব্য ফলাফল এবং তাদের প্রভাব লিখে রাখা হবে।\n3. দলের বাকি সদস্যদের মতামত এবং প্রতিক্রিয়া নিয়ে আলোচনা করুন, তাদের দৃষ্টিভঙ্গি বুঝার জন্য।\n4. বসের প্রতি সম্মান রক্ষা করতে এবং সম্ভাব্য মতামতের বিভাজন কমানোর উদ্দেশ্যে ব্যক্তিগত দৃষ্টিভঙ্গি নিয়ে বসের সাথে একটি বেসরকারি আলোচনার প্রস্তাব করুন।\n5. দলের সামগ্রিক উন্নতি এবং স্বার্থের উপর দৃষ্টি রাখতে চেষ্টা করুন এবং সেই দৃষ্টিকোণ থেকে সিদ্ধান্ত গ্রহণ করুন।\n6. সিদ্ধান্ত নেওয়ার পর, সেই সিদ্ধান্তের একটি সংক্ষিপ্ত বিবরণ লিখুন এবং কেন সেই সিদ্ধান্তটি গ্রহণ করা হয়েছে তা ব্যাখ্যা করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 725,
+      "prompt_tokens": 995,
+      "total_tokens": 1720,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.09723,
+    "balance_after": 434.2688
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এই সিদ্ধান্ত নিশ্চিতভাবে দলের ঐক্য রক্ষা করবে এবং যৌক্তিকভাবে আমার উদ্বেগ প্রকাশ করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 725,
+    "act_tokens_out": 101,
+    "plan_content_len_chars": 689,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

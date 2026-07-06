@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc71b60eea2b5c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi prioritas kesehatan pribadi dengan mempertimbangkan riwayat kesehatan, usia, dan faktor risiko spesifik untuk menentukan jenis pemeriksaan yang paling relevan.\n\n2. Teliti dan bandingkan kredibilitas sumber informasi—termasuk akreditasi fasilitas, rekomendasi personal, bukti ilmiah, serta pedoman kesehatan resmi—untuk memahami kekuatan dan keterbatasan masing-masing pendekatan.\n\n3. Pertimbangkan keseimbangan antara keandalan hasil medis (akurasi, validitas) dengan aksesibilitas dan kenyamanan dalam proses pengambilan keputusan.\n\n4. Identifikasi apakah kebutuhan utama adalah deteksi dini spesifik, pemantauan kesehatan umum, atau penanganan kondisi berisiko, untuk menyelaraskan metode pemilihan dengan tujuan tersebut.\n\n5. Tentukan kriteria pengambilan keputusan akhir yang mengintegrasikan bukti objektif, kepercayaan pada sistem kesehatan, dan kesesuaian dengan kebutuhan pribadi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 281,
+      "prompt_tokens": 346,
+      "total_tokens": 627,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.126528,
+    "balance_after": 338.2744
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pemeriksaan skrining yang komprehensif dan berbasis bukti memberikan hasil paling dapat diandalkan untuk pengambilan keputusan kesehatan yang terinformasi dengan baik.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 281,
+    "act_tokens_out": 60,
+    "plan_content_len_chars": 900,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

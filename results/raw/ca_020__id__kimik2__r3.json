@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1b689ee829d0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. Evaluasi nilai-nilai inti yang ingin saya tunjukkan dalam karier saya—apakah saya lebih memprioritaskan inisiatif pribadi atau harmoni organisasional.\n\n2. Analisis konteks budaya kerja tempat saya berada—apakah organisasi menghargai proaktivitas individu atau lebih menghormati hierarki dan proses formal.\n\n3. Pertimbangkan dampak jangka panjang dari setiap pendekatan terhadap hubungan saya dengan rekan kerja, tim, dan manajemen.\n\n4. Timbang probabilitas keberhasilan masing-masing strategi berdasarkan seberapa transparan dan adil sistem promosi di organisasi tersebut.\n\n5. Tentukan pendekatan yang paling selaras dengan identitas profesional saya sekaligus tetap menghormati dinamika tim dan organisasi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 209,
+      "prompt_tokens": 367,
+      "total_tokens": 576,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.103483,
+    "balance_after": 371.3346
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pendekatan ini menunjukkan inisiatif dan profesionalisme dengan berbasis pada hasil kerja yang nyata dan transparan, sekaligus mengambil tanggung jawab atas perkembangan karier sendiri.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 209,
+    "act_tokens_out": 716,
+    "plan_content_len_chars": 717,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

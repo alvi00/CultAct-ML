@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc528c0f7447d0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n1. অচলাবস্থার কারণ বিশ্লেষণ করুন - এটি সময়সীমা সংক্রান্ত, মতামতের ভিন্নতা, নাকি নেতৃত্বের অভাবজনিত।\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা মূল্যায়ন করুন - গণতান্ত্রিক প্রক্রিয়া বনাম দ্রুততা বনাম ঐক্যমতের গুরুত্ব।\n3. দলের বর্তমান গতিশীলতা এবং সদস্যদের মধ্যে বিশ্বাসের পর্যায় বিবেচনা করুন।\n4. দীর্ঘমেয়াদী দলীয় সম্পর্ক এবং প্রকল্পের সফলতার জন্য কোন পদ্ধতি সবচেয়ে উপযোগী তা নির্ধারণ করুন।\n5. সিদ্ধান্ত নিন যে কোন পদ্ধতি অচলাবস্থা ভাঙার পাশাপাশি ভবিষ্যতে অনুরূপ পরিস্থিতি প্রতিরোধেও সহায়ক হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 312,
+      "prompt_tokens": 516,
+      "total_tokens": 828,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.151758,
+    "balance_after": 365.555
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"ঐক্যমতের মাধ্যমে সিদ্ধান্ত নিলে দলের সব সদস্যের মতামত সম্মানিত হয় এবং ভবিষ্যতে বাস্তবায়নে সম্পূর্ণ সমর্থন পাওয়া যায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 312,
+    "act_tokens_out": 87,
+    "plan_content_len_chars": 498,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

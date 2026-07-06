@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc45c7fc64c7e2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. নিয়ম লঙ্ঘনের প্রকৃতি ও গুরুত্ব বিবেচনা করুন।\n2. সহকর্মীর সাথে সরাসরি কথা বলার সম্ভাব্য ফলাফল বিবেচনা করুন।\n3. নিয়ম লঙ্ঘনের প্রভাব ও দলের সংহতির উপর প্রভাব বিবেচনা করুন।\n4. তত্ত্বাবধায়কের নিয়ন্ত্রণে নিয়ম বজায় রাখার ক্ষমতা বিবেচনা করুন।\n5. নিজের দায়িত্ব ও কর্তব্য বিবেচনা করুন।\n6. উপরোক্ত বিবেচনাগুলি অবলম্বন করে সর্বোত্তম কর্মপদ্ধতি নির্বাচন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 377,
+      "prompt_tokens": 807,
+      "total_tokens": 1184,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.066198,
+    "balance_after": 418.952
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"সরাসরি সহকর্মীর সাথে আলোচনা করা একটি সরল ও উপযুক্ত পদক্ষেপ, যা সমস্যাটি সমাধান হলে আরও বড় প্রক্রিয়াগুলোকে এড়িয়ে চলা যায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 377,
+    "act_tokens_out": 148,
+    "plan_content_len_chars": 356,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

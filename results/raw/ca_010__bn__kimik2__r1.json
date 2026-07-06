@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc6f2108b4674a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের আর্থিক সিদ্ধান্তের ধরন ও গুরুত্ব বিশ্লেষণ করুন যা এই নির্দিষ্ট পরিস্থিতিতে কোন পদ্ধতি সবচেয়ে উপযুক্ত তা নির্ধারণ করতে সাহায্য করবে।\n2. প্রতিটি উপলব্ধ পদ্ধতির সুবিধা ও সীমাবলী মূল্যায়ন করুন, বিশেষ করে পরিবারের সদস্যদের মধ্যে ক্ষমতা ভারসাম্য, সিদ্ধান্ত গ্রহণে অংশগ্রহণ, এবং দীর্ঘমেয়াদী স্থিতিশীলতার দিক থেকে।\n3. পরিবারের সাংস্কৃতিক মূল্যবোধ এবং ঐতিহ্যগত সিদ্ধান্ত গ্রহণের পদ্ধতি বিবেচনা করুন, কারণ এটি ফলাফলের গ্রহণযোগ্যতা ও কার্যকারিতা নির্ধারণ করবে।\n4. সম্ভাব্য দ্বন্দ্ব পরিস্থিতি এবং তা সমাধানের উপায় চিহ্নিত করুন যে কোনো পদ্ধতি বাস্তবায়নের ক্ষেত্রে উদ্ভূত হতে পারে।\n5. সবচেয়ে সামগ্রিকভাবে সুষম, টেকসই এবং পরিবারের সব সদস্যের কল্যাণ নিশ্চিত করতে পারে এমন পদ্ধতি বেছে নিন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 425,
+      "prompt_tokens": 583,
+      "total_tokens": 1008,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.196471,
+    "balance_after": 391.9254
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এই পদ্ধতি পরিবারের সম্পদ একত্রিত করে এবং বয়োজ্যেষ্ঠদের অভিজ্ঞতার সাথে যৌথ সিদ্ধান্ত গ্রহণের মাধ্যমে সবার কল্যাণ নিশ্চিত করে, যা বাংলাদেশি পারিবারিক সংস্কৃতিতে সবচেয়ে সুষম ও গ্রহণযোগ্য।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 425,
+    "act_tokens_out": 131,
+    "plan_content_len_chars": 690,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

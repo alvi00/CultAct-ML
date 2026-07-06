@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cccc17756db4b2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Reflect on the personal and professional goals to understand how this promotion aligns with them.\n2. Consider the potential impact of increased time away from home on family and personal life.\n3. Discuss the promotion and its implications with close family members to gather their perspectives and concerns.\n4. Evaluate the support systems currently in place and the feasibility of implementing additional ones if needed.\n5. Set up a meeting with the manager to discuss the details of the promotion, including the expectations and possibilities for flexible arrangements.\n6. Weigh the input from family, the discussion with the manager, and personal goals to make a balanced decision.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 125,
+      "prompt_tokens": 261,
+      "total_tokens": 386,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.021594,
+    "balance_after": 417.9762
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"This option allows for a balanced approach by ensuring both professional growth and the well-being of family life through clear planning and communication.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 125,
+    "act_tokens_out": 38,
+    "plan_content_len_chars": 687,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0f90c3a80cd0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের সদস্যের কাজের মূল্য এবং তার প্রভাব বিবেচনা করা হবে।\n2. দলের মরール এবং একত্রিত আবেদনের প্রভাব বিবেচনা করা হবে।\n3. স্বীকৃতির প্রকাশ্য প্রদানের পদ্ধতি বিবেচনা করা হবে, যেমন একাধিক সদস্যের উপস্থিতিতে কিংবা ব্যক্তিগতভাবে।\n4. স্বীকৃতির প্রকাশ্য প্রদানের অবসর ও অনুষ্ঠানের মাধ্যম বিবেচনা করা হবে।\n5. অন্যান্য দলের সদস্যদের মতামত এবং প্রতিক্রিয়া সংগ্রহ করা হবে।\n6. সর্বশেষ, সব বিবেচনার উপর ভিত্তি করে সবচেয়ে উপযুক্ত কার্যকলাপ নির্বাচন করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 456,
+      "prompt_tokens": 858,
+      "total_tokens": 1314,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.073692,
+    "balance_after": 438.9284
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"ব্যক্তিগত বোনাস প্রদান করা কর্মক্ষমতা-ভিত্তিক স্বীকৃতি দেওয়ার একটি সরাসরি ও উপযুক্ত উপায় যা তার অর্জনের প্রতি পুরস্কার হিসেবে কাজ করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 456,
+    "act_tokens_out": 157,
+    "plan_content_len_chars": 444,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

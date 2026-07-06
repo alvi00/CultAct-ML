@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc82976fad97b3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Assess the severity of the pattern: determine if this is a one-time issue or recurring disregard, and whether it's causing significant harm to my external commitments.\n\n2. Evaluate my relationship with superiors: consider their communication style, openness to feedback, and how they've responded to past concerns.\n\n3. Weigh short-term harmony against long-term sustainability: decide if I need immediate boundary-setting or can afford a gentler approach that preserves goodwill.\n\n4. Consider my own risk tolerance: reflect on how much job security matters to me versus standing firm on personal boundaries.\n\n5. Determine which approach best matches my values and the specific workplace culture I'm operating within.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 131,
+      "prompt_tokens": 253,
+      "total_tokens": 384,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.066826,
+    "balance_after": 378.3298
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Formal clarification and transparent renegotiation respects both professional obligations and personal commitments while addressing the root cause directly.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 131,
+    "act_tokens_out": 35,
+    "plan_content_len_chars": 719,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

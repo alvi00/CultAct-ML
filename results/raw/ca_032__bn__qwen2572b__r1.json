@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccbb7fdc3a79b2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সমস্যার প্রকৃতি বিশ্লেষণ করা যাক এবং কর্মস্থল এবং পারিবারিক দায়িত্বের মধ্যে কোনটি আবশ্যকতার জোর বেশি তা নির্ধারণ করা হোক।\n2. উভয় দায়িত্বের প্রতি নিজের অবদান এবং এর ফলাফল বিবেচনা করা হোক।\n3. উভয় দায়িত্বের মধ্যে সমন্বয় রাখার জন্য বিভিন্ন সমাধানের বিকল্পগুলি বিবেচনা করা হোক।\n4. প্রয়োজনীয় সময় এবং সম্পদ বিভাগের উপর ভিত্তি করে সর্বোত্তম সমাধান চয়ন করা হোক।\n5. নির্বাচিত সমাধানের বাস্তবায়নের জন্য একটি স্পষ্ট পরিকল্পনা তৈরি করা হোক।\n6. পরিকল্পনার সফল বাস্তবায়ন এবং পরিদর্শনের জন্য লক্ষ্য নির্ধারণ করা হোক।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 546,
+      "prompt_tokens": 931,
+      "total_tokens": 1477,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.083034,
+    "balance_after": 418.4526
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এই ব্যবস্থা উভয় দায়িত্বের মধ্যে ভারসাম্য রাখার সুযোগ দেয় এবং দীর্ঘমেয়াদী সমাধান তৈরি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 546,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 515,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

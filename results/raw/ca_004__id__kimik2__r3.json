@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc783ae5c03856",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi konteks dan karakteristik unit: analisis ukuran tim, budaya organisasi yang ada, serta urgensi kebutuhan jangka panjang kelompok versus kebutuhan individu.\n\n2. Timbang dampak psikologis dan sosial: pertimbangkan bagaimana setiap pendekatan memengaruhi motivasi, kepercayaan, dan kohesi tim di masa depan.\n\n3. Analisis kelayakan implementasi: nilai ketersediaan data kontribusi terukur, kompleksitas administrasi, dan risiko konflik dari masing-masing opsi.\n\n4. Pertimbangkan prinsip keadilan yang relevan: bandingkan keadilan prosedural (proses transparan), keadilan distributif (hasil yang dirasa adil), dan keadilan berbasis kebutuhan (kesejahteraan kolektif).\n\n5. Sintesis prioritas: tentukan mana yang paling penting untuk unit ini saat ini—pengakuan individu, solidaritas tim, atau keberlanjutan kolektif.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 249,
+      "prompt_tokens": 367,
+      "total_tokens": 616,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.117283,
+    "balance_after": 404.6982
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pembagian berdasarkan kontribusi terukur menciptakan transparansi dan keadilan yang dapat dipertanggungjawabkan, yang membangun kepercayaan jangka panjang sambil tetap menghargai setiap individu secara proporsional.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 249,
+    "act_tokens_out": 78,
+    "plan_content_len_chars": 822,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

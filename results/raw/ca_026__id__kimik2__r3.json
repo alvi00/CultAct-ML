@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3c417fb44f56",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n1. Evaluasi sifat keputusan yang akan diambil - apakah bersifat personal, finansial, atau berdampak pada seluruh keluarga.\n2. Pertimbangkan keseimbangan antara menghormati tradisi keluarga dan kebutuhan akan keputusan yang bertanggung jawab secara pribadi.\n3. Analisis tingkat pengetahuan para tetua terhadap konteks spesifik keputusan ini.\n4. Timbang risiko dari setiap pendekatan - terlalu banyak kendali tetua bisa menghilangkan tanggung jawab pribadi, terlalu sedikit bisa mengabaikan kebijaksanaan pengalaman.\n5. Tentukan pendekatan yang menghargai masukan tetua tanpa mengabaikan pertimbangan mandiri dan faktor kontemporer.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 195,
+      "prompt_tokens": 366,
+      "total_tokens": 561,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.098568,
+    "balance_after": 359.3536
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pendekatan ini menyeimbangkan penghormatan terhadap kebijaksanaan pengalaman tetua dengan tanggung jawab pribadi untuk mengambil keputusan yang matang sesuai konteks.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 195,
+    "act_tokens_out": 66,
+    "plan_content_len_chars": 636,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

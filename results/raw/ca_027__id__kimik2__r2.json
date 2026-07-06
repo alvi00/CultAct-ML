@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc393f42e536c1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi konteks keluarga saat ini, termasuk komposisi anggota (usia, jumlah generasi, tingkat ketergantungan), nilai-nilai yang dianut, dan tujuan jangka panjang rumah tangga.\n\n2. Analisis kelebihan dan kekurangan setiap model pengambilan keputusan (B, A, C, D) berdasarkan kriteria: keadilan, efisiensi, keberlanjutan, dan kemampuan mengelola konflik.\n\n3. Pertimbangkan keseimbangan antara partisipasi anggota keluarga dengan kebutuhan akan kejelasan wewenang untuk menghindari kebuntuan dalam pengambilan keputusan penting.\n\n4. Tentukan model yang paling sesuai dengan prinsip \"tetap\"—artinya berkelanjutan, dapat diprediksi, dan mampu beradaptasi seiring perubahan dinamika keluarga tanpa perlu direvisi terus-menerus.\n\n5. Pilih model yang menciptakan legitimasi dalam proses keputusan sehingga semua anggota merasa dihargai namun tetap memahami batasan wewenang masing-masing.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 288,
+      "prompt_tokens": 370,
+      "total_tokens": 658,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.130995,
+    "balance_after": 357.5941
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Model ini menyeimbangkan bimbingan orang tua dengan partisipasi anggota, menciptakan proses tetap yang adil, berkelanjutan, dan mampu mengelola konflik tanpa kebuntuan maupun dominasi sepihak.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 288,
+    "act_tokens_out": 75,
+    "plan_content_len_chars": 884,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc73563b7b8a11",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সন্তানের পছন্দ সম্পর্কে সাক্ষাত করে পর্যবেক্ষণ করবো এবং তার মূল উৎসাহ এবং উদ্দেশ্য সম্পর্কে বিস্তারিত জানবো।\n2. সন্তানের পেশা সম্পর্কে আরও তথ্য সংগ্রহ করবো, বিশেষ করে তার সফলতার সম্ভাবনা, চ্যালেঞ্জ এবং সমাজের স্বীকৃতি সম্পর্কে।\n3. সন্তানের পেশার পছন্দ এবং তার ক্ষমতা, প্রতিভা এবং উৎসাহের মধ্যে মিল রয়েছে কিনা তা বিশ্লেষণ করবো।\n4. পরিবারের প্রত্যাশা এবং সন্তানের আন্তরিক ইচ্ছা মধ্যে ভারসাম্য স্থাপনের ক্ষমতা বিবেচনা করবো।\n5. সন্তানের পরিকল্পনা এবং সেই পেশায় সফল হওয়ার জন্য প্রয়োজনীয় পদক্ষেপ সম্পর্কে তার ধারণা এবং প্রস্তুতি মূল্যায়ন করবো।\n6. সব তথ্য এবং বিবেচনাগুলো সমস্যার সাথে মিলিয়ে দেখে উপযুক্ত প্রতিক্রিয়া নির্বাচনের জন্য সিদ্ধান্ত নেবো।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 688,
+      "prompt_tokens": 906,
+      "total_tokens": 1594,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.090204,
+    "balance_after": 415.8015
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"সন্তানের পছন্দ এবং পরিকল্পনার উপর ভিত্তি করে তার স্বাধীনতা সমর্থন করা যাওয়া উচিত, তবে তা দায়িত্বশীলতা এবং সুস্পষ্ট পরিকল্পনার মাধ্যমে করা উচিত।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 688,
+    "act_tokens_out": 165,
+    "plan_content_len_chars": 652,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

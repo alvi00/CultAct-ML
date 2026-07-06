@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc39af8d4de62e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Consider the couple's current relationship dynamics and communication styles.\n2. Assess the couple's preferences for conflict resolution, including their openness to involving family members.\n3. Evaluate the potential impact of involving family members on the couple's relationship and independence.\n4. Reflect on the cultural and personal significance of family roles and harmony.\n5. Determine the most appropriate method that aligns with the couple's values and needs.\n6. Choose the action that best supports a healthy, respectful, and effective conflict resolution process.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 102,
+      "prompt_tokens": 241,
+      "total_tokens": 343,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.019134,
+    "balance_after": 422.0444
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Calm, equal dialogue and mutual agreement foster respect and understanding, which are essential for a healthy relationship.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 102,
+    "act_tokens_out": 34,
+    "plan_content_len_chars": 579,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

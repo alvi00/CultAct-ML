@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5180e3ac7b02",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিস্থিতি বিশ্লেষণ করুন: ঊর্ধ্বতনরা কাজের সময়ের বাইরে দায়বদ্ধতা উপেক্ষা করছেন, যা একটি পেশাগত সীমানা সমস্যা।\n\n2. প্রতিটি বিকল্পের পরিণতি মূল্যায়ন করুন: কোন পদ্ধতি স্বল্পমেয়াদী সম্পর্ক বজায় রাখে এবং দীর্ঘমেয়াদী সমাান দেয় তা বিবেচনা করুন।\n\n3. সংস্কৃতিগত প্রসঙ্গ বিবেচনা করুন: বাংলাদেশি/দক্ষিণ এশীয় কর্পোরেট সংস্কৃতিতে ঊর্ধ্বতনের কর্তৃত্ব ও সম্মানের গুরুত্ব এবং সরাসরি দৃঢ় সীমানা নির্ধারণের ঝুঁকি মূল্যায়ন করুন।\n\n4. নিজের স্বার্থ ও পেশাগত স্বাস্থ্যের ভারসাম্য করুন: কেবল সম্প্রীতি রক্ষা করা বনাম স্পষ্ট সীমানা নির্ধারণের প্রয়োজনীয়তা যাচাই করুন।\n\n5. কার্যকারিতা বিবেচনা করুন: কোন পদ্ধতি বাস্তবে সমস্যার সমাধান করবে বনাম সাময়িকভাবে চাপা দেবে তা মূল্যায়ন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 404,
+      "prompt_tokens": 597,
+      "total_tokens": 1001,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.190423,
+    "balance_after": 376.7888
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি স্বচ্ছতা ও পেশাগত সীমানা রক্ষা করে সমস্যার সমাধানের দিকে এগোয়, ঊর্ধ্বতনদের সম্মান দিয়ে আনুষ্ঠানিক প্রক্রিয়ায় সমাধান চায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 404,
+    "act_tokens_out": 89,
+    "plan_content_len_chars": 671,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

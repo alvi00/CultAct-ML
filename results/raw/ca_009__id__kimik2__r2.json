@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc08c2f94172dd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Analisis karakteristik setiap opsi dengan memperhatikan tingkat keterlibatan anggota keluarga, metode pengambilan keputusan, dan tujuan akhir yang diutamakan.\n2. Evaluasi kecocokan setiap opsi dengan situasi konflik antara kepentingan pribadi dan kolektif, mempertimbangkan keseimbangan antara demokrasi, efisiensi, dan keadilan.\n3. Pertimbangkan risiko dan manfaat jangka panjang dari setiap pendekatan, termasuk dampak terhadap dinamika keluarga dan keberlanjutan keputusan keuangan di masa depan.\n4. Bandingkan sejauh mana setiap opsi mengakomodasi kedua sisi konflik (pribadi dan bersama) tanpa mengorbankan salah satu secara berlebihan.\n5. Tentukan opsi yang paling konstruktif untuk membangun kebiasaan pengambilan keputusan keluarga yang sehat dan berkelanjutan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 243,
+      "prompt_tokens": 388,
+      "total_tokens": 631,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.117009,
+    "balance_after": 394.2407
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Diskusi terbuka yang menyeimbangkan kepentingan pribadi dan bersama menciptakan keadilan dan partisipasi aktif, membangun kepercayaan serta komitmen bersama untuk keputusan keuangan keluarga.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 243,
+    "act_tokens_out": 72,
+    "plan_content_len_chars": 772,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

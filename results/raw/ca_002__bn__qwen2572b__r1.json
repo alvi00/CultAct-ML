@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc082340d0893e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের সফলতার কী উপাদানগুলি ছিল তা বিবেচনা করা হবে।\n2. দলের সদস্যদের ব্যক্তিগত অবদান এবং দলীয় সহযোগিতা এর মধ্যে একটি সমন্বয় খুঁজে পাওয়ার চেষ্টা করা হবে।\n3. কৃতিত্ব প্রদানের ভিন্ন পদ্ধতির ফলাফল বিশ্লেষণ করা হবে যেমন পদমর্যাদা, সমান স্বীকৃতি, দলীয় সংহতি এবং ব্যক্তিগত যোগ্যতা।\n4. সমস্ত সদস্যদের মধ্যে একটি মূল্যবোধ ও প্রতিশোধিতার আন্দোলন তৈরি করার ক্ষমতা বিবেচনা করা হবে।\n5. সমগ্র কোম্পানির সামগ্রিক উদ্দেশ্য এবং প্রকল্পের অবদানের সাথে তা মিলিয়ে দেখা হবে।\n6. সর্বোচ্চ স্বার্থসাধন এবং ন্যায্যতার সাথে সকল পদক্ষেপকে তুলনা করে সিদ্ধান্ত নেওয়া হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 584,
+      "prompt_tokens": 970,
+      "total_tokens": 1554,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08742,
+    "balance_after": 260.1377
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এটি দলের একতা এবং সহযোগিতাকে প্রতিফলিত করে এবং সকল সদস্যের মধ্যে সমান স্বীকৃতি প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

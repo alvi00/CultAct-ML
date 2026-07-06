@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3b0f22883191",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. উপলব্ধ কার্যকলাপগুলি সম্পর্কে সমস্ত বিবরণ পুনরায় পড়ুন এবং বুঝুন।\n2. নিজের দায়বদ্ধতাগুলি এবং কাজের সময়ের বাইরের দাবির মধ্যে সমন্বয় বজায় রাখার অভিপ্রেত উদ্দেশ্য নির্ধারণ করুন।\n3. প্রতিটি কার্যকলাপের প্রভাব এবং সম্পর্কিত কর্মচারীদের সাথে সম্পর্কের উপর কীভাবে প্রভাব ফেলবে তা বিশ্লেষণ করুন।\n4. নিজের মনোবৃত্তি, কর্তব্যবোধ এবং পেশাদারী প্রয়োজনিতার সাথে প্রতিটি কার্যকলাপের মিল পর্যবেক্ষণ করুন।\n5. সম্ভাব্য ফলাফল এবং এর দীর্ঘমেয়াদী প্রভাবগুলি সম্পর্কে বিচার করুন।\n6. সব উপাদান বিবেচনা করে একটি সিদ্ধান্ত নিন এবং তা প্রয়োগ করার জন্য প্রস্তুত হোন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 590,
+      "prompt_tokens": 967,
+      "total_tokens": 1557,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.087618,
+    "balance_after": 431.1309
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এই কার্যকলাপটি সুস্পষ্ট সীমানা নির্ধারণ এবং পারস্পরিক বোঝাপড়ার জন্য একটি সামঞ্জস্যমূলক পদক্ষেপ হিসেবে প্রতিফলিত হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 590,
+    "act_tokens_out": 139,
+    "plan_content_len_chars": 551,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

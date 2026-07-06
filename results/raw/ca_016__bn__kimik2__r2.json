@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cccab4d0875327",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিষ্ঠানের আকার, সংস্কৃতি এবং সিদ্ধান্তের জটিলতা বিশ্লেষণ করুন যে কোন পদ্ধতি সবচেয়ে উপযুক্ত তা নির্ধারণ করতে।\n2. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা মূল্যায়ন করুন—যেমন গতি বনাম অংশগ্রহণ, দক্ষতা বনাম বৈচিত্র্য।\n3. কর্মীদের দক্ষতা, অভিজ্ঞতা এবং স্বায়ত্তশাসনের প্রস্তুতি মূল্যায়ন করুন।\n4. দীর্ঘমেয়াদী সংস্থাগত লক্ষ্য এবং সংস্কৃতি গঠনের প্রাধান্য নির্ধারণ করুন।\n5. সম্ভাব্য প্রতিরোধ বা গ্রহণযোগ্যতার ঝুঁকি বিবেচনা করুন।\n6. সবচেয়ে ভারসাম্যপূর্ণ এবং টেকসই পদ্ধতি চিহ্নিত করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 304,
+      "prompt_tokens": 597,
+      "total_tokens": 901,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.155923,
+    "balance_after": 378.8604
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এই পদ্ধতি অংশগ্রহণ ও দক্ষতার ভারসাম্য রাখে, নেতৃত্বকে দায়িত্ব দেয় এবং দলের মতামতকে সম্মান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 304,
+    "act_tokens_out": 72,
+    "plan_content_len_chars": 476,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

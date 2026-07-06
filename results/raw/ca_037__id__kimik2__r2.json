@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc5ba0bf55a499",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi prioritas keputusan: tentukan apakah yang paling penting adalah kepercayaan personal, pedoman klinis, akreditasi institusional, atau kelengkapan pemeriksaan.\n2. Analisis konteks: pertimbangkan apakah ada riwayat kesehatan keluarga, risiko spesifik, atau kebutuhan pencegahan yang mempengaruhi pilihan.\n3. Bandingkan kriteria setiap opsi: tinjau bagaimana masing-masing pendekatan mengatasi kebutuhan kesehatan jangka panjang versus kebutuhan spesifik saat ini.\n4. Pertimbangkan keseimbangan antara bukti ilmiah dan faktor praktis seperti aksesibilitas, biaya, dan kenyamanan.\n5. Tentukan pendekatan yang paling selaras dengan tujuan pemeriksaan kesehatan secara keseluruhan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 218,
+      "prompt_tokens": 346,
+      "total_tokens": 564,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.104793,
+    "balance_after": 338.4746
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Pemeriksaan skrining yang komprehensif dan berbasis bukti memberikan hasil paling dapat diandalkan untuk pengambilan keputusan kesehatan yang tepat.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 218,
+    "act_tokens_out": 56,
+    "plan_content_len_chars": 686,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

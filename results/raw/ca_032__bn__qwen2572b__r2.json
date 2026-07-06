@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc09c9a1657844",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রথমে, প্রতিটি দায়িত্বের জরুরিতার মাত্রার মূল্যায়ন করব।\n2. দ্বিতীয়ত, পরিবারের সদস্যদের সাথে আলোচনা করব যাতে তাদের দৃষ্টিভঙ্গি ও প্রয়োজন বোঝা যায়।\n3. তৃতীয়ত, প্রতিটি পছন্দের ফলাফল উপর ভিত্তি করে সম্ভাব্য প্রভাবগুলি বিবেচনা করব।\n4. চতুর্থত, আমার কর্মস্থলের তত্ত্বাবধায়কের সাথে পরামর্শ করব যাতে কর্মস্থলের নীতি ও সম্ভাব্য সমাধান সম্পর্কে জানা যায়।\n5. পঞ্চমত, সমস্ত তথ্য সংগ্রহ ও বিবেচনার পর, সবচেয়ে সদৃশ এবং কার্যকর সমাধানটি নির্ধারণ করব।\n6. শেষমেশ, নির্ধারিত সমাধান অনুসারে কাজ করব এবং প্রয়োজন হলে এর পরিদর্শন করব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 556,
+      "prompt_tokens": 931,
+      "total_tokens": 1487,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.083634,
+    "balance_after": 418.2783
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"পারিবারিক ও কর্মস্থলের দায়িত্ব উভয়কে মানে পরিচালনা করার জন্য তত্ত্বাবধায়কের পরামর্শ গ্রহণ করা যেতে পারে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 556,
+    "act_tokens_out": 123,
+    "plan_content_len_chars": 526,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

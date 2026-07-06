@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc49eac2f2fbf4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan nilai-nilai keluarga dan struktur yang sudah ada.\n2. Evaluasi tingkat keterlibatan dan partisipasi setiap anggota keluarga dalam pengambilan keputusan saat ini.\n3. Tinjau potensi konflik yang mungkin timbul dari masing-masing opsi.\n4. Pertimbangkan manfaat jangka panjang dari masing-masing opsi.\n5. Konsultasikan dengan anggota keluarga utama untuk mendapatkan masukan dan perspektif.\n6. Buat keputusan berdasarkan analisis dan masukan yang diterima.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 139,
+      "prompt_tokens": 363,
+      "total_tokens": 502,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027942,
+    "balance_after": 422.8338
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Opsi B menyeimbangkan pengambilan keputusan dengan partisipasi semua anggota, sambil tetap memberikan bimbingan dan stabilitas dari orang tua.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 139,
+    "act_tokens_out": 53,
+    "plan_content_len_chars": 468,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

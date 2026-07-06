@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca28105bf37ad",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সিভাবে প্রতিটি বিকল্পের মূল মনোভাব এবং সম্ভাব্য পরিণতি বিশ্লেষণ করব—কর্মীদের মতামতের গুরুত্ব, সংস্থার শৃঙ্খলা, এবং দীর্ঘমেয়াদী দলগত সম্পর্কের ভারসাম্য মূল্যায়ন করে।\n\n2. প্রতিষ্ঠানের সংস্কৃতি এবং সিদ্ধান্তটির প্রকৃতি বিবেচনা করব—এটি কি অপরিবর্তনীয়, নাকি সংশোধনযোগ্য; এবং একতরফা সিদ্ধান্তের কারণে দলের মধ্যে কতটা অসন্তোষ বা বিশ্বাসঘাতকতার অনুভূতি তৈরি হয়েছে তা যাচাই করে।\n\n3. আমার নিজের ভূমিকা এবং প্রভাব ক্ষমতা মূল্যায়ন করব—আমি কি এই সিদ্ধান্ত পরিবর্তনে সক্ষম, নাকি আমার দায়িত্ব হলো বাস্তবায়নে সহায়তা করা; এবং আমার পদক্ষেপ অন্য কর্মীদের জন্য কি বার্তা পাঠাবে।\n\n4. সংক্ষতি এবং দীর্ঘমেয়াদী উভয় দিক থেকে পরিণতি তুলনা করব—অবিলম্বে বিরোধিতা করলে কি ঝুঁকি আছে, আর নীরবে মেনে নিলে দলের স্বার্থ কি হুমকির মুখে পড়ে।\n\n5. নৈতিক নীতি এবং পেশাদার দায়বদ্ধতার মধ্যে সমন্বয় করব—কর্মীদের কণ্ঠস্বর উপেক্ষিত হওয়ার বিষয়টি কি নীতিগতভাবে গুরুত্বপূর্ণ, এবং আমি কি এ বিষয়ে দায়িত্বশীল পদক্ষেপ নেওয়ার অবস্থানে আছি।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 557,
+      "prompt_tokens": 553,
+      "total_tokens": 1110,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.239447,
+    "balance_after": 382.7285
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"কর্মীদের মতামত না নিয়ে নেওয়া একতরফা সিদ্ধান্ত দীর্ঘমেয়াদে দলের মনোবল ও কার্যকারিতা হ্রাস করতে পারে, তাই পর্যালোচনার দাবি জানিয়ে সবার কণ্ঠস্বর শোনা ন্যায়সঙ্গত ও দায়িত্বশীল পদক্ষেপ।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 557,
+    "act_tokens_out": 132,
+    "plan_content_len_chars": 908,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

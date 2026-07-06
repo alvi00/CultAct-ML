@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc339325d12af8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সকল উপলব্ধ কর্ম পর্যালোচনা করুন এবং প্রতিটি কর্মের সুবিধা ও অসুবিধা নির্ধারণ করুন।\n2. বর্তমান কর্মকান্ড এবং কর্মপরিবেশের সাথে প্রতিটি কর্মের মিল বিবেচনা করুন।\n3. নিজের কর্মজীবী লক্ষ্য, মূল্যবোধ এবং দীর্ঘমেয়াদী পরিকল্পনা বিবেচনা করুন।\n4. পদোন্নতির সম্ভাব্য প্রক্রিয়া এবং এর ফলাফলের উপর ভিত্তি করে প্রযোজ্য কর্মের দক্ষতা মূল্যায়ন করুন।\n5. টিমের অন্যান্য সদস্যদের মতামত এবং তাদের অভিজ্ঞতা বিবেচনা করুন।\n6. সমস্ত তথ্য ও বিবেচনার উপর ভিত্তি করে সিদ্ধান্ত নিন এবং সেই অনুযায়ী একটি কর্ম নির্বাচন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 532,
+      "prompt_tokens": 910,
+      "total_tokens": 1442,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08106,
+    "balance_after": 428.3393
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"পদোন্নতির প্রক্রিয়াকে ন্যায়সঙ্গত এবং স্বচ্ছ রাখা টিমের সকলের জন্য উত্তম প্রক্রিয়া।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 532,
+    "act_tokens_out": 103,
+    "plan_content_len_chars": 501,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc8de09bfdfe2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n1. Identifikasi nilai-nilai inti yang menjadi prioritas, seperti keseimbangan antara karier dan keluarga, serta pentingnya partisipasi dalam keputusan besar.\n2. Evaluasi setiap opsi berdasarkan seberapa baik opsi tersebut melibatkan keluarga dalam proses pengambilan keputusan dan memastikan kesejahteraan mereka.\n3. Pertimbangkan tingkat kesiapan sistem pendukung yang dibutuhkan untuk menjaga fungsi rumah tangga dan kinerja profesional selama ketidakhadiran.\n4. Bandingkan antara pendekatan yang lebih kolektif (melibatkan persetujuan semua pihak) versus pendekatan yang lebih individual namun tetap berkonsultasi.\n5. Tentukan opsi yang paling selaras dengan prinsip tanggung jawab bersama dan keberlanjutan hubungan keluarga dalam jangka panjang.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 221,
+      "prompt_tokens": 374,
+      "total_tokens": 595,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.108222,
+    "balance_after": 345.7043
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Opsi ini menyeimbangkan ambisi karier dengan tanggung jawab keluarga melalui perencanaan bersama yang terstruktur, tanpa membebani keluarga dengan beban pengambilan keputusan kolektif yang terlalu berat.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 221,
+    "act_tokens_out": 77,
+    "plan_content_len_chars": 756,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

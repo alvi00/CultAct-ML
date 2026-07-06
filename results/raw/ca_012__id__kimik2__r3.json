@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc12e3495b4ee2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi urgensi arahan dan potensi risiko jika dilaksanakan tanpa pemahaman konteks\n2. Pertimbangkan dinamika hubungan dengan manajer dan budaya organisasi terkait komunikasi hierarki\n3. Analisis apakah arahan bersifat operasional sederhana atau kompleks yang memerlukan konteks\n4. Timbang keseimbangan antara kepatuhan, efektivitas kerja, dan pengembangan pemahaman jangka panjang\n5. Tentukan prioritas: menghormati otoritas, memastikan pelaksanaan tepat, atau membangun transparansi",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 151,
+      "prompt_tokens": 342,
+      "total_tokens": 493,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.081336,
+    "balance_after": 388.3262
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"Menghormati hierarki dengan segera mematuhi arahan sambil tetap mengusahakan pemahaman melalui klarifikasi setelahnya menciptakan keseimbangan antara kepatuhan dan efektivitas kerja.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 151,
+    "act_tokens_out": 71,
+    "plan_content_len_chars": 488,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

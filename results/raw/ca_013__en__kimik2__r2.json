@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc26bca7cc3e9d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the potential impact of the decision on team outcomes and whether my concerns are substantive or preference-based.\n2. Assess the current team dynamics and whether open disagreement would damage trust or be welcomed as constructive input.\n3. Consider my relationship with my boss and which communication approach would most likely lead to genuine consideration of my concerns.\n4. Weigh my personal values regarding authenticity versus pragmatism in professional settings.\n5. Determine which approach balances immediate team cohesion with long-term ability to influence future decisions.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 102,
+      "prompt_tokens": 265,
+      "total_tokens": 367,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.057847,
+    "balance_after": 387.2989
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Supporting the decision while offering constructive feedback allows the team to move forward cohesively while still addressing potential improvements to the implementation.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 102,
+    "act_tokens_out": 1187,
+    "plan_content_len_chars": 597,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

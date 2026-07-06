@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc60a5d871b0ff",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi dampak usulan tersebut terhadap nilai-nilai inti keluarga dan identitas keluarga dalam jangka panjang.\n2. Pertimbangkan keseimbangan antara menjaga tradisi dan kemungkinan inovasi yang konstruktif.\n3. Analisis kekuatan dan kelemahan setiap pendekatan yang tersedia dalam konteks dinamika keluarga spesifik ini.\n4. Tentukan prioritas utama: apakah menjaga kestabilan norma, mendorong pertumbuhan, atau menjaga hubungan personal.\n5. Pilih pendekatan yang paling mampu mengintegrasikan berbagai perspektif tanpa mengabaikan siapa pun.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 165,
+      "prompt_tokens": 357,
+      "total_tokens": 522,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.087448,
+    "balance_after": 363.2018
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Mendengarkan alasan dan menilai secara objektif memungkinkan keluarga tumbuh tanpa menutup diri dari kemungkinan perbaikan, sambil tetap menghargai proses pengambilan keputusan yang rasional.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 165,
+    "act_tokens_out": 75,
+    "plan_content_len_chars": 543,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

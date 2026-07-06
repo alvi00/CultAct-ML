@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce463bc15e3d4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন পদ্ধতির সুবিধা-অসুবিধা মূল্যায়ন করুন যা দলের ঐক্য, দ্রুততা এবং সিদ্ধান্তের গুণমানকে প্রভাবিত করে।\n2. দলের বর্তমান পরিস্থিতি বিশ্লেষণ করুন - অচলাবস্থার কারণ, সময়সীমা এবং সিদ্ধান্তের গুরুত্ব নির্ধারণ করুন।\n3. প্রতিটি বিকল্পের দীর্ঘমেয়াদী প্রভাব বিবেচনা করুন, বিশেষ করে দলের ভবিষ্যৎ সহযোগিতার ওপর।\n4. সবচেয়ে সুষম এবং টেকসই সমাধান নির্বাচন করুন যা দ্রুত ফলাফল দেয় এবং দলের ঐক্য রক্ষা করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 249,
+      "prompt_tokens": 516,
+      "total_tokens": 765,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.130023,
+    "balance_after": 366.0761
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"সমন্বয়কারী নিয়োগ দ্রুত সিদ্ধান্ত নিশ্চিত করে এবং দলের সকলের অংশগ্রহণ ও দায়িত্ব বজায় রাখে, যা অচলাবস্থা ভাঙার জন্য সবচেয়ে কার্যকর পদ্ধতি।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 249,
+    "act_tokens_out": 100,
+    "plan_content_len_chars": 400,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

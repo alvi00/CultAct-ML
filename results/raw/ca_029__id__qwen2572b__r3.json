@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce2d3800ec034",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengidentifikasi semua pilihan tindakan yang tersedia.\n2. Menilai pentingnya pendapat para tetua dan profesional kesehatan dalam proses pengambilan keputusan.\n3. Mempertimbangkan nilai-nilai keluarga dan bagaimana setiap pilihan mencerminkan atau mendukung nilai-nilai tersebut.\n4. Menilai efektivitas dan kelayakan setiap opsi dalam konteks kesehatan dan kesejahteraan yang spesifik.\n5. Meninjau bagaimana setiap pilihan akan mempengaruhi dinamika keluarga dan hubungan antar anggota.\n6. Memilih opsi yang paling sesuai berdasarkan penilaian komprehensif tersebut.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 169,
+      "prompt_tokens": 386,
+      "total_tokens": 555,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.030984,
+    "balance_after": 421.0611
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Pilihan ini memastikan semua anggota keluarga terlibat dan panduan dari ahli dihargai, menciptakan keputusan yang inklusif dan berdasarkan informasi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 169,
+    "act_tokens_out": 56,
+    "plan_content_len_chars": 568,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

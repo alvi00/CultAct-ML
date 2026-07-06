@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc93e790fb54e6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Meninjau setiap opsi yang tersedia dan memahami implikasinya.\n2. Membahas kelebihan dan kekurangan masing-masing opsi dengan anggota keluarga.\n3. Menilai pentingnya pendapat ahli dan masukan dari anggota keluarga.\n4. Mempertimbangkan nilai-nilai keluarga dan bagaimana opsi tersebut mencerminkan nilai-nilai tersebut.\n5. Menentukan pendekatan yang paling seimbang dan inklusif.\n6. Memutuskan langkah selanjutnya berdasarkan konsensus atau kesepakatan terbaik.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 386,
+      "total_tokens": 531,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.029544,
+    "balance_after": 421.1949
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Mengumpulkan seluruh keluarga untuk mempertimbangkan panduan dari ahli dan preferensi masing-masing memastikan bahwa semua suara didengar dan keputusan dibuat secara kolektif.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 145,
+    "act_tokens_out": 61,
+    "plan_content_len_chars": 462,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

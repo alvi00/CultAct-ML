@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc23ba545be8fa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন বিকল্পগুলির মধ্যে পার্থক্য বিশ্লেষণ করুন - প্রত্যেকের মতে বয়োজ্যেষ্ঠদের অংশগ্রহণের মাত্রা এবং সিদ্ধান্ত-গ্রহণ ক্ষমতার ভিন্নতা চিহ্নিত করুন।\n\n2. পরিবারের সিদ্ধান্তের প্রেক্ষাপট বিবেচনা করুন - কী ধরনের সিদ্ধান্ত, কারা প্রভাবিত হবে, এবং দীর্ঘমেয়াদী পরিণতি কী হতে পারে তা মূল্যায়ন করুন।\n\n3. সামঞ্জস্য এবং ন্যায়বিচারের ভারসাম্য মূল্যায়ন করুন - বয়োজ্যেষ্ঠদের সম্মান বজায় রাখা এবং পরিবারের সকল সদস্যের স্বার্থ রক্ষার মধ্যে সুষম সমন্বয় কোন পদ্ধতিতে সম্ভব তা যাচাই করুন।\n\n4. বাস্তবায়নযোগ্যতা এবং টেকসইতা বিবেচনা করুন - কোন পদ্ধতি দীর্ঘমেয়াদে পরিবারে সুস্থ সম্পর্ক ও কার্যকর সিদ্ধান্ত-গ্রহণ নিশ্চিত করতে পারে তা মূল্যায়ন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 379,
+      "prompt_tokens": 630,
+      "total_tokens": 1009,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.18462,
+    "balance_after": 358.381
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"এটি বয়োজ্যেষ্ঠদের অভিজ্ঞতা ও জ্ঞানকে সম্মান করে তাদের পরামর্শ গ্রহণ করে, কিন্তু চূড়ান্ত সিদ্ধান্তে অন্যান্য বিষয়ও বিবেচনা করে ন্যায়সঙ্গত ও ভারসাম্যপূর্ণ ফলাফল নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 379,
+    "act_tokens_out": 120,
+    "plan_content_len_chars": 638,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

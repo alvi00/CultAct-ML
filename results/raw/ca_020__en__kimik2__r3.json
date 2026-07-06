@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc16783a29e334",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate each option against my core values and long-term career goals, considering what kind of professional reputation I want to build.\n2. Assess the organizational culture and norms around promotions—whether merit-based advocacy is rewarded or if hierarchy and patience are expected.\n3. Consider the specific context: my current performance record, the visibility of my contributions, and whether my achievements are already known to decision-makers.\n4. Weigh the risks and benefits of each approach, including potential backlash from being too assertive versus being overlooked for being too passive.\n5. Determine which approach aligns best with my authentic leadership style and will serve my interests while maintaining integrity.\n6. Select the action that balances self-advocacy with professionalism, ensuring I can execute it confidently and ethically.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 255,
+      "total_tokens": 408,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.074588,
+    "balance_after": 371.9741
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Taking initiative to demonstrate clear value through exceeded targets and transparent self-advocacy ensures my contributions are visible and judged on merit rather than overlooked due to excessive modesty.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 153,
+    "act_tokens_out": 419,
+    "plan_content_len_chars": 863,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

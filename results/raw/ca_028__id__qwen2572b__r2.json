@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd5cb31f8da66",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan lingkungan dan konteks hubungan pasangan, termasuk budaya dan norma keluarga mereka.\n2. Evaluasi intensitas dan jenis konflik yang sedang terjadi.\n3. Tinjau nilai dan kepercayaan pasangan yang mungkin mempengaruhi penyelesaian konflik.\n4. Identifikasi sumber daya dan dukungan yang tersedia, termasuk anggota keluarga atau mediator.\n5. Pertimbangkan dampak jangka panjang dari setiap tindakan yang tersedia.\n6. Putuskan tindakan yang paling sesuai berdasarkan analisis tersebut.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 143,
+      "prompt_tokens": 331,
+      "total_tokens": 474,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.026454,
+    "balance_after": 421.9339
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Dialog yang tenang dan setara serta kesepakatan bersama dapat membantu kedua pihak memahami dan menghargai perspektif satu sama lain, menjaga keseimbangan dan keharmonisan hubungan.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 143,
+    "act_tokens_out": 64,
+    "plan_content_len_chars": 495,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccf8b5395c209b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan dampak jangka panjang dari setiap pendekatan terhadap dinamika keluarga, termasuk keseimbangan antara inovasi dan stabilitas.\n2. Evaluasi sejauh mana usulan tersebut menyimpang dari norma—apakah fundamental atau bisa dinegosiasikan.\n3. Timbang pentingnya keharmonisan versus integritas nilai keluarga dalam konteks spesifik ini.\n4. Analisis efektivitas setiap opsi dalam menciptakan solusi yang diterima semua pihak tanpa menekan suara individu.\n5. Tentukan pendekatan yang paling memungkinkan pertumbuhan keluarga sekaligus menjaga rasa saling menghormati.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 176,
+      "prompt_tokens": 357,
+      "total_tokens": 533,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.091243,
+    "balance_after": 363.0338
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Mendengarkan alasan secara objektif menciptakan ruang terbuka untuk dialog tanpa prasangka, memungkinkan keluarga mengevaluasi ide berdasarkan meritnya sendiri daripada sekadar loyalitas pada tradisi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 176,
+    "act_tokens_out": 71,
+    "plan_content_len_chars": 574,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

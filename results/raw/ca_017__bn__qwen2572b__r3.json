@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca1f038beb32b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. ঊর্ধ্বতন কর্মকর্তাদের প্রদত্ত নির্দেশগুলি এবং তাদের প্রতি আমার দায়িত্ব সম্পর্কে বিস্তারিতভাবে বিবেচনা করব।\n2. আমার নিজস্ব দায়বদ্ধতাগুলো এবং কাজের সময়ের বাইরে প্রকৃত দায়িত্ব পালনের ক্ষমতা বিশ্লেষণ করব।\n3. উল্লেখিত কার্যক্রমগুলির সম্ভাব্য ফলাফল এবং তা কিভাবে আমার স্বাস্থ্য, সম্পর্ক, এবং কর্মজীবনের উপর প্রভাব ফেলতে পারে তা বিবেচনা করব।\n4. উপায়গুলির সাথে সম্পর্কিত সম্ভাব্য সমস্যাগুলি এবং তা কিভাবে সমাধান করা যেতে পারে তা বিবেচনা করব।\n5. সবচেয়ে উপযুক্ত এবং ন্যায্য সমাধান খুঁজে পেতে সহকর্মীদের মতামত এবং পরামর্শ আদায়ের চেষ্টা করব।\n6. সবগুলি বিবেচনার ভিত্তিতে, উপায়গুলির মধ্য থেকে সবচেয়ে উপযুক্ত একটি বেছে নেব এবং তা অনুসরণের পরিকল্পনা করব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 683,
+      "prompt_tokens": 967,
+      "total_tokens": 1650,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.093198,
+    "balance_after": 430.7508
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"সুস্পষ্ট সীমানা নির্ধারণ এবং পারস্পরিক সম্মতি আলোচনা করা সম্পর্ক অক্ষুণ্ণ রাখতে এবং সমস্যার দৃঢ় সমাধান খুঁজে পেতে সবচেয়ে কার্যকর উপায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 683,
+    "act_tokens_out": 163,
+    "plan_content_len_chars": 650,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

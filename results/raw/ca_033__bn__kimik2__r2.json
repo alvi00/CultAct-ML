@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc9e8c19f2189f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. নিজের ক্যারিয়ার লক্ষ্য এবং দীর্ঘমেয়াদী আকাঙ্ক্ষা মূল্যায়ন করুন এবং এই পদোন্নতি সেগুলির সাথে কতটা সামঞ্জস্যপূর্ণ তা নির্ধারণ করুন।\n\n2. পরিবারের বর্তমান চাহিদা, সন্তানদের বয়স (যদি থাকে), এবং অন্যান্য নির্ভরশীলদের প্রয়োজনীয়তা বিবেচনা করুন।\n\n3. প্রতিটি বিকল্পের সুবিধা ও অসুবিধা তুলনা করুন—বিশেষ করে সিদ্ধান্ত গ্রহণের কেন্দ্রবিন্দু (নিজে, পরিবার, ম্যানেজার, বা সমষ্টিগত) এবং দীর্ঘমেয়াদী পরিণতি।\n\n4. নিজের মূল্যবোধের সাথে সামঞ্জস্য রেখে কোন পদ্ধতি সবচেয়ে টেকসই এবং সুষম সমাধান দেয় তা মূল্যায়ন করুন।\n\n5. সর্বোপরি, এমন একটি পদ্ধতি বেছে নিন যা কেবল বর্তমান পরিস্থিতি মোকাবেলা নয়, ভবিষ্যতেও সম্পর্ক ও দায়িত্বের ভারসাম্য বজায় রাখতে সাহায্য করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 403,
+      "prompt_tokens": 649,
+      "total_tokens": 1052,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.194524,
+    "balance_after": 345.1558
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি পদোন্নতি গ্রহণের সুযোগ এবং পরিবারের সময় উভয়কেই সুরক্ষিত রাখার জন্য সক্রিয়ভাবে একটি ব্যবহারিক পরিকল্পনা তৈরি করে, যা একক ব্যক্তি বা সম্পূর্ণ পরিবারের ওপর সিদ্ধান্তের ভার চাপিয়ে না দিয়ে উভয় পক্ষের সাথে সমন্বয় করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 403,
+    "act_tokens_out": 134,
+    "plan_content_len_chars": 657,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

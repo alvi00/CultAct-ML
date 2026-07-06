@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd37429b24163",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi sifat keputusan yang diambil—apakah bersifat ringan, serius, atau berpotensi merusak hubungan keluarga dalam jangka panjang.\n2. Pertimbangkan dinamika keluarga saat ini—apakah ada riwayat konflik serupa, seberapa dekat hubungan dengan anggota keluarga tersebut, dan bagaimana respons keluarga lainnya.\n3. Analisis motivasi di balik keputusan tersebut—apakah didorong oleh kebutuhan pribadi yang sah, tekanan eksternal, atau kurangnya pemahaman terhadap norma keluarga.\n4. Tentukan prioritas utama: mempertahankan harmoni keluarga, menghormati otonomi individu, atau menegakkan norma bersama.\n5. Pilih pendekatan yang seimbang antara empati terhadap individu dan tanggung jawab terhadap keluarga secara kolektif.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 228,
+      "prompt_tokens": 372,
+      "total_tokens": 600,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.110466,
+    "balance_after": 361.049
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Pendekatan ini menyeimbangkan penghargaan terhadap otonomi individu dengan kebutuhan mempertahankan keharmonisan keluarga melalui solusi bersama.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 228,
+    "act_tokens_out": 58,
+    "plan_content_len_chars": 723,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

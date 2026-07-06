@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1249e2fb385d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mempertimbangkan urgensi dan dampak jangka panjang dari rapat kerja.\n2. Menilai sejauh mana kehadiran saya diperlukan di acara sekolah anak.\n3. Mendiskusikan dengan manajer tentang kemungkinan delegasi tugas dalam rapat.\n4. Berkomunikasi dengan pasangan atau keluarga untuk mendapatkan masukan dan dukungan.\n5. Menilai ketersediaan waktu dan sumber daya untuk mengatasi konflik tersebut.\n6. Membuat keputusan berdasarkan pertimbangan di atas dan memilih salah satu tindakan yang tersedia.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 144,
+      "prompt_tokens": 358,
+      "total_tokens": 502,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.027972,
+    "balance_after": 420.305
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Mendelegasikan peran dalam rapat kepada rekan kerja memungkinkan saya untuk mendahulukan kehadiran di acara sekolah anak, sambil tetap menghormati komitmen kerja.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 144,
+    "act_tokens_out": 63,
+    "plan_content_len_chars": 491,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

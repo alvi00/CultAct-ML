@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc41e36b82d6f9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি ক্রিয়াকলাপের মূলনীতি, সুবিধা এবং সীমাবলি বিশ্লেষণ করুন—যেমন স্বায়ত্তশাসন বনাম কর্তৃত্ব, বিশেষজ্ঞ মতামত বনাম পারিবারিক ঐকমত্য, এবং সিদ্ধান্ত গ্রহণের গতি বনাম অন্তর্ভুক্তি।\n\n2. পরিবারের বর্তমান প্রসঙ্গ মূল্যায়ন করুন—সদস্যদের সংখ্যা, তাদের বয়স ও স্বাস্থ্য সচেতনতার স্তর, বিশেষজ্ঞ পরামর্শের প্রাপ্যতা, এবং সময়ের সীমাবদ্ধতা।\n\n3. নৈতিক মানদণ্ড প্রয়োগ করুন—প্রতিটি পদ্ধতি কতটা ন্যায়সঙ্গত, অন্তর্ভুক্তিমূলক, এবং দীর্ঘমেয়াদে টেকসই তা যাচাই করুন।\n\n4. বাস্তবায়নযোগ্যতা এবং পরিবারের গৃহীত হওয়ার সম্ভাবনা বিবেচনা করুন—কোন পদ্ধতি আসলে কাজ করবে এবং সকলে মেনে নেবে।\n\n5. সর্বোত্তম ভারসাম্য খুঁজে বের করুন—স্বাস্থ্য সিদ্ধান্তের গুরুত্বের সাথে পারিবারিক ঐক্য ও সকলের অংশগ্রহণের প্রয়োজনীয়তা মিলিয়ে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 435,
+      "prompt_tokens": 630,
+      "total_tokens": 1065,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.20394,
+    "balance_after": 353.3881
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"প্রমাণভিত্তিক গবেষণা ও যৌথ মতামতের ভারসাম্য রেখে ঐকমত্যে পৌঁছানো স্বাস্থ্য সিদ্ধান্তের ক্ষেত্রে সবচেয়ে ন্যায়সঙ্গত ও টেকসই পদ্ধতি, কারণ এতে সকল সদস্যের স্বায়ত্তশাসন সম্মানিত হয় এবং দলগত দায়িত্ব তৈরি হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 435,
+    "act_tokens_out": 147,
+    "plan_content_len_chars": 702,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

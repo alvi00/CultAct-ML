@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc94ccae0428ca",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi struktur keluarga dan dinamika pengambilan keputusan yang sudah terbentuk, termasuk peran anggota senior dan keterlibatan seluruh anggota keluarga.\n2. Pertimbangkan urgensi kebutuhan finansial rumah tangga saat ini versus tujuan jangka panjang, serta sejauh mana fleksibilitas diperlukan.\n3. Analisis tingkat kenyamanan keluarga terhadap risiko finansial dan pentingnya keamanan versus pertumbuhan.\n4. Bandingkan pendekatan yang menekankan kolaborasi aktif versus yang memberikan otoritas lebih pada pihak tertentu, sesuai dengan nilai-nilai keluarga.\n5. Tentukan pendekatan yang paling mampu menyeimbangkan antara keadilan dalam proses, efisiensi pengambilan keputusan, dan keberlanjutan finansial.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 220,
+      "prompt_tokens": 378,
+      "total_tokens": 598,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.108219,
+    "balance_after": 392.6023
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"Menggabungkan sumber daya keluarga dengan melibatkan anggota senior menciptakan keseimbangan antara kebijaksanaan pengalaman dan tanggung jawab kolektif, yang optimal untuk keputusan besar yang memengaruhi kesejahteraan bersama.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 220,
+    "act_tokens_out": 83,
+    "plan_content_len_chars": 711,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

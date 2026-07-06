@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce5f93057e7cc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. কর্মজীবন ও পারিবারিক দায়িত্বের প্রকৃতি এবং জরুরিতা মূল্যায়ন করুন - কোনটি অবিলম্বে সমাধান করা অত্যন্ত জরুরি এবং কোনটির জন্য বিকল্প ব্যবস্থা সম্ভব।\n\n2. দীর্ঘমেয়াদী প্রভাব বিবেচনা করুন - কোনো একটি দায়িত্ব অবজ্ঞা করলে কর্মজীবন, পারিবারিক সম্পর্ক এবং ব্যক্তিগত সুস্থতার ওপর কী ধরনের প্রভাব পড়তে পারে।\n\n3. উপলব্ধ সম্পদ ও সহায়তা ব্যবস্থা যাচাই করুন - পরিবারে বিকল্প সহায়তা আছে কিনা, কর্মস্থলে নমনীয়তা সম্ভব কিনা, এবং নিজের শারীরিক ও মানসিক সীমাবদ্ধতা মূল্যায়ন করুন।\n\n4. প্রতিটি বিকল্পের সুবিধা-অসুবিধা তুলনা করুন - কোন পদ্ধতি টেকসই সমাধান দেয়, কোনটি সম্পর্কের ওপর নেতিবাচক প্রভাব ফেলে, এবং কোনটি উভয় পক্ষের জন্য গ্রহণযোগ্য।\n\n5. ব্যক্তিগত মূল্যবোধ ও অগ্রাধিকারের সাথে সামঞ্জস্য যাচাই করুন - নিজের জীবনে কী সবচেয়ে গুরুত্বপূর্ণ এবং কোন সিদ্ধান্ত পরবর্তী অনুশোচনা কমাবে তা বিবেচনা করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 473,
+      "prompt_tokens": 542,
+      "total_tokens": 1015,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.209526,
+    "balance_after": 346.6249
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"নমনীয় ব্যবস্থার মাধ্যমে উভয় দায়িত্বই পালন করা সম্ভব, যা দীর্ঘমেয়াদী সমাধান এবং সুস্থ কর্মজীবন-পারিবারিক ভারসাম্য নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 473,
+    "act_tokens_out": 88,
+    "plan_content_len_chars": 790,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3d3b2db748e9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. **ব্যক্তিগত মূল্যবোধ এবং কর্মক্ষেত্র সংস্কৃতি বিশ্লেষণ করুন**: নির্ধারণ করুন আমি ব্যক্তিগতভাবে কী পছন্দ করি (সক্রিয়তা বনাম ধৈর্যশীলতা) এবং আমার সংস্থার সংস্কৃতি কোন পদ্ধতিকে পুরস্কৃত করে।\n\n2. **প্রতিটি বিকল্পের দীর্ঘমেয়াদী প্রভাব মূল্যায়ন করুন**: কোন পদ্ধতি আমার ক্যারিয়ারে টেকসই বৃদ্ধি এনে দেবে, কোনটি সম্পর্ক ক্ষতিগ্রস্ত করতে পারে, এবং কোনটি সংস্থার ন্যায্য প্রক্রিয়ার সাথে সামঞ্জস্যপূর্ণ তা বিবেচনা করুন।\n\n3. **ন্যায্যতা এবং স্বচ্ছতার মানদণ্ড প্রয়োগ করুন**: নির্ধারণ করুন কোন পদ্ধতি সবচেয়ে ন্যায্য এবং স্বচ্ছ, যেখানে যোগ্যতা এবং অবদান স্পষ্টভাবে স্বীকৃত হয়।\n\n4. **সম্ভাব্য ঝুঁকি এবং সুবিধার তুলনা করুন**: প্যাসিভ অপেক্ষার ঝুঁকি (সুযোগ হারানো), আত্মপ্রচারের ঝুঁকি (অহংকার হিসেবে দেখা হতে পারে), এবং সক্রিয় তবে যোগ্যতা-ভিত্তিক দাবির সুবিধা পরিমাপ করুন।\n\n5. **সিদ্ধান্ত নিন**: উপরের বিশ্লেষণের ভিত্তিতে সেই একটি ক্রিয়া বেছে নিন যা আমার মূল্যবোধ, সংস্থার সংস্কৃতি, এবং দীর্ঘমেয়াদী সাফল্যের জন্য সবচেয়ে উপযুক্ত।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 552,
+      "prompt_tokens": 569,
+      "total_tokens": 1121,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.23909,
+    "balance_after": 370.1373
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"যোগ্যতা ও ফলাফলের ভিত্তিতে স্বচ্ছ দাবি উপস্থাপন করলে ন্যায্য স্বীকৃতি পাওয়ার সম্ভাবনা সবচেয়ে বেশি এবং এটি ব্যক্তিগত উদ্যোগ ও পেশাদারি দক্ষতাকে উৎসাহিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 552,
+    "act_tokens_out": 109,
+    "plan_content_len_chars": 924,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

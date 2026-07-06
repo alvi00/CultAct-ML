@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1519f6f5f79e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Gather all family members for a meeting to discuss the situation.\n2. Allow each member to express their views and concerns about the personal request and shared needs.\n3. Review the family's financial situation and priorities together.\n4. Discuss the importance of balancing individual requests with the family's collective goals.\n5. Consider the role of senior members in the decision-making process.\n6. Decide on a method for making the final decision that respects all voices.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 91,
+      "prompt_tokens": 271,
+      "total_tokens": 362,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.020094,
+    "balance_after": 438.4773
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"This approach ensures that all family members feel heard and that the decision respects both individual needs and shared priorities.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 91,
+    "act_tokens_out": 34,
+    "plan_content_len_chars": 482,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

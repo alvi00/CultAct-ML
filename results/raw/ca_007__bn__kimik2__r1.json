@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc222b2cc487d4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের বর্তমান অবস্থা বিশ্লেষণ করুন - দলগত ঐক্য, দক্ষতা স্তর, এবং উন্নয়নের প্রয়োজনীয়তা মূল্যায়ন করুন।\n2. প্রতিটি কৌশলের দীর্ঘমেয়াদী প্রভাব বিবেচনা করুন - কোন পদ্ধতি টেকসই সাফল্য এনে দেবে তা মূল্যায়ন করুন।\n3. দলের সংস্কৃতি এবং সদস্যদের প্রত্যাশার সাথে কৌশলগুলির সামঞ্জস্য যাচাই করুন।\n4. নেতৃত্বের দায়িত্ব এবং বাস্তবায়নযোগ্যতা বিশ্লেষণ করুন - কোন পদ্ধতি নেতা হিসেবে আপনার পক্ষে কার্যকরভাবে বাস্তবায়নযোগ্য।\n5. সবচেয়ে সুষম এবং অন্তর্ভুক্তিমূলক পদ্ধতি চিহ্নিত করুন যা দলের সামগ্রিক অগ্রগতি নিশ্চিত করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 315,
+      "prompt_tokens": 558,
+      "total_tokens": 873,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.156384,
+    "balance_after": 398.2032
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"নবনিযুক্ত নেতার জন্য দলগত ঐক্যবদ্ধতা ও সমন্বিত দৃষ্টিভঙ্গি সবচেয়ে গুরুত্বপূর্ণ ভিত্তি, যা অন্যান্য উন্নয়ন কৌশলের সফল বাস্তবায়ন নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 315,
+    "act_tokens_out": 108,
+    "plan_content_len_chars": 508,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

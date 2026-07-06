@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccdc72d498d6d3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দম্পতির মতবিরোধ নিরসনের মূল লক্ষ্য এবং মূল্যবোধ চিহ্নিত করুন - ন্যায়বিচার, স্বায়ত্তশাসন, এবং দীর্ঘমেয়াদী সম্পর্কের টেকসইতা নির্ধারণ করুন।\n\n2. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা বিশ্লেষণ করুন - কোন পদ্ধতি দুই পক্ষকেই সম্মানের সাথে শুনবে এবং তাদের স্বতন্ত্র প্রয়োজন ও দৃষ্টিভঙ্গিকে স্বীকৃতি দেবে।\n\n3. দম্পতির স্বায়ত্তশাসন এবং নিজেদের সমস্যা সমাধানের ক্ষমতার উপর গুরুত্বারোপ করুন - বাহ্যিক হস্তক্ষেপ কতটুকু প্রয়োজন তা মূল্যায়ন করুন।\n\n4. দীর্ঘমেয়াদী সম্পর্কের স্বাস্থ্য এবং ভবিষ্যৎ সংঘাত মোকাবিলার দক্ষতা বিবেচনা করুন - কোন পদ্ধতি তাদের নিজেদের মধ্যে যোগাযোগ ও সমঝোতার দক্ষতা বৃদ্ধি করবে।\n\n5. নারী-পুরুষ উভয়ের ক্ষমতায়ন এবং সমান অংশগ্রহণ নিশ্চিত করার দিকে লক্ষ্য রাখুন - কোন পদ্ধতি লিঙ্গ সমতা ও পারস্পরিক শ্রদ্ধাকে সমর্থন করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 448,
+      "prompt_tokens": 533,
+      "total_tokens": 981,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.200132,
+    "balance_after": 355.0801
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"দম্পতির মতবিরোধ নিরসনে দুই পক্ষের সমান অংশগ্রহণ, স্বায়ত্তশাসন এবং পারস্পরিক সম্মানকে অগ্রাধিকার দেওয়া হয়, যা দীর্ঘমেয়াদী সম্পর্কের সুস্থতা ও ভবিষ্যৎ সংঘাত মোকাবিলার দক্ষতা গড়ে তোলে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 448,
+    "act_tokens_out": 131,
+    "plan_content_len_chars": 730,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

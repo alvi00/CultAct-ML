@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc90eea11ff7bf",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পারিবারিক আর্থিক ব্যবস্থাপনার সিদ্ধান্ত নেওয়ার ক্ষেত্রে কোন মানদণ্ডগুলি সবচেয়ে গুরুত্বপূর্ণ তা চিহ্নিত করুন (যেমন: দক্ষতা, সমতা, কর্তৃত্ব, স্বচ্ছতা, দায়বদ্ধতা)।\n\n2. প্রতিটি উপলব্ধ ক্রিয়ার সুবিধা ও অসুবিধা বিশ্লেষণ করুন, বিশেষ করে দীর্ঘমেয়াদী পারিবারিক সুস্থতা এবং দুই অংশীদারের সম্পর্কের দিক থেকে।\n\n3. মূল্যায়ন করুন কোন পদ্ধতি সবচেয়ে বেশি ন্যায়সঙ্গত, কার্যকরী এবং দুই পক্ষের জন্য সম্মানজনক।\n\n4. সিদ্ধান্ত নিন যে কোন ক্রিয়াটি সর্বোত্তম ভারসাম্য অর্জন করে দক্ষতা, সমতা এবং পারস্পরিক বিশ্বাসের মধ্যে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 309,
+      "prompt_tokens": 543,
+      "total_tokens": 852,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.153031,
+    "balance_after": 390.2567
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"আর্থিক দক্ষতার ভিত্তিতে দায়িত্ব নির্ধারণ পরিবারের সর্বোত্তম আর্থিক স্বার্থ নিশ্চিত করে, তবে যৌথ তদারকি দুই অংশীদারের সম্মান ও দায়বদ্ধতা বজায় রাখে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 309,
+    "act_tokens_out": 104,
+    "plan_content_len_chars": 509,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

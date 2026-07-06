@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb1f090c8f593",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. Evaluasi tingkat urgensi situasi dan dampak dari penundaan keputusan, untuk menentukan seberapa cepat keputusan harus diambil.\n\n2. Identifikasi ketersediaan para pemangku kepentingan utama dan tim inti, serta kesiapan mereka untuk memberikan masukan dalam waktu singkat.\n\n3. Pertimbangkan tingkat kompleksitas masalah dan apakah diperlukan keahlian khusus atau otoritas lebih tinggi untuk mengambil keputusan yang tepat.\n\n4. Timbang antara kebutuhan akan kecepatan bertindak versus kebutuhan akan legitimasi dan dukungan dari berbagai pihak dalam pelaksanaan keputusan.\n\n5. Tentukan tingkat risiko yang dapat diterima jika keputusan diambil secara mandiri versus risiko keterlambatan jika menunggu proses yang lebih inklusif.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 214,
+      "prompt_tokens": 372,
+      "total_tokens": 586,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.105636,
+    "balance_after": 381.2636
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Situasi tanpa prosedur tetap memerlukan kecepatan dan fleksibilitas, namun tetap membutuhkan masukan dari tim untuk mengurangi risiko keputusan tunggal, sehingga opsi D menyeimbangkan kedua aspek tersebut.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 214,
+    "act_tokens_out": 77,
+    "plan_content_len_chars": 735,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

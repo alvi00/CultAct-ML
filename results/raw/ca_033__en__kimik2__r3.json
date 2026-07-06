@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccaa8579157e72",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identify my core values and priorities regarding career growth versus family time, and assess how much weight each deserves in this decision.\n\n2. Evaluate the specific demands of the promotion—frequency of travel, duration of absences, and flexibility—to understand the concrete impact on home life.\n\n3. Consider who would be affected by my absence and what their needs are, determining whose input is essential versus whose is merely helpful.\n\n4. Assess whether the promotion's benefits (financial, professional, long-term security) genuinely outweigh the costs to family relationships, or if compromise is possible.\n\n5. Review each available action against these factors, noting which approaches align with my values and which create unacceptable risks.\n\n6. Select the action that best integrates my priorities with the practical realities of the situation.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 156,
+      "prompt_tokens": 261,
+      "total_tokens": 417,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.076135,
+    "balance_after": 346.2104
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"This approach proactively balances career opportunity with family commitment through concrete planning rather than leaving either to chance.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 156,
+    "act_tokens_out": 33,
+    "plan_content_len_chars": 862,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

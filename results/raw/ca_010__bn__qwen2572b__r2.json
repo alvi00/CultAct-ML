@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc99f5c6d34ae8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. গুরুত্বপূর্ণ আর্থিক সিদ্ধান্তের বিষয় সম্পর্কে সকল পরিবারের সদস্যদের মতামত সংগ্রহ করুন।\n2. পরিবারের বর্তমান আর্থিক অবস্থা এবং ভবিষ্যতের উদ্দেশ্য বিশ্লেষণ করুন।\n3. প্রতিটি উপলব্ধ কর্মকাণ্ডের সম্ভাব্য ফলাফল ও ঝুঁকি মূল্যায়ন করুন।\n4. পরিবারের মধ্যে সর্বাধিক আর্থিক অভিজ্ঞতা বিশিষ্ট সদস্যদের মতামত শোনার জন্য একটি সভার আয়োজন করুন।\n5. সকল তথ্য এবং মতামত বিবেচনা করে একটি সিদ্ধান্ত গ্রহণের পদ্ধতি নির্বাচন করুন।\n6. নির্বাচিত পদ্ধতি পরিবারের সকল সদস্যদের সাথে শেয়ার করুন এবং তাদের প্রতিক্রিয়া সংগ্রহ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 530,
+      "prompt_tokens": 910,
+      "total_tokens": 1440,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08094,
+    "balance_after": 436.9935
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"একটি পারিবারিক বাজেট নির্ধারণ এবং সবার ঐকমত্যে বরাদ্দ করা পরিবারের সকল সদস্যের মতামত এবং চাহিদা বিবেচনা করে আর্থিক সিদ্ধান্ত নেওয়ার একটি সমন্বিত পদ্ধতি হিসেবে প্রতিফলিত হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 530,
+    "act_tokens_out": 191,
+    "plan_content_len_chars": 505,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cccf4a5b8ada37",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Consider the urgency and nature of the healthcare decision.\n2. Evaluate the knowledge and expertise of family members on the topic.\n3. Assess the importance of respecting traditional authority versus collective decision-making.\n4. Determine the level of consensus needed among family members.\n5. Reflect on the potential impact of the decision on all family members.\n6. Choose the approach that best aligns with the family's values and the specific context of the decision.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 89,
+      "prompt_tokens": 261,
+      "total_tokens": 350,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.019434,
+    "balance_after": 421.3389
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"This approach balances expert guidance with family preferences, ensuring a well-rounded and inclusive decision.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 89,
+    "act_tokens_out": 30,
+    "plan_content_len_chars": 476,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc89246d8cc22d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. Evaluasi urgensi situasi dan ketersediaan waktu untuk pengambilan keputusan, termasuk risiko dari penundaan.\n\n2. Identifikasi siapa saja pihak yang benar-benar kritis untuk keberhasilan keputusan ini, baik dari sisi otoritas maupun eksekusi.\n\n3. Pertimbangkan keseimbangan antara kecepatan bertindak dengan kebutuhan akan legitimasi dan dukungan dari pihak terkait.\n\n4. Analisis kapasitas tim saya saat ini dalam mengambil keputusan kolektif versus kebutuhan akan arahan eksternal.\n\n5. Tentukan pendekatan yang paling sesuai berdasarkan trade-off antara kecepatan, kualitas keputusan, dan implementasi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 184,
+      "prompt_tokens": 372,
+      "total_tokens": 556,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.095286,
+    "balance_after": 381.4543
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Situasi tanpa prosedur tetap memerlukan kecepatan dan fleksibilitas, namun tetap membutuhkan masukan dari tim yang memiliki pengalaman bersama untuk memastikan keputusan tetap berkualitas dan dapat dieksekusi segera tanpa menunggu proses yang lebih panjang.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 184,
+    "act_tokens_out": 91,
+    "plan_content_len_chars": 612,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

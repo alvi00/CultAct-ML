@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce87779e8312c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন বিকল্পগুলির মূল্যায়ন: প্রতিটি অ্যাকশনের সুবিধা-অসুবিধা বিশ্লেষণ করুন, বিশেষ করে পারিবারিক সম্প্রীতি, ন্যায়বিচার, এবং সিদ্ধান্ত গ্রহণের দক্ষতার দিক থেকে।\n\n2. পরিবারের গতিশীলতা বিবেচনা: পরিবারের বর্তমান সম্পর্ক, যোগাযোগের ধরন, এবং সদস্যদের মধ্যে বিশ্বাসের স্তর মূল্যায়ন করুন।\n\n3. দীর্ঘমেয়াদী প্রভাব বিশ্লেষণ: কোন পদ্ধতি ভবিষ্যতে অনুরূপ সংঘাত প্রতিরোধে সবচেয়ে কার্যকর হবে তা যাচাই করুন।\n\n4. ন্যায়বিচার ও অন্তর্ভুক্তির ভারসাম্য: সিদ্ধান্তে সবার অংশগ্রহণ নিশ্চিত করার পাশাপাশি যৌথ স্বার্থ সংরক্ষণের ক্ষমতা মূল্যায়ন করুন।\n\n5. সর্বোত্তম মেলবন্ধন চিহ্নিত করুন: যে পদ্ধতি একই সাথে খোলামেলা আলোচনা, সম্মতি, এবং সুস্পষ্ট নির্দেশিকা নিশ্চিত করে তা নির্ধারণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 408,
+      "prompt_tokens": 661,
+      "total_tokens": 1069,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.197275,
+    "balance_after": 393.1667
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি খোলামেলা আলোচনা, সবার অংশগ্রহণ এবং ভবিষ্যতের জন্য সুস্পষ্ট নির্দেশিকা তৈরির মাধ্যমে স্থায়ী সমাধান নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 408,
+    "act_tokens_out": 86,
+    "plan_content_len_chars": 668,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

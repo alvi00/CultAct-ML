@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc7901a5cef249",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সদস্যদের সংখ্যা এবং তাদের বয়স ও অর্থনৈতিক অবস্থা বিবেচনা করব।\n2. এ ধরনের সিদ্ধান্তে পরিবারের ঐতিহ্য ও সংস্কৃতি কী তা মূল্যায়ন করব।\n3. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা তুলনামূলকভাবে বিশ্লেষণ করব।\n4. দীর্ঘমেয়াদী স্থিতিশীলতা এবং সবার অংশগ্রহণের গুরুত্ব নির্ধারণ করব।\n5. সবচেয়ে সুষম এবং টেকসই পদ্ধতি চূড়ান্ত করব।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 212,
+      "prompt_tokens": 583,
+      "total_tokens": 795,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.122986,
+    "balance_after": 391.3582
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এটি সম্মান, ঐক্য এবং সবার কল্যাণের ভারসাম্য রক্ষা করে পরিবারের স্থায়ী স্থিতিশীলতা নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 212,
+    "act_tokens_out": 67,
+    "plan_content_len_chars": 323,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

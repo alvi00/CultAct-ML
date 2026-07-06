@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc076e9e8f411f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. মূল্যায়নের লক্ষ্য ও উদ্দেশ্য বিশ্লেষণ করুন - কর্মক্ষমতা মূল্যায়নের প্রাধান্য নির্ধারণ করুন\n2. প্রতিটি বিকল্পের মূল্যায়ন পদ্ধতি, সুবিধা ও সীমাবদ্ধতা তুলনা করুন\n3. শিক্ষার্থীদের দক্ষতা বিকাশ, ন্যায়সঙ্গততা এবং বাস্তবায়নযোগ্যতার দিক বিবেচনা করুন\n4. দীর্ঘমেয়াদী শিক্ষাগত ফলাফলের সাথে সামঞ্জস্য যাচাই করুন\n5. সবচেয়ে সুষমু, ব্যাপক এবং কার্যকর পদ্ধতি চূড়ান্ত করুন",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 227,
+      "prompt_tokens": 602,
+      "total_tokens": 829,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.129786,
+    "balance_after": 334.6973
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"দক্ষতা, সহযোগিতা ও আত্ম-পর্যালোচনার সমন্বয়ে চলমান গঠনমূলক মূল্যায়ন শিক্ষার্থীদের সম্পূর্ণ বিকাশ নিশ্চিত করে এবং সময়ের সাথে অগ্রগতি ট্র্যাক করতে সক্ষম।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 227,
+    "act_tokens_out": 106,
+    "plan_content_len_chars": 366,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

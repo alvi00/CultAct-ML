@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3657fe852b44",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. মূল্যায়ন করব যে এই পরিস্থিতিতে কোন মূলনীতি অগ্রাধিকার পাওয়া উচিত—দলগত সংহতি, পারদর্শিতার স্বীকৃতি, জ্যেষ্ঠতার সম্মান, নাকি দীর্ঘমেয়াদী টেকসইতা।\n\n2. বিবেচনা করব যে এটি \"সদ্য উদ্ভাবন\" এবং \"এককালীন মুনাফা\"—অর্থাৎ এমন একটি পরিস্থিতি যেখানে ভবিষ্যতের পুনরাবৃত্তি নাও হতে পারে, তাই দীর্ঘমেয়াদী কাঠামো গড়ার চেয়ে বর্তমান অবদানকারীদের স্বীকৃতি গুরুত্বপূর্ণ।\n\n3. বিশ্লেষণ করব যে \"বেশ কয়েকজন লোকের সহায়তা ছিল\"—এটি নির্দেশ করে বিভিন্ন ধরনের অবদান ছিল, সম্ভবত কারো কাজ পরিমাপযোগ্যভাবে বেশি প্রভাবশালী ছিল।\n\n4. মূল্যায়ন করব যে স্বচ্ছতা ও ন্যায্যতা কতটা গুরুত্বপূর্ণ—অসমান অবদানকে সমান ভাগে ভাগ করা দক্ষ কর্মীদের হতাশ করতে পারে।\n\n5. তুলনা করব কোন পদ্ধতি সবচেয়ে বেশি অনুপ্রেরণা দেবে ভবিষ্যতে আরও উদ্ভাবনের জন্য।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 454,
+      "prompt_tokens": 593,
+      "total_tokens": 1047,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.207332,
+    "balance_after": 404.405
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"পরিমাপযোগ্য অবদানের ভিত্তিতে বণ্টন উদ্ভাবনকে উৎসাহিত করে এবং ভবিষ্যতে আরও উদ্ভাবনের জন্য সঠিক প্রণোদনা তৈরি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 454,
+    "act_tokens_out": 86,
+    "plan_content_len_chars": 708,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

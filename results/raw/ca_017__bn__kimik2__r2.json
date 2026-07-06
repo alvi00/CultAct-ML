@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc91fdf1f158a7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সমস্যাটি বিশ্লেষণ করুন: ঊর্ধ্বতন কর্মকর্তারা কাজের সময়ের বাইরে দায়বদ্ধতাগুলো উপেক্ষা করছেন, যা ব্যক্তিগত সময় ও পেশাগত ভারসাম্য নিয়ে প্রশ্ন তোলে।\n\n2. প্রতিটি বিকল্পের সম্ভাব্য ফলাফল মূল্যায়ন করুন:\n   - কোন পদ্ধতি স্বচ্ছতা ও সম্মানের ভারসাম্য রাখে?\n   - কোনটি দীর্ঘমেয়াদী সম্পর্ক ও সমাধানের সম্ভাবনা বেশি?\n\n3. সংস্থাগত সংস্কৃতি ও ব্যক্তিগত অবস্থান বিবেচনা করুন: ঊর্ধ্বতনদের সাথে সম্পর্ক কতটা গুরুত্বপূর্ণ, এবং দায়বদ্ধতার উপেক্ষা কতটা গুরুতর?\n\n4. স্বল্পমেয়াদী ও দীর্ঘমেয়াদী লক্ষ্য নির্ধারণ করুন: সম্প্রীতি বজায় রাখা, নিজের দৃষ্টিভঙ্গি তুলে ধরা, এবং কার্যকর সমাধান—এই তিনের মধ্যে অগ্রাধিকার কী?\n\n5. সবচেয়ে ন্যায়সঙ্গত ও টেকসই পদ্ধতি চিহ্নিত করুন যা উভয় পক্ষের মর্যাদা রক্ষা করে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 420,
+      "prompt_tokens": 597,
+      "total_tokens": 1017,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.195943,
+    "balance_after": 377.1051
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"দায়বদ্ধতা রক্ষা করে স্বচ্ছভাবে সমাধান করার এই পদ্ধতি পেশাদারিত্ব বজায় রাখে এবং আনুষ্ঠানিক আলোচনার মাধ্যমে স্থায়ী সমাধানের পথ তৈরি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 420,
+    "act_tokens_out": 95,
+    "plan_content_len_chars": 689,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

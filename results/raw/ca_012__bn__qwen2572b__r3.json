@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1638a1272131",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. নির্দেশটির উদ্দেশ্য ও প্রেক্ষাপট বোঝার প্রয়োজনীয়তা বিবেচনা করা হবে।\n2. নির্দেশটি পালন করার সাথে সাথে কর্তৃপক্ষের সহযোগিতা ও স্পষ্টতা মেনে চলা যাবে কিনা বিবেচনা করা হবে।\n3. দলের সদস্যদের মতামত এবং অবদানের গুরুত্ব বিবেচনা করা হবে।\n4. নির্দেশটি তৎক্ষণাৎ পালন করার সাথে কর্তৃপক্ষের তত্ত্বাবধায়কের সাথে আরও বিস্তারিত আলোচনার দরকার কিনা বিবেচনা করা হবে।\n5. নির্দেশটির সঠিক বাস্তবায়ন ও ফলাফল উত্পাদনের ক্ষমতা বিবেচনা করা হবে।\n6. উপরোক্ত বিবেচনাসমূহ ভিত্তিতে সর্বোত্তম কর্মপদকে নির্বাচন করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 513,
+      "prompt_tokens": 878,
+      "total_tokens": 1391,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.078192,
+    "balance_after": 435.1516
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এটি নির্দেশটি অনুসরণ করার সাথে সাথে প্রয়োজনীয় স্পষ্টতা নিশ্চিত করবে এবং কর্তৃপক্ষের তত্ত্বাবধায়কের সাথে যোগাযোগ রক্ষা করবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 513,
+    "act_tokens_out": 149,
+    "plan_content_len_chars": 494,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce4dbde3f163a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের প্রতিটি সদস্যের ব্যক্তিগত পারফরম্যান্স ও অবদান সম্পর্কে বিস্তারিত মূল্যায়ন করা হবে।\n2. ত্রৈমাসিক লক্ষ্য পূরণে দলের সমষ্টিগত ভূমিকা মূল্যায়ন করা হবে।\n3. সবচেয়ে বেশি ফলাফল দিয়েছেন যে সদস্য তার প্রকৃত অবদান ও তা দলের সাফল্যে কতটা প্রভাব ফেলেছে তা নির্ধারণ করা হবে।\n4. দলের সমষ্টিগত সফলতার কারণে সবার সম্মান ও উৎসাহিত করার পদক্ষেপ বিবেচনা করা হবে।\n5. নেতৃত্বের ভূমিকা ও চালিত পরিকল্পনার সাফল্য বিশ্লেষণ করা হবে।\n6. সকল তথ্য ও মূল্যায়নের ভিত্তিতে সিদ্ধান্ত নেওয়ার জন্য সকল বিকল্প সামনে রেখে বিবেচনা করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 531,
+      "prompt_tokens": 1028,
+      "total_tokens": 1559,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.087372,
+    "balance_after": 261.0224
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"সম্মিলিত প্রচেষ্টা ও নেতৃত্বের স্বীকৃতি দেওয়া দলের সাফল্যের সত্যিকার প্রতিবিম্ব।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ]
+}

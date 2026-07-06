@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc458e5a841e8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Pertimbangkan nilai-nilai dan harapan keluarga terkait karier.\n2. Evaluasi potensi risiko dan manfaat dari pilihan karier anak.\n3. Diskusikan dengan anak tentang rencana dan tujuan mereka secara detail.\n4. Tinjau sikap anak terhadap tanggung jawab dan ketidakpastian.\n5. Pertimbangkan dukungan yang dapat diberikan sebagai orang tua.\n6. Putuskan aksi yang paling sesuai berdasarkan informasi dan pertimbangan yang telah dilakukan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 121,
+      "prompt_tokens": 345,
+      "total_tokens": 466,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.02589,
+    "balance_after": 415.9841
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Mendorong anak untuk bertanggung jawab dan memiliki rencana yang jelas dapat membantu mereka sukses dalam pilihan karier yang tidak konvensional.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 121,
+    "act_tokens_out": 50,
+    "plan_content_len_chars": 433,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

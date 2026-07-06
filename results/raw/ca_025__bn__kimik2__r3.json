@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc2fb81f748c39",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the core values at stake: consider whether preserving family unity, respecting individual autonomy, or finding balance between tradition and change matters most in this situation.\n\n2. Assess the potential consequences of each approach: analyze which action is most likely to lead to sustainable resolution without causing lasting harm to family relationships or the individual's dignity.\n\n3. Consider the power dynamics involved: reflect on whether involving elders might suppress the individual's voice, or whether bypassing them might undermine family structure.\n\n4. Examine the flexibility of the tradition itself: determine if the family custom is open to evolution or requires strict adherence, and whether dialogue or authority is the appropriate tool.\n\n5. Weigh short-term harmony against long-term respect: decide whether immediate peace or fostering mutual understanding and respect should take priority.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 634,
+      "total_tokens": 792,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.108717,
+    "balance_after": 360.2612
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"একটি শান্ত আলোচনার মাধ্যমে মধ্যপন্থা খোঁজা সব পক্ষের মর্যাদা ও পরিবারিক সম্পর্ক উভয়ই রক্ষা করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 158,
+    "act_tokens_out": 73,
+    "plan_content_len_chars": 925,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

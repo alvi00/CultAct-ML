@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc8b91015c472",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Assess the severity of the disregard—whether it appears to be unintentional oversight, systemic pressure, or a pattern of disrespect for boundaries.\n2. Evaluate my current relationship with these superiors and the organizational culture around work-life balance to gauge which approach will be most effective.\n3. Consider my own priorities: whether preserving harmony, establishing firm limits, or ensuring transparent process matters most in this situation.\n4. Weigh the risks of each approach, including potential retaliation, being ignored, or damaging the working relationship versus the benefits of being heard and respected.\n5. Determine which action best balances my need for boundaries with the practical reality of maintaining a functional working relationship.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 253,
+      "total_tokens": 388,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.068207,
+    "balance_after": 378.2105
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Following instructions in the moment maintains professional composure and prevents immediate conflict, while the private conversation ensures my concerns are heard without public confrontation, balancing immediate harmony with long-term boundary-setting.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 135,
+    "act_tokens_out": 50,
+    "plan_content_len_chars": 773,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

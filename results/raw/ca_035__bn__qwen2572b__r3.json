@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb74f19fb2a6c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সন্তানের পেশার সিদ্ধান্তের কারণ ও উদ্দেশ্য সম্পর্কে বিস্তারিত জানার জন্য তার সাথে আলোচনা করা হবে।\n2. সন্তানের পেশার পছন্দটি সম্পর্কে আরও গভীরভাবে গবেষণা করা হবে যাতে তার ভবিষ্যতের সুরক্ষা নিশ্চিত থাকে।\n3. সন্তানের পেশার পছন্দ সম্পর্কে পরিবারের মতামত সংগ্রহ করা হবে এবং তাদের প্রতিক্রিয়া বিবেচ্য করা হবে।\n4. সন্তানের পেশার পছন্দ এবং তার ভবিষ্যতের সম্ভাব্য প্রভাব সম্পর্কে স্ব-বিশ্লেষণ করা হবে।\n5. সন্তানের পছন্দকে একটি সাফল্যময় পরিকল্পনার মাধ্যমে অনুমোদিত করার পথে পর্যাপ্ত সমর্থন এবং উৎসাহ প্রদানের উপায় বিবেচনা করা হবে।\n6. উপস্থাপিত কর্মকাণ্ডগুলির মধ্যে সবচেয়ে উপযুক্ত কর্মকাণ্ডটি বেছে নেয়া হবে যা সন্তানের পেশার পছন্দ এবং ভবিষ্যতের সুরক্ষার মধ্যে সর্বোত্তম সামঞ্জস্য রাখে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 702,
+      "prompt_tokens": 906,
+      "total_tokens": 1608,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.091044,
+    "balance_after": 415.4291
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এই পছন্দ সুস্পষ্ট এবং দায়িত্বশীল হওয়ার ক্ষেত্রে সমর্থন প্রদান করা সেরা পথ, যা সন্তানের উৎসাহ এবং লক্ষ্যবদ্ধতাকে সমর্থন করে এবং তার ভবিষ্যতের জন্য সুরক্ষিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 702,
+    "act_tokens_out": 182,
+    "plan_content_len_chars": 682,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

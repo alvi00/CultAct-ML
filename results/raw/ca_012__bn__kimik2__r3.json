@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc93c0bc5fc455",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. নির্দেশটির প্রকৃতি ও জরুরিতা মূল্যায়ন করুন - এটি কি সময়সংবেদী, নাকি সামান্য বিলম্ব সহনীয়।\n2. ব্যবস্থাপকের সাথে সম্পর্ক ও দলের সংস্কৃতি বিবেচনা করুন - উন্মুক্ত যোগাযোগ কি উৎসাহিত হয়।\n3. নির্দেশ পালন না করার ঝুঁকি বনাম ব্যাখ্যা না জেনে ভুলভাবে কাজ করার ঝুঁকি তুলনা করুন।\n4. দীর্ঘমেয়াদী দলগত বিশ্বাস ও দক্ষতার উপর প্রতিটি পদ্ধতির প্রভাব বিশ্লেষণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 216,
+      "prompt_tokens": 544,
+      "total_tokens": 760,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.121032,
+    "balance_after": 387.5868
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"এটি কর্তৃপক্ষের ধারা বজায় রেখে পরে স্পষ্টতা আনার সুযোগ দেয়, যা দক্ষতা ও সম্মান উভয়ই সমন্বয় করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 216,
+    "act_tokens_out": 71,
+    "plan_content_len_chars": 356,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccaba8929a0102",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দম্পতির প্রত্যেকের আর্থিক দক্ষতা ও ভালোবাসার ক্ষেত্রে প্রত্যেকের সুবিধা ও সুবিধার মূল্যায়ন করা হবে।\n2. প্রত্যেকের সময় ব্যবস্থাপনার ক্ষমতা ও আর্থিক ব্যাপারে জড়িত থাকার পরিমাণ বিবেচনা করা হবে।\n3. দম্পতির মধ্যে প্রচলিত সামাজিক ও ঐতিহাসিক নীতি বিবেচনা করা হবে।\n4. প্রত্যেক কর্মকান্ডের সম্ভাব্য ফলাফল ও দম্পতির মধ্যে সম্পর্কের প্রভাব বিবেচনা করা হবে।\n5. দম্পতির মধ্যে সংশোধন ও যৌথ সিদ্ধান্ত গ্রহণের ক্ষমতা মূল্যায়ন করা হবে।\n6. উপরোক্ত বিবেচনাগুলি অনুসারে সর্বোত্তম কর্মকান্ডটি সিদ্ধান্ত করা হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 514,
+      "prompt_tokens": 867,
+      "total_tokens": 1381,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.077658,
+    "balance_after": 436.1465
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি সমতা ও যৌথ দায়ভাগ নিশ্চিত করে, যা দম্পতির মধ্যে ভালো সম্পর্ক রক্ষা করতে সহায়ক।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 514,
+    "act_tokens_out": 101,
+    "plan_content_len_chars": 497,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

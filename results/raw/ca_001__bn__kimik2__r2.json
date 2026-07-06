@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3976f307b314",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের গঠন ও অবদানের প্রকৃতি বিশ্লেষণ করুন: একজন ব্যক্তিগতভাবে সেরা ফলাফল দিয়েছেন, বাকি চারজন দল হিসেবে ধারাবাহিক অবদান রেখেছেন।\n2. সংস্থার সংস্কৃতি ও মূল্যবোধ মূল্যায়ন করুন: ব্যক্তিগত কর্মক্ষমতা বনাম দলগত সহযোগিতা কোনটি অগ্রাধিকার পায়।\n3. দীর্ঘমেয়াদী দল গতিশীলতার প্রভাব বিবেচনা করুন: কোন বন্টন পদ্ধতি দলের মনোবল ও ভবিষ্যৎ সহযোগিতাকে সবচেয়ে বেশি উৎসাহিত করবে।\n4. ন্যায়বিচার ও স্বচ্ছতার নীতি যাচাই করুন: সিদ্ধান্তটি দলের সবার কাছে যুক্তিসঙ্গত ও গ্রহণযোগ্য হবে কিনা।\n5. বিকল্পগুলির মধ্যে সামঞ্জস্যপূর্ণ সমাধান খুঁজুন যা ব্যক্তিগত স্বীকৃতি ও দলগত অবদান উভয়কেই সম্মান জানায়।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 378,
+      "prompt_tokens": 633,
+      "total_tokens": 1011,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.184532,
+    "balance_after": 410.1804
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এটি ব্যক্তিগত নেতৃত্বকে স্বীকৃতি দেয় এবং দলের ধারাবাহিক সহযোগিতাকেও সম্মান জানায়, ফলে দীর্ঘমেয়াদী দল গতিশীলতা বজায় থাকে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 378,
+    "act_tokens_out": 92,
+    "plan_content_len_chars": 580,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

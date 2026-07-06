@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc81a1676298c1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Analisis prinsip-prinsip kunci dalam setiap opsi: keadilan, kesetaraan, otonomi pasangan, dan keberlanjutan hubungan jangka panjang.\n\n2. Evaluasi sejauh mana setiap pendekatan memberdayakan pasangan itu sendiri versus bergantung pada pihak eksternal.\n\n3. Pertimbangkan keseimbangan antara resolusi independen (membangun keterampilan komunikasi pasangan) dan dukungan eksternal yang konstruktif.\n\n4. Bandingkan pendekatan yang berbasis dialog setara versus yang berbasis hierarki, serta dampaknya terhadap dinamika kekuasaan dalam hubungan.\n\n5. Tentukan pendekatan mana yang paling memungkinkan pertumbuhan hubungan dan pencegahan konflik serupa di masa depan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 201,
+      "prompt_tokens": 331,
+      "total_tokens": 532,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.097646,
+    "balance_after": 356.0597
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Dialog yang tenang dan setara memberdayakan pasangan untuk mengembangkan keterampilan komunikasi mereka sendiri, membangun kepercayaan timbal balik, dan menciptakan solusi yang benar-benar mereka miliki bersama untuk jangka panjang.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 201,
+    "act_tokens_out": 75,
+    "plan_content_len_chars": 662,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

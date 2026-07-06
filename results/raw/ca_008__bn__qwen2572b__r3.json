@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1cdeb79b5017",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের সদস্যদের মধ্যে তাঁর অবদানের প্রভাব এবং গুরুত্ব বিবেচনা করুন।\n2. একটি সরাসরি এবং ব্যক্তিগত স্বীকৃতি প্রদানের প্রভাব এবং দলের মর্যাদা রক্ষার মধ্যে একটি ভাল সমন্বয় সৃষ্টি করার জন্য বিবেচনা করুন।\n3. দলের অন্যান্য সদস্যদের মতামত এবং তাদের অনুভূতি নিয়ে আলোচনা করুন।\n4. স্বীকৃতির প্রকৃতি এবং তার প্রভাব বিবেচনা করুন, যেমন এটি কেবল মৌখিকভাবে প্রকাশ করা যায় না কি একটি আরও ফরম্যাল পদক্ষেপ প্রয়োজন।\n5. স্বীকৃতি প্রদানের জন্য সময় ও স্থান বিবেচনা করুন, যাতে এটি সর্বাধিক প্রভাবী হয়।\n6. স্বীকৃতির উপযুক্ততা এবং তার প্রভাব নিশ্চিত করার জন্য দলের অন্যান্য সদস্যদের সাথে আলোচনা করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 619,
+      "prompt_tokens": 858,
+      "total_tokens": 1477,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.083472,
+    "balance_after": 438.5909
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"ব্যক্তিগত বোনাস প্রদান করা কর্মক্ষমতা-ভিত্তিক প্রস্তাব যা তাঁর অর্জনের প্রতি সরাসরি স্বীকৃতি দেখায় এবং দলের অন্যান্য সদস্যদের উৎসাহ বৃদ্ধি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 619,
+    "act_tokens_out": 163,
+    "plan_content_len_chars": 581,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

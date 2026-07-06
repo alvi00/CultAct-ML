@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc17605a0fd604",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পদোন্নতির প্রস্তাব সম্পর্কে বিস্তারিত জানার জন্য বর্তমান পদের সাথে তুলনা করা।\n2. পরিবার ও সহকর্মীদের সাথে পদোন্নতির প্রভাব নিয়ে আলাপ করা।\n3. পরিবারের প্রতিক্রিয়া ও মতামত বিবেচনা করা।\n4. নতুন পদের চ্যালেঞ্জ ও সুযোগগুলি বিবেচনা করা।\n5. পরিবারের সাথে একটি সমর্থন পরিকল্পনা তৈরি করা, যদি প্রয়োজন হয় তবে বাইরের সহায়তা নেওয়ার বিকল্পও বিবেচনা করা।\n6. সকল উপাত্ত ও মতামত বিবেচনা করে চূড়ান্ত সিদ্ধান্ত নেওয়া।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 430,
+      "prompt_tokens": 1073,
+      "total_tokens": 1503,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.083742,
+    "balance_after": 417.1874
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি বাড়ির সময় রক্ষা করার ও কর্মজীবনে ভারসাম্য বজায় রাখার জন্য সবচেয়ে ভালো সমাধান।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 430,
+    "act_tokens_out": 104,
+    "plan_content_len_chars": 410,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

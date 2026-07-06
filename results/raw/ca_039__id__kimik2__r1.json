@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc991c43c36817",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identifikasi siapa yang akan berlibur dan hubungan antar anggota kelompok.\n2. Evaluasi tingkat kepentingan harmoni kelompok versus efisiensi pengambilan keputusan.\n3. Pertimbangkan nilai-nilai budaya yang relevan dalam konteks keluarga tersebut.\n4. Analisis risiko konflik dan dampaknya terhadap pengalaman liburan.\n5. Tentukan prioritas: kepuasan kolektif, efisiensi, atau penghormatan terhadap hierarki.\n6. Pilih metode yang paling sesuai dengan dinamika kelompok dan tujuan liburan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 300,
+      "total_tokens": 453,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.078435,
+    "balance_after": 333.8423
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"Mencapai konsensus bersama keluarga dan anggota senior memastikan kepuasan seluruh kelompok sambil tetap menghargai masukan semua pihak secara demokratis.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 153,
+    "act_tokens_out": 62,
+    "plan_content_len_chars": 488,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

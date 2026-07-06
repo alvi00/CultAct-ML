@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccf7c76c8d5fd4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দম্পতির মতবিরোধের প্রকৃতি বোঝার চেষ্টা করুন এবং তাদের মধ্যকার মূল সমস্যা চিহ্নিত করুন।\n2. বিভিন্ন কার্যকলাপের ফলাফলের সম্ভাবনা বিবেচনা করুন এবং তাদের উপর কীভাবে প্রভাব ফেলবে তা বিশ্লেষণ করুন।\n3. দম্পতির মনোভাব এবং তাদের ভাবনার প্রকৃতি বিবেচনা করে সর্বোত্তম কার্যকলাপ নির্বাচনের প্রচেষ্টা করুন।\n4. পরিবারের অন্যান্য সদস্যদের মতামত এবং পরামর্শ সংগ্রহ করুন যদি তা প্রয়োজন হয়।\n5. নির্বাচিত কার্যকলাপের সম্ভাব্য ফলাফল এবং তার দীর্ঘমেয়াদী প্রভাব বিবেচনা করুন।\n6. সর্বোত্তম সমাধানের জন্য সবচেয়ে উপযুক্ত কার্যকলাপটি নির্বাচন করুন এবং তা কার্যকর করার পদ্ধতি নির্ধারণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 604,
+      "prompt_tokens": 832,
+      "total_tokens": 1436,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.081168,
+    "balance_after": 421.7599
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"শান্ত এবং সমান আলোচনা দিয়ে মতবিরোধ নিরসন করা দম্পতির সম্পর্ককে শক্তিশালী এবং সুস্থ রাখবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 604,
+    "act_tokens_out": 110,
+    "plan_content_len_chars": 570,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

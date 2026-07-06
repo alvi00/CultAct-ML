@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca9df1840c5d0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রস্তাবটি এবং এর প্রভাব বিবেচনা করবো।\n2. পরিবারের সদস্যদের মতামত এবং প্রতিক্রিয়া সম্পর্কে চিন্তা করবো।\n3. প্রস্তাবের বিরোধী সম্ভাব্য অনিষ্টের পরিমাণ বিবেচনা করবো।\n4. প্রস্তাবটি সমর্থনের এবং অসমর্থনের সম্ভাব্য ফলাফল বিবেচনা করবো।\n5. প্রস্তাবটি সম্পর্কে আমার নিজস্ব মতামত এবং প্রতিক্রিয়া যাচাই করবো।\n6. উপস্থাপিত কার্যকলাপগুলির মধ্যে থেকে সবচেয়ে উপযুক্ত কর্মকাণ্ডটি নির্বাচন করবো।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 402,
+      "prompt_tokens": 968,
+      "total_tokens": 1370,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.076392,
+    "balance_after": 424.8629
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি পরিবারের ঐক্য এবং সম্পর্ক রক্ষা করতে সাহায্য করবে এবং সমস্যার একটি সমন্বিত সমাধান খুঁজে পাওয়ার সুযোগ দেবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 402,
+    "act_tokens_out": 131,
+    "plan_content_len_chars": 385,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

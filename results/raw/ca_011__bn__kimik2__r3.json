@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc046ba1775c97",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate which approach best serves the couple's long-term financial health and mutual trust\n2. Consider whether the solution promotes skill utilization, shared responsibility, or traditional hierarchy\n3. Assess which option ensures accountability while respecting both partners' involvement\n4. Determine which approach balances efficiency with relationship equity\n5. Select the option that creates sustainable financial management with appropriate oversight",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 74,
+      "prompt_tokens": 543,
+      "total_tokens": 617,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.071957,
+    "balance_after": 389.7269
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Assigning responsibility based on financial competence ensures optimal management while joint oversight maintains transparency and mutual accountability.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 74,
+    "act_tokens_out": 1000,
+    "plan_content_len_chars": 461,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

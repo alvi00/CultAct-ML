@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce3acb9712598",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. অচলাবস্থার কারণ ও প্রকৃতি বিশ্লেষণ করুন - দলের মধ্যে মতভেদের গভীরতা ও সময়ের সীমাবদ্ধতা মূল্যায়ন করুন।\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা তুলনা করুন - ঐক্যমত বনাম দ্রুত সিদ্ধান্ত বনাম গণতান্ত্রিক প্রক্রিয়ার প্রাস্গিকতা যাচাই করুন।\n3. দলের গতিশীলতা ও বিশ্বাসের স্তর মূল্যায়ন করুন - নেতৃত্বের উপর আস্থা এবং সদস্যদের অংশগ্রহণের প্রয়োজনীয়তা নির্ধারণ করুন।\n4. দীর্ঘমেয়াদী প্রভাব বিবেচনা করুন - কোন পদ্ধতি দলের ঐক্য ও ভবিষ্যৎ সহযোগিতার জন্য সবচেয়ে উপযোগী তা বিবেচনা করুন।\n5. সিদ্ধান্ত নিন এবং নিষ্পত্তি করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 322,
+      "prompt_tokens": 516,
+      "total_tokens": 838,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.155208,
+    "balance_after": 365.8148
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"কাঠামোবদ্ধ আলোচনা ও সংখ্যাগরিষ্ঠ ভোট গণতান্ত্রিক, ন্যায্য এবং স্বচ্ছভাবে অচলাবস্থা নিরসন করে দলের ঐক্য বজায় রাখে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 322,
+    "act_tokens_out": 88,
+    "plan_content_len_chars": 512,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

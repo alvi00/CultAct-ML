@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc469638d05a33",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengumpulkan semua anggota keluarga untuk rapat keluarga.\n2. Mendiskusikan kebutuhan dan permintaan pribadi dari masing-masing anggota.\n3. Meninjau kembali prioritas dan tujuan keuangan keluarga secara bersama-sama.\n4. Menimbang opsi-opsi yang tersedia, termasuk manfaat dan konsekuensinya.\n5. Menyepakati pedoman atau kriteria untuk pengambilan keputusan.\n6. Memilih aksi yang paling sesuai dengan kesepakatan dan pedoman yang telah ditetapkan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 139,
+      "prompt_tokens": 383,
+      "total_tokens": 522,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.029022,
+    "balance_after": 438.3271
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Diskusi terbuka memungkinkan semua anggota keluarga merasa didengar dan dihargai, sambil mencapai keseimbangan antara kebutuhan pribadi dan bersama.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 139,
+    "act_tokens_out": 61,
+    "plan_content_len_chars": 448,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

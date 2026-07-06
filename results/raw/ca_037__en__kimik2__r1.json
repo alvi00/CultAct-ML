@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3be9d5190d8c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the core values embedded in each option: comprehensiveness/evidence (A), institutional credibility (D), preventive best practices (B), and personal trust networks (C).\n\n2. Assess my decision-making priority: determine whether I value maximal information, institutional legitimacy, systematic prevention, or relational confidence most highly in a health context.\n\n3. Consider the specific stakes: health check-ups involve both accurate detection and appropriate follow-up, requiring both quality of testing and reliability of interpretation.\n\n4. Weigh trade-offs: comprehensive testing may yield false positives; authority endorsement doesn't guarantee current best practice; guidelines may miss individualized needs; family trust may reflect outdated experiences.\n\n5. Select the option that best integrates accuracy, appropriate scope, and actionable outcomes for preventive health decisions.\n\n6. Commit to that single action.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 161,
+      "prompt_tokens": 236,
+      "total_tokens": 397,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.075723,
+    "balance_after": 339.1172
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Established preventive guidelines balance evidence, appropriate scope, and long-term health outcomes without the excess of over-testing or the uncertainty of purely personal recommendations.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 161,
+    "act_tokens_out": 42,
+    "plan_content_len_chars": 938,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

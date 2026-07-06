@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc77afccf841b3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the core criteria that matter most for this decision: financial effectiveness, relationship equity, and practical sustainability.\n\n2. Assess which approach maximizes actual financial outcomes while maintaining healthy partnership dynamics.\n\n3. Consider how each option handles expertise, accountability, and potential conflicts.\n\n4. Weigh whether tradition or custom should override skill-based optimization in this specific context.\n\n5. Determine which structure best balances competence with mutual respect and long-term adaptability.\n\n6. Select the action that best serves both the couple's financial health and their relationship equity.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 109,
+      "prompt_tokens": 249,
+      "total_tokens": 358,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.058895,
+    "balance_after": 390.9968
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"This leverages specialized expertise for better financial outcomes while preserving mutual accountability through joint oversight.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 109,
+    "act_tokens_out": 30,
+    "plan_content_len_chars": 653,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

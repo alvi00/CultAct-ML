@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0a09b01d20b1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. গুরুত্বপূর্ণ বিষয়গুলো চিহ্নিত করুন: বাড়ি বদলানোর সিদ্ধান্তে কী কী বিষয় বিবেচনা করা দরকার (যেমন—অর্থনৈতিক সামর্থ্য, সন্তানদের শিক্ষা, চাকরি, স্বাস্থ্যসেবা, পারিবারিক সম্পর্ক)।\n\n2. প্রতিটি ক্রিয়ার মূল্যায়ন করুন: কোন পদ্ধতি সবচেয়ে বেশি সদস্যকে সম্পৃক্ত করে, দীর্ঘমেয়াদি কল্যাণ নিশ্চিত করে, এবং সুষম সিদ্ধান্ত নিশ্চিত করে।\n\n3. পারিবারিক কাঠামো ও প্রেক্ষাপট বিবেচনা করুন: আধুনিক পরিবারে সবার মতামত সমান গুরুত্ব পাওয়া উচিত কি না, নাকি অভিজ্ঞতার ভিত্তিতে বয়োজ্যেষ্ঠদের ভূমিকা বেশি হওয়া উচিত।\n\n4. সিদ্ধান্তের টেকসইতা যাচাই করুন: কোন পদ্ধতি বাস্তবায়নে সবাই দায়িত্ব নিতে প্রস্তুত এবং ভবিষ্যতে দায় চাপিয়ে দেওয়ার সুযোগ কম থাকে।\n\n5. সর্বোপরি—পরিবারের সামগ্রিক সুখ ও একতা রক্ষার ক্ষমতা দেখুন: কোন পদ্ধতি শুধু সিদ্ধান্ত নয়, সম্পর্কও মজবুত রাখে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 466,
+      "prompt_tokens": 599,
+      "total_tokens": 1065,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.211984,
+    "balance_after": 339.942
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"পরিবারের দীর্ঘমেয়াদি কল্যাণ ও সবার মতামত বিবেচনায় নিয়ে স্পষ্ট, দায়িত্বশীল সিদ্ধান্ত নেওয়া সবচেয়ে যুক্তিযুক্ত পথ।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 466,
+    "act_tokens_out": 89,
+    "plan_content_len_chars": 748,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

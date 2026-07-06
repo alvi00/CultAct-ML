@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc77f9cfa2c26b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identifikasi inti masalah: atasan mengabaikan komitmen di luar pekerjaan, yang berarti ada konflik antara tuntutan kerja dan kehidupan pribadi yang sudah dijanjikan.\n\n2. Evaluasi setiap opsi berdasarkan tiga kriteria utama: efektivitas dalam menyelesaikan masalah struktural, risiko terhadap hubungan kerja, dan keberlanjutan solusi jangka panjang.\n\n3. Pertimbangkan dinamika kekuasaan: sebagai bawahan, pendekatan yang terlalu konfrontatif atau terlalu pasif keduanya punya risiko—yang satu bisa merusak hubungan, yang lain bisa membiarkan masalah berulang.\n\n4. Analisis apakah masalah ini memerlukan solusi struktural (perubahan jadwal/batasan formal) atau cukup dengan komunikasi interpersonal yang lebih baik.\n\n5. Tentukan pendekatan yang paling seimbang antara menegakkan kebutuhan pribadi dan mempertahankan hubungan kerja yang konstruktif, dengan memastikan ada mekanisme konkret untuk mencegah pengulangan masalah.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 276,
+      "prompt_tokens": 376,
+      "total_tokens": 652,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.127368,
+    "balance_after": 378.0266
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Pendekatan ini menyeimbangkan profesionalisme dengan keberanian mengadvokasi diri sendiri melalui saluran resmi yang transparan dan dapat didokumentasikan, menciptakan solusi konkret tanpa mengorbankan harmoni kerja.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 276,
+    "act_tokens_out": 74,
+    "plan_content_len_chars": 925,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

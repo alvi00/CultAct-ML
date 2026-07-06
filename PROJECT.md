@@ -207,6 +207,25 @@ Compute per (model × language):
   Then: among scenarios where the ACTION changed vs. English, what fraction already
   show low plan similarity? Report the fraction — this answers "does drift start at
   planning?"
+  - **Plan-language stratification (required).** Some models — especially the
+    reasoning model — often PLAN IN ENGLISH on non-English scenarios (`plan_lang !=
+    language`; recorded per run, see §7.3). Report plan drift THREE ways: **(a)** all
+    plans; **(b)** the language-MATCHED subset only (runs where `plan_lang` == the
+    scenario's `language`) — this is the clean drift signal; **(c)** the MISMATCHED
+    subset. Comparing (a) vs (b) exposes how much the language switch DEFLATES
+    apparent drift, since a plan already written in English is trivially similar to
+    the English plan.
+  - **Plan-language mismatch rate (standalone result).** Report the fraction of runs
+    where `plan_lang != scenario language`, per (model × language). Frame this as
+    itself an on-thesis measure of DEFAULTING AWAY FROM THE LOCAL FRAME — the agent
+    abandoning the user's language at the planning step — not merely a nuisance
+    covariate to be controlled away.
+  - **Embedding validity.** LaBSE embeds cross-lingually, so matched-vs-matched
+    (English plan vs Bengali plan) similarity is still valid to compute; the mismatch
+    stratification is about INTERPRETATION of the drift number, not embedding validity.
+  - **Limitations (Metric 3).** The reasoning model's tendency to plan in English on
+    low-resource (e.g., Bengali) scenarios is MEASURED and REPORTED — via `plan_lang`
+    and the mismatch rate above — not suppressed, silently dropped, or corrected away.
 - Secondary probes (X-WebAgentBench style, appendix): token counts per language
   (Bengali script cost), retry rates, justification length.
 
@@ -288,10 +307,12 @@ non-Western cluster. `source` provenance = `ccd-bench:<1-based-index>` (matches
   "model": "gpt-4o-2024-11-20",
   "repeat_index": 2,
   "presented_order": ["C", "A", "D", "B"],
-  "plan_text": "...raw plan from Phase A...",
+  "plan_text": "...CLEANED plan from Phase A (<think>...</think> stripped)...",
+  "plan_lang": "bn",
   "chosen_option": "B",
   "justification": "...one sentence...",
   "valid": true,
+  "plan_truncated": false,
   "retries": 0,
   "tokens_in": 512,
   "tokens_out": 187,
@@ -299,6 +320,16 @@ non-Western cluster. `source` provenance = `ccd-bench:<1-based-index>` (matches
   "timestamp": "2026-07-08T14:22:31+06:00"
 }
 ```
+
+**Stage-3 record additions.** `plan_text` stores the **cleaned** plan — any
+`<think>…</think>` reasoning span (some reasoning models inline their thinking in
+`content`; there is no separate `reasoning_content` field on this gateway) is
+stripped so Metric 3 embeds the plan, not the thinking. The full raw content is kept
+in `results/raw/<run_id>.json`. `plan_lang` = detected language of the cleaned plan
+(`en` | `bn` | `id` | `mixed`), by Bengali-Unicode (U+0980–U+09FF) majority plus a
+Latin stopword check for id-vs-en; deterministic, no API. `plan_truncated` = bool
+(`finish_reason=="length"` or empty cleaned plan) so a Phase-A cutoff is visible in
+the record, not only the raw dump.
 
 ---
 

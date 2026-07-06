@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0ebb387b3a63",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi konteks keputusan yang dihadapi keluarga untuk memahami tingkat kompleksitas, urgensi, dan dampaknya terhadap seluruh anggota keluarga.\n\n2. Pertimbangkan nilai-nilai budaya dan dinamika keluarga yang berlaku, termasuk seberapa tradisional atau modern struktur kekuasaan dalam keluarga tersebut.\n\n3. Analisis kekuatan dan kelemahan masing-masing opsi keterlibatan tetua, dengan mempertimbangkan keseimbangan antara penghormatan pada tetua dan tanggung jawab pengambil keputusan.\n\n4. Timbang kepentingan jangka panjang keluarga, termasuk harmoni antar generasi dan pembentukan tradisi pengambilan keputusan yang berkelanjutan.\n\n5. Tentukan tingkat keterlibatan yang paling sesuai berdasarkan pertimbangan komprehensif di atas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 220,
+      "prompt_tokens": 366,
+      "total_tokens": 586,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.107193,
+    "balance_after": 359.5268
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"Opsi ini menyeimbangkan penghormatan pada tetua dengan tanggung jawab pengambil keputusan untuk mempertimbangkan berbagai faktor secara holistik.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 220,
+    "act_tokens_out": 53,
+    "plan_content_len_chars": 736,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

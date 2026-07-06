@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc809760131e30",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identifikasi nilai-nilai inti yang ingin dijunjung dalam pengambilan keputusan kesehatan keluarga (misalnya: partisipasi, keadilan, penghormatan, atau efektivitas).\n2. Evaluasi setiap opsi berdasarkan sejauh mana opsi tersebut mencerminkan nilai-nilai inti tersebut dan kelayakan praktis dalam konteks keluarga.\n3. Pertimbangkan keseimbangan antara masukan ahli, partisipasi anggota keluarga, dan kejelasan proses pengambilan keputusan.\n4. Pilih opsi yang menawarkan keseimbangan optimal antara demokrasi partisipatif, kebijaksanaan kolektif, dan kepraktisan implementasi.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 183,
+      "prompt_tokens": 392,
+      "total_tokens": 575,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.096651,
+    "balance_after": 354.1117
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Opsi ini memastikan partisipasi seluruh anggota keluarga, mengintegrasikan panduan ahli, dan menghasilkan keputusan kolektif yang seimbang antara pengetahuan profesional dan preferensi pribadi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 183,
+    "act_tokens_out": 71,
+    "plan_content_len_chars": 575,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

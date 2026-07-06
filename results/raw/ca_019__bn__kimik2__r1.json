@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc4e042de928d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. প্রথমে পরিস্থিতির প্রকৃতি বিশ্লেষণ করুন - এটি জরুরি (urgent) এবং স্পষ্ট নির্দেশনা নেই (no clear guideline)\n2. প্রতিটি বিকল্পের সময়কাল এবং দক্ষতা মূল্যায়ন করুন - কোনটি দ্রুততম এবং কোনটি সবচেয়ে কার্যকর\n3. ঝুঁকি-সুবিধা বিশ্লেষণ করুন - দেরি করার ঝুঁকি বনাম ভুল সিদ্ধান্তের ঝুঁকি\n4. দলের সক্ষমতা এবং প্রতিষ্ঠিত অনুশীলনের উপস্থিতি যাচাই করুন\n5. সবচেয়ে উপযুক্ত পদ্ধতি নির্বাচন করুন যা দ্রুততা এবং যাচাই-বাছাই উভয়ই নিশ্চিত করে",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 259,
+      "prompt_tokens": 624,
+      "total_tokens": 883,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.142707,
+    "balance_after": 373.0575
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"জরুরি পরিস্থিতিতে দ্রুত পদক্ষেপ নেওয়া প্রয়োজন, তবে প্রতিষ্ঠিত অনুশীলনের ভিত্তিতে কাজ শুরু করে পরে দলের সাথে যাচাই করলে দ্রুততা ও গুণগত মান উভয়ই নিশ্চিত হয়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 259,
+    "act_tokens_out": 112,
+    "plan_content_len_chars": 433,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

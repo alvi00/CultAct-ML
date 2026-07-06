@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cca8fbbdca12c2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের বর্তমান অবস্থা ও প্রতিবেদন পর্যালোচনা করা হবে যেন বর্তমান স্থিতিকে বোঝা যায়।\n2. দলের সদস্যদের মতামত ও প্রস্তাব সংগ্রহ করা হবে যাতে সবার মনোনীত লক্ষ্য ও উন্নয়ন পথ ধরে নেওয়া যায়।\n3. প্রতিটি প্রস্তাবিত ক্রিয়াকলাপের সম্ভাব্য ফলাফল ও প্রভাব মূল্যায়ন করা হবে।\n4. দলের দীর্ঘমেয়াদী উন্নয়নের লক্ষ্য সাথে সামঞ্জস্যপূর্ণ কৌশল নির্বাচনের জন্য একটি সমন্বিত সিদ্ধান্ত নেওয়া হবে।\n5. নির্বাচিত ক্রিয়াকলাপের বাস্তবায়ন পর্যায়ের পরিকল্পনা ও সময়-সূচী তৈরি করা হবে।\n6. দলের সদস্যদের সাথে নির্বাচিত ক্রিয়াকলাপ ও পরিকল্পনার বিষয়ে আলোচনা করা হবে যাতে সবাই একই লক্ষ্যে প্রচুর উৎসাহে এগিয়ে যেতে পারে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 631,
+      "prompt_tokens": 855,
+      "total_tokens": 1486,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08403,
+    "balance_after": 439.5904
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"সমগ্র দলের জন্য স্পষ্ট ও সমভাগী উন্নয়ন লক্ষ্য নির্ধারণ করা দলের সকল সদস্যের দক্ষতা একসঙ্গে বৃদ্ধি পাওয়ার প্রতিবেদন দেওয়ার সুযোগ করে তুলবে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 631,
+    "act_tokens_out": 162,
+    "plan_content_len_chars": 598,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

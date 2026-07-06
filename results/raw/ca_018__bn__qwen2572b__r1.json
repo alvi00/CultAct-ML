@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb9182f9ce3d7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের লক্ষ্য ও উদ্দেশ্য বোঝার জন্য প্রকল্পের সকল আবশ্যকীয় তথ্য সংগ্রহ করুন।\n2. প্রকল্পের সময়সীমা এবং মিলিয়ানফলকগুলি নির্ধারণ করুন।\n3. দলের সদস্যদের দক্ষতা ও কাজের অভিজ্ঞতা বিবেচনা করুন।\n4. প্রকল্প পরিচালনার জন্য সর্বোত্তম পদ্ধতি নির্ধারণ করতে উপলব্ধ সমস্ত তথ্য বিশ্লেষণ করুন।\n5. দল সদস্যদের মধ্যে দায়িত্ব বন্টন করার সুবিধার্থে প্রকল্পের সকল অংশের বিবেচনা করুন।\n6. সমস্ত পদক্ষেপ সম্পন্ন হওয়ার পর, উপলব্ধ কর্মপরিকল্পিত কর্মপদগুলির মধ্য থেকে সুবিধাজনক একটি নির্বাচন করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 503,
+      "prompt_tokens": 981,
+      "total_tokens": 1484,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.083154,
+    "balance_after": 430.2399
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি দলের সকল সদস্যের মধ্যে দায়িত্ব ভাগাভাগি এবং অগ্রগতি পর্যবেক্ষণের একটি কার্যকর পদ্ধতি প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 503,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 480,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

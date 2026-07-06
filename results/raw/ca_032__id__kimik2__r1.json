@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc69f6c776daf3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi urgensi dan dampak dari kedua tanggung jawab—identifikasi mana yang bersifat kritis dan tidak dapat ditunda, serta konsekuensi dari memilih salah satu.\n2. Pertimbangkan ketersediaan alternatif dan dukungan—apakah ada bantuan keluarga lain, kemampuan delegasi tugas, atau fleksibilitas dalam pekerjaan.\n3. Analisis jangka panjang vs jangka pendek—tentukan apakah konflik ini bersifat sementara atau berulang, dan mana yang memberikan keberlanjutan terbaik untuk kedua aspek.\n4. Timbang prinsip keseimbangan—pertimbangkan apakah solusi yang memihak sepenuhnya pada satu aspek akan merusak hubungan atau kinerja di aspek lain.\n5. Evaluasi kelayakan komunikasi—pastikan keputusan dapat dijelaskan dan diterima oleh pihak terkait (atasan, keluarga, rekan kerja).",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 240,
+      "prompt_tokens": 387,
+      "total_tokens": 627,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.115888,
+    "balance_after": 348.0723
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Negosiasi fleksibel memungkinkan keseimbangan berkelanjutan tanpa mengorbankan integritas di kedua sisi, menciptakan solusi yang dapat diterima jangka panjang.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 240,
+    "act_tokens_out": 63,
+    "plan_content_len_chars": 769,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc6db6c4aa529e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identifikasi nilai-nilai inti keluarga yang relevan untuk pengambilan keputusan perawatan kesehatan, seperti penghormatan terhadap hierarki, pentingnya partisipasi kolektif, keseimbangan antara nasihat ahli dan kebutuhan emosional, serta efisiensi dalam proses pengambilan keputusan.\n\n2. Evaluasi setiap opsi berdasarkan sejauh mana opsi tersebut mencakup berbagai perspektif (tetua, tenaga medis, seluruh anggota keluarga), tingkat demokrasi dalam prosesnya, dan kualitas hasil keputusan yang diharapkan.\n\n3. Pertimbangkan konteks budaya dan dinamika keluarga, termasuk seberapa penting peran tetua versus kebutuhan untuk melibatkan generasi yang lebih muda, serta seberapa kritis situasi kesehatan yang memerlukan kecepatan atau justru memerlukan pertimbangan mendalam.\n\n4. Bandingkan trade-off antara efisiensi (keputusan cepat oleh satu pihak) versus inklusivitas (keputusan kolektif yang memerlukan waktu lebih lama) dan antara otoritas tradisional versus pendekatan berbasis bukti.\n\n5. Tentukan pendekatan yang paling selaras dengan nilai keluarga dan memberikan keseimbangan optimal antara penghormatan, partisipasi, dan kualitas keputusan perawatan kesehatan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 349,
+      "prompt_tokens": 392,
+      "total_tokens": 741,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.153921,
+    "balance_after": 353.6875
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Pendekatan ini menyeimbangkan penghormatan terhadap ahli medis dengan partisipasi seluruh anggota keluarga, memastikan keputusan kolektif yang inklusif namun tetap berbasis pada panduan profesional.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 349,
+    "act_tokens_out": 75,
+    "plan_content_len_chars": 1170,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

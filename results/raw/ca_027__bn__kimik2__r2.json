@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd5b2c4d940f4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পরিবারের সিদ্ধান্ত গ্রহণে সুস্থির পদ্ধতির মূল লক্ষ্য নির্ধারণ করুন: সবার মতামতের মূল্যায়ন, দায়িত্বশীলতা, এবং দীর্ঘমেয়াদী সামঞ্জস্য।\n2. প্রতিটি বিকল্পের সুবিধা-অসুবিধা বিশ্লেষণ করুন: সমান ক্ষমতা (A), অভিভাবক-নির্দেশিত (B), জ্যে্ঠতমের কর্তৃত্ব (C), এবং প্রধানের একচ্ছত্র ক্ষমতা (D)।\n3. পরিবারের বিভিন্ন সিদ্ধান্তের ধরন বিবেচনা করুন—দৈনন্দিন বিষয়, গুরুত্বপূর্ণ আর্থিক সিদ্ধান্ত, এবং দীর্ঘমেয়াদী পরিকল্পনা—যেখানে ভিন্ন মাত্রার অংশগ্রহণ প্রয়োজন।\n4. সন্তানদের বয়স ও পরিপক্কতার স্তর মূল্যায়ন করুন, কারণ তাদের অংশগ্রহণের সীমা বয়স-উপযোগী হওয়া উচিত।\n5. সুস্থির পদ্ধতির টেকসইতা ও প্রয়োজনে পরিবর্তনের স্বাধীনতা যাচাই করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 396,
+      "prompt_tokens": 560,
+      "total_tokens": 956,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.1845,
+    "balance_after": 356.8454
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি সবার মতামত শোনার মাধ্যমে অংশগ্রহণ নিশ্চিত করে এবং অভিভাবকদের দায়িত্বশীল সিদ্ধান্তের ক্ষমতা বজায় রাখে, যা পরিবারের সুস্থির ও ভারসাম্যপূর্ণ পরিবেশ তৈরি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 396,
+    "act_tokens_out": 111,
+    "plan_content_len_chars": 624,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

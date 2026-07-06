@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc46bda597aa10",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi urgensi dan dampak dari masing-masing tanggung jawab—identifikasi apakah situasi keluarga bersifat kritis/mendesak atau dapat ditunda, serta konsekuensi dari menunda pekerjaan.\n\n2. Pertimbangkan sifat pekerjaan dan budaya organisasi—apakah tempat kerja terbuka terhadap fleksibilitas, negosiasi, atau penyesuaian jadwal.\n\n3. Analisis ketersediaan sumber daya pendukung—apakah ada keluarga lain, layanan, atau sistem yang bisa membantu mengelola tanggung jawab keluarga tanpa harus mengorbankan pekerjaan sepenuhnya.\n\n4. Timbang prioritas jangka panjang versus jangka pendek—menilai mana yang memberikan hasil terbaik untuk kesejahteraan secara keseluruhan tanpa merusak hubungan kerja atau keluarga.\n\n5. Tentukan pendekatan yang paling berkelanjutan dan adil, yang meminimalkan kerugian di kedua sisi sekaligus mempertahankan integritas dan kepercayaan.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 273,
+      "prompt_tokens": 387,
+      "total_tokens": 660,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.127274,
+    "balance_after": 347.6692
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Negosiasi fleksibel memungkinkan pemenuhan kebutuhan keluarga tanpa mengabaikan pekerjaan, menciptakan keseimbangan berkelanjutan yang melindungi kedua tanggung jawab.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 273,
+    "act_tokens_out": 68,
+    "plan_content_len_chars": 865,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

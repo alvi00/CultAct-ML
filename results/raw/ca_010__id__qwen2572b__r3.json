@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb403aea0caca",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Mengumpulkan informasi mengenai kebutuhan dan tujuan keuangan keluarga.\n2. Mendiskusikan berbagai opsi keuangan dengan seluruh anggota keluarga.\n3. Menilai kenyamanan dan konsensus anggota keluarga terhadap setiap opsi.\n4. Meninjau potensi risiko dan manfaat dari setiap opsi yang tersedia.\n5. Memutuskan opsi yang paling sesuai dengan nilai dan tujuan keuangan keluarga.\n6. Melakukan tindakan yang dipilih dan merencanakan peninjauan kembali dalam jangka waktu tertentu.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 151,
+      "prompt_tokens": 375,
+      "total_tokens": 526,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.02931,
+    "balance_after": 437.2808
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Tetapkan anggaran rumah tangga dan lakukan alokasi berdasarkan mufakat dapat memastikan partisipasi dan konsensus semua anggota keluarga, serta mendukung pengelolaan keuangan yang sehat dan merata.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 151,
+    "act_tokens_out": 74,
+    "plan_content_len_chars": 474,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

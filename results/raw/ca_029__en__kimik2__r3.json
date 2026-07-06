@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3a789bd02da9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identify the core values and priorities that matter most for this healthcare decision (e.g., medical accuracy, family harmony, respect for experience, collective ownership).\n2. Evaluate each available action against those priorities, considering which approach best balances expertise, inclusion, and decisiveness for a healthcare context.\n3. Assess which method will lead to the most sound medical outcome while maintaining family trust and commitment to the chosen course.\n4. Select the action that optimally integrates professional medical guidance with meaningful family participation.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 100,
+      "prompt_tokens": 260,
+      "total_tokens": 360,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.05673,
+    "balance_after": 354.2584
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"This approach best combines professional medical expertise with family wisdom and collective commitment, ensuring both sound healthcare outcomes and unified family support.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 100,
+    "act_tokens_out": 38,
+    "plan_content_len_chars": 592,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

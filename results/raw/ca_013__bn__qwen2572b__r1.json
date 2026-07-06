@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc54b41a6907e9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সিদ্ধান্তের প্রভাব এবং আমার উদ্বেগগুলি বিশ্লেষণ করবো যেন সঠিক সিদ্ধান্ত নিতে পারি।\n2. দলের মনোভাব এবং সামগ্রিক পরিবেশ বিবেচনা করবো।\n3. আমার কাজ এবং দায়িত্বের সাথে সিদ্ধান্তটির সম্পর্ক বিবেচনা করবো।\n4. প্রচারিত সিদ্ধান্তের উপর আমার ব্যক্তিগত মতামত এবং এর দীর্ঘমেলা প্রভাব বিবেচনা করবো।\n5. দলের সাথে সংঘর্ষ বা বিভেদ ঘটানোর পরিবর্তে সমস্যাটির সমাধানের উপায় খোঁজার চেষ্টা করবো।\n6. সবগুলো উপায় বিবেচনা করে সবচেয়ে উপযুক্ত কর্মপদক্ষেপটি নির্বাচন করবো।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 477,
+      "prompt_tokens": 995,
+      "total_tokens": 1472,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.08235,
+    "balance_after": 434.6314
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"এটি দলের একতা রক্ষা করতে এবং আমার উদ্বেগগুলি প্রকাশ করার একটি সমন্বিত উপায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 477,
+    "act_tokens_out": 92,
+    "plan_content_len_chars": 451,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

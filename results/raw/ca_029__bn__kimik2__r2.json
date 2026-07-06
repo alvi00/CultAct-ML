@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc6a4093f6c9c1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. সবগুলো বিকল্পের মূল বৈশিষ্ট্য এবং পার্থক্য বিশ্লেষণ করি - কে সিদ্ধান্ত নেয়, কীভাবে নেয়, এবং কার মতামত কতটা গুরুত্ব পায়।\n2. পরিবারের স্বাস্থ্যসংক্রান্ত সিদ্ধান্তের প্রকৃতি বিবেচনা করি - এটি ব্যক্তিগত নাকি সম্মিলিত, জরুরি নাকি দীর্ঘমেয়াদি।\n3. প্রতিটি বিকল্পের সুবিধা-অসুবিধা মূল্যায়ন করি - গণতন্ত্র বনাম দক্ষতা, সম্মান বনাম প্রমাণভিত্তিক পদ্ধতি।\n4. বাংলাদেশি পরিবারের সাংস্কৃতিক প্রেক্ষাপট এবং আধুনিক স্বাস্থ্য সচেতনতার ভারসাম্য বিবেচনায় নিই।\n5. সবচেয়ে সুষম এবং ব্যবহারযোগ্য পদ্ধতিটি চিহ্নিত করি যা সবার অংশগ্রহণ নিশ্চিত করে বিশেষজ্ঞ মতামতও গুরুত্ব দেয়।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 346,
+      "prompt_tokens": 630,
+      "total_tokens": 976,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.173235,
+    "balance_after": 353.0669
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"D\", \"justification\": \"বয়োজ্যেষ্ঠদের সম্মান, বিশেষজ্ঞ মতামত এবং পরিবারের সবার সমন্বিত ঐকমত্য—এই তিনটি গুরুত্বপূর্ণ দিক একসাথে নিশ্চিত করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 346,
+    "act_tokens_out": 87,
+    "plan_content_len_chars": 562,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "D"
+  }
+}

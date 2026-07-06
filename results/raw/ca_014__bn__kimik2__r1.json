@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc1919ecd54d09",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন বিকল্পগুলির মূল্যায়ন করি: প্রতিটি অপশনের সুবিধা-অসুবিধা বিশ্লেষণ করব, যেমন শৃঙ্খলা বনাম কর্মী অংশগ্রহণ, অবিলম্বে কার্যকর বনাম দীর্ঘমেয়াদী গ্রহণযোগ্যতা।\n\n2. প্রেক্ষাপট বিবেচনা করি: সিদ্ধান্তটি \"গুরুত্বপূর্ণ\" এবং কর্মীদের সাথে আলোচনা ছাড়াই নেওয়া হয়েছে—এটি দলের মনোবল ও সিদ্ধান্তের গুণমান নিয়ে প্রশ্ন তোলে।\n\n3. সংগঠন সংস্কৃতি ও সম্ভাব্য পরিণতি যাচাই করি: একতরফা সিদ্ধান্তের প্রতি প্রতিক্রিয়া কেমন হওয়া উচিত—সম্পূর্ণ বিরোধিতা, আনুগত্য, নাকি নির্মোহ মূল্যায়ন?\n\n4. দীর্ঘমেয়াদী ও স্বল্পমেয়াদী লক্ষ্যের ভারসাম্য নির্ধারণ করি: দ্রুত বাস্তবায়ন গুরুত্বপূর্ণ নাকি দলের মালিকানা ও গুণগত মান?\n\n5. নৈতিক ও পেশাদারি দায়বদ্ধতার প্রাধান্য দেই: কর্মীদের কণ্ঠস্বর উপেক্ষিত হওয়ার বিষয়টি কীভাবে সমাধান করা যায়।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 449,
+      "prompt_tokens": 553,
+      "total_tokens": 1002,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.202186,
+    "balance_after": 383.0926
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"গুরুত্বপূর্ণ সিদ্ধান্তে কর্মীদের অংশগ্রহণ নিশ্চিত করতে বিরোধিতা করে পর্যালোচনার দাবি জানানো ন্যায়সঙ্গত এবং দীর্ঘমেয়াদে কার্যকর।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 449,
+    "act_tokens_out": 95,
+    "plan_content_len_chars": 715,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

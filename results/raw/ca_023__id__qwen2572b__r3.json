@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc2c5127416c8b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluasi sumber dan tingkat konflik yang sedang terjadi dalam tim.\n2. Pertimbangkan efektivitas dan kebutuhan komunikasi tim saat ini.\n3. Tinjau prosedur penyelesaian konflik yang telah ada dan tingkat kepatuhan tim terhadap prosedur tersebut.\n4. Analisis kebutuhan tim untuk pemimpin yang kuat atau mediator dalam situasi ini.\n5. Pertimbangkan pentingnya solusi yang transparan dan inklusif bagi semua anggota tim.\n6. Putuskan tindakan terbaik berdasarkan hasil evaluasi dan pertimbangan di atas.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 144,
+      "prompt_tokens": 329,
+      "total_tokens": 473,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.026406,
+    "balance_after": 426.1406
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Ikuti prosedur yang jelas dan telah disepakati serta bangun konsensus melalui dialog, untuk menyelesaikannya secara transparan, karena ini akan memastikan semua anggota tim merasa dihargai dan dipahami.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 144,
+    "act_tokens_out": 71,
+    "plan_content_len_chars": 500,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccae989eae68df",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. নিয়ম লঙ্ঘনের গুরুত্ব ও ধরন মূল্যায়ন করুন - এটি ছোট ভুল নাকি গুরুতর অপরাধ, কোম্পানির ক্ষতি হচ্ছে কিনা তা বিবেচনা করুন।\n2. সহকর্মীর সাথে আপনার সম্পর্ক এবং তাঁর অতীত আচরণের ধরণ মূল্যায়ন করুন - তিনি অজান্তে ভুল করেছেন নাকি ইচ্ছাকৃতভাবে নিয়ম ভেেছেন।\n3. প্রতিটি পদক্ষেপের সম্ভাব্য পরিণতি বিশ্লেষণ করুন - দলের সংহতি, ন্যায়বিচার, এবং কোম্পানির স্বার্থের ভারসাম্য রক্ষা।\n4. সংস্কৃতিগত প্রসঙ্গ বিবেচনা করুন - বাংলাদেশি কর্পোরেট সংস্কৃতিতে সরাসরি তত্ত্বাবধায়ককে জানানো বনাম সহকর্মীকে সুযোগ দেওয়ার গুরুত্ব।\n5. দীর্ঘমেয়াদী নৈতিক দায়বদ্ধতা ও পেশাদারি নীতিমালার প্রাধান্য নির্ধারণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 369,
+      "prompt_tokens": 517,
+      "total_tokens": 886,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.171509,
+    "balance_after": 349.0965
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"সহকর্মীকে প্রথমে সুযোগ দিয়ে সমস্যার সমাধান করার চেষ্টা করা ন্যায়সঙ্গত, তবে সমাধান না হলে যথাযথ কর্তৃপক্ষের কাছে যাওয়া পেশাদারি দায়িত্ব।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 369,
+    "act_tokens_out": 102,
+    "plan_content_len_chars": 583,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

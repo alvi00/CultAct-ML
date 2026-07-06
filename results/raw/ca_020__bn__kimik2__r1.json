@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccd74d9a31c4ba",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. বিভিন্ন পদ্ধতির মূল্যায়ন করুন: প্রতিটি বিকল্পের সুবিধা এবং ঝুঁকি বিশ্লেষণ করুন—যেমন স্বচ্ছতা, ব্যক্তিগত উদ্যোগ, দলীয় সম্পর্ক, এবং পেশাদারি নৈতিকতার দিক থেকে।\n\n2. আপনার কর্মক্ষেত্রের সংস্কৃতি এবং পরিবেশ বিবেচনা করুন: আপনার সংস্থায় পদোন্নতির প্রকৃত প্রক্রিয়া কী—মেরিট-ভিত্তিক, রাজনৈতিক, নাকি মিশ্র? এটি কীভাবে সিদ্ধান্ত নেওয়ার ক্ষেত্রে প্রভাব ফেলে?\n\n3. দীর্ঘমেয়াদী ক্যারিয়ার লক্ষ্য এবং ব্যক্তিগত মূল্যবোধের সাথে মিল রাখুন: কোন পদ্ধতি আপনার পেশাদারি পরিচয় এবং ভবিষ্যৎ সম্ভাবনার সাথে সামঞ্জস্যপূর্ণ?\n\n4. সম্ভাব্য পরিণতি ও ট্রেড-অফ বিশ্লেষণ করুন: প্রতিটি পদ্ধতির ফলে সম্পর্ক, স্বচ্ছতা, এবং ন্যায্যতার উপর কী প্রভাব পড়তে পারে?\n\n5. সিদ্ধান্ত নিন এবং কমিট করুন: উপরের বিশ্লেষণের ভিত্তিতে একটি একক পদ্ধতি বেছে নিন যা সবচেয়ে ভারসাম্যপূর্ণ এবং কার্যকর মনে হয়।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 569,
+      "total_tokens": 1024,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.205624,
+    "balance_after": 370.8267
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"পদোন্নতি সক্রিয়ভাবে অর্জনের উদ্দেশ্যে ফলাফলের ভিত্তিতে দাবি উপস্থাপন করা স্বচ্ছতা এবং যোগ্যতাকে একসাথে প্রতিফলিত করে, যা দীর্ঘমেয়াদে ব্যক্তিগত এবং সংস্থাগত উভয়ের জন্য টেকসই।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 455,
+    "act_tokens_out": 117,
+    "plan_content_len_chars": 762,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

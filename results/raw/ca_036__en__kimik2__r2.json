@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc3634d94a34df",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Identify the core values that should guide this decision-making process for my family.\n2. Evaluate each action against those core values, considering effectiveness, inclusivity, and practicality.\n3. Assess which approach best balances timely resolution with meaningful participation from all family members.\n4. Consider which method most reliably leads to a decision that will actually be implemented and respected.\n5. Select the action that best serves the family's collective wellbeing and commitment to the outcome.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 91,
+      "prompt_tokens": 251,
+      "total_tokens": 342,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.052855,
+    "balance_after": 341.0721
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Consensus-based decision making with agreed criteria ensures all voices are heard while establishing clear standards that create buy-in and long-term commitment from everyone involved.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 91,
+    "act_tokens_out": 42,
+    "plan_content_len_chars": 521,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc0113f68061fe",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Reflect on the values and long-term goals I have for my family and my child.\n2. Research the potential risks and benefits of the unconventional career path my child is interested in.\n3. Discuss with my child their reasons for choosing this path and their understanding of the potential challenges.\n4. Evaluate the level of passion and commitment my child shows towards this career choice.\n5. Consider how much support and resources I am willing to provide to help my child succeed in this path.\n6. Decide on the action that best aligns with the insights gained from the above steps.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 116,
+      "prompt_tokens": 250,
+      "total_tokens": 366,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.02046,
+    "balance_after": 416.1916
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Supporting the choice with a clear, responsible plan ensures my child is prepared for the uncertainties while pursuing their passion.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 116,
+    "act_tokens_out": 36,
+    "plan_content_len_chars": 585,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

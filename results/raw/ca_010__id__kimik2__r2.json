@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc86c5617a1541",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "PLAN:\n\n1. Evaluasi struktur dan dinamika keluarga saat ini, termasuk siapa yang berkontribusi secara finansial dan bagaimana komunikasi antar anggota keluarga berjalan.\n\n2. Pertimbangkan urgensi dan skala keputusan keuangan tersebut—apakah ini memerlukan kecepatan atau kehati-hatan ekstra, dan seberapa besar dampaknya terhadap masa depan keluarga.\n\n3. Analisis kekuatan dan kelemahan setiap pendekatan: otoritas senior untuk efisiensi, kolektif untuk inklusivitas, aturan ketat untuk keamanan, atau mufakat untuk keadilan.\n\n4. Tentukan prioritas utama keluarga dalam konteks ini—apakah stabilitas jangka panjang, keharmonisan antar generasi, atau fleksibilitas dalam menghadapi ketidakpastian.\n\n5. Pilih pendekatan yang paling selaras dengan nilai keluarga dan kemampuan eksekusi yang realistis.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 244,
+      "prompt_tokens": 378,
+      "total_tokens": 622,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.116499,
+    "balance_after": 392.3999
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"Menggabungkan sumber daya dan mengambil keputusan kolektif bersama anggota senior memastikan kebijaksanaan pengalaman sekaligus partisipasi seluruh keluarga, yang mendukung kesejahteraan bersama dan memperkuat ikatan antar generasi.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 244,
+    "act_tokens_out": 90,
+    "plan_content_len_chars": 797,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

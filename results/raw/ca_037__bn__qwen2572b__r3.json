@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccc22dac96f997",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. স্বাস্থ্য পরীক্ষার প্রয়োজনীয়তা ও উদ্দেশ্য সম্পর্কে নিজের অবস্থা বিবেচনা করুন।\n2. প্রতিটি পরীক্ষার পদ্ধতি ও তাদের ফলাফলের মর্যাদা, বিশ্বস্ততা ও সুবিধার পরিমাণ বিবেচনা করুন।\n3. পরিবারের সদস্যদের মতামত এবং তাদের পছন্দের ডাক্তার সম্পর্কে তথ্য সংগ্রহ করুন।\n4. স্বাস্থ্য পরিষেবা প্রদানকারী সংস্থাগুলির মধ্যে সরকারি স্বীকৃতি ও কর্তৃপক্ষ-অনুমোদিত প্রতিষ্ঠানগুলির মর্যাদা বিবেচনা করুন।\n5. বিভিন্ন পদ্ধতির প্রমাণভিত্তিক সাফল্যের হার এবং তাদের দীর্ঘমেয়াদী স্বাস্থ্য উন্নয়নের বৈশিষ্ট্য বিবেচনা করুন।\n6. প্রাপ্ত তথ্য ও বিবেচনার উপর ভিত্তি করে সর্বোত্তম সিদ্ধান্ত গ্রহণ করুন।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 599,
+      "prompt_tokens": 782,
+      "total_tokens": 1381,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.078168,
+    "balance_after": 413.7445
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"নির্ভরযোগ্য ফলাফল পেতে উপলব্ধ সবচেয়ে ব্যাপক ও প্রমাণভিত্তিক স্ক্রিনিং পদ্ধতিটি বেছে নেওয়া হয়েছে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 599,
+    "act_tokens_out": 116,
+    "plan_content_len_chars": 568,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}

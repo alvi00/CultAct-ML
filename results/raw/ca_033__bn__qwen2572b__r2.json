@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc40e7b8ce5cbd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. পদোন্নতির সুযোগ ও তার প্রভাব নিয়ে নিজের মধ্যে গভীরভাবে ভাববো।\n2. পরিবারের মেম্বারদের সাথে এই সুযোগ সম্পর্কে আলোচনা করবো এবং তাদের মতামত সংগ্রহ করবো।\n3. সম্ভাব্য চ্যালেঞ্জ ও সমস্যাগুলি আরও বিস্তারিতভাবে বিবেচনা করবো।\n4. ম্যানেজার সহ আলোচনা করবো যাতে বাড়ি থেকে দূরে থাকার সময় কমানোর উপায় বিবেচনা করা যায়।\n5. পরিবারের ও পেশাদার জীবনের মধ্যে সন্তুলন বজায় রাখার উপায় সম্পর্কে সিদ্ধান্ত নেবো।\n6. সব তথ্য ও মতামত বিবেচনা করে শেষ সিদ্ধান্ত নেবো।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 477,
+      "prompt_tokens": 1073,
+      "total_tokens": 1550,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.086562,
+    "balance_after": 417.3653
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"এটি পদোন্নতি গ্রহণ করার সাথে সাথে পরিবারের সময় রক্ষা করার একটি সমন্বিত পরিকল্পনা প্রদান করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 477,
+    "act_tokens_out": 108,
+    "plan_content_len_chars": 447,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

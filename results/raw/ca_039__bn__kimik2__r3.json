@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc749fc8346d5d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রতিটি পদ্ধতির সুবিধা-অসুবিধা বিশ্লেষণ করুন: একক সিদ্ধান্ত, দলগত ঐকমত্য, যৌথ পছন্দ, এবং বয়োজ্যেষ্ঠদের পরামর্শ—এগুলোর মধ্যে কোনটি এই পরিস্থিতিতে সবচেয়ে যুক্তিযুক্ত তা মূল্যায়ন করুন।\n\n2. ছুটির প্রকৃতি ও ভ্রমণকারীদের সংখ্যা বিবেনা করুন: একা ভ্রমণ, দম্পতি, বন্ধুদল, নাকি বহু প্রজন্মের পরিবার—এটি নির্ধারণ করুন কারণ ভিন্ন পরিস্থিতিতে ভিন্ন পদ্ধতি কার্যকর।\n\n3. সময় ও জটিলতার সীমা মূল্যায়ন করুন: দ্রুত সিদ্ধান্ত প্রয়োজন কিনা, এবং সম্ভাব্য মতবিরোধ মোকাবেলার জন্য কতটা সময় ও শক্তি বিনিয়োগ করা যাবে তা যাচাই করুন।\n\n4. দীর্ঘমেয়াদী সম্পর্ক ও সন্তুষ্টির গুরুত্ব ওজন করুন: সিদ্ধান্তের ফলে ভ্রমণের অভিজ্ঞতা এবং ভবিষ্যতে সম্পর্ক কীভাবে প্রভাবিত হবে তা বিবেচনা করুন।\n\n5. সবচেয়ে সুষম এবং সবার জন্য গ্রহণযোগ্য পদ্ধতি চিহ্নিত করুন, যা ব্যক্তিগত স্বাধীনতা, দলগত সন্তুষ্টি, এবং প্রয়োজনে বয়োজ্যেষ্ঠদের সম্মানের মধ্যে ভারসাম্য রাখে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 509,
+      "prompt_tokens": 515,
+      "total_tokens": 1024,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.219637,
+    "balance_after": 332.5772
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"ভ্রমণসঙ্গীদের সঙ্গে যৌথ পছন্দের ভিত্তিতে সিদ্ধান্ত নিলে সবাই মিলে অংশগ্রহণ করতে পারে এবং সবার সন্তুষ্টি ও দায়িত্ব ভাগাভাগি হয়, যা দলগত ভ্রমণের জন্য সবচেয়ে সুষম পদ্ধতি।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 509,
+    "act_tokens_out": 125,
+    "plan_content_len_chars": 824,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-cccc8e9c67f553",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. প্রকল্পের প্রকৃতি ও জটিলতা বিশ্লেষণ করুন - এটি নির্ণায়ক হবে কোন কাঠামো কতটা উপযুক্ত।\n2. দলের আকার, দক্ষতা ও অভিজ্ঞতার স্তর মূল্যায়ন করুন - নতুন দল ও অভিজ্ঞ দলের প্রয়োজন ভিন্ন।\n3. সময়সীমা ও তড়িৎ ফলাফলের প্রয়োজনীয়তা যাচাই করুন - দ্রুত ফলাফল নাকি দীর্ঘমেয়াদী টেকসই দল গুরুত্বপূর্ণ।\n4. প্রতিটি কাঠামোর সুবিধা-অসুবিধা তুলনা করুন - কোনটি প্রকল্পের লক্ষ্যের সাথে সবচেয়ে বেশি সামঞ্জস্যপূর্ণ।\n5. দলের সাংস্কৃতিক প্রেক্ষাপট বিবেচনা করুন - সহকর্মীদের কাজের পছন্দ ও প্রত্যাশা।\n6. সবচেয়ে সামঞ্জস্যপূর্ণ কাঠামোটি চূড়ান্ত করুন যা লক্ষ্য অর্জনে সবচেয়ে কার্যকর হবে।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 367,
+      "prompt_tokens": 584,
+      "total_tokens": 951,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.176547,
+    "balance_after": 399.7477
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"C\", \"justification\": \"নতুন প্রকল্পের প্রথম দিনে সুস্পষ্ট পদক্রম ও ভূমিকা নির্ধারণ দ্রুত দিকনির্দেশনা দেয় এবং পরবর্তীতে দল পরিপক্ক হলে অন্য কাঠামোতে পরিবর্তন করা যায়।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 367,
+    "act_tokens_out": 99,
+    "plan_content_len_chars": 563,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "C"
+  }
+}

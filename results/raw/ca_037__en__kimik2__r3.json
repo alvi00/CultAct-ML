@@ -1,0 +1,59 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb1e31605d1cc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Evaluate the credibility and reliability of each decision-making approach by considering what matters most for a health check-up: accuracy of results, long-term health outcomes, trust in the provider, and institutional backing.\n\n2. Assess whether recognized accreditation (D), personal trust (C), comprehensive testing (A), or guideline-based prevention (B) best serves the core purpose of a check-up—early detection and prevention of health issues.\n\n3. Consider the trade-offs: comprehensive screening may yield more data but could include unnecessary tests; family-trusted doctors may lack specific expertise; accredited facilities ensure standards but not personalization; guidelines offer proven paths but may miss individual risk factors.\n\n4. Determine which single criterion should dominate the decision: maximizing reliable diagnostic information, minimizing long-term health risk, leveraging trusted relationships, or ensuring institutional quality assurance.\n\n5. Select the approach that best balances immediate diagnostic value with sustainable health management, recognizing that a check-up's value lies in both what it finds and what it prevents.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "Kimi K2 Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 199,
+      "prompt_tokens": 236,
+      "total_tokens": 435,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.088833,
+    "balance_after": 338.8543
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Established preventive guidelines represent the most balanced, evidence-backed approach that optimizes long-term health outcomes while avoiding the risks of unnecessary testing, untested trust, or institutional bias.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 199,
+    "act_tokens_out": 48,
+    "plan_content_len_chars": 1161,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

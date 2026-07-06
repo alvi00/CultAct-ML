@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cced28d63244dc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Reflect on personal and family goals to ensure alignment with the potential promotion.\n2. Discuss the opportunity and its implications with immediate family members.\n3. Evaluate the impact of increased time away from home on family life and personal well-being.\n4. Consider the professional benefits and long-term career prospects of accepting the promotion.\n5. Assess the feasibility of implementing a support system or adjustments to manage the new demands.\n6. Make a decision based on the collective input and personal assessment.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 96,
+      "prompt_tokens": 261,
+      "total_tokens": 357,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.019854,
+    "balance_after": 417.8807
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Balancing both professional growth and family time is crucial, so making a clear plan with my manager and family ensures both aspects are considered.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 96,
+    "act_tokens_out": 40,
+    "plan_content_len_chars": 536,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cc9b6d7ab03497",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Gather all family members to discuss the importance of the decision and the criteria that should be considered.\n2. Identify the key aspects of the decision, such as location, cost, and impact on daily life.\n3. Discuss the role and influence of different family members in the decision-making process.\n4. Evaluate the benefits and potential drawbacks of each available action.\n5. Consider the long-term implications of the decision on the family's well-being and unity.\n6. Finalize the approach to be used based on the collective input and the best interest of the family.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 114,
+      "prompt_tokens": 251,
+      "total_tokens": 365,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.020394,
+    "balance_after": 415.307
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Involving everyone in a family meeting to decide by agreed criteria together ensures that all voices are heard and the decision is made with collective agreement.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 114,
+    "act_tokens_out": 42,
+    "plan_content_len_chars": 574,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

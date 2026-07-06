@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-ccb1c2cc464566",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Reflect on the values and principles that guide my own life decisions, considering what I prioritize in terms of personal fulfillment, stability, and family legacy.\n2. Engage in a deep conversation with my child to understand their motivations, the research they have done, and their long-term vision for this career path.\n3. Assess the potential risks and benefits of the unconventional career path, including financial stability, job satisfaction, and personal growth.\n4. Consult with trusted family members or mentors who have faced similar situations to gain different perspectives and advice.\n5. Evaluate the impact of my decision on our family dynamics and the potential for fostering a supportive and encouraging environment.\n6. Decide on the action that best aligns with my values, my child’s aspirations, and the overall well-being of the family.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 160,
+      "prompt_tokens": 250,
+      "total_tokens": 410,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.0231,
+    "balance_after": 416.0989
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"B\", \"justification\": \"Supporting the choice with a clear, responsible plan ensures the child is prepared for the uncertainties of an unconventional career path.\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 160,
+    "act_tokens_out": 37,
+    "plan_content_len_chars": 858,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "B"
+  }
+}

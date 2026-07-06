@@ -1,0 +1,61 @@
+{
+  "plan": {
+    "id": "chatcmpl-cce75ba2937f4e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. দলের সদस্যদের মধ্যকার মূল বিরোধিতার সূত্রগুলি নির্ধারণ করা।\n2. দলের প্রতিটি সদস্যের মতামত ও অবাক্য শোনার জন্য একটি প্রচারণা সেশন আয়োজন করা।\n3. দলের উপর চাপ বৃদ্ধির কারণ ও তার প্রভাব বিশ্লেষণ করা।\n4. দলের সদস্যদের মধ্যে সামঞ্জস্য গঠনের জন্য সম্প্রীতি ও সূক্ষ্ম বোঝাপড়ার মাধ্যম নির্ধারণ করা।\n5. উপযুক্ত কর্মপরিকল্পনা অনুযায়ী সম্প্রীতি ও নিরসনের জন্য একটি পদ্ধতি বেছে নেওয়া।\n6. দলের সদস্যদের সাথে সিদ্ধান্তটি শেয়ার করে সম্মতি অর্জন করা।",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null,
+          "name": null
+        }
+      }
+    ],
+    "created": null,
+    "model": "CraftX Qwen2.5 72B Instruct",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 463,
+      "prompt_tokens": 856,
+      "total_tokens": 1319,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null
+    },
+    "cost_bdt": 0.074004,
+    "balance_after": 425.6977
+  },
+  "plan_finish_reason": "stop",
+  "act_attempts": [
+    {
+      "attempt": 1,
+      "content": "{\"chosen_option\": \"A\", \"justification\": \"একটি খোলা আলোচনা দলের সদস্যদের মতামত ও সমস্যাটি নিয়ে আলোচনা করার সুযোগ দেয় এবং ঐক্য অর্জনের জন্য একটি সহযোগী পরিবেশ তৈরি করে।\"}",
+      "finish_reason": "stop",
+      "truncated": false
+    }
+  ],
+  "diagnostics": {
+    "plan_finish_reason": "stop",
+    "plan_truncated": false,
+    "plan_tokens_out": 463,
+    "act_tokens_out": 151,
+    "plan_content_len_chars": 441,
+    "act_finish_reasons": [
+      "stop"
+    ],
+    "act_truncated_attempts": [],
+    "retries": 0,
+    "valid": true,
+    "chosen_option": "A"
+  }
+}
