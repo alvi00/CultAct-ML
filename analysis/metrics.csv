@@ -1,0 +1,10 @@
+model,role,language,western_share_full,western_share_standard,shift_vs_en,chance_baseline_mean,n_valid,invalid_rate,self_consistency,xling_consistency_vs_en,drift_all,drift_matched,drift_mismatched,n_matched_runs,n_mismatched_runs,plan_lang_mismatch_rate,frac_action_change_with_low_plan_sim
+qwen2572b,open,en,0.7607,0.781,0.0,0.4679,117,0.0,0.8547,1.0,,,,,,0.0,
+qwen2572b,open,id,0.8376,0.8381,0.0769,0.4679,117,0.0,0.8462,0.7692,0.8806,0.8806,,117,0,0.0,0.5556
+qwen2572b,open,bn,0.8034,0.781,0.0427,0.4679,117,0.0,0.8462,0.641,0.849,0.849,,117,0,0.0,0.4286
+kimik2,frontier,en,0.7607,0.7905,0.0,0.4679,117,0.0,0.8632,1.0,,,,,,0.0,
+kimik2,frontier,id,0.7607,0.781,0.0,0.4679,117,0.0,0.8376,0.7179,0.8716,0.8716,,117,0,0.0,0.4545
+kimik2,frontier,bn,0.7436,0.7429,-0.0171,0.4679,117,0.0,0.8462,0.6923,0.8497,0.8449,0.8938,114,3,0.0256,0.5
+qwen3think,reasoning,en,0.641,0.6381,0.0,0.4679,117,0.0,0.812,1.0,,,,,,0.0,
+qwen3think,reasoning,id,0.5812,0.581,-0.0598,0.4679,117,0.0,0.8291,0.6154,0.8866,0.8703,0.9347,106,11,0.094,0.4667
+qwen3think,reasoning,bn,0.5556,0.5238,-0.0855,0.4679,117,0.0,0.7863,0.6154,0.9381,0.8375,0.9478,35,82,0.7009,0.4

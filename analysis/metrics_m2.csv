@@ -1,0 +1,10 @@
+model,role,language,invalid_rate,self_consistency,xling_consistency_vs_en,n_scenarios_tied
+qwen2572b,open,en,0.0,0.8547,1.0,1
+qwen2572b,open,id,0.0,0.8462,0.7692,2
+qwen2572b,open,bn,0.0,0.8462,0.641,1
+kimik2,frontier,en,0.0,0.8632,1.0,2
+kimik2,frontier,id,0.0,0.8376,0.7179,1
+kimik2,frontier,bn,0.0,0.8462,0.6923,2
+qwen3think,reasoning,en,0.0,0.812,1.0,3
+qwen3think,reasoning,id,0.0,0.8291,0.6154,0
+qwen3think,reasoning,bn,0.0,0.7863,0.6154,1

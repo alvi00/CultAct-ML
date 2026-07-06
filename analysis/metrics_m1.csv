@@ -1,0 +1,10 @@
+model,role,language,western_share_full,western_share_standard,n_valid,chance_baseline_mean,shift_vs_en
+qwen2572b,open,en,0.7607,0.781,117,0.4679,0.0
+qwen2572b,open,id,0.8376,0.8381,117,0.4679,0.0769
+qwen2572b,open,bn,0.8034,0.781,117,0.4679,0.0427
+kimik2,frontier,en,0.7607,0.7905,117,0.4679,0.0
+kimik2,frontier,id,0.7607,0.781,117,0.4679,0.0
+kimik2,frontier,bn,0.7436,0.7429,117,0.4679,-0.0171
+qwen3think,reasoning,en,0.641,0.6381,117,0.4679,0.0
+qwen3think,reasoning,id,0.5812,0.581,117,0.4679,-0.0598
+qwen3think,reasoning,bn,0.5556,0.5238,117,0.4679,-0.0855

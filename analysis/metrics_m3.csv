@@ -1,0 +1,10 @@
+model,role,language,drift_all,n_all,drift_matched,n_matched,drift_mismatched,n_mismatched,plan_lang_mismatch_rate,frac_action_change_with_low_plan_sim,n_all_runs,n_matched_runs,n_mismatched_runs
+qwen2572b,open,en,,,,,,,0.0,,117,,
+qwen2572b,open,id,0.8806,39,0.8806,39,,0,0.0,0.5556,117,117,0
+qwen2572b,open,bn,0.849,39,0.849,39,,0,0.0,0.4286,117,117,0
+kimik2,frontier,en,,,,,,,0.0,,117,,
+kimik2,frontier,id,0.8716,39,0.8716,39,,0,0.0,0.4545,117,117,0
+kimik2,frontier,bn,0.8497,39,0.8449,39,0.8938,3,0.0256,0.5,117,114,3
+qwen3think,reasoning,en,,,,,,,0.0,,117,,
+qwen3think,reasoning,id,0.8866,39,0.8703,39,0.9347,10,0.094,0.4667,117,106,11
+qwen3think,reasoning,bn,0.9381,39,0.8375,23,0.9478,36,0.7009,0.4,117,35,82
