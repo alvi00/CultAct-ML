@@ -4,3 +4,16 @@
 # Python
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+
+# Internal / not part of the public release
+PROJECT.md
+paper/
+paper.zip
+paper_compiled_preview.pdf
+Whose_Values__*.pdf
+EACL_MedicalQA/
+
+# CCD-Bench source material: we release recasts, not the source (no redistribution)
+data/raw_ccd/
+data/stage1_substitutes_and_prescreen.md

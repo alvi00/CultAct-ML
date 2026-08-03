@@ -1,0 +1,13 @@
+# Core (Stage 3 agent grid + Stage 4 metrics 1-2)
+openai>=1.0
+pyyaml>=6.0
+
+# Stage 4 Metric 3 (plan-drift, LaBSE) and Stage 2 similarity QA
+sentence-transformers>=2.2   # pulls torch
+numpy>=1.24
+
+# Stage 4 figures
+matplotlib>=3.7
+
+# Optional: keyless back-translation in the translation QA
+# deep-translator>=1.11
